@@ -1,0 +1,37 @@
+/* ------------------------------------------------------------------------------
+* Author: web-zone.org
+* @package Bado Blog
+* Description: Styles for the admin panel
+* ------------------------------------------------------------------------------ */
+
+/* 
+Adding messages 
+*/
+#wptrt-notice-badoblog_notice_free_1 a,
+#wptrt-notice-badoblog_notice_free_2 a {
+    display: inline-block;
+    font-size: 13px;
+    background: #2271b1;
+    border: solid 1px #2271b1;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    cursor: pointer;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 4px 10px;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+#wptrt-notice-badoblog_notice_free_1 a:hover,
+#wptrt-notice-badoblog_notice_free_2 a:hover {
+    background: #135e96;
+    border-color: #135e96;
+}
+
+/* Fixing the header on WP update page */
+#wptrt-notice-badoblog_notice_free_2 h2 {
+    margin: 15px 0 3px;
+}

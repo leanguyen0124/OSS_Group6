@@ -1,0 +1,5452 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Bado Blog\n"
+"POT-Creation-Date: 2026-07-15 11:38+0700\n"
+"PO-Revision-Date: 2026-07-15 11:38+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:14
+msgid "Unfortunately! This page cannot be found."
+msgstr "За съжаление! Тази страница не може да бъде намерена."
+
+#: 404.php:21
+msgid ""
+"Nothing was found at this location. Try one of the links below or use the "
+"search."
+msgstr ""
+"На това място не е намерено нищо. Опитайте някоя от връзките по-долу или "
+"използвайте търсенето."
+
+#: 404.php:41 template-parts/content-none.php:54
+msgid "Most popular categories"
+msgstr "Най-популярни категории"
+
+#: 404.php:62 template-parts/content-none.php:75
+#, php-format
+msgid "Try searching the monthly archives. %1$s"
+msgstr "Опитайте да търсите в месечните архиви. %1$s"
+
+#: archive.php:90 inc/admin/customizer.php:3467
+#: inc/function-customizer.php:10228 template-parts/home/home-article.php:79
+msgid "Show more"
+msgstr "Покажи повече"
+
+#: archive.php:102 template-parts/home/home-article.php:91
+#: templates/template-new-posts.php:64
+msgid "Previous posts"
+msgstr "Предишен"
+
+#: archive.php:105 template-parts/home/home-article.php:94
+#: templates/template-new-posts.php:65
+msgid "Next posts"
+msgstr "Следващи публикации"
+
+#: archive.php:120
+msgid "There are no posts in this category. Perhaps a search will help."
+msgstr "Няма публикации в тази категория. Може би търсенето ще помогне."
+
+#: comments.php:20
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Една мисъл &ldquo;%1$s&rdquo;"
+
+#: comments.php:25
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s мисъл на  &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s мисли на  &ldquo;%2$s&rdquo;"
+
+#: comments.php:39 comments.php:59
+msgid "Old comments"
+msgstr "Стари коментари"
+
+#: comments.php:40 comments.php:60
+msgid "Latest comments"
+msgstr "Последни коментари"
+
+#: comments.php:72
+msgid "Comments closed"
+msgstr "Коментарите са затворени"
+
+#: functions.php:69
+msgid "Contact"
+msgstr "Контакт"
+
+#: functions.php:70
+msgid "Account"
+msgstr "Профил"
+
+#: functions.php:71
+msgid "Pricing"
+msgstr "Цени"
+
+#: functions.php:72
+msgid "Upgrade"
+msgstr "Надграждане"
+
+#: functions.php:73
+msgid "Add-Ons"
+msgstr "Добавки"
+
+#: functions.php:74
+msgid "Affiliate program"
+msgstr "Партньорска програма"
+
+#: functions.php:78
+msgid ""
+"Bado Blog is a cool, modern multipurpose WordPress theme with many free "
+"settings to create a responsive, fast, SEO optimized website that is easy to "
+"modify with a visual customizer. Bado Blog is well suited for magazines, "
+"personal blogs, article sites, news, and media. Translated into 20+ "
+"languages. Easy to use without coding knowledge. Good flexibility and "
+"functionality - multiple site width options (with full-width option), change "
+"sidebar orientation (left, right, or no sidebar), category grids with "
+"vertical and horizontal posts of various sizes, flexible header with logo, "
+"social link builder, ticker, 4 menu locations, main menu (mega menu), "
+"breadcrumbs, three pagination options, author block, related posts block, "
+"and styled widgets. Powerful Typography – change font size and line height, "
+"choose font designs, color typography for posts and pages. Clean code, no "
+"frameworks, minimum scripts. Good adaptability for any mobile devices. SEO-"
+"optimized with correct headings and markup. Adaptation for WooCommerce, "
+"Elementor, bbPress, Events Calendar, Jetpack, WPML, Contact Form 7, and "
+"Newsletter. Demo – web-zone.org/bado-blog"
+msgstr ""
+"Bado Blog е готина, модерна многофункционална WordPress тема с много "
+"безплатни настройки за създаване на адаптивен, бърз, SEO оптимизиран "
+"уебсайт, който е лесен за модифициране с визуален персонализатор. Bado Blog "
+"е подходящ за списания, лични блогове, сайтове със статии, новини и медии. "
+"Преведена на над 20 езика. Лесна за използване без познания по кодиране. "
+"Добра гъвкавост и функционалност - множество опции за ширина на сайта (с "
+"опция за пълна ширина), промяна на ориентацията на страничната лента (лява, "
+"дясна или без странична лента), решетки от категории с вертикални и "
+"хоризонтални публикации с различни размери, гъвкава заглавка с лого, "
+"конструктор на социални връзки, тикер, 4 локации в менюто, главно меню (мега "
+"меню), хлебни трохи, три опции за пагинация, блок за автори, блок за "
+"свързани публикации и стилизирани джаджи. Мощна типография - промяна на "
+"размера на шрифта и височината на реда, избор на дизайн на шрифтове, цветна "
+"типография за публикации и страници. Чист код, без рамки, минимални "
+"скриптове. Добра адаптивност за всякакви мобилни устройства. SEO "
+"оптимизирана с правилни заглавия и маркиране. Адаптация за WooCommerce, "
+"Elementor, bbPress, Events Calendar, Jetpack, WPML, Contact Form 7 и "
+"Newsletter. Демо – web-zone.org/bado-blog"
+
+#: header.php:20
+msgid "Skip to main content"
+msgstr "Преминете към основното съдържание"
+
+#: inc/adaptation/function-woo.php:717 inc/adaptation/function-woo.php:738
+msgid "View your shopping cart"
+msgstr "Преглед на количката"
+
+#: inc/adaptation/function-woo.php:734
+msgid "Your order"
+msgstr "Вашата поръчка"
+
+#: inc/adaptation/function-woo.php:827
+#: woocommerce/loop/no-products-found.php:25
+msgid "Popular products"
+msgstr "Популярни продукти"
+
+#: inc/adaptation/function-woo.php:842
+msgid "Not available"
+msgstr "Не е налична"
+
+#: inc/adaptation/function-woo.php:897 inc/admin/customizer.php:7934
+#: inc/admin/customizer.php:7940
+msgid "Shop"
+msgstr "Магазин"
+
+#: inc/admin/customizer.php:15
+#, php-format
+msgid "Advanced settings (%s)"
+msgstr "Разширени настройки (%s)"
+
+#: inc/admin/customizer.php:16 inc/general.php:254
+msgid "default"
+msgstr "по подазбиране"
+
+#: inc/admin/customizer.php:17 inc/admin/function-panel-color.php:971
+msgid "Default"
+msgstr "По подразбиране"
+
+#: inc/admin/customizer.php:18
+msgid "on hover"
+msgstr "при задържане на курсора на мишката"
+
+#: inc/admin/customizer.php:103 inc/option/set.php:238
+msgid "Template orientation"
+msgstr "Ориентация на шаблона"
+
+#: inc/admin/customizer.php:115
+msgid "Sidebar orientation on the entire site"
+msgstr "Ориентация на страничната лента в целия сайт"
+
+#: inc/admin/customizer.php:119 inc/admin/customizer.php:139
+#: templates/page-right-sidebar-featured-1.php:11
+#: templates/page-right-sidebar-featured-2.php:11
+#: templates/page-right-sidebar.php:11
+#: templates/post-right-sidebar-featured-1.php:11
+#: templates/post-right-sidebar-featured-2.php:11
+#: templates/post-right-sidebar.php:11
+msgid "Right sidebar"
+msgstr "Дясна страничната лента"
+
+#: inc/admin/customizer.php:120 inc/admin/customizer.php:140
+#: templates/page-left-sidebar-featured-1.php:11
+#: templates/page-left-sidebar-featured-2.php:11
+#: templates/page-left-sidebar.php:11
+#: templates/post-left-sidebar-featured-1.php:11
+#: templates/post-left-sidebar-featured-2.php:11
+#: templates/post-left-sidebar.php:11
+msgid "Left sidebar"
+msgstr "Лява страничната лента"
+
+#: inc/admin/customizer.php:121 inc/admin/customizer.php:141
+#: inc/admin/function-panel-reset.php:2484 templates/page-nosidebar-full.php:11
+#: templates/post-nosidebar-full.php:11
+msgid "No sidebar (full width)"
+msgstr "Без странична лента (пълна ширина)"
+
+#: inc/admin/customizer.php:122 inc/admin/customizer.php:142
+#: inc/admin/function-panel-reset.php:2485
+#: templates/page-nosidebar-center.php:11
+#: templates/post-nosidebar-center.php:11
+msgid "No sidebar (center)"
+msgstr "Без странична лента (в центъра)"
+
+#: inc/admin/customizer.php:135
+msgid "Sidebar orientation on main page"
+msgstr "Ориентация на страничната лента на главната страница"
+
+#: inc/admin/customizer.php:164
+msgid "Site width"
+msgstr "Широчина на сайта"
+
+#: inc/admin/customizer.php:171 inc/admin/customizer.php:3506
+#: inc/admin/customizer.php:5932 inc/admin/customizer.php:6207
+msgid "Full width"
+msgstr "Пълна ширина"
+
+#: inc/admin/customizer.php:178
+msgid "Add margin at the top and bottom of the site (PC version only)"
+msgstr "Добавяне на поле в горната и долната част на сайта (само за PC версия)"
+
+#: inc/admin/customizer.php:193
+msgid "Top margin"
+msgstr "Горно поле"
+
+#: inc/admin/customizer.php:197 inc/admin/customizer.php:220
+#: inc/admin/customizer.php:696 inc/admin/customizer.php:958
+#: inc/admin/customizer.php:1788 inc/admin/customizer.php:3293
+#: inc/admin/customizer.php:3398 inc/admin/customizer.php:4068
+#: inc/admin/customizer.php:4203 inc/admin/function-panel-home.php:219
+#: inc/admin/function-panel-xlmega.php:350
+msgid "Off"
+msgstr "Изкл"
+
+#: inc/admin/customizer.php:216
+msgid "Bottom margin"
+msgstr "Долно поле"
+
+#: inc/admin/customizer.php:240 inc/admin/function-panel-color.php:790
+#: inc/option/set.php:309
+msgid "Color schemes"
+msgstr "Цветови схеми"
+
+#: inc/admin/customizer.php:250
+msgid "General colors"
+msgstr "Общи цветове"
+
+#: inc/admin/customizer.php:256
+msgid "Background color of the entire area"
+msgstr "Цвят на фона на цялата област"
+
+#: inc/admin/customizer.php:268
+msgid ""
+"This section contains general colors that affect the whole site. After that, "
+"you can make additional settings in other sections to specify individual "
+"colors for each module."
+msgstr ""
+"Този раздел съдържа общи цветове, които засягат целия сайт. След това можете "
+"да направите допълнителни настройки в други раздели, за да зададете отделни "
+"цветове за всеки модул."
+
+#: inc/admin/customizer.php:297
+msgid "Background color of large elements"
+msgstr "Цвят на фона на големите елементи"
+
+#: inc/admin/customizer.php:298
+msgid "(Titles, breadcrumbs, footer and widget titles)"
+msgstr ""
+"(Заглавия, навигационни пътеки, долни колонтитул и заглавия на уиджети)"
+
+#: inc/admin/customizer.php:312
+msgid "Secondary color for large elements"
+msgstr "Вторичен цвят за големи елементи"
+
+#: inc/admin/customizer.php:326
+msgid "Color of small elements"
+msgstr "Цвят на малките елементи"
+
+#: inc/admin/customizer.php:327
+msgid "(Buttons, icons, lines and other design elements)"
+msgstr "(Бутони, икони, линии и други дизайнерски елементи)"
+
+#: inc/admin/customizer.php:341
+msgid "Secondary color for small elements"
+msgstr "Вторичен цвят за малки елементи"
+
+#: inc/admin/customizer.php:357 inc/admin/customizer.php:372
+msgid "General color for links"
+msgstr "Общ цвят за връзките"
+
+#: inc/admin/customizer.php:386
+msgid "General text color"
+msgstr "Общ цвят на текста"
+
+#: inc/admin/customizer.php:400
+msgid "Titles text general color"
+msgstr "Общ цвят на текста на заглавията"
+
+#: inc/admin/customizer.php:414
+msgid "Site header background color"
+msgstr "Цвят на фона на заглавката на сайта"
+
+#: inc/admin/customizer.php:428
+msgid "Site body background color"
+msgstr "Цвят на фона на тялото на сайта"
+
+#: inc/admin/customizer.php:462
+msgid "Site fill color"
+msgstr "Цвят на запълване на сайта"
+
+#: inc/admin/customizer.php:475 inc/option/set.php:244
+msgid "General typography"
+msgstr "Обща типография"
+
+#: inc/admin/customizer.php:487
+msgid "General text font"
+msgstr "Общ шрифт на текста"
+
+#: inc/admin/customizer.php:501
+msgid "Overall text size"
+msgstr "Общ размер на текста"
+
+#: inc/admin/customizer.php:515
+msgid "Total line height of text"
+msgstr "Обща височина на реда на текста"
+
+#: inc/admin/customizer.php:539
+msgid "General heading font"
+msgstr "Общ шрифт на заглавието"
+
+#: inc/admin/customizer.php:553 inc/admin/customizer.php:566
+#: inc/admin/customizer.php:579 inc/admin/customizer.php:592
+#: inc/admin/customizer.php:605 inc/admin/customizer.php:618
+msgid "Total heading size"
+msgstr "Общ размер на заглавието"
+
+#: inc/admin/customizer.php:631
+msgid "Overall titles line height"
+msgstr "Обща височина на реда на заглавията"
+
+#: inc/admin/customizer.php:664 inc/option/set.php:268
+msgid "Top part"
+msgstr "Горна част"
+
+#: inc/admin/customizer.php:679
+msgid "Top bar"
+msgstr "Горна лента"
+
+#: inc/admin/customizer.php:692
+msgid "Display option (Ticker or Date)"
+msgstr "Опция за показване (Тикер или Дата)"
+
+#: inc/admin/customizer.php:697
+msgid "Ticker"
+msgstr "Тикер"
+
+#: inc/admin/customizer.php:698 inc/admin/customizer.php:905
+msgid "Date"
+msgstr "Дата"
+
+#: inc/admin/customizer.php:710
+msgid "Proportion of width occupied by top menu"
+msgstr "Пропорция на ширината, заета от горното меню"
+
+#: inc/admin/customizer.php:729
+msgid "Ticker display variations"
+msgstr "Вариации на показването на тикери"
+
+#: inc/admin/customizer.php:733 inc/admin/customizer.php:6670
+#: inc/admin/customizer.php:6677
+msgid "Category"
+msgstr "Категория"
+
+#: inc/admin/customizer.php:734
+msgid "Custom"
+msgstr "Персонализиране"
+
+#: inc/admin/customizer.php:747
+msgid "Ticker name"
+msgstr "Име на тикера"
+
+#: inc/admin/customizer.php:761
+msgid "Ticker link"
+msgstr "Линк към тикера"
+
+#: inc/admin/customizer.php:768 inc/admin/customizer.php:2362
+#: inc/admin/function-panel-xlmega.php:341
+#: inc/admin/function-panel-xlmega.php:351
+msgid "All categories"
+msgstr "Всички категории"
+
+#: inc/admin/customizer.php:778
+msgid "Category where the ticker comes from"
+msgstr "Категория, от която идва тикерът"
+
+#: inc/admin/customizer.php:779
+msgid ""
+"Ticker is taken from the title of the last entry in the selected category"
+msgstr ""
+"Тикерът се взема от заглавието на последния запис в избраната категория"
+
+#: inc/admin/customizer.php:794 inc/admin/customizer.php:2387
+#: inc/admin/function-panel-home.php:100
+#: inc/admin/function-panel-xlmega.php:145
+msgid "Post sorting"
+msgstr "Сортиране на публикации"
+
+#: inc/admin/customizer.php:798 inc/admin/customizer.php:2391
+#: inc/admin/function-panel-home.php:102
+#: inc/admin/function-panel-xlmega.php:147
+msgid "By publication date"
+msgstr "По дата на публикуване"
+
+#: inc/admin/customizer.php:799 inc/admin/customizer.php:2392
+#: inc/admin/function-panel-home.php:103
+#: inc/admin/function-panel-xlmega.php:148
+msgid "By date modified"
+msgstr "По дата на промяна"
+
+#: inc/admin/customizer.php:800 inc/admin/customizer.php:2393
+#: inc/admin/function-panel-home.php:104
+#: inc/admin/function-panel-xlmega.php:149
+msgid "By title"
+msgstr "По заглавие"
+
+#: inc/admin/customizer.php:801 inc/admin/customizer.php:2394
+#: inc/admin/function-panel-home.php:105
+#: inc/admin/function-panel-xlmega.php:150
+msgid "By number of comments"
+msgstr "По брой коментари"
+
+#: inc/admin/customizer.php:802 inc/admin/customizer.php:2395
+#: inc/admin/function-panel-home.php:106
+#: inc/admin/function-panel-xlmega.php:151
+msgid "In random order"
+msgstr "В произволен ред"
+
+#: inc/admin/customizer.php:813 inc/admin/customizer.php:2406
+#: inc/admin/function-panel-home.php:113
+msgid "Number of posts available"
+msgstr "Брой налични публикации"
+
+#: inc/admin/customizer.php:825
+msgid "Ticker speed"
+msgstr "Скорост на тикера"
+
+#: inc/admin/customizer.php:826
+msgid "Total time to scroll through all messages in seconds"
+msgstr "Общо време за превъртане през всички съобщения в секунди"
+
+#: inc/admin/customizer.php:839
+msgid "Scroll ticker endlessly"
+msgstr "Безкрайно превъртане на тикера"
+
+#: inc/admin/customizer.php:854 inc/admin/customizer.php:4421
+#: inc/admin/customizer.php:4584 inc/admin/customizer.php:5368
+msgid "Text color"
+msgstr "Цвят на текста"
+
+#: inc/admin/customizer.php:867 inc/admin/customizer.php:1124
+#: inc/admin/customizer.php:1138 inc/admin/customizer.php:2029
+#: inc/admin/customizer.php:2536 inc/admin/customizer.php:2642
+#: inc/admin/customizer.php:4613 inc/admin/customizer.php:4815
+#: inc/admin/customizer.php:5016 inc/admin/customizer.php:5030
+#: inc/admin/customizer.php:5044 inc/admin/customizer.php:5058
+#: inc/admin/customizer.php:5112 inc/admin/customizer.php:6522
+msgid "Text size"
+msgstr "Размер на текста"
+
+#: inc/admin/customizer.php:881 inc/admin/customizer.php:2044
+msgid "Uppercase text"
+msgstr "Главен текст"
+
+#: inc/admin/customizer.php:894
+msgid "Where to get the date"
+msgstr "Къде да взема датата"
+
+#: inc/admin/customizer.php:898
+msgid "Set settings here"
+msgstr "Задайте настройките тук"
+
+#: inc/admin/customizer.php:899
+#, php-format
+msgid "From %s settings"
+msgstr "От настройките на %s"
+
+#: inc/admin/customizer.php:906
+msgid "Month"
+msgstr "Месец"
+
+#: inc/admin/customizer.php:907
+msgid "Year"
+msgstr "Година"
+
+#: inc/admin/customizer.php:916
+msgid "Date format"
+msgstr "Формат на датата"
+
+#: inc/admin/customizer.php:934
+msgid "Separator between numbers"
+msgstr "Разделител между числата"
+
+#: inc/admin/customizer.php:938
+msgid "Spaces"
+msgstr "Пространства"
+
+#: inc/admin/customizer.php:939
+msgid "Dash"
+msgstr "Табло за управление"
+
+#: inc/admin/customizer.php:940
+msgid "Dot"
+msgstr "Точка"
+
+#: inc/admin/customizer.php:941
+msgid "Slash"
+msgstr "Slash"
+
+#: inc/admin/customizer.php:942
+msgid "Vertical line"
+msgstr "Вертикална линия"
+
+#: inc/admin/customizer.php:954
+msgid "Display weeks"
+msgstr "Показване на седмици"
+
+#: inc/admin/customizer.php:959
+msgid "Before"
+msgstr "Преди"
+
+#: inc/admin/customizer.php:960
+msgid "After"
+msgstr "След"
+
+#: inc/admin/customizer.php:972
+msgid "Month in letters"
+msgstr "Месец с букви"
+
+#: inc/admin/customizer.php:985
+msgid "Display year"
+msgstr "Показване на годината"
+
+#: inc/admin/customizer.php:1006 inc/admin/function-panel-reset.php:2489
+#: inc/module/top-menu.php:75 inc/option/set.php:250
+msgid "Top menu"
+msgstr "Горно меню"
+
+#: inc/admin/customizer.php:1021
+msgid "Disable top menu"
+msgstr "Деактивиране на горното меню"
+
+#: inc/admin/customizer.php:1036
+msgid "Links color (outside)"
+msgstr "Цвят на връзките (отвън)"
+
+#: inc/admin/customizer.php:1037
+msgid "Default - general color for links"
+msgstr "По подразбиране - общ цвят за връзките"
+
+#: inc/admin/customizer.php:1051 inc/admin/customizer.php:1065
+msgid "Color of links in dropdown menu"
+msgstr "Цвят на връзките в падащото меню"
+
+#: inc/admin/customizer.php:1079
+msgid "Dropdown menu background color"
+msgstr "Цвят на фона на падащото меню"
+
+#: inc/admin/customizer.php:1093
+msgid "Background color for dropdown menu links"
+msgstr "Цвят на фона за връзките в падащото меню"
+
+#: inc/admin/customizer.php:1138
+msgid "small screens"
+msgstr "малки екрани"
+
+#: inc/admin/customizer.php:1170
+msgid "Move social links in the header over the image"
+msgstr "Преместване на социални връзки в горния колонтитул над изображението"
+
+#: inc/admin/customizer.php:1171 inc/admin/customizer.php:1805
+msgid ""
+"(For this to work, you need to activate social links in the \"Social Links\" "
+"section)"
+msgstr ""
+"(За да работи това, трябва да активирате социалните връзки в секцията "
+"\"Социални връзки\")"
+
+#: inc/admin/customizer.php:1186
+msgid "Enable effect (live picture)"
+msgstr "Активиране на ефект (жива картина)"
+
+#: inc/admin/customizer.php:1200
+msgid "Header image link"
+msgstr "Връзка към изображение на горен колонтитул"
+
+#: inc/admin/customizer.php:1201
+msgid "This works when you click on the image"
+msgstr "Това работи, когато кликнете върху изображението"
+
+#: inc/admin/customizer.php:1228
+msgid "Fixed size logo"
+msgstr "Лого с фиксиран размер"
+
+#: inc/admin/customizer.php:1229
+msgid "Site title and description text color"
+msgstr "Заглавие на сайта и цвят на текста на описанието"
+
+#: inc/admin/customizer.php:1232
+#, php-format
+msgid "The selected image will be compressed to the optimal size %s"
+msgstr "Избраното изображение ще бъде компресирано до оптималния размер %s"
+
+#: inc/admin/customizer.php:1233
+msgid ""
+"(If disabled, the title is hidden only visually. The entered text will "
+"continue to be present for the main page in h1 tags)"
+msgstr ""
+"(Ако е забранено, заглавието е скрито само визуално. Въведеният текст ще "
+"продължи да присъства за главната страница в h1 тагове)"
+
+#: inc/admin/customizer.php:1240 inc/option/set.php:247
+msgid "Title and logo"
+msgstr "Заглавие и лого"
+
+#: inc/admin/customizer.php:1255
+msgid "Title and logo design option"
+msgstr "Опция за дизайн на заглавие и лого"
+
+#: inc/admin/customizer.php:1275
+msgid "Fill or border color"
+msgstr "Цвят на запълване или рамка"
+
+#: inc/admin/customizer.php:1289
+msgid "Add a dividing line between the title and description"
+msgstr "Добавете разделителна линия между заглавието и описанието"
+
+#: inc/admin/customizer.php:1303
+msgid "Title area width with logo"
+msgstr "Ширина на заглавната област с логото"
+
+#: inc/admin/customizer.php:1304
+#, no-php-format
+msgid "Specify 100% for center the title"
+msgstr "Посочете 100% fили центрирайте заглавието"
+
+#: inc/admin/customizer.php:1337
+msgid "Site title font"
+msgstr "Шрифт за заглавие на сайта"
+
+#: inc/admin/customizer.php:1351
+msgid "Site title size"
+msgstr "Размер на заглавието на сайта"
+
+#: inc/admin/customizer.php:1364
+msgid "Site title line height"
+msgstr "Височина на реда на заглавието на сайта"
+
+#: inc/admin/customizer.php:1387
+msgid "Site description font"
+msgstr "Шрифт за описание на сайта"
+
+#: inc/admin/customizer.php:1401
+msgid "Site description text size"
+msgstr "Размер на текста на описанието на сайта"
+
+#: inc/admin/customizer.php:1414
+msgid "Line height of the site description text"
+msgstr "Височина на реда на текста на описанието на сайта"
+
+#: inc/admin/customizer.php:1437
+msgid "Orientation of the logo and site name"
+msgstr "Ориентация на логото и името на сайта"
+
+#: inc/admin/customizer.php:1441
+msgid "Horizontally"
+msgstr "Хоризонтално"
+
+#: inc/admin/customizer.php:1442
+msgid "Vertical"
+msgstr "Вертикално"
+
+#: inc/admin/customizer.php:1455
+msgid "Logo variation"
+msgstr "Вариация на логото"
+
+#: inc/admin/customizer.php:1459
+msgid "Size fixed"
+msgstr "Фиксиран размер"
+
+#: inc/admin/customizer.php:1460
+msgid "No limits"
+msgstr "Без ограничения"
+
+#: inc/admin/customizer.php:1472
+msgid "Logo without limits"
+msgstr "Лого без ограничения"
+
+#: inc/admin/customizer.php:1491
+msgid "Top banner"
+msgstr "Горен банер"
+
+#: inc/admin/customizer.php:1505
+msgid "Activate top banner"
+msgstr "Активиране на горния банер"
+
+#: inc/admin/customizer.php:1519
+msgid "Link to advertising source"
+msgstr "Връзка към източник на реклама"
+
+#: inc/admin/customizer.php:1533 inc/admin/function-panel-soc.php:78
+msgid "Open link in new tab"
+msgstr "Отворете връзката в нов таб"
+
+#: inc/admin/customizer.php:1548
+msgid "Select image"
+msgstr "Избор на изображение"
+
+#: inc/admin/customizer.php:1562
+msgid "ALT value for the image"
+msgstr "ALT стойност за изображението"
+
+#: inc/admin/customizer.php:1576
+msgid "Frame thickness"
+msgstr "Дебелина на рамката"
+
+#: inc/admin/customizer.php:1593
+msgid "Frame color"
+msgstr "Цвят на рамката"
+
+#: inc/admin/customizer.php:1594
+msgid "Default - main theme color"
+msgstr "По подразбиране - цвят на основната тема"
+
+#: inc/admin/customizer.php:1611 inc/admin/function-panel-soc.php:55
+#: inc/option/set.php:256
+msgid "Social links"
+msgstr "Социални връзки"
+
+#: inc/admin/customizer.php:1625
+msgid "Activate social links"
+msgstr "Активирайте социалните връзки"
+
+#: inc/admin/customizer.php:1639
+msgid "Social link size"
+msgstr "Размер на социалните връзки"
+
+#: inc/admin/customizer.php:1643 inc/admin/customizer.php:1823
+#: inc/admin/customizer.php:1921 inc/admin/customizer.php:2541
+#: inc/admin/customizer.php:2612 inc/admin/customizer.php:2714
+#: inc/admin/customizer.php:3122 inc/admin/customizer.php:3260
+#: inc/admin/customizer.php:3365 inc/admin/customizer.php:3523
+#: inc/admin/customizer.php:3847 inc/admin/customizer.php:4022
+#: inc/admin/customizer.php:4157 inc/admin/customizer.php:5822
+#: inc/admin/customizer.php:6606 inc/admin/customizer.php:6837
+#: inc/admin/customizer.php:7677 inc/admin/function-panel-home.php:146
+#: inc/admin/function-panel-home.php:159
+#: inc/admin/function-panel-reset.php:2501
+#: inc/admin/function-panel-xlmega.php:173
+msgid "Small"
+msgstr "Малък"
+
+#: inc/admin/customizer.php:1644 inc/admin/customizer.php:1824
+#: inc/admin/customizer.php:1922 inc/admin/customizer.php:2542
+#: inc/admin/customizer.php:2613 inc/admin/customizer.php:3261
+#: inc/admin/customizer.php:3366 inc/admin/customizer.php:3524
+#: inc/admin/customizer.php:5823 inc/admin/customizer.php:6607
+#: inc/admin/customizer.php:7678 inc/admin/function-panel-home.php:147
+#: inc/admin/function-panel-home.php:160
+#: inc/admin/function-panel-xlmega.php:174
+msgid "Average"
+msgstr "Средно"
+
+#: inc/admin/customizer.php:1645 inc/admin/customizer.php:1825
+#: inc/admin/customizer.php:1923 inc/admin/customizer.php:2543
+#: inc/admin/customizer.php:2614 inc/admin/customizer.php:2712
+#: inc/admin/customizer.php:3123 inc/admin/customizer.php:3262
+#: inc/admin/customizer.php:3367 inc/admin/customizer.php:3525
+#: inc/admin/customizer.php:3848 inc/admin/customizer.php:4023
+#: inc/admin/customizer.php:4158 inc/admin/customizer.php:5824
+#: inc/admin/customizer.php:6608 inc/admin/customizer.php:6836
+#: inc/admin/customizer.php:7679 inc/admin/function-panel-home.php:148
+#: inc/admin/function-panel-home.php:161
+#: inc/admin/function-panel-reset.php:2499
+#: inc/admin/function-panel-xlmega.php:175
+msgid "Big"
+msgstr "Голям"
+
+#: inc/admin/customizer.php:1658
+msgid "Social link form"
+msgstr "Формуляр за социални връзки"
+
+#: inc/admin/customizer.php:1671 inc/function-customizer.php:11886
+msgid "Flat"
+msgstr "Плосък"
+
+#: inc/admin/customizer.php:1672 inc/function-customizer.php:11887
+msgid "Volumetric"
+msgstr "Обемно"
+
+#: inc/admin/customizer.php:1685
+msgid "Social link design (for icons with background)"
+msgstr "Дизайн на социални връзки (за икони с фон)"
+
+#: inc/admin/customizer.php:1697
+msgid "Black"
+msgstr "Черен"
+
+#: inc/admin/customizer.php:1698
+msgid "White"
+msgstr "Бял"
+
+#: inc/admin/customizer.php:1711
+msgid "Social link design (for icons no background)"
+msgstr "Дизайн на социални връзки (за икони без фон)"
+
+#: inc/admin/customizer.php:1726
+msgid "Animation of social links"
+msgstr "Анимация на социални връзки"
+
+#: inc/admin/customizer.php:1730 inc/admin/customizer.php:2756
+msgid "Without animation"
+msgstr "Без анимация"
+
+#: inc/admin/customizer.php:1731
+msgid "Increase"
+msgstr "Увеличаване"
+
+#: inc/admin/customizer.php:1732
+msgid "Zoom (with background)"
+msgstr "Увеличение (с фон)"
+
+#: inc/admin/customizer.php:1733
+msgid "Reduction"
+msgstr "Намаление"
+
+#: inc/admin/customizer.php:1734
+msgid "Zoom out (with background)"
+msgstr "Намаляване на мащаба (с фон)"
+
+#: inc/admin/customizer.php:1735
+msgid "Frame around the link"
+msgstr "Рамка около връзката"
+
+#: inc/admin/customizer.php:1736
+msgid "Increasing contrast"
+msgstr "Увеличаване на контраста"
+
+#: inc/admin/customizer.php:1737
+msgid "Hue change"
+msgstr "Промяна на нюанса"
+
+#: inc/admin/customizer.php:1738
+msgid "Color inversion"
+msgstr "Инверсия на цветовете"
+
+#: inc/admin/customizer.php:1739
+msgid "Dimming adjacent links"
+msgstr "Затъмняване на съседни връзки"
+
+#: inc/admin/customizer.php:1740
+msgid "Slight slope"
+msgstr "Лек наклон"
+
+#: inc/admin/customizer.php:1753
+msgid "Social links fill color"
+msgstr "Цвят на запълване на социалните връзки"
+
+#: inc/admin/customizer.php:1754 inc/admin/customizer.php:1940
+#: inc/admin/customizer.php:4308 inc/admin/customizer.php:4322
+#: inc/admin/customizer.php:4555 inc/admin/customizer.php:4750
+#: inc/admin/customizer.php:4951 inc/admin/customizer.php:6063
+msgid "Default - color of small elements"
+msgstr "По подразбиране - цвят на малките елементи"
+
+#: inc/admin/customizer.php:1771
+msgid "Top search"
+msgstr "Най-популярно търсене"
+
+#: inc/admin/customizer.php:1784
+msgid "Activate top Search"
+msgstr "Активиране на търсенето в горната част"
+
+#: inc/admin/customizer.php:1789
+msgid "In a top bar"
+msgstr "В горната лента"
+
+#: inc/admin/customizer.php:1790
+msgid "In area of soc links (before)"
+msgstr "В областта на социалните връзки (преди)"
+
+#: inc/admin/customizer.php:1791
+msgid "In area of soc links (after)"
+msgstr "В областта на социалните връзки (след)"
+
+#: inc/admin/customizer.php:1804
+msgid "Use social icon styles"
+msgstr "Използвайте стилове на социални икони"
+
+#: inc/admin/customizer.php:1818
+msgid "Search button size"
+msgstr "Размер на бутона за търсене"
+
+#: inc/admin/customizer.php:1822 inc/admin/customizer.php:2540
+#: inc/admin/customizer.php:2611 inc/admin/function-panel-home.php:145
+#: inc/admin/function-panel-home.php:158
+#: inc/admin/function-panel-xlmega.php:172
+msgid "Very small"
+msgstr "Много малък"
+
+#: inc/admin/customizer.php:1826 inc/admin/customizer.php:2544
+#: inc/admin/customizer.php:2615 inc/admin/function-panel-home.php:149
+#: inc/admin/function-panel-home.php:162
+#: inc/admin/function-panel-xlmega.php:176
+msgid "Very big"
+msgstr "Много голям"
+
+#: inc/admin/customizer.php:1846 inc/admin/function-panel-reset.php:2490
+#: inc/option/set.php:253
+msgid "Main menu"
+msgstr "Основно меню"
+
+#: inc/admin/customizer.php:1866
+msgid "Disable main menu"
+msgstr "Деактивиране на главното меню"
+
+#: inc/admin/customizer.php:1868
+#, php-format
+msgid "This setting will completely disable the main menu, including the %s"
+msgstr "Тази настройка ще деактивира напълно главното меню, включително %s"
+
+#: inc/admin/customizer.php:1883 inc/admin/customizer.php:5989
+msgid "Full-width background"
+msgstr "Фон с пълна ширина"
+
+#: inc/admin/customizer.php:1897
+msgid "Buttons orientation"
+msgstr "Ориентация на бутоните"
+
+#: inc/admin/customizer.php:1901 inc/admin/customizer.php:2891
+#: inc/admin/customizer.php:3503 inc/admin/customizer.php:4465
+#: inc/admin/customizer.php:6627 inc/admin/customizer.php:6819
+#: inc/admin/function-panel-reset.php:2482
+#: inc/admin/function-panel-xlmega.php:215
+msgid "Left"
+msgstr "Ляво"
+
+#: inc/admin/customizer.php:1902 inc/admin/customizer.php:2893
+#: inc/admin/customizer.php:3504 inc/admin/customizer.php:6628
+#: inc/admin/customizer.php:6818 inc/admin/function-panel-reset.php:2483
+#: inc/admin/function-panel-xlmega.php:216
+msgid "Right"
+msgstr "Дясно"
+
+#: inc/admin/customizer.php:1903 inc/admin/customizer.php:2892
+#: inc/admin/customizer.php:3505
+msgid "Center"
+msgstr "Център"
+
+#: inc/admin/customizer.php:1904
+msgid "Distributed"
+msgstr "Разпределени"
+
+#: inc/admin/customizer.php:1917 inc/admin/customizer.php:6832
+msgid "Button size"
+msgstr "Размер на бутона"
+
+#: inc/admin/customizer.php:1939 inc/admin/customizer.php:1969
+msgid "Button background color"
+msgstr "Цвят на фона на бутона"
+
+#: inc/admin/customizer.php:1954 inc/admin/customizer.php:1983
+msgid "Button text color"
+msgstr "Цвят на текста на бутона"
+
+#: inc/admin/customizer.php:1955 inc/admin/customizer.php:4336
+#: inc/admin/customizer.php:4513 inc/admin/customizer.php:4736
+#: inc/admin/customizer.php:4937
+msgid "Default - secondary color for small elements"
+msgstr "По подразбиране - вторичен цвят за малки елементи"
+
+#: inc/admin/customizer.php:2016 inc/admin/customizer.php:4599
+#: inc/admin/customizer.php:4801 inc/admin/customizer.php:5002
+#: inc/admin/function-panel-reset.php:2472
+msgid "Font"
+msgstr "Шрифт"
+
+#: inc/admin/customizer.php:2058
+msgid "Make main menu sticky when scrolling (only for desktop versions of pc)"
+msgstr ""
+"Направете главното меню залепващо при превъртане (само за настолни версии на "
+"компютъра)"
+
+#: inc/admin/customizer.php:2075
+msgid "lists"
+msgstr "списъци"
+
+#: inc/admin/customizer.php:2087 inc/admin/customizer.php:2257
+msgid "Warning"
+msgstr "Внимание"
+
+#: inc/admin/customizer.php:2087 inc/admin/customizer.php:2258
+#, php-format
+msgid "The main menu must be enabled for the %s to be displayed"
+msgstr "Главното меню трябва да е активирано, за да се покаже %s"
+
+#: inc/admin/customizer.php:2110 inc/general.php:757 inc/option/set.php:64
+msgid "Information"
+msgstr "Информация"
+
+#: inc/admin/customizer.php:2110 inc/admin/customizer.php:6244
+#, php-format
+msgid ""
+"Items of this menu are customized in the - \"Panel %s\" - \"Appearance\" - "
+"\"Menus\" section."
+msgstr ""
+"Елементите от това меню се персонализират в секцията - \"Панел %s\" - "
+"\"Външен вид\" - \"Менюта\"."
+
+#: inc/admin/customizer.php:2128
+msgid "Links size (drop-down menu)"
+msgstr "Размер на връзките (падащо меню)"
+
+#: inc/admin/customizer.php:2141
+msgid "Links size"
+msgstr "Размер на връзките"
+
+#: inc/admin/customizer.php:2149
+msgid "drop-down menu and mega menu"
+msgstr "падащо меню и мега меню"
+
+#: inc/admin/customizer.php:2160 inc/admin/customizer.php:2434
+#: inc/admin/customizer.php:4392 inc/admin/customizer.php:5354
+#: inc/admin/customizer.php:6449 inc/admin/function-panel-menucat.php:89
+msgid "Background color"
+msgstr "Цвят на фона"
+
+#: inc/admin/customizer.php:2174
+msgid "Links color"
+msgstr "Цвят за препратките"
+
+#: inc/admin/customizer.php:2209
+#, php-format
+msgid "Number of columns in %s"
+msgstr "Брой колони в %s"
+
+#: inc/admin/customizer.php:2213
+msgid "One"
+msgstr "Едно"
+
+#: inc/admin/customizer.php:2214
+msgid "Two"
+msgstr "Две"
+
+#: inc/admin/customizer.php:2215
+msgid "Three"
+msgstr "Три"
+
+#: inc/admin/customizer.php:2216
+msgid "Four"
+msgstr "Четири"
+
+#: inc/admin/customizer.php:2217
+msgid "Five"
+msgstr "Пет"
+
+#: inc/admin/customizer.php:2218
+msgid "Six"
+msgstr "Шест"
+
+#: inc/admin/customizer.php:2236
+msgid "graphic"
+msgstr "графика"
+
+#: inc/admin/customizer.php:2256 inc/admin/customizer.php:2593
+#: vendor/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Активиране"
+
+#: inc/admin/customizer.php:2273
+msgid "Priority partition"
+msgstr "Приоритетен дял"
+
+#: inc/admin/customizer.php:2277
+msgid "First the graphical menu, then the lists"
+msgstr "Първо графичното меню, след това списъците"
+
+#: inc/admin/customizer.php:2278
+msgid "First the list menu, then the graphic"
+msgstr "Първо списъчното меню, след това графиката"
+
+#: inc/admin/customizer.php:2291
+msgid "Sections background color"
+msgstr "Цвят на фона на секциите"
+
+#: inc/admin/customizer.php:2305
+msgid "Column titles color"
+msgstr "Цвят на заглавията на колоните"
+
+#: inc/admin/customizer.php:2322 inc/admin/function-panel-reset.php:2491
+#: inc/option/set.php:308
+msgid "Wide slider"
+msgstr "Широк плъзгач"
+
+#: inc/admin/customizer.php:2336
+msgid "Display wide slider"
+msgstr "Показване на широк плъзгач"
+
+#: inc/admin/customizer.php:2340
+msgid "Not display"
+msgstr "Не се показва"
+
+#: inc/admin/customizer.php:2341
+msgid "All site"
+msgstr "Целият сайт"
+
+#: inc/admin/customizer.php:2342
+msgid "Except main page"
+msgstr "С изключение на главната страница"
+
+#: inc/admin/customizer.php:2343
+msgid "Only main page"
+msgstr "Само главна страница"
+
+#: inc/admin/customizer.php:2354
+msgid "Number of slides"
+msgstr "Брой слайдове"
+
+#: inc/admin/customizer.php:2372
+msgid "Category of posts"
+msgstr "Категория на публикациите"
+
+#: inc/admin/customizer.php:2420
+msgid "Show slider full screen width"
+msgstr "Показване на плъзгача през цялата ширина на екрана"
+
+#: inc/admin/customizer.php:2448
+msgid "Enable auto start"
+msgstr "Активиране на автоматично стартиране"
+
+#: inc/admin/customizer.php:2460
+msgid "Time between slides"
+msgstr "Време между слайдовете"
+
+#: inc/admin/customizer.php:2473
+msgid "Slider move time"
+msgstr "Време за движение на плъзгача"
+
+#: inc/admin/customizer.php:2488
+msgid "Enable navigation buttons"
+msgstr "Активиране на бутоните за навигация"
+
+#: inc/admin/customizer.php:2502
+msgid "Headers fill variation"
+msgstr "Вариация на запълване на заглавките"
+
+#: inc/admin/customizer.php:2506 inc/admin/function-panel-home.php:127
+msgid "Not display titles"
+msgstr "Не показвайте заглавия"
+
+#: inc/admin/customizer.php:2507 inc/admin/function-panel-home.php:128
+msgid "Smooth dimming"
+msgstr "Плавно затъмняване"
+
+#: inc/admin/customizer.php:2508 inc/admin/function-panel-home.php:129
+msgid "Blackout tape"
+msgstr "Затъмняваща лента"
+
+#: inc/admin/customizer.php:2509 inc/admin/function-panel-home.php:130
+msgid "Animated blackout"
+msgstr "Анимирано затъмнение"
+
+#: inc/admin/customizer.php:2522 inc/admin/function-panel-menucat.php:77
+msgid "Title color"
+msgstr "Цвят на заглавието"
+
+#: inc/admin/customizer.php:2557
+msgid "Enable slider in mobile version"
+msgstr "Активиране на плъзгача в мобилната версия"
+
+#: inc/admin/customizer.php:2558
+msgid ""
+"Usually, the slider is not required on small screens, due to heavy load and "
+"little usefulness. Therefore, by default, the slider in the mobile version "
+"is disabled."
+msgstr ""
+"Обикновено плъзгачът не е необходим на малки екрани, поради голямо "
+"натоварване и малка полезност. Следователно, по подразбиране плъзгачът в "
+"мобилната версия е деактивиран."
+
+#: inc/admin/customizer.php:2574 inc/admin/function-panel-menucat.php:39
+#: inc/admin/function-panel-reset.php:2492
+msgid "Category menu"
+msgstr "Меню с категории"
+
+#: inc/admin/customizer.php:2607
+msgid "Items size"
+msgstr "Размер на артикулите"
+
+#: inc/admin/customizer.php:2628 inc/admin/customizer.php:3136
+#: inc/admin/customizer.php:3275 inc/admin/customizer.php:3380
+msgid "Align to center"
+msgstr "Подравняване по центъра"
+
+#: inc/admin/customizer.php:2659
+msgid "Titles in uppercase"
+msgstr "Заглавия с главни букви"
+
+#: inc/admin/customizer.php:2672
+msgid "Categories settings"
+msgstr "Настройки на категориите"
+
+#: inc/admin/customizer.php:2674 inc/admin/customizer.php:5478
+#: inc/module/meta-tags.php:529 inc/option/set.php:262 inc/usability.php:39
+#: inc/usability.php:81 inc/usability.php:116
+#: templates/template-site-map.php:27
+msgid "Categories"
+msgstr "Категории"
+
+#: inc/admin/customizer.php:2690
+msgid "Category style"
+msgstr "Стил на категорията"
+
+#: inc/admin/customizer.php:2703
+msgid "Number (size) of columns"
+msgstr "Брой (размер) на колоните"
+
+#: inc/admin/customizer.php:2707 inc/admin/function-panel-reset.php:2494
+msgid "Classic blog"
+msgstr "Класически блог"
+
+#: inc/admin/customizer.php:2708 inc/admin/function-panel-reset.php:2495
+msgid "Two columns"
+msgstr "Две колони"
+
+#: inc/admin/customizer.php:2709 inc/admin/customizer.php:5445
+#: inc/admin/function-panel-reset.php:2496
+msgid "Three columns"
+msgstr "Три колони"
+
+#: inc/admin/customizer.php:2710 inc/admin/customizer.php:5446
+#: inc/admin/function-panel-reset.php:2497
+msgid "Four columns"
+msgstr "Колони на формата"
+
+#: inc/admin/customizer.php:2711 inc/admin/customizer.php:5447
+#: inc/admin/function-panel-reset.php:2498
+msgid "Five columns"
+msgstr "Пет колони"
+
+#: inc/admin/customizer.php:2712 inc/admin/customizer.php:2713
+#: inc/admin/customizer.php:2714 inc/admin/function-panel-reset.php:2499
+#: inc/admin/function-panel-reset.php:2500
+#: inc/admin/function-panel-reset.php:2501
+msgid "Horizontal"
+msgstr "Хоризонтално"
+
+#: inc/admin/customizer.php:2713 inc/admin/function-panel-reset.php:2500
+msgid "Medium"
+msgstr "Среден"
+
+#: inc/admin/customizer.php:2727
+msgid "Posts design"
+msgstr "Дизайн на публикации"
+
+#: inc/admin/customizer.php:2731
+msgid "Disable design"
+msgstr "Деактивиране на дизайна"
+
+#: inc/admin/customizer.php:2732 inc/admin/customizer.php:3099
+#: inc/admin/customizer.php:3893 inc/admin/function-panel-reset.php:2740
+msgid "Simple"
+msgstr "Обикновен"
+
+#: inc/admin/customizer.php:2733 inc/admin/customizer.php:3101
+#: inc/admin/customizer.php:3102 inc/admin/customizer.php:3895
+#: inc/admin/customizer.php:3896
+msgid "Underlined"
+msgstr "Подчертан"
+
+#: inc/admin/customizer.php:2734 inc/admin/customizer.php:5206
+msgid "In frame"
+msgstr "В кадър"
+
+#: inc/admin/customizer.php:2735
+msgid "Header background"
+msgstr "Заглавие Фонов цвят"
+
+#: inc/admin/customizer.php:2736 inc/admin/customizer.php:3104
+#: inc/admin/customizer.php:3898 inc/admin/customizer.php:5203
+#: inc/admin/customizer.php:5750
+msgid "Deepening"
+msgstr "Задълбочаване"
+
+#: inc/admin/customizer.php:2737 inc/admin/customizer.php:2738
+msgid "Light shadow"
+msgstr "Светла сянка"
+
+#: inc/admin/customizer.php:2738 inc/admin/customizer.php:5500
+msgid "Polaroid"
+msgstr "Полароид"
+
+#: inc/admin/customizer.php:2739 inc/admin/customizer.php:3103
+#: inc/admin/customizer.php:3897 inc/admin/customizer.php:5202
+#: inc/admin/customizer.php:5749
+msgid "Soaring"
+msgstr "Извисяващ се"
+
+#: inc/admin/customizer.php:2752
+msgid "Animation of posts"
+msgstr "Анимация на публикации"
+
+#: inc/admin/customizer.php:2757
+msgid "Enlargement picture"
+msgstr "Уголемена снимка"
+
+#: inc/admin/customizer.php:2758
+msgid "Reducing picture"
+msgstr "Намаляване на картината"
+
+#: inc/admin/customizer.php:2759
+msgid "Darkened image"
+msgstr "Затъмнено изображение"
+
+#: inc/admin/customizer.php:2760
+msgid "Curtain on picture"
+msgstr "Завеса на картината"
+
+#: inc/admin/customizer.php:2761
+msgid "Picture frame"
+msgstr "Рамка за картина"
+
+#: inc/admin/customizer.php:2762
+msgid "Frame around"
+msgstr "Рамка около"
+
+#: inc/admin/customizer.php:2763
+msgid "Backlight picture"
+msgstr "Картина с подсветка"
+
+#: inc/admin/customizer.php:2764
+msgid "Picture contrast"
+msgstr "Контраст на картината"
+
+#: inc/admin/customizer.php:2765
+msgid "Tint picture"
+msgstr "Оцветяване на картината"
+
+#: inc/admin/customizer.php:2766
+msgid "Color inversion picture"
+msgstr "Картина с инверсия на цветовете"
+
+#: inc/admin/customizer.php:2767
+msgid "Remove color in neighboring blocks"
+msgstr "Премахване на цвят в съседните блокове"
+
+#: inc/admin/customizer.php:2768
+msgid "Toning neighboring blocks"
+msgstr "Тониране на съседни блокове"
+
+#: inc/admin/customizer.php:2769
+msgid "Block slope"
+msgstr "Наклон на блока"
+
+#: inc/admin/customizer.php:2782 inc/admin/function-panel-home.php:181
+#: inc/admin/function-panel-xlmega.php:195
+msgid "Posts background color"
+msgstr "Цвят на фона на публикациите"
+
+#: inc/admin/customizer.php:2796
+msgid "Background color of sticky posts"
+msgstr "Цвят на фона на лепкавите публикации"
+
+#: inc/admin/customizer.php:2809
+msgid "Post card title size"
+msgstr "Размер на заглавието на пощенската картичка"
+
+#: inc/admin/customizer.php:2822
+msgid "Post card description size"
+msgstr "Размер на описанието на пощенската картичка"
+
+#: inc/admin/customizer.php:2835
+msgid "Number of symbols in description"
+msgstr "Брой символи в описанието"
+
+#: inc/admin/customizer.php:2836
+msgid "150 symbols"
+msgstr "150 символа"
+
+#: inc/admin/customizer.php:2859
+msgid "Add button"
+msgstr "Бутон за добавяне"
+
+#: inc/admin/customizer.php:2859 inc/admin/customizer.php:2899
+#: inc/mega/blocks/mega-button-mid.php:49
+#: inc/mega/blocks/mega-button-mid.php:92
+#: inc/mega/blocks/mega-button-mid.php:135
+#: inc/mega/blocks/mega-button-mid.php:178
+msgid "Read more"
+msgstr "Прочети повече"
+
+#: inc/admin/customizer.php:2873
+msgid "Full width \"Read more\" button"
+msgstr "Бутон „Прочетете още“ с пълна ширина"
+
+#: inc/admin/customizer.php:2887
+msgid "Button orientation"
+msgstr "Ориентация на бутоните"
+
+#: inc/admin/customizer.php:2906
+msgid "Button text"
+msgstr "Текст на бутона"
+
+#: inc/admin/customizer.php:2929
+msgid "Remove the prefix \"Category\" on category pages"
+msgstr "Премахнете префикса „Категория“ от страниците с категории"
+
+#: inc/admin/customizer.php:2943
+msgid "Remove description from post cards"
+msgstr "Премахване на описание от пощенските картички"
+
+#: inc/admin/customizer.php:2957
+msgid "Remove title from post cards"
+msgstr "Премахване на заглавие от пощенските картички"
+
+#: inc/admin/customizer.php:2971
+msgid "Remove the plug"
+msgstr "Извадете щепсела"
+
+#: inc/admin/customizer.php:2971 inc/admin/customizer.php:6996
+msgid "No photo"
+msgstr "Няма снимка"
+
+#: inc/admin/customizer.php:2989 inc/admin/customizer.php:3723
+msgid "Meta tags (meta boxs)"
+msgstr "Мета тагове (мета кутии)"
+
+#: inc/admin/customizer.php:3002 inc/admin/customizer.php:3736
+msgid "Activate meta boxs"
+msgstr "Активиране на мета кутии"
+
+#: inc/admin/customizer.php:3009 inc/admin/customizer.php:3743
+msgid "What meta boxs to display"
+msgstr "Какви мета кутии да се показват"
+
+#: inc/admin/customizer.php:3025 inc/admin/customizer.php:3759
+#: inc/module/meta-tags.php:24 inc/module/meta-tags.php:289
+msgid "Post author"
+msgstr "Автор"
+
+#: inc/admin/customizer.php:3039 inc/admin/customizer.php:3773
+#: inc/module/meta-tags.php:92 inc/module/meta-tags.php:317
+msgid "Post creation date"
+msgstr "Дата на създаване на публикацията"
+
+#: inc/admin/customizer.php:3053 inc/admin/customizer.php:3787
+#: inc/module/meta-tags.php:132 inc/module/meta-tags.php:357
+msgid "Post update date"
+msgstr "Дата на актуализация на публикацията"
+
+#: inc/admin/customizer.php:3067 inc/admin/customizer.php:3801
+msgid "Number of comments"
+msgstr "Брой коментари"
+
+#: inc/admin/customizer.php:3081 inc/admin/customizer.php:3829
+#: inc/module/meta-tags.php:73 inc/module/meta-tags.php:445
+msgid "Number of post views"
+msgstr "Брой преглеждания на публикациите"
+
+#: inc/admin/customizer.php:3095 inc/admin/customizer.php:3480
+#: inc/admin/customizer.php:4366 inc/admin/customizer.php:5492
+msgid "Design"
+msgstr "Дизайн"
+
+#: inc/admin/customizer.php:3100 inc/admin/customizer.php:5748
+msgid "Frame"
+msgstr "Кадър"
+
+#: inc/admin/customizer.php:3102 inc/admin/customizer.php:3896
+msgid "circle"
+msgstr "окръжност"
+
+#: inc/admin/customizer.php:3105 inc/admin/customizer.php:3899
+msgid "Background"
+msgstr "Фон"
+
+#: inc/admin/customizer.php:3118 inc/admin/customizer.php:3256
+#: inc/admin/customizer.php:3361 inc/admin/customizer.php:3519
+#: inc/admin/customizer.php:3843 inc/admin/customizer.php:4018
+#: inc/admin/customizer.php:4153
+msgid "Size"
+msgstr "Размер"
+
+#: inc/admin/customizer.php:3150
+msgid "Add dynamic tooltips"
+msgstr "Добавете динамични подсказки"
+
+#: inc/admin/customizer.php:3164
+msgid "Add decryption"
+msgstr "Добавяне на дешифриране"
+
+#: inc/admin/customizer.php:3178 inc/admin/customizer.php:3912
+msgid "Remove icons"
+msgstr "Премахване на икони"
+
+#: inc/admin/customizer.php:3196 inc/admin/customizer.php:3957
+msgid "Meta tags (categories)"
+msgstr "Мета тагове (категории)"
+
+#: inc/admin/customizer.php:3209 inc/admin/customizer.php:3970
+msgid "Activate meta tags categories"
+msgstr "Активиране на категории с мета тагове"
+
+#: inc/admin/customizer.php:3223
+msgid "Where to display"
+msgstr "Къде да се показва"
+
+#: inc/admin/customizer.php:3227 inc/admin/customizer.php:4002
+msgid "In the image (top)"
+msgstr "На изображението (отгоре)"
+
+#: inc/admin/customizer.php:3228 inc/admin/customizer.php:4003
+msgid "In the image (bottom)"
+msgstr "На изображението (долу)"
+
+#: inc/admin/customizer.php:3229
+msgid "Outside the image"
+msgstr "Извън изображението"
+
+#: inc/admin/customizer.php:3241 inc/admin/customizer.php:3983
+msgid "Maximum number of category elements"
+msgstr "Максимален брой елементи на категорията"
+
+#: inc/admin/customizer.php:3289 inc/admin/customizer.php:3394
+#: inc/admin/customizer.php:4064 inc/admin/customizer.php:4199
+msgid "Icons"
+msgstr "Икони"
+
+#: inc/admin/customizer.php:3294 inc/admin/customizer.php:3295
+#: inc/admin/customizer.php:3296 inc/admin/customizer.php:3297
+#: inc/admin/customizer.php:3298 inc/admin/customizer.php:3299
+#: inc/admin/customizer.php:3300 inc/admin/customizer.php:4069
+#: inc/admin/customizer.php:4070 inc/admin/customizer.php:4071
+#: inc/admin/customizer.php:4072 inc/admin/customizer.php:4073
+#: inc/admin/customizer.php:4074 inc/admin/customizer.php:4075
+#: inc/admin/customizer.php:7234 inc/admin/customizer.php:7235
+#: inc/admin/customizer.php:7236 inc/admin/customizer.php:7237
+#: inc/admin/customizer.php:7238 inc/admin/customizer.php:7239
+#: inc/admin/customizer.php:7240 inc/admin/customizer.php:7269
+msgid "Folder"
+msgstr "Папка"
+
+#: inc/admin/customizer.php:3301 inc/admin/customizer.php:4076
+#: inc/admin/customizer.php:7241 inc/admin/customizer.php:7267
+msgid "Card catalog"
+msgstr "Картотечен каталог"
+
+#: inc/admin/customizer.php:3302 inc/admin/customizer.php:4077
+#: inc/admin/customizer.php:7242 inc/admin/customizer.php:7268
+msgid "Box"
+msgstr "Кутийка"
+
+#: inc/admin/customizer.php:3320 inc/admin/customizer.php:4094
+msgid "Meta tags (tags)"
+msgstr "Мета тагове (етикети)"
+
+#: inc/admin/customizer.php:3333 inc/admin/customizer.php:4107
+msgid "Activate meta tags (taxonomy tags)"
+msgstr "Активиране на мета тагове (таксономични тагове)"
+
+#: inc/admin/customizer.php:3346 inc/admin/customizer.php:4120
+msgid "Maximum number of tag elements"
+msgstr "Максимален брой елементи на етикета"
+
+#: inc/admin/customizer.php:3399 inc/admin/customizer.php:3400
+#: inc/admin/customizer.php:4204 inc/admin/customizer.php:4205
+msgid "Hashtag"
+msgstr "Хаштаг"
+
+#: inc/admin/customizer.php:3400 inc/admin/customizer.php:4205
+msgid "bold"
+msgstr "смел"
+
+#: inc/admin/customizer.php:3401 inc/admin/customizer.php:4206
+msgid "Sticker"
+msgstr "Стикер"
+
+#: inc/admin/customizer.php:3402 inc/admin/customizer.php:4207
+#: inc/admin/customizer.php:6872 inc/admin/customizer.php:7293
+msgid "Arrow"
+msgstr "Стрелка"
+
+#: inc/admin/customizer.php:3403 inc/admin/customizer.php:4208
+msgid "Lightning"
+msgstr "Светкавица"
+
+#: inc/admin/customizer.php:3420
+msgid "Pagination"
+msgstr "Странициране"
+
+#: inc/admin/customizer.php:3433
+msgid "Activate pagination in categories"
+msgstr "Активиране на пагинацията в категориите"
+
+#: inc/admin/customizer.php:3447
+msgid "Activate pagination on the homepage"
+msgstr "Активиране на пагинацията на началната страница"
+
+#: inc/admin/customizer.php:3461
+msgid "Pagination variation"
+msgstr "Вариант на пагинация"
+
+#: inc/admin/customizer.php:3465
+msgid "Classic (Back and forward)"
+msgstr "Класически (назад и напред)"
+
+#: inc/admin/customizer.php:3466
+msgid "Numeric pagination"
+msgstr "Числово номериране"
+
+#: inc/admin/customizer.php:3467
+msgid "Button"
+msgstr "Бутон"
+
+#: inc/admin/customizer.php:3484 inc/admin/customizer.php:4246
+#: inc/admin/customizer.php:4278 inc/admin/customizer.php:4370
+#: inc/admin/customizer.php:4662 inc/admin/customizer.php:4864
+#: inc/admin/customizer.php:7207 inc/admin/customizer.php:7233
+#: inc/admin/customizer.php:7265 inc/admin/customizer.php:7292
+msgid "Turn off styles"
+msgstr "Изключване на стилове"
+
+#: inc/admin/customizer.php:3485
+msgid "Buttons"
+msgstr "Бутони"
+
+#: inc/admin/customizer.php:3486 inc/admin/customizer.php:3894
+#: inc/admin/customizer.php:5497
+msgid "Frames"
+msgstr "Рамки"
+
+#: inc/admin/customizer.php:3499
+msgid "Location"
+msgstr "Местоположение"
+
+#: inc/admin/customizer.php:3538
+msgid "Remove buttons (back and next) from numeric pagination"
+msgstr "Премахване на бутоните (назад и напред) от числовата пагинация"
+
+#: inc/admin/customizer.php:3552
+msgid "Show all pagination items (for numeric)"
+msgstr "Показване на всички елементи за номериране (за числови)"
+
+#: inc/admin/customizer.php:3566
+msgid "Remove hidden H2 tag from pagination"
+msgstr "Премахване на скрития H2 таг от пагинацията"
+
+#: inc/admin/customizer.php:3567
+msgid ""
+"Removing H2 tag from pagination is good for SEO, but worse for special "
+"programs (for the visually impaired)"
+msgstr ""
+"Премахването на H2 тага от пагинацията е добро за SEO, но по-лошо за "
+"специални програми (за хора с увредено зрение)"
+
+#: inc/admin/customizer.php:3579 inc/admin/customizer.php:3615
+#: inc/option/set.php:265
+msgid "Posts and pages"
+msgstr "Публикации и страници"
+
+#: inc/admin/customizer.php:3595
+msgid "Basic settings"
+msgstr "Основни настройки"
+
+#: inc/admin/customizer.php:3608
+msgid "Where to display typography"
+msgstr "Къде да се показва типография"
+
+#: inc/admin/customizer.php:3609
+msgid "Lists, Quotes, Headings"
+msgstr "Списъци, цитати, заглавия"
+
+#: inc/admin/customizer.php:3613
+msgid "Only posts"
+msgstr "Само публикации"
+
+#: inc/admin/customizer.php:3614
+msgid "Only pages"
+msgstr "Само страници"
+
+#: inc/admin/customizer.php:3631
+msgid "Top image"
+msgstr "Най-горно изображение"
+
+#: inc/admin/customizer.php:3644
+msgid "Remove the main (top) image in posts"
+msgstr "Премахване на основното (горно) изображение в публикациите"
+
+#: inc/admin/customizer.php:3658
+msgid "Remove the main (top) image in pages"
+msgstr "Премахнете основното (горно) изображение в страниците"
+
+#: inc/admin/customizer.php:3663
+msgid "width"
+msgstr "ширина"
+
+#: inc/admin/customizer.php:3674
+msgid "Limit the size of the top image in posts"
+msgstr "Ограничете размера на горното изображение в публикациите"
+
+#: inc/admin/customizer.php:3678 inc/admin/customizer.php:3701
+msgid "Maximum"
+msgstr "Максимум"
+
+#: inc/admin/customizer.php:3697
+msgid "Limit the size of the top image in pages"
+msgstr "Ограничете размера на горното изображение в страниците"
+
+#: inc/admin/customizer.php:3815 inc/module/meta-tags.php:422
+msgid "Post reading time"
+msgstr "Време за четене на публикации"
+
+#: inc/admin/customizer.php:3861
+msgid "Align meta boxs to the center"
+msgstr "Подравняване на мета кутиите към центъра"
+
+#: inc/admin/customizer.php:3875
+msgid "Remove decryption in meta boxs"
+msgstr "Премахване на декриптирането в мета кутиите"
+
+#: inc/admin/customizer.php:3889
+msgid "Meta box design"
+msgstr "Дизайн на мета кутия"
+
+#: inc/admin/customizer.php:3926
+msgid "Add tooltips to meta boxs"
+msgstr "Добавяне на подсказки към мета кутиите"
+
+#: inc/admin/customizer.php:3940
+msgid "Add the date to the bottom of the post"
+msgstr "Добавете датата в долната част на публикацията"
+
+#: inc/admin/customizer.php:3998 inc/admin/customizer.php:4135
+msgid "Where to display meta tags"
+msgstr "Къде да се показват мета тагове"
+
+#: inc/admin/customizer.php:4004 inc/admin/customizer.php:4139
+msgid "Top of content"
+msgstr "Най-горе в съдържанието"
+
+#: inc/admin/customizer.php:4005 inc/admin/customizer.php:4140
+msgid "Bottom of content"
+msgstr "Долната част на съдържанието"
+
+#: inc/admin/customizer.php:4036 inc/admin/customizer.php:4171
+msgid "Align center"
+msgstr "Подравняване център"
+
+#: inc/admin/customizer.php:4050 inc/admin/customizer.php:4185
+msgid "Remove decryption"
+msgstr "Премахване на дешифрирането"
+
+#: inc/admin/customizer.php:4229
+msgid "Lists"
+msgstr "Списъци"
+
+#: inc/admin/customizer.php:4242
+msgid "Bulleted lists variation"
+msgstr "Вариант на маркирани списъци"
+
+#: inc/admin/customizer.php:4247
+msgid "Small dot"
+msgstr "Малка точка"
+
+#: inc/admin/customizer.php:4248
+msgid "Small square"
+msgstr "Малък площад"
+
+#: inc/admin/customizer.php:4249
+msgid "Small circle"
+msgstr "Малък кръг"
+
+#: inc/admin/customizer.php:4250 inc/admin/customizer.php:4280
+msgid "Square frame"
+msgstr "Квадратна рамка"
+
+#: inc/admin/customizer.php:4251
+msgid "Small dash"
+msgstr "Малко тире"
+
+#: inc/admin/customizer.php:4252
+msgid "Big dot"
+msgstr "Голяма точка"
+
+#: inc/admin/customizer.php:4253
+msgid "Big square"
+msgstr "Голям площад"
+
+#: inc/admin/customizer.php:4254
+msgid "Big circle"
+msgstr "Голям кръг"
+
+#: inc/admin/customizer.php:4255
+msgid "Rounded square frame"
+msgstr "Закръглена квадратна рамка"
+
+#: inc/admin/customizer.php:4256
+msgid "Big dash"
+msgstr "Голямо тире"
+
+#: inc/admin/customizer.php:4257 inc/admin/customizer.php:4691
+#: inc/admin/customizer.php:4893
+msgid "Check mark"
+msgstr "Отметка"
+
+#: inc/admin/customizer.php:4258
+msgid "Rhombus"
+msgstr "Ромб"
+
+#: inc/admin/customizer.php:4259 inc/admin/customizer.php:6542
+#: inc/admin/customizer.php:6874
+msgid "Triangle"
+msgstr "Триъгълник"
+
+#: inc/admin/customizer.php:4260
+msgid "Star"
+msgstr "Звезда"
+
+#: inc/admin/customizer.php:4261
+msgid "Snowflake"
+msgstr "Снежинка"
+
+#: inc/admin/customizer.php:4274
+msgid "Numeric lists variation"
+msgstr "Вариация на числови списъци"
+
+#: inc/admin/customizer.php:4279
+msgid "Colored square"
+msgstr "Цветен квадрат"
+
+#: inc/admin/customizer.php:4281
+msgid "Colored circle"
+msgstr "Цветен кръг"
+
+#: inc/admin/customizer.php:4282
+msgid "Round frame"
+msgstr "Кръгла рамка"
+
+#: inc/admin/customizer.php:4283
+msgid "Colored numbers"
+msgstr "Цветни числа"
+
+#: inc/admin/customizer.php:4284
+msgid "Colored numbers (bold)"
+msgstr "Цветни числа (удебелени)"
+
+#: inc/admin/customizer.php:4285
+msgid "Latin numerals"
+msgstr "Латински цифри"
+
+#: inc/admin/customizer.php:4286
+msgid "Colored letters (EN)"
+msgstr "Цветни букви (EN)"
+
+#: inc/admin/customizer.php:4307 inc/admin/customizer.php:4321
+msgid "Marker color"
+msgstr "Цвят на маркера"
+
+#: inc/admin/customizer.php:4307
+msgid "bulleted lists"
+msgstr "списъци с водещи маркери"
+
+#: inc/admin/customizer.php:4321 inc/admin/customizer.php:4335
+msgid "numbered lists"
+msgstr "номерирани списъци"
+
+#: inc/admin/customizer.php:4335
+msgid "Inner color for marker"
+msgstr "Вътрешен цвят за маркер"
+
+#: inc/admin/customizer.php:4353
+msgid "Quote blocks"
+msgstr "Цитатни блокове"
+
+#: inc/admin/customizer.php:4371
+msgid "Just a block"
+msgstr "Само един блок"
+
+#: inc/admin/customizer.php:4372
+msgid "Gradient 1 (fill)"
+msgstr "Градиент 1 (запълване)"
+
+#: inc/admin/customizer.php:4373
+msgid "Gradient 2 (fill)"
+msgstr "Градиент 2 (запълване)"
+
+#: inc/admin/customizer.php:4374
+msgid "Grid (fill)"
+msgstr "Решетка (запълване)"
+
+#: inc/admin/customizer.php:4375
+msgid "Folded corner"
+msgstr "Сгънат ъгъл"
+
+#: inc/admin/customizer.php:4376
+msgid "Solid frame"
+msgstr "Солидна рамка"
+
+#: inc/admin/customizer.php:4377
+msgid "Dotted frame"
+msgstr "Точкова рамка"
+
+#: inc/admin/customizer.php:4378 inc/admin/customizer.php:5933
+#: inc/admin/customizer.php:6208
+msgid "Border left"
+msgstr "Лява граница"
+
+#: inc/admin/customizer.php:4379
+msgid "Double border"
+msgstr "Двойна рамка"
+
+#: inc/admin/customizer.php:4393
+msgid "Some styles work well with the background"
+msgstr "Някои стилове се съчетават добре с фона"
+
+#: inc/admin/customizer.php:4407
+msgid "Activate automatic background color selection"
+msgstr "Активиране на автоматичен избор на цвят на фона"
+
+#: inc/admin/customizer.php:4408
+msgid "(The color is selected based on the background of the content part)"
+msgstr "(Цветът се избира въз основа на фона на съдържанието)"
+
+#: inc/admin/customizer.php:4422
+msgid "Default - general text color"
+msgstr "По подразбиране - общ цвят на текста"
+
+#: inc/admin/customizer.php:4446
+msgid "Add icon"
+msgstr "Добавяне на икона"
+
+#: inc/admin/customizer.php:4460
+msgid "Icon location"
+msgstr "Местоположение на иконата"
+
+#: inc/admin/customizer.php:4461
+msgid "Together with the icon, the text is also aligned"
+msgstr "Заедно с иконата, текстът също е подравнен"
+
+#: inc/admin/customizer.php:4466
+msgid "Centered"
+msgstr "Центрирано"
+
+#: inc/admin/customizer.php:4479 inc/admin/customizer.php:4681
+#: inc/admin/customizer.php:4883
+msgid "Icon selection"
+msgstr "Избор на икона"
+
+#: inc/admin/customizer.php:4483
+msgid "Square quotes"
+msgstr "Квадратни цитати"
+
+#: inc/admin/customizer.php:4484
+msgid "Rectangular quotes"
+msgstr "Правоъгълни цитати"
+
+#: inc/admin/customizer.php:4485
+msgid "Sharp quotes"
+msgstr "Остри цитати"
+
+#: inc/admin/customizer.php:4486
+msgid "Round quotes"
+msgstr "Кръгли цитати"
+
+#: inc/admin/customizer.php:4487
+msgid "Paper clip"
+msgstr "Щипка за хартия"
+
+#: inc/admin/customizer.php:4488
+msgid "Paper clip (vertical)"
+msgstr "Кламер (вертикален)"
+
+#: inc/admin/customizer.php:4489
+msgid "Drawing pin"
+msgstr "Щифт за рисуване"
+
+#: inc/admin/customizer.php:4490
+msgid "Drawing pin (vertical)"
+msgstr "Щифт за рисуване (вертикален)"
+
+#: inc/admin/customizer.php:4491
+msgid "Bulb"
+msgstr "Крушка"
+
+#: inc/admin/customizer.php:4492
+msgid "Bell"
+msgstr "Камбана"
+
+#: inc/admin/customizer.php:4493
+msgid "Attention triangle"
+msgstr "Триъгълник на вниманието"
+
+#: inc/admin/customizer.php:4494
+msgid "Exclamation sheet"
+msgstr "Лист с удивителни думи"
+
+#: inc/admin/customizer.php:4495
+msgid "Exclamation mark"
+msgstr "Удивителен знак"
+
+#: inc/admin/customizer.php:4496
+msgid "Cloud conversation"
+msgstr "Разговор в облака"
+
+#: inc/admin/customizer.php:4497
+msgid "Speaker"
+msgstr "Говорител"
+
+#: inc/admin/customizer.php:4498
+msgid "Open book"
+msgstr "Отворена книга"
+
+#: inc/admin/customizer.php:4499
+msgid "Embossed tick"
+msgstr "Релефна отметка"
+
+#: inc/admin/customizer.php:4500
+msgid "Solid tick"
+msgstr "Твърд тик"
+
+#: inc/admin/customizer.php:4512
+msgid "Icon color"
+msgstr "Цвят на икона"
+
+#: inc/admin/customizer.php:4526
+msgid "Icon size"
+msgstr "Размер на иконата"
+
+#: inc/admin/customizer.php:4541
+msgid "Add background for icon"
+msgstr "Добавяне на фон за икона"
+
+#: inc/admin/customizer.php:4554
+msgid "Background color of icons and lines"
+msgstr "Цвят на фона на иконите и линиите"
+
+#: inc/admin/customizer.php:4572
+msgid "H1 headings"
+msgstr "H1 заглавия"
+
+#: inc/admin/customizer.php:4585 inc/admin/customizer.php:4787
+#: inc/admin/customizer.php:4988
+msgid "Default - titles text general color"
+msgstr "По подразбиране - общ цвят на текста на заглавията"
+
+#: inc/admin/customizer.php:4627 inc/admin/customizer.php:4829
+#: inc/admin/customizer.php:5072
+msgid "Line height"
+msgstr "Височина на линията"
+
+#: inc/admin/customizer.php:4645
+msgid "Headings H2"
+msgstr "Заглавия H2"
+
+#: inc/admin/customizer.php:4658 inc/admin/customizer.php:4860
+msgid "Heading options"
+msgstr "Опции за заглавия"
+
+#: inc/admin/customizer.php:4663 inc/admin/customizer.php:4865
+msgid "Simple headers"
+msgstr "Прости заглавки"
+
+#: inc/admin/customizer.php:4664 inc/admin/customizer.php:4866
+msgid "Light underlining"
+msgstr "Леко подчертаване"
+
+#: inc/admin/customizer.php:4665 inc/admin/customizer.php:4867
+msgid "Side border"
+msgstr "Странична рамка"
+
+#: inc/admin/customizer.php:4666 inc/admin/customizer.php:4868
+msgid "With numbering"
+msgstr "С номериране"
+
+#: inc/admin/customizer.php:4667 inc/admin/customizer.php:4869
+msgid "With icon selection"
+msgstr "С избор на икона"
+
+#: inc/admin/customizer.php:4668 inc/admin/customizer.php:4870
+msgid "With arbitrary value"
+msgstr "С произволна стойност"
+
+#: inc/admin/customizer.php:4685 inc/admin/customizer.php:4887
+msgid "Turn off icons"
+msgstr "Изключване на иконите"
+
+#: inc/admin/customizer.php:4686 inc/admin/customizer.php:4888
+msgid "Right arrow"
+msgstr "Стрелка надясно"
+
+#: inc/admin/customizer.php:4687 inc/admin/customizer.php:4889
+msgid "Arrow to down"
+msgstr "Стрелка надолу"
+
+#: inc/admin/customizer.php:4688 inc/admin/customizer.php:4890
+msgid "Arrow right and down"
+msgstr "Стрелка надясно и надолу"
+
+#: inc/admin/customizer.php:4689 inc/admin/customizer.php:4891
+#: inc/admin/customizer.php:6545
+msgid "Volumetric arrow"
+msgstr "Обемна стрелка"
+
+#: inc/admin/customizer.php:4690 inc/admin/customizer.php:4892
+msgid "Pencil"
+msgstr "Милив"
+
+#: inc/admin/customizer.php:4692 inc/admin/customizer.php:4894
+msgid "Small flag"
+msgstr "Малко знаме"
+
+#: inc/admin/customizer.php:4693 inc/admin/customizer.php:4895
+msgid "Blocks"
+msgstr "Блокове"
+
+#: inc/admin/customizer.php:4694 inc/admin/customizer.php:4896
+msgid "Block hierarchy"
+msgstr "Йерархия на блоковете"
+
+#: inc/admin/customizer.php:4700 inc/admin/customizer.php:4902
+msgid "Par."
+msgstr "Пар."
+
+#: inc/admin/customizer.php:4707 inc/admin/customizer.php:4722
+#: inc/admin/customizer.php:4909 inc/admin/customizer.php:4923
+msgid "Add label"
+msgstr "Добавяне на етикет"
+
+#: inc/admin/customizer.php:4735 inc/admin/customizer.php:4936
+msgid "Heading icons text color"
+msgstr "Цвят на текста на иконите за заглавия"
+
+#: inc/admin/customizer.php:4749 inc/admin/customizer.php:4950
+msgid "Background color of icons and lines for heading"
+msgstr "Цвят на фона на иконите и линиите за заглавията"
+
+#: inc/admin/customizer.php:4772 inc/admin/customizer.php:4973
+msgid "Headings background color"
+msgstr "Цвят на фона на заглавията"
+
+#: inc/admin/customizer.php:4774 inc/admin/customizer.php:4974
+msgid "Default - site body background color"
+msgstr "По подразбиране - цвят на фона на тялото на сайта"
+
+#: inc/admin/customizer.php:4786 inc/admin/customizer.php:4987
+msgid "Headings text color"
+msgstr "Headings text color"
+
+#: inc/admin/customizer.php:4847
+msgid "Headings H3 - H6"
+msgstr "Заглавия H3 - H6"
+
+#: inc/admin/customizer.php:5085
+msgid "Text"
+msgstr "Текст"
+
+#: inc/admin/customizer.php:5098
+msgid "Text font"
+msgstr "Шрифт за Текстовете"
+
+#: inc/admin/customizer.php:5126
+msgid "Text line height"
+msgstr "Височина на реда на текста"
+
+#: inc/admin/customizer.php:5139
+msgid "Links in content"
+msgstr "Връзки в съдържанието"
+
+#: inc/admin/customizer.php:5152
+msgid "Remove link underline"
+msgstr "Премахване на подчертаването на връзката"
+
+#: inc/admin/customizer.php:5153
+msgid "This removes the underlining of links in the content text"
+msgstr "Това премахва подчертаването на връзките в текста на съдържанието"
+
+#: inc/admin/customizer.php:5170
+msgid "Author section"
+msgstr "Раздел за автори"
+
+#: inc/admin/customizer.php:5183
+msgid "Activate author section"
+msgstr "Активиране на секцията за автори"
+
+#: inc/admin/customizer.php:5197
+msgid "Separator variation"
+msgstr "Вариация на сепаратора"
+
+#: inc/admin/customizer.php:5201
+msgid "Turn off separators"
+msgstr "Изключете разделителите"
+
+#: inc/admin/customizer.php:5204
+msgid "Dividers in width"
+msgstr "Разделители по ширина"
+
+#: inc/admin/customizer.php:5205
+msgid "Dividers in center"
+msgstr "Разделители в центъра"
+
+#: inc/admin/customizer.php:5219
+msgid "Separator style"
+msgstr "Стил на разделител"
+
+#: inc/admin/customizer.php:5223
+msgid "Solid line"
+msgstr "Плътна линия"
+
+#: inc/admin/customizer.php:5224
+msgid "Dashed line"
+msgstr "Пунктирана линия"
+
+#: inc/admin/customizer.php:5225
+msgid "Dotted line"
+msgstr "Пунктирана линия"
+
+#: inc/admin/customizer.php:5226
+msgid "Double line"
+msgstr "Двойна линия"
+
+#: inc/admin/customizer.php:5238
+msgid "Separator thickness"
+msgstr "Дебелина на сепаратора"
+
+#: inc/admin/customizer.php:5253
+msgid "Hide avatar"
+msgstr "Скриване на аватара"
+
+#: inc/admin/customizer.php:5267
+msgid "Hide description"
+msgstr "Скриване на описанието"
+
+#: inc/admin/customizer.php:5282
+msgid "Add author latest posts to author section"
+msgstr "Добавяне на последните публикации на автора към секцията „Автори“"
+
+#: inc/admin/customizer.php:5289
+msgid "Latest entries of author"
+msgstr "Последни публикации на автора"
+
+#: inc/admin/customizer.php:5297
+msgid "Author posts title"
+msgstr "Заглавие на публикацията от автора"
+
+#: inc/admin/customizer.php:5311
+msgid "Number of posts"
+msgstr "Брой публикации"
+
+#: inc/admin/customizer.php:5328
+msgid "Section (next entry)"
+msgstr "Раздел (следващ запис)"
+
+#: inc/admin/customizer.php:5341
+msgid "Disable section (next entry)"
+msgstr "Деактивиране на секцията (следващ запис)"
+
+#: inc/admin/customizer.php:5355 inc/admin/customizer.php:5839
+#: inc/admin/customizer.php:6005
+msgid "Default - color of large elements"
+msgstr "По подразбиране - цвят на големите елементи"
+
+#: inc/admin/customizer.php:5369 inc/admin/customizer.php:5854
+#: inc/admin/customizer.php:6020
+msgid "Default - secondary color for large elements"
+msgstr "По подразбиране - вторичен цвят за големи елементи"
+
+#: inc/admin/customizer.php:5383
+msgid "Remove label"
+msgstr "Премахване на етикета"
+
+#: inc/admin/customizer.php:5400 inc/admin/customizer.php:5420
+#: template-parts/content-related.php:14
+msgid "Related posts"
+msgstr "Подобни публикации"
+
+#: inc/admin/customizer.php:5413
+msgid "Activate related posts"
+msgstr "Активиране на свързани публикации"
+
+#: inc/admin/customizer.php:5427 inc/admin/customizer.php:6677
+#: inc/admin/customizer.php:6717 inc/admin/customizer.php:6757
+msgid "Section title"
+msgstr "Заглавие за раздел"
+
+#: inc/admin/customizer.php:5441
+msgid "Number of columns"
+msgstr "Броя колони"
+
+#: inc/admin/customizer.php:5459
+msgid "Number of related posts"
+msgstr "Брой свързани публикации"
+
+#: inc/admin/customizer.php:5473
+msgid "Taxonomy for related posts"
+msgstr "Таксономия за свързани публикации"
+
+#: inc/admin/customizer.php:5474
+msgid "The criteria by which posts are selected"
+msgstr "Критериите, по които се избират публикациите"
+
+#: inc/admin/customizer.php:5479 inc/module/meta-tags.php:566
+msgid "Tags"
+msgstr "Етикети"
+
+#: inc/admin/customizer.php:5496
+msgid "Simple design"
+msgstr "Прост дизайн"
+
+#: inc/admin/customizer.php:5498
+msgid "Contrast blocks"
+msgstr "Контрастни блокове"
+
+#: inc/admin/customizer.php:5499
+msgid "Soaring blocks"
+msgstr "Извисяващи се блокове"
+
+#: inc/admin/customizer.php:5513
+msgid "Remove stub (No photo) in related posts"
+msgstr "Премахване на заглавие (без снимка) в свързани публикации"
+
+#: inc/admin/customizer.php:5530
+msgid "Comment section"
+msgstr "Секция за коментари"
+
+#: inc/admin/customizer.php:5543
+msgid "Remove comment section (for posts)"
+msgstr "Премахване на секцията за коментари (за публикации)"
+
+#: inc/admin/customizer.php:5557
+msgid "Remove comment section (for pages)"
+msgstr "Премахване на секцията за коментари (за страници)"
+
+#: inc/admin/customizer.php:5571
+msgid "Remove URL field in comments (for posts and pages)"
+msgstr ""
+"Премахване на полето за URL адрес в коментарите (за публикации и страници)"
+
+#: inc/admin/customizer.php:5583
+msgid "Main page"
+msgstr "Главна страница"
+
+#: inc/admin/customizer.php:5604
+msgid "Activate sections with blocks on the main"
+msgstr "Активиране на секции с блокове на главния"
+
+#: inc/admin/customizer.php:5619
+msgid "Size of section headings"
+msgstr "Размер на заглавията на разделите"
+
+#: inc/admin/customizer.php:5637
+msgid "Color of section headings"
+msgstr "Цвят на заглавията на секциите"
+
+#: inc/admin/customizer.php:5638
+msgid "Default - content text color"
+msgstr "По подразбиране - цвят на текста на съдържанието"
+
+#: inc/admin/customizer.php:5662
+msgid "Enable the section with the latest posts on the main page"
+msgstr "Активирайте секцията с най-новите публикации на главната страница"
+
+#: inc/admin/customizer.php:5663
+msgid ""
+"(Post blocks, as well as pagination, are configured in the \"Categories\" "
+"section)"
+msgstr ""
+"(Блоковете на публикациите, както и номерирането на страниците, се "
+"конфигурират в секцията „Категории“)"
+
+#: inc/admin/customizer.php:5670 template-parts/home/home-article.php:13
+msgid "Latest posts"
+msgstr "Последни публикации"
+
+#: inc/admin/customizer.php:5677
+msgid "Title for the latest posts section"
+msgstr "Заглавие на секцията с последните публикации"
+
+#: inc/admin/customizer.php:5692
+msgid "Where to show the latest posts section"
+msgstr "Къде да се показва секцията с най-новите публикации"
+
+#: inc/admin/customizer.php:5696
+msgid "At the beginning"
+msgstr "В началото"
+
+#: inc/admin/customizer.php:5697
+msgid "At the end"
+msgstr "В края"
+
+#: inc/admin/customizer.php:5730 inc/admin/function-panel-reset.php:2474
+msgid "Sidebar"
+msgstr "Странична лента"
+
+#: inc/admin/customizer.php:5743
+msgid "Design of sections for widgets"
+msgstr "Дизайн на секции за джаджи"
+
+#: inc/admin/customizer.php:5747 inc/admin/customizer.php:5929
+#: inc/admin/customizer.php:6204 inc/option/set.php:563 inc/option/set.php:569
+#: inc/option/set.php:575 inc/option/set.php:581 inc/option/set.php:587
+msgid "Switch off"
+msgstr "Изключване"
+
+#: inc/admin/customizer.php:5751
+msgid "Side shadow"
+msgstr "Странична сянка"
+
+#: inc/admin/customizer.php:5752
+msgid "Gradient"
+msgstr "Градиент"
+
+#: inc/admin/customizer.php:5766
+msgid "Section background color"
+msgstr "Цвят на фона на секцията"
+
+#: inc/admin/customizer.php:5783
+msgid "Widget headers"
+msgstr "Заглавки на уиджети"
+
+#: inc/admin/customizer.php:5799
+msgid "Widget header option"
+msgstr "Опция за заглавката на уиджета"
+
+#: inc/admin/customizer.php:5818
+msgid "Widget headers background size"
+msgstr "Размер на фона на заглавките на уиджетите"
+
+#: inc/admin/customizer.php:5838 inc/admin/customizer.php:6115
+msgid "Widgets header fill color"
+msgstr "Цвят на запълване на заглавката на джаджите"
+
+#: inc/admin/customizer.php:5853
+msgid "Widgets title text color"
+msgstr "Цвят на текста на заглавието на джаджите"
+
+#: inc/admin/customizer.php:5869 inc/admin/customizer.php:6144
+msgid "Widget title font"
+msgstr "Шрифт на заглавието на уиджета"
+
+#: inc/admin/customizer.php:5882 inc/admin/customizer.php:6157
+msgid "Widget title text size"
+msgstr "Размер на текста на заглавието на уиджета"
+
+#: inc/admin/customizer.php:5897 inc/admin/customizer.php:6172
+msgid "Widget title in uppercase"
+msgstr "Заглавие на уиджета с главни букви"
+
+#: inc/admin/customizer.php:5911 inc/admin/customizer.php:6186
+msgid "Center align widget titles"
+msgstr "Центриране на заглавията на джаджите"
+
+#: inc/admin/customizer.php:5925 inc/admin/customizer.php:6200
+msgid "Underline widget titles"
+msgstr "Подчертаване на заглавията на джаджите"
+
+#: inc/admin/customizer.php:5930 inc/admin/customizer.php:6205
+msgid "Left and down"
+msgstr "Ляво и надолу"
+
+#: inc/admin/customizer.php:5931 inc/admin/customizer.php:6206
+msgid "Center and bottom"
+msgstr "Център и дъно"
+
+#: inc/admin/customizer.php:5944 inc/admin/customizer.php:6219
+msgid "Line thickness"
+msgstr "Дебелина на линията"
+
+#: inc/admin/customizer.php:5962 inc/option/set.php:271
+msgid "Bottom part"
+msgstr "Долна част"
+
+#: inc/admin/customizer.php:5975
+msgid "Activate footer"
+msgstr "Активиране на футера"
+
+#: inc/admin/customizer.php:6004
+msgid "Footer background color"
+msgstr "Фонов цвят на футъра"
+
+#: inc/admin/customizer.php:6019
+msgid "Footer text color"
+msgstr "Цвят за текста във футъра"
+
+#: inc/admin/customizer.php:6034 inc/admin/customizer.php:6048
+msgid "Footer link color"
+msgstr "Цвят на линк във футъра"
+
+#: inc/admin/customizer.php:6062
+msgid "Footer elements color"
+msgstr "Цвят на елементите на долния колонтитул"
+
+#: inc/admin/customizer.php:6098
+msgid "Widgets"
+msgstr "Джаджи"
+
+#: inc/admin/customizer.php:6129
+msgid "Widgets titles text color"
+msgstr "Цвят на текста на заглавията на джаджите"
+
+#: inc/admin/customizer.php:6243
+msgid "Activate bottom menu"
+msgstr "Активиране на долното меню"
+
+#: inc/admin/customizer.php:6257
+msgid "Bottom menu text size"
+msgstr "Размер на текста в долното меню"
+
+#: inc/admin/customizer.php:6281
+msgid "Add dividing line"
+msgstr "Добавяне на разделителна линия"
+
+#: inc/admin/customizer.php:6293
+msgid "Text at the bottom of the footer"
+msgstr "Текст в долната част на долния колонтитул"
+
+#: inc/admin/customizer.php:6307
+msgid "Different settings"
+msgstr "Различни настройки"
+
+#: inc/admin/customizer.php:6330
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+#: inc/admin/customizer.php:6344
+msgid "Enable breadcrumbs in posts"
+msgstr "Активиране на навигационни пътеки в публикациите"
+
+#: inc/admin/customizer.php:6358
+msgid "Enable breadcrumbs in categories"
+msgstr "Активиране на навигационни навигационни пътеки в категориите"
+
+#: inc/admin/customizer.php:6372
+msgid "Show link to home page"
+msgstr "Покажи линк към началната страница"
+
+#: inc/admin/customizer.php:6379 inc/module/breadcrumb.php:11
+msgid "Home"
+msgstr "Начало"
+
+#: inc/admin/customizer.php:6386
+msgid "Specify the text for the first link"
+msgstr "Посочете текста за първата връзка"
+
+#: inc/admin/customizer.php:6400
+msgid "Show title in breadcrumb for posts"
+msgstr "Покажи заглавието в пътечката за публикации"
+
+#: inc/admin/customizer.php:6414
+msgid "Show title for categories, archives and tags"
+msgstr "Показване на заглавие за категории, архиви и етикети"
+
+#: inc/admin/customizer.php:6428
+msgid "Breadcrumbs design option"
+msgstr "Опция за дизайн на хлебни трохи"
+
+#: inc/admin/customizer.php:6463 inc/admin/customizer.php:6477
+msgid "Link text color"
+msgstr "Цвят на текста на връзката"
+
+#: inc/admin/customizer.php:6491
+msgid "Separator and header color"
+msgstr "Цвят на разделителя и заглавката"
+
+#: inc/admin/customizer.php:6538
+msgid "Separator"
+msgstr "Разделител"
+
+#: inc/admin/customizer.php:6543
+msgid "Arrowhead"
+msgstr "Връх на стрела"
+
+#: inc/admin/customizer.php:6544 inc/admin/customizer.php:6873
+msgid "Brace"
+msgstr "Скоба"
+
+#: inc/admin/customizer.php:6546
+msgid "Linear arrow"
+msgstr "Линейна стрелка"
+
+#: inc/admin/customizer.php:6557
+msgid "Calm blocks"
+msgstr "Спокойни блокове"
+
+#: inc/admin/customizer.php:6571
+msgid "Activate fluently movement for blocks"
+msgstr "Активирайте плавно движение за блокове"
+
+#: inc/admin/customizer.php:6572
+msgid "Applies for sections on the main page and category pages"
+msgstr "Важи за секции на главната страница и страниците с категории"
+
+#: inc/admin/customizer.php:6581
+msgid ""
+"Warning! After enabling this module, check that the post cards are displayed "
+"correctly."
+msgstr ""
+"Внимание! След активиране на този модул, проверете дали пощенските картички "
+"се показват правилно."
+
+#: inc/admin/customizer.php:6583
+msgid ""
+"This module often conflicts with various plugins that are responsible for "
+"\"Delayed post loading\", \"Infinite post loading\" and \"Caching\"."
+msgstr ""
+"Този модул често е в конфликт с различни плъгини, които са отговорни за "
+"„Забавено зареждане на публикации“, „Безкрайно зареждане на публикации“ и "
+"„Кеширане“."
+
+#: inc/admin/customizer.php:6602
+msgid "Range for fluently movement"
+msgstr "Обхват за плавно движение"
+
+#: inc/admin/customizer.php:6621
+msgid "Direction movement"
+msgstr "Посока на движение"
+
+#: inc/admin/customizer.php:6625
+msgid "Top"
+msgstr "Горе"
+
+#: inc/admin/customizer.php:6626
+msgid "Bottom"
+msgstr "Долу"
+
+#: inc/admin/customizer.php:6639
+msgid "Site map"
+msgstr "Карта на сайта"
+
+#: inc/admin/customizer.php:6646
+msgid ""
+"To display the sitemap, create a new page through the standard WordPress "
+"menu,\n"
+"\t\t\tgo to page edit mode and select the \"Site Map\" template on the right "
+"side, save the page."
+msgstr ""
+"За да покажете картата на сайта, създайте нова страница чрез стандартното "
+"меню на WordPress, отидете в режим на редактиране на страница и изберете "
+"шаблона „Карта на сайта“ от дясната страна, запазете страницата."
+
+#: inc/admin/customizer.php:6663
+msgid "Display categories on the sitemap"
+msgstr "Показване на категории в картата на сайта"
+
+#: inc/admin/customizer.php:6689
+msgid "Maximum number of categories"
+msgstr "Максимален брой категории"
+
+#: inc/admin/customizer.php:6703
+msgid "Show posts on sitemap"
+msgstr "Показване на публикации в картата на сайта"
+
+#: inc/admin/customizer.php:6710 inc/admin/customizer.php:6717
+#: templates/template-site-map.php:56
+msgid "Posts"
+msgstr "Публикации"
+
+#: inc/admin/customizer.php:6729
+msgid "Maximum number of posts"
+msgstr "Максимален брой публикации"
+
+#: inc/admin/customizer.php:6743
+msgid "Show pages on sitemap"
+msgstr "Показване на страници в картата на сайта"
+
+#: inc/admin/customizer.php:6750 inc/admin/customizer.php:6757
+#: inc/usability.php:26 templates/template-site-map.php:110
+msgid "Pages"
+msgstr "Страници"
+
+#: inc/admin/customizer.php:6769
+msgid "Maximum number of pages"
+msgstr "Максимален брой страници"
+
+#: inc/admin/customizer.php:6786
+msgid "Up button"
+msgstr "Бутон нагоре"
+
+#: inc/admin/customizer.php:6800
+msgid "Disable button"
+msgstr "Бутон за деактивиране"
+
+#: inc/admin/customizer.php:6800
+msgid "Up"
+msgstr "Нагоре"
+
+#: inc/admin/customizer.php:6814
+msgid "Button location"
+msgstr "Местоположение на бутона"
+
+#: inc/admin/customizer.php:6850
+msgid "Button shape"
+msgstr "Форма на копчето"
+
+#: inc/admin/customizer.php:6854 inc/function-customizer.php:11864
+msgid "Circle"
+msgstr "Кръг"
+
+#: inc/admin/customizer.php:6855 inc/admin/customizer.php:7294
+msgid "Square"
+msgstr "Квадрат"
+
+#: inc/admin/customizer.php:6868
+msgid "Button variation"
+msgstr "Вариация на бутоните"
+
+#: inc/admin/customizer.php:6887
+msgid "Button opacity"
+msgstr "Непрозрачност на бутоните"
+
+#: inc/admin/customizer.php:6901
+msgid "SEO settings"
+msgstr "SEO настройки"
+
+#: inc/admin/customizer.php:6916
+msgid "Remove prefix (site name) after SEO Title"
+msgstr "Премахнете префикса (име на сайта) след SEO заглавието"
+
+#: inc/admin/customizer.php:6930
+msgid ""
+"Remove the prefix (site description) after the SEO Title on the main page"
+msgstr ""
+"Премахнете префикса (описание на сайта) след SEO заглавието на главната "
+"страница"
+
+#: inc/admin/customizer.php:6944
+msgid "Set your separator for SEO Title prefix"
+msgstr "Задайте разделител за префикса на SEO заглавие"
+
+#: inc/admin/customizer.php:6958
+msgid "Set your SEO Title for the homepage"
+msgstr "Задайте SEO заглавие за началната страница"
+
+#: inc/admin/customizer.php:6972
+msgid "Set your SEO Description for the homepage"
+msgstr "Задайте SEO описание за началната страница"
+
+#: inc/admin/customizer.php:6986
+msgid "Automatic addition of ALT to images from the title of the post"
+msgstr ""
+"Автоматично добавяне на ALT към изображения от заглавието на публикацията"
+
+#: inc/admin/customizer.php:6987
+msgid ""
+"(The function automatically fills the ALT tag for the image when you upload "
+"a file while in a text editor. Based on the title in the current post or "
+"page.)"
+msgstr ""
+"(Функцията автоматично попълва ALT тага за изображението, когато качвате "
+"файл, докато сте в текстов редактор. Въз основа на заглавието в текущата "
+"публикация или страница.)"
+
+#: inc/admin/customizer.php:7003
+msgid "Set ALT value for stub No photo"
+msgstr "Задаване на ALT стойност за мъниче Няма снимка"
+
+#: inc/admin/customizer.php:7015
+msgid "Speed Settings"
+msgstr "Настройки на скоростта"
+
+#: inc/admin/customizer.php:7027
+msgid ""
+"This section has been created for your convenience. All settings are safe "
+"and cannot disrupt the site. To further increase the speed of the site, go "
+"to the help page."
+msgstr ""
+"Този раздел е създаден за ваше удобство. Всички настройки са безопасни и не "
+"могат да нарушат работата на сайта. За да увеличите допълнително скоростта "
+"на сайта, посетете страницата за помощ."
+
+#: inc/admin/customizer.php:7056
+msgid "Relieve the Top menu (replace with lightweight)"
+msgstr "Облекчете горното меню (заменете го с леко)"
+
+#: inc/admin/customizer.php:7057
+msgid ""
+"\n"
+"\t\t\tThis will disable the heavy menu and enable the pure CSS menu.\n"
+"\t\t\tPros: Disables JS scripts, which can be important for speed since the "
+"menu is at the top of the site.\n"
+"\t\t\tCons: Support for keyboard control will be disabled. The arrows "
+"(icons) of the menu control are disabled."
+msgstr ""
+"\n"
+"\t\t\tТова ще деактивира тежкото меню и ще активира чистото CSS меню.\n"
+"\t\t\tПлюсове: Деактивира JS скриптовете, което може да е важно за "
+"скоростта, тъй като менюто е в горната част на сайта.\n"
+"\t\t\tМинуси: Поддръжката за управление с клавиатура ще бъде деактивирана. "
+"Стрелките (иконите) на менюто са деактивирани."
+
+#: inc/admin/customizer.php:7064
+msgid "JS Menu"
+msgstr "JS меню"
+
+#: inc/admin/customizer.php:7065
+msgid "Lightweight menu"
+msgstr "Олекотено меню"
+
+#: inc/admin/customizer.php:7078
+msgid "Disable improved dropdowns (select list)"
+msgstr "Деактивиране на подобрените падащи менюта (избор на списък)"
+
+#: inc/admin/customizer.php:7079
+msgid ""
+"\n"
+"\t\t\tThis will disable the script that improves the appearance and "
+"usability of drop-down lists.\n"
+"\t\t\tFor example, in the widget (Categories) it adds a live search filter "
+"if the list is long.\n"
+"\t\t\tThis will not affect the menu.\n"
+"\t\t\tDisable it if site loading speed is important to you and you do not "
+"use drop-down lists."
+msgstr ""
+"\n"
+"Това ще деактивира скрипта, който подобрява външния вид и използваемостта на "
+"падащите списъци.\n"
+"Например, в уиджета (Категории) се добавя филтър за търсене на живо, ако "
+"списъкът е дълъг.\n"
+"Това няма да повлияе на менюто.\n"
+"Деактивирайте го, ако скоростта на зареждане на сайта е важна за вас и не "
+"използвате падащи списъци."
+
+#: inc/admin/customizer.php:7097
+msgid "Disable enhanced usability in comments"
+msgstr "Деактивиране на подобрената използваемост в коментарите"
+
+#: inc/admin/customizer.php:7098
+msgid ""
+"\n"
+"\t\t\tThis will disable the script that moves the form for adding a comment "
+"under the comment, in which we clicked on the link (answer).\n"
+"\t\t\tThis happens without reloading the page and improves interaction with "
+"the comment form.\n"
+"\t\t\tDisable it if this is not important to you."
+msgstr ""
+"\n"
+"Това ще деактивира скрипта, който премества формата за добавяне на коментар "
+"под коментара, в който сме кликнали върху връзката (отговора). \n"
+"Това се случва без презареждане на страницата и подобрява взаимодействието с "
+"формата за коментари. \n"
+"Деактивирайте го, ако това не е важно за вас."
+
+#: inc/admin/customizer.php:7116
+msgid "Disable keyboard support in sliders"
+msgstr "Деактивиране на поддръжката на клавиатура в плъзгачите"
+
+#: inc/admin/customizer.php:7117
+msgid ""
+"This will disable the heavy script required to control the sliders with the "
+"keyboard"
+msgstr ""
+"Това ще деактивира тежкия скрипт, необходим за управление на плъзгачите с "
+"клавиатурата"
+
+#: inc/admin/customizer.php:7132
+msgid "Disable enhanced block styles (Gutenberg)"
+msgstr "Деактивиране на подобрените стилове на блокове (Gutenberg)"
+
+#: inc/admin/customizer.php:7133
+msgid ""
+"The size of these styles is quite large, but the benefit is negligible. \n"
+"\t\t\tDisable if you do not see any difference in the design of block "
+"widgets or in the page editor using blocks (Gutenberg)"
+msgstr ""
+"Размерът на тези стилове е доста голям, но ползата е незначителна.\n"
+"\n"
+"Деактивирайте, ако не виждате никаква разлика в дизайна на блоковите джаджи "
+"или в редактора на страници, използващ блокове (Gutenberg)."
+
+#: inc/admin/customizer.php:7151
+msgid "Widgets adaptation"
+msgstr "Адаптиране на джаджи"
+
+#: inc/admin/customizer.php:7165
+#, php-format
+msgid "Apply styles to %s"
+msgstr "Прилагане на стилове към %s"
+
+#: inc/admin/customizer.php:7166
+#, php-format
+msgid ""
+"%1$s have their own flexible settings. Disabling this setting can be useful "
+"if you want to control the design of %1$s yourself"
+msgstr ""
+"%1$s имат свои собствени гъвкави настройки. Деактивирането на тази настройка "
+"може да бъде полезно, ако искате сами да контролирате дизайна на %1$s"
+
+#: inc/admin/customizer.php:7182
+msgid "Settings basic widgets (post, page, category, menu)"
+msgstr "Основни настройки на джаджите (публикация, страница, категория, меню)"
+
+#: inc/admin/customizer.php:7203
+msgid "Design for lists of posts and pages in basic widgets"
+msgstr "Дизайн за списъци с публикации и страници в основни джаджи"
+
+#: inc/admin/customizer.php:7208
+msgid "File"
+msgstr "Файл"
+
+#: inc/admin/customizer.php:7209
+msgid "Round dots"
+msgstr "Кръгли точки"
+
+#: inc/admin/customizer.php:7210
+msgid "Square dots"
+msgstr "Квадратни точки"
+
+#: inc/admin/customizer.php:7211
+msgid "Thin border"
+msgstr "Тънка рамка"
+
+#: inc/admin/customizer.php:7229
+msgid "Design for category lists in basic widgets"
+msgstr "Дизайн за списъци с категории в основни джаджи"
+
+#: inc/admin/customizer.php:7243 inc/admin/customizer.php:7270
+msgid "Thick border"
+msgstr "Дебела рамка"
+
+#: inc/admin/customizer.php:7261
+msgid "Design for archives in basic widgets"
+msgstr "Дизайн за архиви в основни джаджи"
+
+#: inc/admin/customizer.php:7266
+msgid "Archive"
+msgstr "Архив"
+
+#: inc/admin/customizer.php:7288
+msgid "Design for menu lists in basic widgets"
+msgstr "Дизайн за списъци с менюта в основни джаджи"
+
+#: inc/admin/customizer.php:7295
+msgid "Icon (sign)"
+msgstr "Икона (знак)"
+
+#: inc/admin/customizer.php:7308 inc/admin/customizer.php:7323
+msgid "Text color of menu items of basic widgets"
+msgstr "Цвят на текста на елементите от менюто на основните джаджи"
+
+#: inc/admin/customizer.php:7310 inc/admin/customizer.php:7325
+msgid "default - sets the overall color of the links"
+msgstr "по подразбиране - задава общия цвят на връзките"
+
+#: inc/admin/customizer.php:7338 inc/admin/customizer.php:7353
+msgid "Background color of menu items of basic widgets"
+msgstr "Цвят на фона на елементите от менюто на основните джаджи"
+
+#: inc/admin/customizer.php:7340
+msgid "Default - background not set"
+msgstr "По подразбиране - фонът не е зададен"
+
+#: inc/admin/customizer.php:7369
+msgid "Disable demo widgets"
+msgstr "Деактивиране на демонстрационните джаджи"
+
+#: inc/admin/customizer.php:7403 inc/admin/customizer.php:7435
+#, php-format
+msgid "Enable styling support for %s"
+msgstr "Активиране на поддръжката за стилизиране за %s"
+
+#: inc/admin/customizer.php:7405
+msgid ""
+"Customizes the Skeleton Styles stylesheet according to the template design. "
+"Turning it off can be useful if you want to control the stylesheet yourself "
+"(Skeleton Styles)"
+msgstr ""
+"Персонализира стиловия лист „Скелетни стилове“ според дизайна на шаблона. "
+"Изключването му може да е полезно, ако искате сами да контролирате стиловия "
+"лист (Скелетни стилове)"
+
+#: inc/admin/customizer.php:7464
+msgid "Disable sidebar on bbPress pages"
+msgstr "Деактивиране на страничната лента на страниците на bbPress"
+
+#: inc/admin/customizer.php:7479
+msgid "Disable breadcrumbs in bbPress"
+msgstr "Деактивирайте пътечката в bbPress"
+
+#: inc/admin/customizer.php:7493
+msgid "Activate your names for user roles"
+msgstr "Активирайте имената си за потребителски роли"
+
+#: inc/admin/customizer.php:7507 inc/admin/customizer.php:7521
+#: inc/admin/customizer.php:7535 inc/admin/customizer.php:7549
+#: inc/admin/customizer.php:7563
+msgid "Change role name"
+msgstr "Промяна на името на ролята"
+
+#: inc/admin/customizer.php:7578
+msgid "Disable style support for bbPress"
+msgstr "Деактивиране на поддръжката на стилове за bbPress"
+
+#: inc/admin/customizer.php:7579
+msgid ""
+"Can be useful if you want to control the styles of the bbPress plugin "
+"yourself"
+msgstr ""
+"Може да е полезно, ако искате сами да контролирате стиловете на плъгина "
+"bbPress"
+
+#: inc/admin/customizer.php:7608
+msgid "Disable sidebar on BuddyPress pages"
+msgstr "Деактивиране на страничната лента на страниците на BuddyPress"
+
+#: inc/admin/customizer.php:7622
+msgid "Disable style support for BuddyPress"
+msgstr "Деактивиране на поддръжката на стилове за BuddyPress"
+
+#: inc/admin/customizer.php:7623
+msgid ""
+"Can be useful if you want to control the styles of the BuddyPress plugin "
+"yourself"
+msgstr ""
+"Може да е полезно, ако искате сами да контролирате стиловете на плъгина "
+"BuddyPress"
+
+#: inc/admin/customizer.php:7659
+msgid "Enable cart in top menu"
+msgstr "Активиране на количката в горното меню"
+
+#: inc/admin/customizer.php:7673
+msgid "Cart size in the top menu"
+msgstr "Размер на количката в горното меню"
+
+#: inc/admin/customizer.php:7692
+msgid "Enable cart in main menu"
+msgstr "Активиране на количката в главното меню"
+
+#: inc/admin/customizer.php:7693
+msgid "Activate the menu location for this to work"
+msgstr "Активирайте местоположението на менюто, за да работи това"
+
+#: inc/admin/customizer.php:7707
+msgid "Enable search on store page"
+msgstr "Активиране на търсенето на страницата на магазина"
+
+#: inc/admin/customizer.php:7721
+msgid "Enable search on product category pages"
+msgstr "Активиране на търсенето на страниците с категории продукти"
+
+#: inc/admin/customizer.php:7735
+msgid "Product price color"
+msgstr "Цвят на цената на продукта"
+
+#: inc/admin/customizer.php:7750
+msgid "Disable sticker - Sale"
+msgstr "Деактивиране на стикера - Разпродажба"
+
+#: inc/admin/customizer.php:7765
+msgid "Sticker color - Sale"
+msgstr "Цвят на стикера - Разпродажба"
+
+#: inc/admin/customizer.php:7779
+msgid "Disable zoom in the main product photo"
+msgstr "Деактивиране на мащабирането на основната снимка на продукта"
+
+#: inc/admin/customizer.php:7793
+msgid "Disable slider in product photos"
+msgstr "Деактивиране на плъзгача в снимките на продукти"
+
+#: inc/admin/customizer.php:7807
+msgid "Disable lightbox in product photos"
+msgstr "Деактивиране на лайтбокса в снимките на продукти"
+
+#: inc/admin/customizer.php:7821
+msgid "Disable related products on the products page"
+msgstr "Деактивирайте свързани продукти на страницата с продукти"
+
+#: inc/admin/customizer.php:7834
+msgid "Specify the number of related products"
+msgstr "Посочете броя на свързаните продукти"
+
+#: inc/admin/customizer.php:7847
+msgid "Specify the number of columns of related products"
+msgstr "Посочете броя на колоните със свързани продукти"
+
+#: inc/admin/customizer.php:7861
+msgid "Add popular products to products page"
+msgstr "Добавете популярни продукти към страницата с продукти"
+
+#: inc/admin/customizer.php:7874
+msgid "Specify the number of popular products"
+msgstr "Посочете броя на популярните продукти"
+
+#: inc/admin/customizer.php:7887
+msgid "Specify the number of columns of popular products"
+msgstr "Посочете броя на колоните с популярни продукти"
+
+#: inc/admin/customizer.php:7901
+msgid "Add breadcrumbs to product category pages"
+msgstr "Добавяне на пътечка към страниците с категории продукти"
+
+#: inc/admin/customizer.php:7915
+msgid "Add breadcrumbs to product pages"
+msgstr "Добавяне на пътечка към продуктовите страници"
+
+#: inc/admin/customizer.php:7929
+msgid "Where does the main link lead in breadcrumbs"
+msgstr "Къде води основната връзка в пътечката"
+
+#: inc/admin/customizer.php:7933
+msgid "Main"
+msgstr "Основен"
+
+#: inc/admin/customizer.php:7947
+msgid "Text for the main link in breadcrumbs"
+msgstr "Текст за основната връзка в пътечка"
+
+#: inc/admin/customizer.php:7961
+msgid ""
+"Add the inscription (Out of stock) to the product card in the product grid"
+msgstr ""
+"Добавете надписа (Няма наличност) към картата на продукта в продуктовата "
+"мрежа"
+
+#: inc/admin/customizer.php:7975
+msgid "Add an inscription (Out of stock) on the product page"
+msgstr "Добавете надпис (Няма наличност) на страницата на продукта"
+
+#: inc/admin/customizer.php:7989
+msgid "Lettering color (Out of stock)"
+msgstr "Цвят на буквите (Няма наличност)"
+
+#: inc/admin/customizer.php:8003
+msgid "Change label (Out of stock)"
+msgstr "Промяна на етикета (Няма наличност)"
+
+#: inc/admin/customizer.php:8021
+msgid "Presets | Reset settings | Import"
+msgstr "Предварителни настройки | Нулиране на настройките | Импортиране"
+
+#: inc/admin/customizer.php:8040
+msgid ""
+"Open Features (by activating this, you confirm that you want to reset all "
+"settings for this theme and understand the risk of permanent data loss)"
+msgstr ""
+"Отворете функциите (с активирането им потвърждавате, че искате да нулирате "
+"всички настройки за тази тема и разбирате риска от трайна загуба на данни)"
+
+#: inc/admin/customizer.php:8042
+msgid ""
+"Important! These options only affect this themes settings (visual customizer "
+"settings). If you have a lot of valuable settings, please back up your "
+"database before using this feature."
+msgstr ""
+"Важно! Тези опции засягат само настройките на тази тема (настройки на "
+"визуалния персонализатор). Ако имате много ценни настройки, моля, "
+"архивирайте базата си данни, преди да използвате тази функция."
+
+#: inc/admin/customizer.php:8053
+msgid "Reset settings"
+msgstr "Нулиране на настройките"
+
+#: inc/admin/customizer.php:8073 inc/admin/customizer.php:8123
+#: inc/option/set.php:97
+msgid "Useful links"
+msgstr "Полезни връзки"
+
+#: inc/admin/customizer.php:8082 inc/option/set.php:99
+#, php-format
+msgid "Management and configuration instructions for the %s"
+msgstr "Инструкции за управление и конфигуриране за %s"
+
+#: inc/admin/customizer.php:8086 inc/option/set.php:102
+#, php-format
+msgid "Information materials for the %s"
+msgstr "Информационни материали за %s"
+
+#: inc/admin/customizer.php:8090 inc/option/set.php:104
+msgid "Watch live sites demos"
+msgstr "Гледайте демонстрации на сайтове на живо"
+
+#: inc/admin/customizer.php:8094
+msgid "Import ready-made demo versions of websites"
+msgstr "Импортиране на готови демо версии на уебсайтове"
+
+#: inc/admin/customizer.php:8098 inc/option/set.php:106
+#, php-format
+msgid "List of updates for the %s"
+msgstr "Списък с актуализации за %s"
+
+#: inc/admin/customizer.php:8102
+msgid "Support technical"
+msgstr "Техническа поддръжка"
+
+#: inc/admin/customizer.php:8106 inc/option/set.php:108
+msgid "Rate this theme"
+msgstr "Оценете тази тема"
+
+#: inc/admin/customizer.php:8137
+msgid "Widget Locations"
+msgstr "Местоположения на джаджи"
+
+#: inc/admin/customizer.php:8142
+msgid "Menu Locations"
+msgstr "Позиция на менюто"
+
+#: inc/admin/customizer.php:8147
+msgid "Define home page"
+msgstr "Дефиниране на началната страница"
+
+#: inc/admin/function-panel-color.php:791
+msgid ""
+"This setting will apply the selected color scheme, all your colors will be "
+"reassigned"
+msgstr ""
+"Тази настройка ще приложи избраната цветова схема, всички ваши цветове ще "
+"бъдат преназначени"
+
+#: inc/admin/function-panel-color.php:799
+msgid "Color scheme option"
+msgstr "Опция за цветова схема"
+
+#: inc/admin/function-panel-color.php:955
+msgid "Light color scheme"
+msgstr "Светла цветова схема"
+
+#: inc/admin/function-panel-color.php:956
+msgid "Dark color scheme"
+msgstr "Тъмна цветова схема"
+
+#: inc/admin/function-panel-color.php:973
+#: inc/admin/function-panel-color.php:979
+#: inc/admin/function-panel-color.php:985
+#: inc/admin/function-panel-color.php:991
+#: inc/admin/function-panel-color.php:997
+#: inc/admin/function-panel-color.php:1003
+#: inc/admin/function-panel-color.php:1009
+#: inc/admin/function-panel-color.php:1015
+#: inc/admin/function-panel-color.php:1021
+#: inc/admin/function-panel-color.php:1027
+#: inc/admin/function-panel-color.php:1033
+#: inc/admin/function-panel-color.php:1039
+#: inc/admin/function-panel-color.php:1045
+#: inc/admin/function-panel-color.php:1051
+#: inc/admin/function-panel-color.php:1057
+#: inc/admin/function-panel-reset.php:2517
+#: inc/admin/function-panel-reset.php:2535
+#: inc/admin/function-panel-reset.php:2553
+#: inc/admin/function-panel-reset.php:2571
+#: inc/admin/function-panel-reset.php:2589
+#: inc/admin/function-panel-reset.php:2607
+#: inc/admin/function-panel-reset.php:2625
+#: inc/admin/function-panel-reset.php:2643
+#: inc/admin/function-panel-reset.php:2661
+#: inc/admin/function-panel-reset.php:2679
+#: inc/admin/function-panel-reset.php:2697
+#: inc/admin/function-panel-reset.php:2715
+#: inc/admin/function-panel-reset.php:2733
+#: inc/admin/function-panel-reset.php:2751
+#: inc/admin/function-panel-reset.php:2769
+msgid "Apply"
+msgstr "Приложи"
+
+#: inc/admin/function-panel-color.php:977
+#: inc/admin/function-panel-reset.php:2525
+msgid "Dark grey and Red"
+msgstr "Тъмно сиво и червено"
+
+#: inc/admin/function-panel-color.php:983
+#: inc/admin/function-panel-reset.php:2543
+msgid "Dark blue and Light blue"
+msgstr "Тъмно синьо и светло синьо"
+
+#: inc/admin/function-panel-color.php:989
+#: inc/admin/function-panel-reset.php:2561
+msgid "Green and Light red"
+msgstr "Зелено и светлочервено"
+
+#: inc/admin/function-panel-color.php:995
+#: inc/admin/function-panel-reset.php:2579
+msgid "Violet and Pink"
+msgstr "Виолетово и розово"
+
+#: inc/admin/function-panel-color.php:1001
+#: inc/admin/function-panel-reset.php:2597
+msgid "Red and Orange"
+msgstr "Червено и оранжево"
+
+#: inc/admin/function-panel-color.php:1007
+#: inc/admin/function-panel-reset.php:2615
+msgid "Green and Grey"
+msgstr "Зелено и сиво"
+
+#: inc/admin/function-panel-color.php:1013
+#: inc/admin/function-panel-reset.php:2633
+msgid "Turquoise"
+msgstr "Тюркоаз"
+
+#: inc/admin/function-panel-color.php:1019
+#: inc/admin/function-panel-reset.php:2651
+msgid "Green and Orange"
+msgstr "Зелено и оранжево"
+
+#: inc/admin/function-panel-color.php:1025
+#: inc/admin/function-panel-reset.php:2669
+msgid "Heavenly and Light blue"
+msgstr "Небесно и светло синьо"
+
+#: inc/admin/function-panel-color.php:1031
+#: inc/admin/function-panel-reset.php:2687
+msgid "Orange and Dark grey"
+msgstr "Оранжево и тъмносиво"
+
+#: inc/admin/function-panel-color.php:1037
+#: inc/admin/function-panel-reset.php:2705
+msgid "Blue and Dark blue"
+msgstr "Синьо и тъмносиньо"
+
+#: inc/admin/function-panel-color.php:1043
+#: inc/admin/function-panel-reset.php:2723
+msgid "Blue and Green"
+msgstr "Синьо и зелено"
+
+#: inc/admin/function-panel-color.php:1049
+#: inc/admin/function-panel-reset.php:2741
+msgid "Grey and Dark grey"
+msgstr "Сиво и тъмносиво"
+
+#: inc/admin/function-panel-color.php:1055
+#: inc/admin/function-panel-reset.php:2759
+msgid "Blue and Blackberry"
+msgstr "Синьо и къпина"
+
+#: inc/admin/function-panel-home.php:50
+msgid "Sections with blocks on the main"
+msgstr "Секции с блокове на главния"
+
+#: inc/admin/function-panel-home.php:51 inc/admin/function-panel-xlmega.php:55
+msgid "Drag to reposition blocks"
+msgstr "Плъзнете, за да препозиционирате блоковете"
+
+#: inc/admin/function-panel-home.php:54 inc/admin/function-panel-menucat.php:43
+#: inc/admin/function-panel-soc.php:59 inc/admin/function-panel-xlmega.php:58
+msgid "Section with settings"
+msgstr "Раздел с настройки"
+
+#: inc/admin/function-panel-home.php:55 inc/admin/function-panel-xlmega.php:59
+msgid "Add block"
+msgstr "Добавяне на блок"
+
+#: inc/admin/function-panel-home.php:60
+msgid "Section option"
+msgstr "Опция за секция"
+
+#: inc/admin/function-panel-home.php:76
+msgid "Section heading"
+msgstr "Заглавие на раздел"
+
+#: inc/admin/function-panel-home.php:82 inc/admin/function-panel-home.php:88
+#: inc/admin/function-panel-home.php:94 inc/admin/function-panel-menucat.php:51
+#: inc/admin/function-panel-menucat.php:59
+msgid "Select category"
+msgstr "Избери категория"
+
+#: inc/admin/function-panel-home.php:119
+msgid "Number of posts displayed"
+msgstr "Брой показани публикации"
+
+#: inc/admin/function-panel-home.php:125
+msgid "Post title option"
+msgstr "Опция за заглавие на публикацията"
+
+#: inc/admin/function-panel-home.php:137
+#: inc/admin/function-panel-xlmega.php:164
+msgid "Remove post titles"
+msgstr "Премахване на заглавията на публикациите"
+
+#: inc/admin/function-panel-home.php:143
+msgid "Title text size"
+msgstr "Размер на текста на заглавието"
+
+#: inc/admin/function-panel-home.php:156
+msgid "Title text size for small cards"
+msgstr "Размер на заглавния текст за малки картички"
+
+#: inc/admin/function-panel-home.php:169
+#: inc/admin/function-panel-xlmega.php:183
+msgid "Posts titles text color"
+msgstr "Цвят на текста на заглавията на публикациите"
+
+#: inc/admin/function-panel-home.php:175
+msgid "Posts titles color on hover"
+msgstr "Цвят на заглавията на публикациите при задържане на курсора на мишката"
+
+#: inc/admin/function-panel-home.php:187
+msgid "Background color for posts (on hover)"
+msgstr "Цвят на фона за публикации (при задържане на курсора на мишката)"
+
+#: inc/admin/function-panel-home.php:193
+msgid "Enable slider auto start"
+msgstr "Активиране на автоматично стартиране на плъзгача"
+
+#: inc/admin/function-panel-home.php:199
+msgid "Animation for auto slider"
+msgstr "Анимация за автоматичен плъзгач"
+
+#: inc/admin/function-panel-home.php:201
+msgid "Standard flipping"
+msgstr "Стандартно обръщане"
+
+#: inc/admin/function-panel-home.php:202
+msgid "Dynamic zoom"
+msgstr "Динамично увеличение"
+
+#: inc/admin/function-panel-home.php:203
+msgid "Upheaval"
+msgstr "Катастрофа"
+
+#: inc/admin/function-panel-home.php:204
+msgid "Fading away"
+msgstr "Избледняване"
+
+#: inc/admin/function-panel-home.php:211
+msgid "Enable slider navigation buttons"
+msgstr "Активиране на бутоните за навигация с плъзгачи"
+
+#: inc/admin/function-panel-home.php:217
+msgid "Post date"
+msgstr "Дата"
+
+#: inc/admin/function-panel-home.php:220 inc/admin/function-panel-home.php:221
+#: inc/admin/function-panel-home.php:222 inc/admin/function-panel-home.php:223
+msgid "Option"
+msgstr "Опция"
+
+#: inc/admin/function-panel-home.php:230
+msgid "Display date"
+msgstr "Дата на публикуване"
+
+#: inc/admin/function-panel-home.php:369
+#: inc/admin/function-panel-menucat.php:237
+#: inc/admin/function-panel-xlmega.php:389
+msgid "No image selected"
+msgstr "Няма избрано изображение"
+
+#: inc/admin/function-panel-home.php:375
+#: inc/admin/function-panel-menucat.php:243
+#: inc/admin/function-panel-xlmega.php:395
+msgid "Remove"
+msgstr "Премахни"
+
+#: inc/admin/function-panel-home.php:376
+#: inc/admin/function-panel-menucat.php:244
+#: inc/admin/function-panel-xlmega.php:396
+msgid "Select Image"
+msgstr "Избери Снимка"
+
+#: inc/admin/function-panel-home.php:385
+msgid "Latest posts (default)"
+msgstr "Последни публикации (по подразбиране)"
+
+#: inc/admin/function-panel-home.php:471
+msgid "Latest Posts"
+msgstr "Последни публикации"
+
+#: inc/admin/function-panel-home.php:495
+#: inc/admin/function-panel-menucat.php:263
+#: inc/admin/function-panel-soc.php:220 inc/admin/function-panel-xlmega.php:413
+msgid "Roll up block"
+msgstr "Навиващ се блок"
+
+#: inc/admin/function-panel-home.php:496
+#: inc/admin/function-panel-menucat.php:264
+#: inc/admin/function-panel-soc.php:221 inc/admin/function-panel-xlmega.php:414
+msgid "Delete block"
+msgstr "Изтриване на блок"
+
+#: inc/admin/function-panel-import.php:101
+msgid "Importing settings"
+msgstr "Импортиране на настройки"
+
+#: inc/admin/function-panel-import.php:150
+msgid ""
+"This imports the customizations (visual customizer) from the selected theme "
+"into the current theme."
+msgstr ""
+"Това импортира персонализациите (визуален персонализатор) от избраната тема "
+"в текущата тема."
+
+#: inc/admin/function-panel-import.php:151
+#: inc/admin/function-panel-import.php:189
+msgid ""
+"This can be useful, for example, if you applied a lot of customizations in "
+"the free version and then bought the premium version."
+msgstr ""
+"Това може да бъде полезно, например, ако сте приложили много персонализации "
+"в безплатната версия и след това сте закупили премиум версията."
+
+#: inc/admin/function-panel-import.php:152
+#: inc/admin/function-panel-import.php:190
+msgid "Or if you decide to use a child theme."
+msgstr "Или ако решите да използвате детска тема."
+
+#: inc/admin/function-panel-import.php:153
+#: inc/admin/function-panel-import.php:191
+msgid "This allows you to transfer settings between themes in one click."
+msgstr "Това ви позволява да прехвърляте настройки между теми с едно щракване."
+
+#: inc/admin/function-panel-import.php:154
+msgid ""
+"Important! All settings of the current theme will be deleted! They will be "
+"completely replaced by the settings of the selected theme!"
+msgstr ""
+"Важно! Всички настройки на текущата тема ще бъдат изтрити! Те ще бъдат "
+"напълно заменени от настройките на избраната тема!"
+
+#: inc/admin/function-panel-import.php:161
+msgid "Select theme (where to get the settings)"
+msgstr "Изберете тема (откъде да вземете настройките)"
+
+#: inc/admin/function-panel-import.php:187
+msgid ""
+"The import section is available when there are suitable themes to import"
+msgstr ""
+"Разделът за импортиране не е наличен! Разделът за импортиране е наличен, "
+"когато има подходящи теми за импортиране"
+
+#: inc/admin/function-panel-import.php:293
+#: inc/admin/function-panel-import.php:303
+#: inc/admin/function-panel-import.php:313
+#, php-format
+msgid "From %1$s in %2$s"
+msgstr "От %1$s в %2$s"
+
+#: inc/admin/function-panel-import.php:296
+#: inc/admin/function-panel-import.php:306
+#: inc/admin/function-panel-import.php:316
+msgid "Settings copy"
+msgstr "Копиране на настройките"
+
+#: inc/admin/function-panel-menucat.php:40
+msgid "Drag the block with the cursor to change the position of the items"
+msgstr "Плъзнете блока с курсора, за да промените позицията на елементите"
+
+#: inc/admin/function-panel-menucat.php:44 inc/admin/function-panel-soc.php:60
+msgid "Add section"
+msgstr "Добавете секция"
+
+#: inc/admin/function-panel-menucat.php:49
+msgid "Variation"
+msgstr "Вариации"
+
+#: inc/admin/function-panel-menucat.php:52
+msgid "Specify a link"
+msgstr "Посочете връзка"
+
+#: inc/admin/function-panel-menucat.php:65
+msgid "Custom link"
+msgstr "Персонализирана връзка"
+
+#: inc/admin/function-panel-menucat.php:71
+msgid "Custom title"
+msgstr "Персонализирано заглавие"
+
+#: inc/admin/function-panel-menucat.php:83
+msgid "Title background"
+msgstr "Фон на заглавието"
+
+#: inc/admin/function-panel-menucat.php:90
+msgid ""
+"This color will work if there is no picture or the picture is transparent"
+msgstr "Този цвят ще работи, ако няма картина или картината е прозрачна"
+
+#: inc/admin/function-panel-menucat.php:96
+msgid "Background image"
+msgstr "Снимка на фона"
+
+#: inc/admin/function-panel-menucat.php:165
+msgid "Category element"
+msgstr "Елемент на категорията"
+
+#: inc/admin/function-panel-menucat.php:212
+msgid "Random category"
+msgstr "Случайна категория"
+
+#: inc/admin/function-panel-reset.php:2282
+msgid "Preset settings"
+msgstr "Предварително зададени настройки"
+
+#: inc/admin/function-panel-reset.php:2307
+msgid ""
+"This will reset all theme settings to default, apply the chosen color scheme "
+"and activate some settings for the example"
+msgstr ""
+"Това ще нулира всички настройки на темата до фабричните, ще приложи "
+"избраната цветова схема и ще активира някои настройки за примера"
+
+#: inc/admin/function-panel-reset.php:2314
+msgid "Preset options"
+msgstr "Предварително зададени опции"
+
+#: inc/admin/function-panel-reset.php:2470
+msgid "Style"
+msgstr "Стил"
+
+#: inc/admin/function-panel-reset.php:2471
+msgid "Color scheme"
+msgstr "Цветова схема"
+
+#: inc/admin/function-panel-reset.php:2473
+msgid "Width"
+msgstr "Широчина"
+
+#: inc/admin/function-panel-reset.php:2475
+msgid "Navigation"
+msgstr "Навигация"
+
+#: inc/admin/function-panel-reset.php:2476
+msgid "Category grid"
+msgstr "Решетка с категории"
+
+#: inc/admin/function-panel-reset.php:2477
+msgid "Features"
+msgstr "Особености"
+
+#: inc/admin/function-panel-reset.php:2479
+msgid "Light"
+msgstr "Светла"
+
+#: inc/admin/function-panel-reset.php:2480
+msgid "Dark"
+msgstr "Тъмно"
+
+#: inc/admin/function-panel-reset.php:2487
+msgid "Full site width"
+msgstr "Пълна ширина на сайта"
+
+#: inc/admin/function-panel-reset.php:2516
+msgid "Without settings (Defaults)"
+msgstr "Без настройки (по подразбиране)"
+
+#: inc/admin/function-panel-reset.php:2524
+msgid "News time"
+msgstr "Време за новини"
+
+#: inc/admin/function-panel-reset.php:2542
+msgid "News book"
+msgstr "Книга с новини"
+
+#: inc/admin/function-panel-reset.php:2560
+msgid "Photo maximalism"
+msgstr "Фото максимализъм"
+
+#: inc/admin/function-panel-reset.php:2567
+msgid "Live picture"
+msgstr "Жива картина"
+
+#: inc/admin/function-panel-reset.php:2578
+msgid "Womens blog"
+msgstr "Женски блог"
+
+#: inc/admin/function-panel-reset.php:2596
+msgid "Night magazine"
+msgstr "Нощно списание"
+
+#: inc/admin/function-panel-reset.php:2614
+msgid "Intrusive frames"
+msgstr "Натрапчиви рамки"
+
+#: inc/admin/function-panel-reset.php:2632
+msgid "Fairy World"
+msgstr "Приказен свят"
+
+#: inc/admin/function-panel-reset.php:2650
+msgid "Confident oasis"
+msgstr "Уверен оазис"
+
+#: inc/admin/function-panel-reset.php:2668
+msgid "Heavenly"
+msgstr "Небесен"
+
+#: inc/admin/function-panel-reset.php:2686
+msgid "Strict carrot"
+msgstr "Строг морков"
+
+#: inc/admin/function-panel-reset.php:2704
+msgid "Minimalism"
+msgstr "Минимализъм"
+
+#: inc/admin/function-panel-reset.php:2722
+msgid "Micro blog"
+msgstr "Микро блог"
+
+#: inc/admin/function-panel-reset.php:2758
+msgid "Through limitations"
+msgstr "Чрез ограничения"
+
+#: inc/admin/function-panel-soc.php:56
+msgid "Drag the block with the cursor to change the position of the links"
+msgstr "Плъзнете блока с курсора, за да промените позицията на връзките"
+
+#: inc/admin/function-panel-soc.php:65
+msgid "Picture variant"
+msgstr "Вариант на картината"
+
+#: inc/admin/function-panel-soc.php:72
+msgid "Link to social network (URL)"
+msgstr "Връзка към социална мрежа (URL)"
+
+#: inc/admin/function-panel-xlmega.php:54
+msgid "Sections"
+msgstr "Раздели"
+
+#: inc/admin/function-panel-xlmega.php:64
+msgid "Menu variants"
+msgstr "Варианти на менюто"
+
+#: inc/admin/function-panel-xlmega.php:79
+msgid "Menu item name"
+msgstr "Име на елемент от менюто"
+
+#: inc/admin/function-panel-xlmega.php:85
+#: inc/admin/function-panel-xlmega.php:97
+#: inc/admin/function-panel-xlmega.php:109
+#: inc/admin/function-panel-xlmega.php:121
+#: inc/admin/function-panel-xlmega.php:133
+msgid "Title for column"
+msgstr "Заглавие на колоната"
+
+#: inc/admin/function-panel-xlmega.php:91
+#: inc/admin/function-panel-xlmega.php:103
+#: inc/admin/function-panel-xlmega.php:115
+#: inc/admin/function-panel-xlmega.php:127
+#: inc/admin/function-panel-xlmega.php:139
+msgid "Select category for column"
+msgstr "Изберете категория за колоната"
+
+#: inc/admin/function-panel-xlmega.php:158
+msgid "Number of posts displayed (In each column)"
+msgstr "Брой показани публикации (във всяка колона)"
+
+#: inc/admin/function-panel-xlmega.php:170
+msgid "Post titles size"
+msgstr "Размер на заглавията на публикациите"
+
+#: inc/admin/function-panel-xlmega.php:189
+msgid "Posts titles text color (on hover)"
+msgstr ""
+"Цвят на текста на заглавията на публикациите (при задържане на курсора на "
+"мишката)"
+
+#: inc/admin/function-panel-xlmega.php:201
+msgid "Posts background color (on hover)"
+msgstr "Цвят на фона на публикациите (при задържане на курсора на мишката)"
+
+#: inc/admin/function-panel-xlmega.php:207
+msgid "Section image"
+msgstr "Изображение на секцията"
+
+#: inc/admin/function-panel-xlmega.php:213
+msgid "Image layout"
+msgstr "Оформление на изображението"
+
+#: inc/admin/function-panel-xlmega.php:282
+#: inc/admin/function-panel-xlmega.php:289
+msgid "small"
+msgstr "малък"
+
+#: inc/admin/function-panel-xlmega.php:288
+msgid "Horizontal items without images"
+msgstr "Хоризонтални елементи без изображения"
+
+#: inc/admin/function-panel-xlmega.php:289
+#: inc/admin/function-panel-xlmega.php:290
+#: inc/admin/function-panel-xlmega.php:291
+msgid "Horizontal items with image"
+msgstr "Хоризонтални елементи с изображение"
+
+#: inc/admin/function-panel-xlmega.php:290
+msgid "mid"
+msgstr "средата"
+
+#: inc/admin/function-panel-xlmega.php:291
+msgid "big"
+msgstr "голям"
+
+#: inc/admin/function-panel-xlmega.php:292
+msgid "Vertical items with image"
+msgstr "Вертикални елементи с изображение"
+
+#: inc/admin/function-panel-xlmega.php:293
+msgid "Vertical items with button"
+msgstr "Вертикални елементи с бутон"
+
+#: inc/admin/function-panel-xlmega.php:294
+msgid "Items (string) with category image"
+msgstr "Елементи (низ) с изображение на категорията"
+
+#: inc/admin/help_usability.php:49
+msgid "Get more colors with the premium version"
+msgstr "Получете повече цветове с премиум версията"
+
+#: inc/admin/help_usability.php:51 inc/admin/help_usability.php:58
+#: inc/admin/help_usability.php:65 inc/admin/help_usability.php:72
+#: inc/admin/help_usability.php:79 inc/admin/help_usability.php:86
+#: inc/admin/help_usability.php:93 inc/admin/help_usability.php:135
+msgid "Read More"
+msgstr "Прочети повече"
+
+#: inc/admin/help_usability.php:56 inc/admin/help_usability.php:63
+#: inc/admin/help_usability.php:70
+#, php-format
+msgid "Get flexible color settings for %s in the premium version"
+msgstr "Вземете гъвкави настройки за цветовете за %s в премиум версията"
+
+#: inc/admin/help_usability.php:77
+msgid "More fonts are available in the premium version"
+msgstr "В премиум версията са налични повече шрифтове"
+
+#: inc/admin/help_usability.php:84
+msgid ""
+"A graphical mega menu with its own customizer is available in the premium "
+"version"
+msgstr ""
+"Графично мега меню със собствен персонализатор е налично в премиум версията"
+
+#: inc/admin/help_usability.php:91
+msgid ""
+"In this section, there can be a flexible customizer that will allow you to "
+"quickly and easily customize a cool homepage"
+msgstr ""
+"В този раздел може да има гъвкав персонализатор, който ще ви позволи бързо и "
+"лесно да персонализирате готина начална страница"
+
+#: inc/admin/help_usability.php:108 inc/admin/help_usability.php:219
+msgid "Home page customizer (choice of 8 blocks)"
+msgstr "Персонализатор на началната страница (избор от 8 блока)"
+
+#: inc/admin/help_usability.php:109 inc/admin/help_usability.php:224
+#: inc/option/set.php:307
+msgid "Category menu customizer"
+msgstr "Персонализатор на менюто по категории"
+
+#: inc/admin/help_usability.php:110 inc/admin/help_usability.php:229
+msgid "Megamenu (graphic) with customizer in the main menu"
+msgstr "Мегаменю (графично) с персонализатор в главното меню"
+
+#: inc/admin/help_usability.php:111 inc/admin/help_usability.php:234
+msgid "Wide slider (below the main menu)"
+msgstr "Широк плъзгач (под главното меню)"
+
+#: inc/admin/help_usability.php:112 inc/admin/help_usability.php:239
+msgid "More fonts to choose from"
+msgstr "Още шрифтове, от които да избирате"
+
+#: inc/admin/help_usability.php:113 inc/admin/help_usability.php:244
+msgid "Powerful color settings"
+msgstr "Мощни цветови настройки"
+
+#: inc/admin/help_usability.php:114 inc/admin/help_usability.php:249
+msgid "Ready-made color schemes"
+msgstr "Готови цветови схеми"
+
+#: inc/admin/help_usability.php:115 inc/admin/help_usability.php:254
+msgid "Reset theme settings and activate presets"
+msgstr ""
+"Нулиране на настройките на темата и активиране на предварително зададени "
+"настройки"
+
+#: inc/admin/help_usability.php:116 inc/admin/help_usability.php:259
+msgid ""
+"Full demo versions of sites (Import thematic demo versions in one click)"
+msgstr ""
+"Пълни демо версии на сайтове (Импортиране на тематични демо версии с едно "
+"щракване)"
+
+#: inc/admin/help_usability.php:117 inc/admin/help_usability.php:264
+msgid "Import settings from theme to theme"
+msgstr "Импортиране на настройки от тема в тема"
+
+#: inc/admin/help_usability.php:118 inc/admin/help_usability.php:269
+msgid "Lots of hooks (windows for codes)"
+msgstr "Много куки (прозорци за кодове)"
+
+#: inc/admin/help_usability.php:119 inc/admin/help_usability.php:274
+msgid "Additional widgets"
+msgstr "Допълнителни джаджи"
+
+#: inc/admin/help_usability.php:120 inc/admin/help_usability.php:279
+#, php-format
+msgid "Separate sidebars for %1$s and %2$s"
+msgstr "Отделни странични ленти за %1$s и %2$s"
+
+#: inc/admin/help_usability.php:121 inc/admin/help_usability.php:284
+msgid "Expanded plugins adapting"
+msgstr "Разширени адаптации на плъгини"
+
+#: inc/admin/help_usability.php:122 inc/admin/help_usability.php:292
+msgid "Buy"
+msgstr "Купи"
+
+#: inc/admin/help_usability.php:133
+msgid "Get even more windows to insert codes in the premium version"
+msgstr ""
+"В премиум версията получавате още повече прозорци за вмъкване на кодове"
+
+#: inc/admin/help_usability.php:146
+msgid "(Comparison of Versions)"
+msgstr "(Сравнение на версиите)"
+
+#: inc/admin/help_usability.php:152
+msgid "Available features"
+msgstr "Налични функции"
+
+#: inc/admin/help_usability.php:153
+msgid "Free"
+msgstr "Безплатно"
+
+#: inc/admin/help_usability.php:159
+msgid "Powerful typography"
+msgstr "Мощна типография"
+
+#: inc/admin/help_usability.php:164
+msgid "Modularity and flexibility"
+msgstr "Модулност и гъвкавост"
+
+#: inc/admin/help_usability.php:169
+#, php-format
+msgid "Visual customizer support (%s)"
+msgstr "Поддръжка на визуални персонализатори (%s)"
+
+#: inc/admin/help_usability.php:174
+msgid "Flexible heading customization with logo"
+msgstr "Гъвкаво персонализиране на заглавията с лого"
+
+#: inc/admin/help_usability.php:179
+msgid "Flexible sidebar orientation"
+msgstr "Гъвкава ориентация на страничната лента"
+
+#: inc/admin/help_usability.php:184
+msgid "Ability to choose your own sidebar orientation for posts and pages"
+msgstr ""
+"Възможност за избор на собствена ориентация на страничната лента за "
+"публикации и страници"
+
+#: inc/admin/help_usability.php:189
+msgid "Selecting the width of the site"
+msgstr "Избор на ширината на сайта"
+
+#: inc/admin/help_usability.php:194
+msgid "Three pagination options"
+msgstr "Три опции за номериране на страници"
+
+#: inc/admin/help_usability.php:199
+msgid "Four menu locations"
+msgstr "Четири места в менюто"
+
+#: inc/admin/help_usability.php:204
+msgid "Mega menu (mega lists, dropdown, single) in the main menu"
+msgstr "Мега меню (мега списъци, падащо меню, единично меню) в главното меню"
+
+#: inc/admin/help_usability.php:209
+msgid "Social link customizer in the site header"
+msgstr "Персонализатор на социални връзки в заглавката на сайта"
+
+#: inc/admin/help_usability.php:214
+msgid "Plugins adapting"
+msgstr "Адаптиране на плъгини"
+
+#: inc/admin/help_usability.php:306
+msgid "Social Media Links"
+msgstr "Връзки към социални медии"
+
+#: inc/admin/help_usability.php:308
+msgid ""
+"Follow theme updates, suggest new features, participate in polls, discuss, "
+"and ask questions"
+msgstr ""
+"Следвайте актуализации на темите, предлагайте нови функции, участвайте в "
+"анкети, дискутирайте и задавайте въпроси"
+
+#: inc/admin/help_usability.php:340
+msgid "Codes (Hooks theme)"
+msgstr "Кодове (тема Hooks)"
+
+#: inc/demo/demo.php:13
+msgid "News"
+msgstr "Новини"
+
+#: inc/demo/demo.php:23
+msgid "Cars"
+msgstr "Автомобили"
+
+#: inc/demo/demo.php:32
+msgid "Food"
+msgstr "Храна"
+
+#: inc/demo/demo.php:41
+msgid "Travel"
+msgstr "Помощ при пътуване"
+
+#: inc/demo/demo.php:50
+msgid "Interior"
+msgstr "Интериор/Вътрешен"
+
+#: inc/function-customizer.php:10227
+msgid "Loading..."
+msgstr "Зареждане..."
+
+#: inc/function-customizer.php:11570 inc/function-customizer.php:11596
+msgid "Search"
+msgstr "Търсене"
+
+#. translators: Hidden accessibility text.
+#: inc/function-customizer.php:11604
+msgid "Close search"
+msgstr "Затворете"
+
+#: inc/function-customizer.php:11862
+msgid "Without background"
+msgstr "Без фон"
+
+#: inc/function-customizer.php:11863
+msgid "Rounded square"
+msgstr "Заоблен квадрат"
+
+#: inc/general.php:118
+msgid "Main Menu"
+msgstr "Основно меню"
+
+#: inc/general.php:119
+msgid "Top Menu"
+msgstr "Горно меню"
+
+#: inc/general.php:120
+msgid "Footer Menu"
+msgstr "Меню във футъра"
+
+#: inc/general.php:121
+msgid "Widget Menu"
+msgstr "Меню на джаджи"
+
+#: inc/general.php:228 inc/general.php:229 inc/general.php:230
+msgid "Theme"
+msgstr "Тема"
+
+#: inc/general.php:251
+msgid "Side column"
+msgstr "Странична колона"
+
+#: inc/general.php:252
+msgid ""
+"These widgets are displayed when the corresponding template is selected in "
+"the record or page properties"
+msgstr ""
+"Тези уиджети се показват, когато съответният шаблон е избран в свойствата на "
+"записа или страницата"
+
+#: inc/general.php:256
+msgid ""
+"These widgets are displayed in the right or left column, depending on the "
+"site settings"
+msgstr ""
+"Тези джаджи се показват в дясната или лявата колона, в зависимост от "
+"настройките на сайта"
+
+#: inc/general.php:263
+msgid "posts"
+msgstr "публикации"
+
+#: inc/general.php:265 inc/general.php:274 inc/general.php:283
+#: inc/general.php:294 inc/general.php:305 inc/general.php:316
+#, php-format
+msgid ""
+"Widgets added to this sidebar will appear only on %1$s %2$s. If this sidebar "
+"is empty, the default sidebar widgets will be displayed on %1$s %2$s."
+msgstr ""
+"Добавените към тази странична лента джаджи ще се показват само на %1$s %2$s. "
+"Ако тази странична лента е празна, стандартните джаджи на страничната лента "
+"ще се показват на %1$s %2$s."
+
+#: inc/general.php:272
+msgid "pages"
+msgstr ""
+"банерът ще се показва на всички продуктови страници, маркирани с избраните "
+"тагове"
+
+#: inc/general.php:281
+msgid "home"
+msgstr "началo"
+
+#: inc/general.php:325 inc/general.php:334
+msgid "featured"
+msgstr "препоръчани"
+
+#: inc/general.php:343 inc/general.php:352 inc/general.php:361
+#: inc/general.php:370
+msgid "Footer"
+msgstr "Футър"
+
+#: inc/general.php:345 inc/general.php:354 inc/general.php:363
+#: inc/general.php:372
+#, php-format
+msgid "These widgets are displayed in the %s column of the footer"
+msgstr "Тези уиджети се показват в колоната %s на долния колонтитул"
+
+#: inc/general.php:554
+msgid "Nothing found:"
+msgstr "Няма резултати:"
+
+#: inc/general.php:555
+msgid "No sorting"
+msgstr "Без сортиране"
+
+#: inc/general.php:585
+msgid "MENU"
+msgstr "МЕНЮ"
+
+#: inc/general.php:738
+msgid "Now you can follow the theme updates on the page"
+msgstr "Вече можете да следите актуализациите на темата на страницата"
+
+#: inc/general.php:746
+#, php-format
+msgid "Congratulations! You have activated the theme %s"
+msgstr "Поздравления! Активирахте темата %s"
+
+#: inc/general.php:747
+msgid "This is the most customizable theme out of the customizable themes"
+msgstr "Това е най-персонализируемата тема от всички персонализируеми теми"
+
+#: inc/general.php:748
+msgid "Open settings"
+msgstr "Отваряне на настройките"
+
+#: inc/general.php:753
+msgid "Hello!"
+msgstr "Здравейте!"
+
+#: inc/general.php:754
+#, php-format
+msgid ""
+"This is theme developer %s. I improving and maintaining the theme on my own."
+msgstr "Това е разработчикът на теми %s. Аз сам подобрявам и поддържам темата."
+
+#: inc/general.php:755
+msgid ""
+"I would be very grateful if you would report any errors or poor quality "
+"translations."
+msgstr ""
+"Ще бъда много благодарен, ако съобщите за евентуални грешки или некачествени "
+"преводи."
+
+#: inc/general.php:756
+msgid "Contacts can be found in the section - Appearance"
+msgstr "Контактите можете да намерите в раздела - Външен вид"
+
+#: inc/general.php:758
+msgid ""
+"I also remind you that I have a premium version, which contains even more "
+"functionality"
+msgstr ""
+"Също така ви напомням, че имам премиум версия, която съдържа още повече "
+"функционалност"
+
+#: inc/general.php:759
+msgid "Presentation page"
+msgstr "Страница за презентация"
+
+#: inc/general.php:760
+msgid "View price"
+msgstr "Вижте цената"
+
+#: inc/general.php:813
+msgid ""
+"\n"
+" Important!\n"
+"\n"
+" You are deleting all settings for the current theme.\n"
+"\n"
+" This action is irreversible!"
+msgstr ""
+"\n"
+"Важно!\n"
+"\n"
+"Изтривате всички настройки за текущата тема.\n"
+"\n"
+"Това действие е необратимо!"
+
+#: inc/general.php:814
+msgid ""
+"\n"
+" Important!\n"
+"\n"
+" You change all colors of the current theme.\n"
+"\n"
+" This action is irreversible!"
+msgstr ""
+"\n"
+"Важно!\n"
+"\n"
+"Променяте всички цветове на текущата тема.\n"
+"\n"
+"Това действие е необратимо!"
+
+#: inc/mega/blocks/mega-cat-image.php:12
+msgid "Category image"
+msgstr "Категория"
+
+#: inc/module/breadcrumb.php:177
+msgid "Posted by "
+msgstr "Публикувано от "
+
+#: inc/module/breadcrumb.php:183
+msgid "Error"
+msgstr "Грешка"
+
+#: inc/module/breadcrumb.php:188
+msgid "Page"
+msgstr "Страница"
+
+#: inc/module/meta-tags.php:29 inc/module/meta-tags.php:296
+#: template-parts/content-autor.php:42
+msgid "Author"
+msgstr "Автор"
+
+#: inc/module/meta-tags.php:35 inc/module/meta-tags.php:304
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr "%s"
+
+#: inc/module/meta-tags.php:49 inc/module/meta-tags.php:398
+msgid "Number of comments on a post"
+msgstr "Брой коментари към публикация"
+
+#: inc/module/meta-tags.php:56 inc/module/meta-tags.php:405
+msgid "Comments"
+msgstr "Коментари"
+
+#: inc/module/meta-tags.php:78 inc/module/meta-tags.php:452
+msgid "Views"
+msgstr "Преглеждания"
+
+#: inc/module/meta-tags.php:99 inc/module/meta-tags.php:324
+msgid "Created"
+msgstr "Създаден"
+
+#: inc/module/meta-tags.php:119 inc/module/meta-tags.php:155
+#: inc/module/meta-tags.php:344 inc/module/meta-tags.php:384
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr "%s"
+
+#: inc/module/meta-tags.php:137 inc/module/meta-tags.php:364
+msgid "Updated"
+msgstr "Обновена на"
+
+#: inc/module/meta-tags.php:275
+msgid "Less 1 min"
+msgstr "По-малко от 1 мин"
+
+#: inc/module/meta-tags.php:277
+msgid "min"
+msgstr "мин"
+
+#: inc/module/meta-tags.php:429
+msgid "Reading time"
+msgstr "Време за четене"
+
+#: inc/module/meta-tags.php:480
+msgid "Publication date"
+msgstr "Дата на публикуване"
+
+#: inc/module/top-menu.php:43
+msgid "Mobile"
+msgstr "Мобилен"
+
+#: inc/option/hook.php:45
+msgid "Page for adding codes"
+msgstr "Страница за добавяне на кодове"
+
+#: inc/option/hook.php:61 inc/option/hook.php:68 inc/option/hook.php:76
+#, php-format
+msgid "Before the closing %s tag"
+msgstr "Преди затварящия таг %s"
+
+#: inc/option/hook.php:85
+msgid "Before top menu"
+msgstr "Преди горното меню"
+
+#: inc/option/hook.php:91
+msgid "After top menu"
+msgstr "След горното меню"
+
+#: inc/option/hook.php:100
+msgid "Before the banner and social links"
+msgstr "Преди банера и социалните връзки"
+
+#: inc/option/hook.php:106
+msgid "After the banner and social links"
+msgstr "След банера и социалните връзки"
+
+#: inc/option/hook.php:115
+msgid "Before main menu"
+msgstr "Преди главното меню"
+
+#: inc/option/hook.php:121
+msgid "After main menu"
+msgstr "След главното меню"
+
+#: inc/option/hook.php:130
+msgid "After Wide slider"
+msgstr "След широкия плъзгач"
+
+#: inc/option/hook.php:139
+msgid "After Category menu"
+msgstr "След менюто „Категория“"
+
+#: inc/option/hook.php:148
+msgid "Top of footer"
+msgstr "Горна част на долния колонтитул"
+
+#: inc/option/hook.php:154
+msgid "Before bottom menu"
+msgstr "Преди долното меню"
+
+#: inc/option/hook.php:163 inc/option/hook.php:169 inc/option/hook.php:175
+#: inc/option/hook.php:181 inc/option/hook.php:187 inc/option/hook.php:193
+#: inc/option/hook.php:199 inc/option/hook.php:205
+#, php-format
+msgid "Before the \"%s\" section on the main page"
+msgstr "Преди секцията „%s“ на главната страница"
+
+#: inc/option/hook.php:211
+msgid "Before the \"Rrecent posts\" section on the main page"
+msgstr "Преди секцията „Последни публикации“ на главната страница"
+
+#: inc/option/hook.php:217
+msgid "After the \"Rrecent posts\" section on the main page"
+msgstr "След секцията „Последни публикации“ на главната страница"
+
+#: inc/option/hook.php:226
+msgid "Before breadcrumbs"
+msgstr "Преди пътечката"
+
+#: inc/option/hook.php:235
+msgid "Before the list of posts on the category page"
+msgstr "Преди списъка с публикации на страницата с категории"
+
+#: inc/option/hook.php:241
+msgid "After the list of posts on the category page"
+msgstr "След списъка с публикации на страницата с категории"
+
+#: inc/option/hook.php:250
+msgid "Before the main image inside the post"
+msgstr "Преди основното изображение в публикацията"
+
+#: inc/option/hook.php:256
+msgid "Before the title inside the post"
+msgstr "Преди заглавието в публикацията"
+
+#: inc/option/hook.php:262
+msgid "Before meta data inside a post"
+msgstr "Преди метаданните в публикацията"
+
+#: inc/option/hook.php:268
+msgid "Before content within a post"
+msgstr "Преди съдържанието в публикацията"
+
+#: inc/option/hook.php:274
+msgid "Before the author section inside the post"
+msgstr "Преди секцията за автора в публикацията"
+
+#: inc/option/hook.php:280
+msgid "Before the \"Next post\" block inside the post"
+msgstr "Преди блока „Следваща публикация“ в публикацията"
+
+#: inc/option/hook.php:286
+msgid "Before the \"Related posts\" block inside the post"
+msgstr "Преди блока „Свързани публикации“ в публикацията"
+
+#: inc/option/hook.php:292
+msgid "Before the \"Comments\" block inside the post"
+msgstr "Преди блока „Коментари“ в публикацията"
+
+#: inc/option/hook.php:298
+msgid "At the end of the post"
+msgstr "В края на публикацията"
+
+#: inc/option/hook.php:307
+msgid "Before the main image inside the page"
+msgstr "Преди основното изображение в страницата"
+
+#: inc/option/hook.php:313
+msgid "Before the title inside the page"
+msgstr "Преди заглавието във вътрешността на страницата"
+
+#: inc/option/hook.php:319
+msgid "After the title inside the page"
+msgstr "След заглавието във вътрешността на страницата"
+
+#: inc/option/hook.php:325 inc/option/hook.php:490 inc/option/hook.php:511
+msgid "At the end of the page"
+msgstr "В края на страницата"
+
+#: inc/option/hook.php:334
+msgid "Before searching for products"
+msgstr "Преди да търсите продукти"
+
+#: inc/option/hook.php:340
+msgid "Above the product grid"
+msgstr "Над продуктовата мрежа"
+
+#: inc/option/hook.php:346
+msgid "After the product grid"
+msgstr "След продуктовата мрежа"
+
+#: inc/option/hook.php:355
+msgid "At the top of the product page"
+msgstr "В горната част на страницата на продукта"
+
+#: inc/option/hook.php:361
+msgid "After the title on the product page"
+msgstr "След заглавието на страницата на продукта"
+
+#: inc/option/hook.php:367
+msgid "After the price on the product page"
+msgstr "След цената на страницата на продукта"
+
+#: inc/option/hook.php:373
+msgid "At the bottom of the product data on the product page"
+msgstr "В долната част на данните за продукта на страницата на продукта"
+
+#: inc/option/hook.php:379
+msgid "Before related products on product page"
+msgstr "Преди свързани продукти на продуктовата страница"
+
+#: inc/option/hook.php:385
+msgid "At the end of the product page"
+msgstr "В края на страницата на продукта"
+
+#: inc/option/hook.php:394
+msgid "Above the list of products on the shopping cart page"
+msgstr "Над списъка с продукти на страницата на пазарската количка"
+
+#: inc/option/hook.php:400
+msgid "After the list of products on the cart page"
+msgstr "След списъка с продукти на страницата с количката"
+
+#: inc/option/hook.php:406
+msgid "After the cart totals on the cart page"
+msgstr "След като общата сума в кошницата се покаже на страницата на кошницата"
+
+#: inc/option/hook.php:415
+msgid "Under the heading on the order page"
+msgstr "Под заглавието на страницата за поръчка"
+
+#: inc/option/hook.php:421
+msgid "Near the order totals on the order page"
+msgstr "Близо до общата сума на поръчката на страницата с поръчки"
+
+#: inc/option/hook.php:427
+msgid "At the end of the order page"
+msgstr "В края на страницата за поръчка"
+
+#: inc/option/hook.php:436
+msgid "Above the order information on the page - Order accepted"
+msgstr "Над информацията за поръчката на страницата - Поръчката е приета"
+
+#: inc/option/hook.php:442
+msgid "After the information about the order on the page - Order accepted"
+msgstr "След информацията за поръчката на страницата - Поръчката е приета"
+
+#: inc/option/hook.php:448
+msgid "At the bottom of the page - Order accepted"
+msgstr "В долната част на страницата - Поръчката е приета"
+
+#: inc/option/hook.php:457
+msgid "Top of personal account"
+msgstr "Най-горе в личния акаунт"
+
+#: inc/option/hook.php:463
+msgid "At the bottom of the dashboard tab in personal account"
+msgstr "В долната част на раздела на таблото за управление в личния акаунт"
+
+#: inc/option/hook.php:469
+msgid "At the bottom of personal account"
+msgstr "В долната част на личния акаунт"
+
+#: inc/option/hook.php:478 inc/option/hook.php:499
+msgid "Above the heading on the page"
+msgstr "Над заглавието на страницата"
+
+#: inc/option/hook.php:484 inc/option/hook.php:505
+msgid "After the title on the page"
+msgstr "След заглавието на страницата"
+
+#: inc/option/hook.php:526
+msgid ""
+"On this page you can insert counters, banners, or any other content that "
+"will be displayed on the front of the site"
+msgstr ""
+"На тази страница можете да вмъквате броячи, банери или всяко друго "
+"съдържание, което ще се показва на предната част на сайта"
+
+#: inc/option/set.php:32
+msgid "All settings saved!"
+msgstr "Всички настройки са запазени!"
+
+#: inc/option/set.php:52
+msgid "Pro page"
+msgstr "Професионална страница"
+
+#: inc/option/set.php:57
+msgid "General"
+msgstr "Основни"
+
+#: inc/option/set.php:127
+#, php-format
+msgid "Additional functionality for the %s"
+msgstr "Допълнителна функционалност за %s"
+
+#: inc/option/set.php:129
+#, php-format
+msgid "Some functionality is provided in a separate plugin (as required by %s)"
+msgstr ""
+"Някои функции са предоставени в отделен плъгин (както се изисква от %s)"
+
+#: inc/option/set.php:130
+msgid "To extend the theme, install the free plugin"
+msgstr "За да разширите темата, инсталирайте безплатния плъгин"
+
+#: inc/option/set.php:132
+msgid "What does this give?"
+msgstr "Какво дава това?"
+
+#: inc/option/set.php:133
+msgid "Additional widgets for the front part"
+msgstr "Допълнителни джаджи за предната част"
+
+#: inc/option/set.php:135
+msgid "Two author widgets"
+msgstr "Два авторски уиджета"
+
+#: inc/option/set.php:136
+msgid "Two widgets for recent posts"
+msgstr "Два уиджета за последните публикации"
+
+#: inc/option/set.php:137
+msgid "Widget with slider"
+msgstr "Уиджет със плъзгач"
+
+#: inc/option/set.php:138
+msgid "Widget with banner"
+msgstr "Джаджа с банер"
+
+#: inc/option/set.php:139
+msgid "Widget with links"
+msgstr "Уиджет с връзки"
+
+#: inc/option/set.php:141
+msgid ""
+"After activating the plugin, the widgets will appear in the section - "
+"\"Appearance\" - \"Widgets\""
+msgstr ""
+"След активиране на плъгина, джаджите ще се появят в секцията - \"Външен "
+"вид\" - \"Джаджети\""
+
+#: inc/option/set.php:142
+msgid "Additional useful functionality in the admin panel"
+msgstr "Допълнителна полезна функционалност в администраторския панел"
+
+#: inc/option/set.php:144
+msgid "Function (button) for clearing the counter of post and page views"
+msgstr ""
+"Функция (бутон) за изчистване на брояча на преглежданията на публикации и "
+"страници"
+
+#: inc/option/set.php:145
+msgid ""
+"Column \"Views\" (counter) in the list of posts and pages of the admin panel"
+msgstr ""
+"Колона „Преглеждания“ (брояч) в списъка с публикации и страници на "
+"администраторския панел"
+
+#: inc/option/set.php:146
+msgid "Column \"Thumbnails\" in the list of posts of the admin panel"
+msgstr "Колоната „Миниатюри“ в списъка с публикации на администраторския панел"
+
+#: inc/option/set.php:147
+msgid "Category filter in classic post editor"
+msgstr "Филтър за категории в класическия редактор на публикации"
+
+#: inc/option/set.php:148
+#, php-format
+msgid "Option to disable block editor (%s) in text editor"
+msgstr "Опция за деактивиране на блоковия редактор (%s) в текстовия редактор"
+
+#: inc/option/set.php:149
+#, php-format
+msgid "Option to disable block editor (%s) in widgets"
+msgstr "Опция за деактивиране на блоковия редактор (%s) в уиджетите"
+
+#: inc/option/set.php:150
+#, php-format
+msgid ""
+"Ability to change %s graphics engine (useful if large photos are not loading)"
+msgstr ""
+"Възможност за промяна на графичния енджин %s (полезно, ако големите снимки "
+"не се зареждат)"
+
+#: inc/option/set.php:152
+#, php-format
+msgid ""
+"After activating the plugin, these options will appear in the section - "
+"\"Appearance\" - \"%s\" - in the new tab \"Extended\""
+msgstr ""
+"След активиране на плъгина, тези опции ще се появят в секцията - \"Външен "
+"вид\" - \"%s\" - в новия раздел \"Разширен\""
+
+#: inc/option/set.php:153
+msgid "View more information"
+msgstr "Вижте повече информация"
+
+#: inc/option/set.php:162
+msgid "Information materials"
+msgstr "Информационни материали"
+
+#: inc/option/set.php:165
+msgid "These are not bugs, these are features"
+msgstr "Това не са грешки, това са функции"
+
+#: inc/option/set.php:167
+#, php-format
+msgid "How to increase website loading speed with %s"
+msgstr "Как да увеличите скоростта на зареждане на уебсайта с %s"
+
+#: inc/option/set.php:169
+#, php-format
+msgid "How to customize the %s"
+msgstr "Как да персонализирате %s"
+
+#: inc/option/set.php:171
+msgid "How to change the sidebar orientation for a separate page or post"
+msgstr ""
+"Как да промените ориентацията на страничната лента за отделна страница или "
+"публикация"
+
+#: inc/option/set.php:173
+msgid "Import in one click full demo versions of sites"
+msgstr "Импортирайте пълни демо версии на сайтове с едно щракване"
+
+#: inc/option/set.php:175
+msgid "How to reset theme settings"
+msgstr "Как да нулирате настройките на темата"
+
+#: inc/option/set.php:177
+msgid "Why do you need a child theme"
+msgstr "Защо ви е необходима детска тема"
+
+#: inc/option/set.php:179
+msgid "Plugin for inserting your own functions"
+msgstr "Плъгин за вмъкване на ваши собствени функции"
+
+#: inc/option/set.php:229
+msgid ""
+"All settings of the front part of the theme are located in the visual editor"
+msgstr ""
+"Всички настройки на предната част на темата се намират във визуалния редактор"
+
+#: inc/option/set.php:230
+msgid "Open"
+msgstr "Отворен"
+
+#: inc/option/set.php:233
+msgid "Visual Customizer Quick Links"
+msgstr "Бързи връзки за визуален персонализатор"
+
+#: inc/option/set.php:241
+msgid "Common colors"
+msgstr "Често срещани цветове"
+
+#: inc/option/set.php:259
+msgid "Sidebar settings"
+msgstr "Настройки на страничната лента"
+
+#: inc/option/set.php:280
+msgid "Expert settings of the administrative part of the theme"
+msgstr "Експертни настройки на административната част на темата"
+
+#: inc/option/set.php:303
+msgid "Quick Links"
+msgstr "Бързи линкове"
+
+#: inc/option/set.php:305
+msgid "Home page customizer"
+msgstr "Персонализатор на началната страница"
+
+#: inc/option/set.php:306
+msgid "Megamenu customizer"
+msgstr "Персонализатор на мегаменю"
+
+#: inc/option/set.php:310
+msgid "Reset settings and Apply presets"
+msgstr ""
+"Нулиране на настройките и прилагане на предварително зададени настройки"
+
+#: inc/option/set.php:311
+msgid "Import full demo"
+msgstr "Импортиране на пълна демонстрация"
+
+#: inc/option/set.php:367
+msgid "Technical support"
+msgstr "Техническа поддръжка"
+
+#: inc/option/set.php:380
+#, php-format
+msgid "Additional support for %s subscriptions"
+msgstr "Допълнителна поддръжка за %s абонаменти"
+
+#: inc/option/set.php:393
+msgid "Removing extra image sizes"
+msgstr "Премахване на допълнителни размери на изображенията"
+
+#: inc/option/set.php:401 inc/option/set.php:411 inc/option/set.php:421
+#: inc/option/set.php:431 inc/option/set.php:441
+#, php-format
+msgid "Remove image slicing for %s"
+msgstr "Премахване на нарязването на изображението за %s"
+
+#: inc/option/set.php:411 inc/option/set.php:441
+#, php-format
+msgid "aka \"%s\""
+msgstr "известен още като „%s“"
+
+#: inc/option/set.php:458
+msgid "Images format"
+msgstr "Формат на изображенията"
+
+#: inc/option/set.php:466
+msgid "Choose which images to use for the entire site"
+msgstr "Изберете кои изображения да използвате за целия сайт"
+
+#: inc/option/set.php:482
+msgid "Avatar for users"
+msgstr "Аватар за потребители"
+
+#: inc/option/set.php:490
+msgid "Change avatar (default) for users without an avatar"
+msgstr "Промяна на аватара (по подразбиране) за потребители без аватар"
+
+#: inc/option/set.php:537
+msgid "Avatar URL (only external address), demo - "
+msgstr "URL адрес на аватара (само външен адрес), демо - "
+
+#: inc/option/set.php:553
+#, php-format
+msgid ""
+"When uploading an image to the media library, %s cuts many sizes from one "
+"image."
+msgstr ""
+"Когато качва изображение в медийната библиотека, %s изрязва много размери от "
+"едно изображение."
+
+#: inc/option/set.php:554
+msgid ""
+"All these files take up a huge amount of space, while some of them are not "
+"used at all."
+msgstr ""
+"Всички тези файлове заемат огромно количество място, а някои от тях изобщо "
+"не се използват."
+
+#: inc/option/set.php:555
+msgid ""
+"The presented settings allow you to remove from the slicing the largest "
+"sizes that are not used in this theme."
+msgstr ""
+"Представените настройки ви позволяват да премахнете от нарязването най-"
+"големите размери, които не се използват в тази тема."
+
+#: inc/option/set.php:556 inc/option/set.php:605
+#, php-format
+msgid ""
+"It is important to know! These settings cannot delete or modify existing "
+"image files. Slicing of images occurs at the time of uploading a new image "
+"to the %s media library."
+msgstr ""
+"Важно е да знаете! Тези настройки не могат да изтриват или променят "
+"съществуващи файлове с изображения. Нарязването на изображенията се извършва "
+"по време на качването на ново изображение в медийната библиотека на %s."
+
+#: inc/option/set.php:562
+msgid ""
+"The size is registered by this theme. Used only when \"Full width website\" "
+"is set."
+msgstr ""
+"Размерът е регистриран от тази тема. Използва се само когато е зададено "
+"„Уебсайт с пълна ширина“."
+
+#: inc/option/set.php:568
+#, php-format
+msgid ""
+"The size is registered by %s itself. Can be used by this theme when 1920 x "
+"1080 is disabled and set to Full Screen."
+msgstr ""
+"Размерът е регистриран от самия %s. Може да се използва от тази тема, когато "
+"резолюцията 1920 x 1080 е деактивирана и е зададена на Цял екран."
+
+#: inc/option/set.php:574 inc/option/set.php:580 inc/option/set.php:586
+#, php-format
+msgid "The size is registered by %s itself. Not used in this theme."
+msgstr "Размерът е регистриран от самия %s. Не се използва в тази тема."
+
+#: inc/option/set.php:599
+msgid ""
+"The theme creates multiple thumbnail sizes in a single 16x9 format and uses "
+"optimal sizes in the right places. This has a good effect on loading speed "
+"and proper display in a unified style."
+msgstr ""
+"Темата създава множество размери на миниатюри в един формат 16x9 и използва "
+"оптимални размери на правилните места. Това има добър ефект върху скоростта "
+"на зареждане и правилното показване в унифициран стил."
+
+#: inc/option/set.php:600
+msgid "You can change this setting to control the size of the images yourself."
+msgstr ""
+"Можете сами да промените тази настройка, за да контролирате размера на "
+"изображенията."
+
+#: inc/option/set.php:602 inc/option/set.php:604
+#, php-format
+msgid "%s sizes"
+msgstr "%s размера"
+
+#: inc/option/set.php:606
+msgid "To change old pictures, use the thumbnail regeneration plugin."
+msgstr ""
+"За да промените стари снимки, използвайте плъгина за регенериране на "
+"миниатюри."
+
+#: inc/usability.php:26 inc/usability.php:39 inc/usability.php:52
+#: inc/usability.php:64 inc/usability.php:99
+msgid "Widget example"
+msgstr "Пример за уиджет"
+
+#: inc/usability.php:52 inc/usability.php:99
+msgid "Archives"
+msgstr "Архиви"
+
+#: inc/usability.php:64
+msgid "Tag cloud"
+msgstr "Облак от тагове"
+
+#: inc/usability.php:81 inc/usability.php:116 inc/usability.php:136
+msgid "Widget"
+msgstr "Джаджа"
+
+#: inc/usability.php:136
+msgid "Calendar"
+msgstr "Календар"
+
+#: search.php:20
+#, php-format
+msgid "Search results for: %s"
+msgstr "Резултати от търсенето за: %s"
+
+#: template-parts/content-autor.php:27
+msgid "Author photo"
+msgstr "Снимка на автора"
+
+#: template-parts/content-autor.php:77
+msgid "Latest posts (Author)"
+msgstr "Последни публикации (Автор)"
+
+#: template-parts/content-next-post.php:22
+msgid "Previous post"
+msgstr "Предишна публикация"
+
+#: template-parts/content-next-post.php:51
+msgid "Next post"
+msgstr "Следваща публикация"
+
+#: template-parts/content-none.php:13
+msgid "Site not ready"
+msgstr "Сайтът не е готов"
+
+#: template-parts/content-none.php:15
+msgid "Nothing found"
+msgstr "Няма резултати"
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Start here</a>."
+msgstr ""
+"Готови ли сте да публикувате първата си публикация? <a "
+"href=\"%1$s\">Започнете оттук</a> ."
+
+#: template-parts/content-none.php:36
+msgid "Nothing matched your search terms. Try other keywords."
+msgstr ""
+"Нищо не съответства на вашите ключови думи. Опитайте с други ключови думи."
+
+#: template-parts/content-none.php:93
+msgid "We cannot find what you are looking for. Try using search."
+msgstr ""
+"Не можем да намерим това, което търсите. Опитайте да използвате търсенето."
+
+#: template-parts/content-page.php:58
+msgid "Pages:"
+msgstr "Страници:"
+
+#: template-parts/content-page.php:69 template-parts/content-single.php:108
+#, php-format
+msgid "Edit %s"
+msgstr "Редактирай %s"
+
+#: template-parts/content-single.php:83
+msgid "Posts:"
+msgstr "Публикации:"
+
+#: templates/template-new-posts.php:10
+msgid "New Posts"
+msgstr "Нови публикации"
+
+#: templates/template-site-map.php:10
+msgid "Site Map"
+msgstr "Карта на сайта"
+
+#: vendor/freemius/assets/js/pricing/freemius-pricing.js:2
+msgid "display"
+msgstr "показване"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Инсталиране на необходимите разширения"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Инсталиране на Разширения"
+
+#. translators: %s: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Инсталиране на разширение: %s"
+
+#. translators: %s: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Обновяване на разширение: %s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Нещо се обърка с API ключа на разширението."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Тази тема изисква следната приставка: %1$s."
+msgstr[1] "Тази тема изисква следните приставки: %1$s."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Тази тема препоръчва следната приставка: %1$s."
+msgstr[1] "Тази тема препоръчва следните приставки: %1$s."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Следната приставка трябва да бъде актуализирана до последна версия, за да се "
+"осигури максимална съвместимост с тази тема: %1$s."
+msgstr[1] ""
+"Следните приставки трябва да бъдат актуализирани до последна версия, за да "
+"се осигури максимална съвместимост с тази тема: %1$s."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Има налична актуализация за: %1$s."
+msgstr[1] "Има налични актуализации за: %1$s."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Следното необходимо разширение не е активно: %1$s."
+msgstr[1] "Следните необходими разширения не са активни: %1$s."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Следното препоръчително разширение в момента не е активно:%1$s."
+msgstr[1] "Следните препоръчителни разширения в момента не са активни:%1$s."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Започнете да инсталирате плъгина"
+msgstr[1] "Започнете да инсталирате плъгините"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Започнете актуализирането на плъгина"
+msgstr[1] "Започнете актуализирането на плъгините"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Активиране на разширението"
+msgstr[1] "Започни активиране на разширенията"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Върни се в инсталиране на задължителните разширения"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:386
+#: vendor/tgm/class-tgm-plugin-activation.php:827
+#: vendor/tgm/class-tgm-plugin-activation.php:2533
+#: vendor/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Върни се в Таблото"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:387
+#: vendor/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Разширението е активирано успешно."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully - "
+msgstr "Следният плъгин беше активиран успешно - "
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Няма предприето действие. Разширението %1$s  вече е активирано."
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Разширението не е активирано. Необходима е по-висока версия на %s за темата. "
+"Моля, обновете разширението."
+
+#. translators: 1: dashboard link.
+#: vendor/tgm/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Всички разширения са инсталирани и активирани успешно. %1$s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Отхвърли съобщението"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Има едно или повече задължителни или препоръчителни разширения за "
+"инсталиране, обновяване или активиране."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Моля, свържете се с администратора на този сайт за помощ."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Разширението се нуждае от обновление, за да е съвместимо с темата."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Изисква се обновяване"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Дистанционния пакет на разширението не съдържа папка с желания слуг и "
+"преименуването не сработи."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:934
+#: vendor/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Моля, свържете се с автора на разширението и попитайте за пакет на "
+"разширението според изискванията на WordPress."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Дистанционния пакет на разширението съдържа повече от един файл, но не са "
+"пакетирани в обща папка."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:1121
+#: vendor/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "и"
+
+#. translators: %s: version number
+#: vendor/tgm/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Задължително"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Препоръчително"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress Хранилище"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Външен източник"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Предварително опаковано"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Не е инсталирано"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Инсталиран, но не е активиран"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Активно"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Изискваното обновление не е налично"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Изисква обновление"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Препоръчва обновление"
+
+#. translators: 1: install status, 2: update status
+#: vendor/tgm/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Всички <span class=“count”>(%s)</span>"
+msgstr[1] "Всички <span class=“count”>(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "За да инсталирате <span class=\"count\">(%s)</span>"
+msgstr[1] "За да инсталирате <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Налична Актуализация <span class=\"count\">(%s)</span>"
+msgstr[1] "Налична Актуализация <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "За да активирате <span class=\"count\">(%s)</span>"
+msgstr[1] "За да активирате <span class=\"count\">(%s)</span>"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "неизвестен"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Инсталирана версия:"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Миниално изискуема версия:"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Налична версия:"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Няма разширения за инсталиране, обновяване или активиране."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Разширение"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Източник"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Тип"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Версия"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Статус"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgm/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "Инсталирай %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgm/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "Обнови %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgm/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "Активирай %2$s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Съобщение за обновяване от автора на плъгина:"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Инсталирай"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Обновяване"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Няма избрани разширения за инсталиране. Няма предприети действия."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Няма избрани разширения за обновление. Няма предприети действия."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Няма налични разширения за инсталиране за момента."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Няма налични разширения за обновление за момента."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Няма избрани разширения за активиране. Няма предприети действия."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Няма налични разширения за активиране в момента."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Следният плъгин бе активиран успешно:"
+msgstr[1] "Следните плъгини бяха активирани успешно:"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Проблем с активирането на разширението."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgm/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновяване на разширението %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: vendor/tgm/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Възникна грешка при инсталирането на %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Проблем с инсталацията на %1$s."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Стартиран е процес на инсталиране и активиране. Процеса може да отнеме "
+"известно време в зависимост от хостинг доставчика. Имайте търпение."
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s Инсталирано и активирано успешно."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3509
+#: vendor/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Покажи детайли"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3509
+#: vendor/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Скрии детайли"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Всички инсталации и активации приключиха."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgm/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Инсталиране и активиране на разширението %1$s (%2$d/%3$d)"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Стартиран е процес на инсталиране и активиране. За различните хостинг "
+"доставчици отнема различно време, моля изчакайте."
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s инсталиран успешно."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Всички инсталации приключиха."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgm/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Инсталиране на разширението %1$s (%2$d/%3$d)"
+
+#: woocommerce/loop/no-products-found.php:22
+msgid "No products were found matching your selection."
+msgstr "Не са открити продукти които отговарят на избраните критерии."
+
+#. Theme Name of the plugin/theme
+msgid "Bado Blog"
+msgstr "Bado Blog"
+
+#. Theme URI of the plugin/theme
+msgid "https://web-zone.org/bado-blog"
+msgstr "https://web-zone.org/bado-blog"
+
+#. Author of the plugin/theme
+msgid "DMCWebZone"
+msgstr "DMCWebZone"
+
+#. Author URI of the plugin/theme
+msgid "https://web-zone.org"
+msgstr "https://web-zone.org"
+
+#~ msgid "Social link"
+#~ msgstr "Социална връзка"

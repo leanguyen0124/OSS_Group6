@@ -1,0 +1,5647 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bado Blog\n"
+"POT-Creation-Date: 2026-07-15 11:35+0700\n"
+"PO-Revision-Date: 2026-07-15 11:35+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ur_PK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:14
+msgid "Unfortunately! This page cannot be found."
+msgstr "بدقسمتی سے! یہ صفحہ نہیں مل سکتا۔"
+
+#: 404.php:21
+msgid ""
+"Nothing was found at this location. Try one of the links below or use the "
+"search."
+msgstr ""
+"اس مقام پر کچھ نہیں ملا۔ نیچے دیئے گئے لنکس میں سے ایک کو آزمائیں یا تلاش کا "
+"استعمال کریں۔"
+
+#: 404.php:41 template-parts/content-none.php:54
+msgid "Most popular categories"
+msgstr "سب سے زیادہ مقبول زمرے"
+
+#: 404.php:62 template-parts/content-none.php:75
+#, php-format
+msgid "Try searching the monthly archives. %1$s"
+msgstr "ماہانہ آرکائیوز تلاش کرنے کی کوشش کریں۔ %1$s"
+
+#: archive.php:90 inc/admin/customizer.php:3467
+#: inc/function-customizer.php:10228 template-parts/home/home-article.php:79
+msgid "Show more"
+msgstr "مزید دکھائیں"
+
+#: archive.php:102 template-parts/home/home-article.php:91
+#: templates/template-new-posts.php:64
+msgid "Previous posts"
+msgstr "پچھلی پوسٹس"
+
+#: archive.php:105 template-parts/home/home-article.php:94
+#: templates/template-new-posts.php:65
+msgid "Next posts"
+msgstr "اگلی پوسٹس"
+
+#: archive.php:120
+msgid "There are no posts in this category. Perhaps a search will help."
+msgstr "اس زمرے میں کوئی پوسٹس نہیں ہیں۔ شاید تلاش میں مدد ملے گی۔"
+
+#: comments.php:20
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "\"%1$s\" پر ایک خیال"
+
+#: comments.php:25
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s نے \"%2$s\" پر سوچا"
+msgstr[1] "\"%2$s\" پر %1$s خیالات"
+
+#: comments.php:39 comments.php:59
+msgid "Old comments"
+msgstr "پرانے تبصرے۔"
+
+#: comments.php:40 comments.php:60
+msgid "Latest comments"
+msgstr "تازہ ترین تبصرے"
+
+#: comments.php:72
+msgid "Comments closed"
+msgstr "تبصرے بند"
+
+#: functions.php:69
+msgid "Contact"
+msgstr "رابطہ کریں۔"
+
+#: functions.php:70
+msgid "Account"
+msgstr "کھاتہ"
+
+#: functions.php:71
+msgid "Pricing"
+msgstr "قیمتوں کا تعین"
+
+#: functions.php:72
+msgid "Upgrade"
+msgstr "اپ گریڈ کریں۔"
+
+#: functions.php:73
+msgid "Add-Ons"
+msgstr "ایڈ آنز"
+
+#: functions.php:74
+msgid "Affiliate program"
+msgstr "ملحق پروگرام"
+
+#: functions.php:78
+msgid ""
+"Bado Blog is a cool, modern multipurpose WordPress theme with many free "
+"settings to create a responsive, fast, SEO optimized website that is easy to "
+"modify with a visual customizer. Bado Blog is well suited for magazines, "
+"personal blogs, article sites, news, and media. Translated into 20+ "
+"languages. Easy to use without coding knowledge. Good flexibility and "
+"functionality - multiple site width options (with full-width option), change "
+"sidebar orientation (left, right, or no sidebar), category grids with "
+"vertical and horizontal posts of various sizes, flexible header with logo, "
+"social link builder, ticker, 4 menu locations, main menu (mega menu), "
+"breadcrumbs, three pagination options, author block, related posts block, "
+"and styled widgets. Powerful Typography – change font size and line height, "
+"choose font designs, color typography for posts and pages. Clean code, no "
+"frameworks, minimum scripts. Good adaptability for any mobile devices. SEO-"
+"optimized with correct headings and markup. Adaptation for WooCommerce, "
+"Elementor, bbPress, Events Calendar, Jetpack, WPML, Contact Form 7, and "
+"Newsletter. Demo – web-zone.org/bado-blog"
+msgstr ""
+"BadoBlog ایک بہترین، جدید کثیر مقصدی ورڈپریس تھیم ہے جس میں بہت سی مفت "
+"سیٹنگز ہیں تاکہ ایک ریسپانسیو، تیز، SEO آپٹیمائزڈ ویب سائٹ بنائی جا سکے جسے "
+"بصری کسٹمائزر کے ساتھ تبدیل کرنا آسان ہے۔ BadoBlog رسالوں، ذاتی بلاگز، "
+"آرٹیکل سائٹس، خبروں اور میڈیا کے لیے موزوں ہے۔ 20+ زبانوں میں ترجمہ کیا گیا۔ "
+"کوڈنگ علم کے بغیر استعمال میں آسان۔ اچھی لچک اور فعالیت - ایک سے زیادہ سائٹ "
+"کی چوڑائی کے اختیارات (مکمل چوڑائی کے اختیارات کے ساتھ)، سائڈبار کی سمت بندی "
+"(بائیں، دائیں، یا کوئی سائڈبار نہیں) تبدیل کریں، مختلف سائز کی عمودی اور "
+"افقی پوسٹس کے ساتھ زمرہ گرڈ، لوگو کے ساتھ لچکدار ہیڈر، سوشل لنک بلڈر، ٹکر، 4 "
+"مینو مقامات، مین مینو (میگا بلاک مینو، تین بلاک مینو، مصنفین کے ساتھ متعلقہ "
+"پوسٹس)۔ بلاک، اور اسٹائل شدہ ویجٹ۔ طاقتور ٹائپوگرافی - فونٹ کا سائز اور لائن "
+"کی اونچائی کو تبدیل کریں، فونٹ ڈیزائن کا انتخاب کریں، پوسٹس اور صفحات کے لیے "
+"رنگین نوع ٹائپ کریں۔ صاف کوڈ، کوئی فریم ورک، کم از کم سکرپٹ. کسی بھی موبائل "
+"آلات کے لیے اچھی موافقت۔ صحیح عنوانات اور مارک اپ کے ساتھ SEO کو بہتر بنایا "
+"گیا۔ WooCommerce، Elementor، bbPress، EventsCalendar، Jetpack، WPML، Contact "
+"Form 7، اور Newsleter کے لیے موافقت۔\n"
+"Demo – web-zone.org/bado-blog"
+
+#: header.php:20
+msgid "Skip to main content"
+msgstr "مرکزی مواد پر جائیں۔"
+
+#: inc/adaptation/function-woo.php:717 inc/adaptation/function-woo.php:738
+msgid "View your shopping cart"
+msgstr "اپنی شاپنگ کارٹ دیکھیں"
+
+#: inc/adaptation/function-woo.php:734
+msgid "Your order"
+msgstr "آپ کے حکم"
+
+#: inc/adaptation/function-woo.php:827
+#: woocommerce/loop/no-products-found.php:25
+msgid "Popular products"
+msgstr "مقبول مصنوعات"
+
+#: inc/adaptation/function-woo.php:842
+msgid "Not available"
+msgstr "دستیاب نہیں ہے"
+
+#: inc/adaptation/function-woo.php:897 inc/admin/customizer.php:7934
+#: inc/admin/customizer.php:7940
+msgid "Shop"
+msgstr "دکان"
+
+#: inc/admin/customizer.php:15
+#, php-format
+msgid "Advanced settings (%s)"
+msgstr "اعلی درجے کی ترتیبات (%s)"
+
+#: inc/admin/customizer.php:16 inc/general.php:254
+msgid "default"
+msgstr "پہلے سے طے شدہ"
+
+#: inc/admin/customizer.php:17 inc/admin/function-panel-color.php:971
+msgid "Default"
+msgstr "طے شدہ"
+
+#: inc/admin/customizer.php:18
+msgid "on hover"
+msgstr "کرسر کے ساتھ اشارہ کرتے وقت"
+
+#: inc/admin/customizer.php:103 inc/option/set.php:238
+msgid "Template orientation"
+msgstr "ٹیمپلیٹ واقفیت"
+
+#: inc/admin/customizer.php:115
+msgid "Sidebar orientation on the entire site"
+msgstr "پوری سائٹ پر سائڈبار واقفیت"
+
+#: inc/admin/customizer.php:119 inc/admin/customizer.php:139
+#: templates/page-right-sidebar-featured-1.php:11
+#: templates/page-right-sidebar-featured-2.php:11
+#: templates/page-right-sidebar.php:11
+#: templates/post-right-sidebar-featured-1.php:11
+#: templates/post-right-sidebar-featured-2.php:11
+#: templates/post-right-sidebar.php:11
+msgid "Right sidebar"
+msgstr "دائیں سائڈبار"
+
+#: inc/admin/customizer.php:120 inc/admin/customizer.php:140
+#: templates/page-left-sidebar-featured-1.php:11
+#: templates/page-left-sidebar-featured-2.php:11
+#: templates/page-left-sidebar.php:11
+#: templates/post-left-sidebar-featured-1.php:11
+#: templates/post-left-sidebar-featured-2.php:11
+#: templates/post-left-sidebar.php:11
+msgid "Left sidebar"
+msgstr "بائیں سائڈبار"
+
+#: inc/admin/customizer.php:121 inc/admin/customizer.php:141
+#: inc/admin/function-panel-reset.php:2484 templates/page-nosidebar-full.php:11
+#: templates/post-nosidebar-full.php:11
+msgid "No sidebar (full width)"
+msgstr "کوئی سائڈبار نہیں (مکمل چوڑائی)"
+
+#: inc/admin/customizer.php:122 inc/admin/customizer.php:142
+#: inc/admin/function-panel-reset.php:2485
+#: templates/page-nosidebar-center.php:11
+#: templates/post-nosidebar-center.php:11
+msgid "No sidebar (center)"
+msgstr "کوئی سائڈبار نہیں (مرکز)"
+
+#: inc/admin/customizer.php:135
+msgid "Sidebar orientation on main page"
+msgstr "مرکزی صفحہ پر سائڈبار واقفیت"
+
+#: inc/admin/customizer.php:164
+msgid "Site width"
+msgstr "سائٹ کی چوڑائی"
+
+#: inc/admin/customizer.php:171 inc/admin/customizer.php:3506
+#: inc/admin/customizer.php:5932 inc/admin/customizer.php:6207
+msgid "Full width"
+msgstr "مکمل چوڑائی"
+
+#: inc/admin/customizer.php:178
+msgid "Add margin at the top and bottom of the site (PC version only)"
+msgstr "سائٹ کے اوپر اور نیچے مارجن شامل کریں (صرف پی سی ورژن)"
+
+#: inc/admin/customizer.php:193
+msgid "Top margin"
+msgstr "اوپر مارجن"
+
+#: inc/admin/customizer.php:197 inc/admin/customizer.php:220
+#: inc/admin/customizer.php:696 inc/admin/customizer.php:958
+#: inc/admin/customizer.php:1788 inc/admin/customizer.php:3293
+#: inc/admin/customizer.php:3398 inc/admin/customizer.php:4068
+#: inc/admin/customizer.php:4203 inc/admin/function-panel-home.php:219
+#: inc/admin/function-panel-xlmega.php:350
+msgid "Off"
+msgstr "بند"
+
+#: inc/admin/customizer.php:216
+msgid "Bottom margin"
+msgstr "نیچے مارجن"
+
+#: inc/admin/customizer.php:240 inc/admin/function-panel-color.php:790
+#: inc/option/set.php:309
+msgid "Color schemes"
+msgstr "رنگ سکیمیں"
+
+#: inc/admin/customizer.php:250
+msgid "General colors"
+msgstr "عام رنگ"
+
+#: inc/admin/customizer.php:256
+msgid "Background color of the entire area"
+msgstr "پورے علاقے کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:268
+msgid ""
+"This section contains general colors that affect the whole site. After that, "
+"you can make additional settings in other sections to specify individual "
+"colors for each module."
+msgstr ""
+"اس حصے میں عام رنگ ہیں جو پوری سائٹ کو متاثر کرتے ہیں۔ اس کے بعد، آپ ہر "
+"ماڈیول کے لیے انفرادی رنگوں کی وضاحت کرنے کے لیے دوسرے حصوں میں اضافی "
+"ترتیبات بنا سکتے ہیں۔"
+
+#: inc/admin/customizer.php:297
+msgid "Background color of large elements"
+msgstr "بڑے عناصر کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:298
+msgid "(Titles, breadcrumbs, footer and widget titles)"
+msgstr "(عنوان، بریڈ کرمب، فوٹر اور ویجیٹ کے عنوانات)"
+
+#: inc/admin/customizer.php:312
+msgid "Secondary color for large elements"
+msgstr "بڑے عناصر کے لیے ثانوی رنگ"
+
+#: inc/admin/customizer.php:326
+msgid "Color of small elements"
+msgstr "چھوٹے عناصر کا رنگ"
+
+#: inc/admin/customizer.php:327
+msgid "(Buttons, icons, lines and other design elements)"
+msgstr "(بٹن، شبیہیں، لائنیں اور دیگر ڈیزائن عناصر)"
+
+#: inc/admin/customizer.php:341
+msgid "Secondary color for small elements"
+msgstr "چھوٹے عناصر کے لیے ثانوی رنگ"
+
+#: inc/admin/customizer.php:357 inc/admin/customizer.php:372
+msgid "General color for links"
+msgstr "روابط کے لیے عمومی رنگ"
+
+#: inc/admin/customizer.php:386
+msgid "General text color"
+msgstr "عام متن کا رنگ"
+
+#: inc/admin/customizer.php:400
+msgid "Titles text general color"
+msgstr "عنوانات کے متن کا عمومی رنگ"
+
+#: inc/admin/customizer.php:414
+msgid "Site header background color"
+msgstr "سائٹ ہیڈر کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:428
+msgid "Site body background color"
+msgstr "سائٹ کے جسم کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:462
+msgid "Site fill color"
+msgstr "سائٹ بھرنے کا رنگ"
+
+#: inc/admin/customizer.php:475 inc/option/set.php:244
+msgid "General typography"
+msgstr "عام نوع ٹائپ"
+
+#: inc/admin/customizer.php:487
+msgid "General text font"
+msgstr "عام ٹیکسٹ فونٹ"
+
+#: inc/admin/customizer.php:501
+msgid "Overall text size"
+msgstr "مجموعی طور پر متن کا سائز"
+
+#: inc/admin/customizer.php:515
+msgid "Total line height of text"
+msgstr "متن کی کل لائن اونچائی"
+
+#: inc/admin/customizer.php:539
+msgid "General heading font"
+msgstr "جنرل ہیڈنگ فونٹ"
+
+#: inc/admin/customizer.php:553 inc/admin/customizer.php:566
+#: inc/admin/customizer.php:579 inc/admin/customizer.php:592
+#: inc/admin/customizer.php:605 inc/admin/customizer.php:618
+msgid "Total heading size"
+msgstr "کل سرخی کا سائز"
+
+#: inc/admin/customizer.php:631
+msgid "Overall titles line height"
+msgstr "مجموعی طور پر عنوانات کی لکیر کی اونچائی"
+
+#: inc/admin/customizer.php:664 inc/option/set.php:268
+msgid "Top part"
+msgstr "اوپر والا حصہ"
+
+#: inc/admin/customizer.php:679
+msgid "Top bar"
+msgstr "ٹاپ بار"
+
+#: inc/admin/customizer.php:692
+msgid "Display option (Ticker or Date)"
+msgstr "ڈسپلے آپشن (ٹکر یا تاریخ)"
+
+#: inc/admin/customizer.php:697
+msgid "Ticker"
+msgstr "ٹکر"
+
+#: inc/admin/customizer.php:698 inc/admin/customizer.php:905
+msgid "Date"
+msgstr "تاریخ"
+
+#: inc/admin/customizer.php:710
+msgid "Proportion of width occupied by top menu"
+msgstr "چوڑائی کا تناسب جس پر اوپر والے مینو نے قبضہ کیا ہے۔"
+
+#: inc/admin/customizer.php:729
+msgid "Ticker display variations"
+msgstr "ٹکر ڈسپلے کی مختلف حالتیں۔"
+
+#: inc/admin/customizer.php:733 inc/admin/customizer.php:6670
+#: inc/admin/customizer.php:6677
+msgid "Category"
+msgstr "موضوع"
+
+#: inc/admin/customizer.php:734
+msgid "Custom"
+msgstr "مخصوص"
+
+#: inc/admin/customizer.php:747
+msgid "Ticker name"
+msgstr "ٹکر کا نام"
+
+#: inc/admin/customizer.php:761
+msgid "Ticker link"
+msgstr "ٹکر لنک"
+
+#: inc/admin/customizer.php:768 inc/admin/customizer.php:2362
+#: inc/admin/function-panel-xlmega.php:341
+#: inc/admin/function-panel-xlmega.php:351
+msgid "All categories"
+msgstr "تمام زمرے"
+
+#: inc/admin/customizer.php:778
+msgid "Category where the ticker comes from"
+msgstr "وہ زمرہ جہاں سے ٹکر آتا ہے۔"
+
+#: inc/admin/customizer.php:779
+msgid ""
+"Ticker is taken from the title of the last entry in the selected category"
+msgstr "ٹکر منتخب زمرے میں آخری اندراج کے عنوان سے لیا گیا ہے۔"
+
+#: inc/admin/customizer.php:794 inc/admin/customizer.php:2387
+#: inc/admin/function-panel-home.php:100
+#: inc/admin/function-panel-xlmega.php:145
+msgid "Post sorting"
+msgstr "پوسٹ چھانٹنا"
+
+#: inc/admin/customizer.php:798 inc/admin/customizer.php:2391
+#: inc/admin/function-panel-home.php:102
+#: inc/admin/function-panel-xlmega.php:147
+msgid "By publication date"
+msgstr "اشاعت کی تاریخ کے مطابق"
+
+#: inc/admin/customizer.php:799 inc/admin/customizer.php:2392
+#: inc/admin/function-panel-home.php:103
+#: inc/admin/function-panel-xlmega.php:148
+msgid "By date modified"
+msgstr "ترمیم شدہ تاریخ کے مطابق"
+
+#: inc/admin/customizer.php:800 inc/admin/customizer.php:2393
+#: inc/admin/function-panel-home.php:104
+#: inc/admin/function-panel-xlmega.php:149
+msgid "By title"
+msgstr "عنوان سے"
+
+#: inc/admin/customizer.php:801 inc/admin/customizer.php:2394
+#: inc/admin/function-panel-home.php:105
+#: inc/admin/function-panel-xlmega.php:150
+msgid "By number of comments"
+msgstr "تبصروں کی تعداد کے لحاظ سے"
+
+#: inc/admin/customizer.php:802 inc/admin/customizer.php:2395
+#: inc/admin/function-panel-home.php:106
+#: inc/admin/function-panel-xlmega.php:151
+msgid "In random order"
+msgstr "بے ترتیب ترتیب میں"
+
+#: inc/admin/customizer.php:813 inc/admin/customizer.php:2406
+#: inc/admin/function-panel-home.php:113
+msgid "Number of posts available"
+msgstr "دستیاب پوسٹوں کی تعداد"
+
+#: inc/admin/customizer.php:825
+msgid "Ticker speed"
+msgstr "ٹکر کی رفتار"
+
+#: inc/admin/customizer.php:826
+msgid "Total time to scroll through all messages in seconds"
+msgstr "تمام پیغامات کو سیکنڈوں میں اسکرول کرنے کا کل وقت"
+
+#: inc/admin/customizer.php:839
+msgid "Scroll ticker endlessly"
+msgstr "لامتناہی طور پر ٹکر سکرول کریں۔"
+
+#: inc/admin/customizer.php:854 inc/admin/customizer.php:4421
+#: inc/admin/customizer.php:4584 inc/admin/customizer.php:5368
+msgid "Text color"
+msgstr "متن کا رنگ"
+
+#: inc/admin/customizer.php:867 inc/admin/customizer.php:1124
+#: inc/admin/customizer.php:1138 inc/admin/customizer.php:2029
+#: inc/admin/customizer.php:2536 inc/admin/customizer.php:2642
+#: inc/admin/customizer.php:4613 inc/admin/customizer.php:4815
+#: inc/admin/customizer.php:5016 inc/admin/customizer.php:5030
+#: inc/admin/customizer.php:5044 inc/admin/customizer.php:5058
+#: inc/admin/customizer.php:5112 inc/admin/customizer.php:6522
+msgid "Text size"
+msgstr "متن کا سائز"
+
+#: inc/admin/customizer.php:881 inc/admin/customizer.php:2044
+msgid "Uppercase text"
+msgstr "بڑے حرف کا متن"
+
+#: inc/admin/customizer.php:894
+msgid "Where to get the date"
+msgstr "تاریخ کہاں سے ملے گی۔"
+
+#: inc/admin/customizer.php:898
+msgid "Set settings here"
+msgstr "یہاں سیٹنگز سیٹ کریں۔"
+
+#: inc/admin/customizer.php:899
+#, php-format
+msgid "From %s settings"
+msgstr "%s ترتیبات سے"
+
+#: inc/admin/customizer.php:906
+msgid "Month"
+msgstr "مہینہ"
+
+#: inc/admin/customizer.php:907
+msgid "Year"
+msgstr "سال"
+
+#: inc/admin/customizer.php:916
+msgid "Date format"
+msgstr "تاریخ کی شکل"
+
+#: inc/admin/customizer.php:934
+msgid "Separator between numbers"
+msgstr "اعداد کے درمیان الگ کرنے والا"
+
+#: inc/admin/customizer.php:938
+msgid "Spaces"
+msgstr "خالی جگہیں"
+
+#: inc/admin/customizer.php:939
+msgid "Dash"
+msgstr "ڈیش"
+
+#: inc/admin/customizer.php:940
+msgid "Dot"
+msgstr "ڈاٹ"
+
+#: inc/admin/customizer.php:941
+msgid "Slash"
+msgstr "سلیش"
+
+#: inc/admin/customizer.php:942
+msgid "Vertical line"
+msgstr "عمودی لکیر"
+
+#: inc/admin/customizer.php:954
+msgid "Display weeks"
+msgstr "ہفتے ڈسپلے کریں۔"
+
+#: inc/admin/customizer.php:959
+msgid "Before"
+msgstr "اس سے پہلے"
+
+#: inc/admin/customizer.php:960
+msgid "After"
+msgstr "کے بعد"
+
+#: inc/admin/customizer.php:972
+msgid "Month in letters"
+msgstr "حروف میں مہینہ"
+
+#: inc/admin/customizer.php:985
+msgid "Display year"
+msgstr "ڈسپلے سال"
+
+#: inc/admin/customizer.php:1006 inc/admin/function-panel-reset.php:2489
+#: inc/module/top-menu.php:75 inc/option/set.php:250
+msgid "Top menu"
+msgstr "ٹاپ مینو"
+
+#: inc/admin/customizer.php:1021
+msgid "Disable top menu"
+msgstr "ٹاپ مینو کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:1036
+msgid "Links color (outside)"
+msgstr "لنکس کا رنگ (باہر)"
+
+#: inc/admin/customizer.php:1037
+msgid "Default - general color for links"
+msgstr "پہلے سے طے شدہ - لنکس کے لیے عمومی رنگ"
+
+#: inc/admin/customizer.php:1051 inc/admin/customizer.php:1065
+msgid "Color of links in dropdown menu"
+msgstr "ڈراپ ڈاؤن مینو میں لنکس کا رنگ"
+
+#: inc/admin/customizer.php:1079
+msgid "Dropdown menu background color"
+msgstr "ڈراپ ڈاؤن مینو کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:1093
+msgid "Background color for dropdown menu links"
+msgstr "ڈراپ ڈاؤن مینو لنکس کے لیے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:1138
+msgid "small screens"
+msgstr "چھوٹی اسکرینیں"
+
+#: inc/admin/customizer.php:1170
+msgid "Move social links in the header over the image"
+msgstr "تصویر کے اوپر ہیڈر میں سماجی روابط منتقل کریں۔"
+
+#: inc/admin/customizer.php:1171 inc/admin/customizer.php:1805
+msgid ""
+"(For this to work, you need to activate social links in the \"Social Links\" "
+"section)"
+msgstr ""
+"(اس کے کام کرنے کے لیے، آپ کو \"سوشل لنکس\" سیکشن میں سوشل لنکس کو چالو کرنے "
+"کی ضرورت ہے)"
+
+#: inc/admin/customizer.php:1186
+msgid "Enable effect (live picture)"
+msgstr "اثر کو فعال کریں (براہ راست تصویر)"
+
+#: inc/admin/customizer.php:1200
+msgid "Header image link"
+msgstr "ہیڈر تصویر کا لنک"
+
+#: inc/admin/customizer.php:1201
+msgid "This works when you click on the image"
+msgstr "جب آپ تصویر پر کلک کرتے ہیں تو یہ کام کرتا ہے۔"
+
+#: inc/admin/customizer.php:1228
+msgid "Fixed size logo"
+msgstr "فکسڈ سائز کا لوگو"
+
+#: inc/admin/customizer.php:1229
+msgid "Site title and description text color"
+msgstr "سائٹ کا عنوان اور تفصیل کے متن کا رنگ"
+
+#: inc/admin/customizer.php:1232
+#, php-format
+msgid "The selected image will be compressed to the optimal size %s"
+msgstr "منتخب کردہ تصویر کو بہترین سائز %s تک کمپریس کیا جائے گا۔"
+
+#: inc/admin/customizer.php:1233
+msgid ""
+"(If disabled, the title is hidden only visually. The entered text will "
+"continue to be present for the main page in h1 tags)"
+msgstr ""
+"(اگر غیر فعال ہو تو، عنوان صرف بصری طور پر چھپا ہوا ہے۔ درج کردہ متن h1 ٹیگز "
+"میں مرکزی صفحہ کے لیے موجود رہے گا)"
+
+#: inc/admin/customizer.php:1240 inc/option/set.php:247
+msgid "Title and logo"
+msgstr "عنوان اور لوگو"
+
+#: inc/admin/customizer.php:1255
+msgid "Title and logo design option"
+msgstr "ٹائٹل اور لوگو ڈیزائن آپشن"
+
+#: inc/admin/customizer.php:1275
+msgid "Fill or border color"
+msgstr "بھریں یا بارڈر کا رنگ"
+
+#: inc/admin/customizer.php:1289
+msgid "Add a dividing line between the title and description"
+msgstr "عنوان اور تفصیل کے درمیان تقسیم کرنے والی لائن شامل کریں۔"
+
+#: inc/admin/customizer.php:1303
+msgid "Title area width with logo"
+msgstr "لوگو کے ساتھ عنوان کے علاقے کی چوڑائی"
+
+#: inc/admin/customizer.php:1304
+#, no-php-format
+msgid "Specify 100% for center the title"
+msgstr "100% fکی وضاحت کریں یا عنوان کو مرکز کریں۔"
+
+#: inc/admin/customizer.php:1337
+msgid "Site title font"
+msgstr "سائٹ کا عنوان فونٹ"
+
+#: inc/admin/customizer.php:1351
+msgid "Site title size"
+msgstr "سائٹ کے عنوان کا سائز"
+
+#: inc/admin/customizer.php:1364
+msgid "Site title line height"
+msgstr "سائٹ ٹائٹل لائن کی اونچائی"
+
+#: inc/admin/customizer.php:1387
+msgid "Site description font"
+msgstr "سائٹ کی تفصیل کا فونٹ"
+
+#: inc/admin/customizer.php:1401
+msgid "Site description text size"
+msgstr "سائٹ کی تفصیل متن کا سائز"
+
+#: inc/admin/customizer.php:1414
+msgid "Line height of the site description text"
+msgstr "سائٹ کی تفصیل کے متن کی لائن کی اونچائی"
+
+#: inc/admin/customizer.php:1437
+msgid "Orientation of the logo and site name"
+msgstr "لوگو اور سائٹ کے نام کی واقفیت"
+
+#: inc/admin/customizer.php:1441
+msgid "Horizontally"
+msgstr "افقی طور پر"
+
+#: inc/admin/customizer.php:1442
+msgid "Vertical"
+msgstr "عمودی"
+
+#: inc/admin/customizer.php:1455
+msgid "Logo variation"
+msgstr "لوگو کی تبدیلی"
+
+#: inc/admin/customizer.php:1459
+msgid "Size fixed"
+msgstr "سائز مقرر"
+
+#: inc/admin/customizer.php:1460
+msgid "No limits"
+msgstr "کوئی حد نہیں"
+
+#: inc/admin/customizer.php:1472
+msgid "Logo without limits"
+msgstr "لوگو بغیر کسی حد کے"
+
+#: inc/admin/customizer.php:1491
+msgid "Top banner"
+msgstr "سب سے اوپر بینر"
+
+#: inc/admin/customizer.php:1505
+msgid "Activate top banner"
+msgstr "ٹاپ بینر کو چالو کریں۔"
+
+#: inc/admin/customizer.php:1519
+msgid "Link to advertising source"
+msgstr "ایڈورٹائزنگ سورس کا لنک"
+
+#: inc/admin/customizer.php:1533 inc/admin/function-panel-soc.php:78
+msgid "Open link in new tab"
+msgstr "نئے ٹیب میں لنک کھولیں۔"
+
+#: inc/admin/customizer.php:1548
+msgid "Select image"
+msgstr "تصویر منتخب کریں۔"
+
+#: inc/admin/customizer.php:1562
+msgid "ALT value for the image"
+msgstr "تصویر کے لیے ALT قدر"
+
+#: inc/admin/customizer.php:1576
+msgid "Frame thickness"
+msgstr "فریم کی موٹائی"
+
+#: inc/admin/customizer.php:1593
+msgid "Frame color"
+msgstr "فریم کا رنگ"
+
+#: inc/admin/customizer.php:1594
+msgid "Default - main theme color"
+msgstr "ڈیفالٹ - مرکزی تھیم کا رنگ"
+
+#: inc/admin/customizer.php:1611 inc/admin/function-panel-soc.php:55
+#: inc/option/set.php:256
+msgid "Social links"
+msgstr "سماجی روابط"
+
+#: inc/admin/customizer.php:1625
+msgid "Activate social links"
+msgstr "سماجی روابط کو چالو کریں۔"
+
+#: inc/admin/customizer.php:1639
+msgid "Social link size"
+msgstr "سماجی لنک کا سائز"
+
+#: inc/admin/customizer.php:1643 inc/admin/customizer.php:1823
+#: inc/admin/customizer.php:1921 inc/admin/customizer.php:2541
+#: inc/admin/customizer.php:2612 inc/admin/customizer.php:2714
+#: inc/admin/customizer.php:3122 inc/admin/customizer.php:3260
+#: inc/admin/customizer.php:3365 inc/admin/customizer.php:3523
+#: inc/admin/customizer.php:3847 inc/admin/customizer.php:4022
+#: inc/admin/customizer.php:4157 inc/admin/customizer.php:5822
+#: inc/admin/customizer.php:6606 inc/admin/customizer.php:6837
+#: inc/admin/customizer.php:7677 inc/admin/function-panel-home.php:146
+#: inc/admin/function-panel-home.php:159
+#: inc/admin/function-panel-reset.php:2501
+#: inc/admin/function-panel-xlmega.php:173
+msgid "Small"
+msgstr "چھوٹا"
+
+#: inc/admin/customizer.php:1644 inc/admin/customizer.php:1824
+#: inc/admin/customizer.php:1922 inc/admin/customizer.php:2542
+#: inc/admin/customizer.php:2613 inc/admin/customizer.php:3261
+#: inc/admin/customizer.php:3366 inc/admin/customizer.php:3524
+#: inc/admin/customizer.php:5823 inc/admin/customizer.php:6607
+#: inc/admin/customizer.php:7678 inc/admin/function-panel-home.php:147
+#: inc/admin/function-panel-home.php:160
+#: inc/admin/function-panel-xlmega.php:174
+msgid "Average"
+msgstr "اوسط"
+
+#: inc/admin/customizer.php:1645 inc/admin/customizer.php:1825
+#: inc/admin/customizer.php:1923 inc/admin/customizer.php:2543
+#: inc/admin/customizer.php:2614 inc/admin/customizer.php:2712
+#: inc/admin/customizer.php:3123 inc/admin/customizer.php:3262
+#: inc/admin/customizer.php:3367 inc/admin/customizer.php:3525
+#: inc/admin/customizer.php:3848 inc/admin/customizer.php:4023
+#: inc/admin/customizer.php:4158 inc/admin/customizer.php:5824
+#: inc/admin/customizer.php:6608 inc/admin/customizer.php:6836
+#: inc/admin/customizer.php:7679 inc/admin/function-panel-home.php:148
+#: inc/admin/function-panel-home.php:161
+#: inc/admin/function-panel-reset.php:2499
+#: inc/admin/function-panel-xlmega.php:175
+msgid "Big"
+msgstr "بڑا"
+
+#: inc/admin/customizer.php:1658
+msgid "Social link form"
+msgstr "سوشل لنک فارم"
+
+#: inc/admin/customizer.php:1671 inc/function-customizer.php:11886
+msgid "Flat"
+msgstr "فلیٹ"
+
+#: inc/admin/customizer.php:1672 inc/function-customizer.php:11887
+msgid "Volumetric"
+msgstr "والیومیٹرک"
+
+#: inc/admin/customizer.php:1685
+msgid "Social link design (for icons with background)"
+msgstr "سوشل لنک ڈیزائن (پس منظر والے شبیہیں کے لیے)"
+
+#: inc/admin/customizer.php:1697
+msgid "Black"
+msgstr "سیاہ"
+
+#: inc/admin/customizer.php:1698
+msgid "White"
+msgstr "سفید"
+
+#: inc/admin/customizer.php:1711
+msgid "Social link design (for icons no background)"
+msgstr "سوشل لنک ڈیزائن (آئیکنز کے لیے کوئی پس منظر نہیں)"
+
+#: inc/admin/customizer.php:1726
+msgid "Animation of social links"
+msgstr "سماجی روابط کی حرکت پذیری۔"
+
+#: inc/admin/customizer.php:1730 inc/admin/customizer.php:2756
+msgid "Without animation"
+msgstr "حرکت پذیری کے بغیر"
+
+#: inc/admin/customizer.php:1731
+msgid "Increase"
+msgstr "اضافہ"
+
+#: inc/admin/customizer.php:1732
+msgid "Zoom (with background)"
+msgstr "زوم (پس منظر کے ساتھ)"
+
+#: inc/admin/customizer.php:1733
+msgid "Reduction"
+msgstr "کمی"
+
+#: inc/admin/customizer.php:1734
+msgid "Zoom out (with background)"
+msgstr "زوم آؤٹ (پس منظر کے ساتھ)"
+
+#: inc/admin/customizer.php:1735
+msgid "Frame around the link"
+msgstr "لنک کے ارد گرد فریم"
+
+#: inc/admin/customizer.php:1736
+msgid "Increasing contrast"
+msgstr "بڑھتا ہوا تضاد"
+
+#: inc/admin/customizer.php:1737
+msgid "Hue change"
+msgstr "رنگت کی تبدیلی"
+
+#: inc/admin/customizer.php:1738
+msgid "Color inversion"
+msgstr "رنگ کا الٹا"
+
+#: inc/admin/customizer.php:1739
+msgid "Dimming adjacent links"
+msgstr "ملحقہ لنکس کو مدھم کرنا"
+
+#: inc/admin/customizer.php:1740
+msgid "Slight slope"
+msgstr "ہلکی ڈھلوان"
+
+#: inc/admin/customizer.php:1753
+msgid "Social links fill color"
+msgstr "سماجی روابط رنگ بھرتے ہیں۔"
+
+#: inc/admin/customizer.php:1754 inc/admin/customizer.php:1940
+#: inc/admin/customizer.php:4308 inc/admin/customizer.php:4322
+#: inc/admin/customizer.php:4555 inc/admin/customizer.php:4750
+#: inc/admin/customizer.php:4951 inc/admin/customizer.php:6063
+msgid "Default - color of small elements"
+msgstr "پہلے سے طے شدہ - چھوٹے عناصر کا رنگ"
+
+#: inc/admin/customizer.php:1771
+msgid "Top search"
+msgstr "سر فہرست تلاش"
+
+#: inc/admin/customizer.php:1784
+msgid "Activate top Search"
+msgstr "ٹاپ سرچ کو چالو کریں۔"
+
+#: inc/admin/customizer.php:1789
+msgid "In a top bar"
+msgstr "ایک ٹاپ بار میں"
+
+#: inc/admin/customizer.php:1790
+msgid "In area of soc links (before)"
+msgstr "سماجی روابط کے علاقے میں (پہلے)"
+
+#: inc/admin/customizer.php:1791
+msgid "In area of soc links (after)"
+msgstr "سماجی روابط کے علاقے میں (بعد میں)"
+
+#: inc/admin/customizer.php:1804
+msgid "Use social icon styles"
+msgstr "سوشل آئیکن اسٹائل استعمال کریں۔"
+
+#: inc/admin/customizer.php:1818
+msgid "Search button size"
+msgstr "تلاش کے بٹن کا سائز"
+
+#: inc/admin/customizer.php:1822 inc/admin/customizer.php:2540
+#: inc/admin/customizer.php:2611 inc/admin/function-panel-home.php:145
+#: inc/admin/function-panel-home.php:158
+#: inc/admin/function-panel-xlmega.php:172
+msgid "Very small"
+msgstr "بہت چھوٹا"
+
+#: inc/admin/customizer.php:1826 inc/admin/customizer.php:2544
+#: inc/admin/customizer.php:2615 inc/admin/function-panel-home.php:149
+#: inc/admin/function-panel-home.php:162
+#: inc/admin/function-panel-xlmega.php:176
+msgid "Very big"
+msgstr "بہت بڑا"
+
+#: inc/admin/customizer.php:1846 inc/admin/function-panel-reset.php:2490
+#: inc/option/set.php:253
+msgid "Main menu"
+msgstr "مین مینو"
+
+#: inc/admin/customizer.php:1866
+msgid "Disable main menu"
+msgstr "مین مینو کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:1868
+#, php-format
+msgid "This setting will completely disable the main menu, including the %s"
+msgstr "یہ ترتیب مین مینو کو مکمل طور پر غیر فعال کر دے گی، بشمول %s"
+
+#: inc/admin/customizer.php:1883 inc/admin/customizer.php:5989
+msgid "Full-width background"
+msgstr "پوری چوڑائی والا پس منظر"
+
+#: inc/admin/customizer.php:1897
+msgid "Buttons orientation"
+msgstr "بٹنوں کی سمت بندی"
+
+#: inc/admin/customizer.php:1901 inc/admin/customizer.php:2891
+#: inc/admin/customizer.php:3503 inc/admin/customizer.php:4465
+#: inc/admin/customizer.php:6627 inc/admin/customizer.php:6819
+#: inc/admin/function-panel-reset.php:2482
+#: inc/admin/function-panel-xlmega.php:215
+msgid "Left"
+msgstr "بائیں"
+
+#: inc/admin/customizer.php:1902 inc/admin/customizer.php:2893
+#: inc/admin/customizer.php:3504 inc/admin/customizer.php:6628
+#: inc/admin/customizer.php:6818 inc/admin/function-panel-reset.php:2483
+#: inc/admin/function-panel-xlmega.php:216
+msgid "Right"
+msgstr "ٹھیک ہے۔"
+
+#: inc/admin/customizer.php:1903 inc/admin/customizer.php:2892
+#: inc/admin/customizer.php:3505
+msgid "Center"
+msgstr "مرکز"
+
+#: inc/admin/customizer.php:1904
+msgid "Distributed"
+msgstr "تقسیم کیا گیا۔"
+
+#: inc/admin/customizer.php:1917 inc/admin/customizer.php:6832
+msgid "Button size"
+msgstr "بٹن کا سائز"
+
+#: inc/admin/customizer.php:1939 inc/admin/customizer.php:1969
+msgid "Button background color"
+msgstr "بٹن کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:1954 inc/admin/customizer.php:1983
+msgid "Button text color"
+msgstr "بٹن کے متن کا رنگ"
+
+#: inc/admin/customizer.php:1955 inc/admin/customizer.php:4336
+#: inc/admin/customizer.php:4513 inc/admin/customizer.php:4736
+#: inc/admin/customizer.php:4937
+msgid "Default - secondary color for small elements"
+msgstr "پہلے سے طے شدہ - چھوٹے عناصر کے لیے ثانوی رنگ"
+
+#: inc/admin/customizer.php:2016 inc/admin/customizer.php:4599
+#: inc/admin/customizer.php:4801 inc/admin/customizer.php:5002
+#: inc/admin/function-panel-reset.php:2472
+msgid "Font"
+msgstr "فونٹ"
+
+#: inc/admin/customizer.php:2058
+msgid "Make main menu sticky when scrolling (only for desktop versions of pc)"
+msgstr ""
+"سکرول کرتے وقت مین مینو کو چسپاں بنائیں (صرف پی سی کے ڈیسک ٹاپ ورژن کے لیے)"
+
+#: inc/admin/customizer.php:2075
+msgid "lists"
+msgstr "فہرستیں"
+
+#: inc/admin/customizer.php:2087 inc/admin/customizer.php:2257
+msgid "Warning"
+msgstr "تنبیہ"
+
+#: inc/admin/customizer.php:2087 inc/admin/customizer.php:2258
+#, php-format
+msgid "The main menu must be enabled for the %s to be displayed"
+msgstr "%s کو ظاہر کرنے کے لیے مین مینو کا فعال ہونا ضروری ہے۔"
+
+#: inc/admin/customizer.php:2110 inc/general.php:757 inc/option/set.php:64
+msgid "Information"
+msgstr "معلومات"
+
+#: inc/admin/customizer.php:2110 inc/admin/customizer.php:6244
+#, php-format
+msgid ""
+"Items of this menu are customized in the - \"Panel %s\" - \"Appearance\" - "
+"\"Menus\" section."
+msgstr ""
+"اس مینو کے آئٹمز کو - \"پینل %s\" - \"ظاہر\" - \"مینو\" سیکشن میں حسب ضرورت "
+"بنایا گیا ہے۔"
+
+#: inc/admin/customizer.php:2128
+msgid "Links size (drop-down menu)"
+msgstr "لنکس کا سائز (ڈراپ ڈاؤن مینو)"
+
+#: inc/admin/customizer.php:2141
+msgid "Links size"
+msgstr "لنکس کا سائز"
+
+#: inc/admin/customizer.php:2149
+msgid "drop-down menu and mega menu"
+msgstr "ڈراپ ڈاؤن مینو اور میگا مینو"
+
+#: inc/admin/customizer.php:2160 inc/admin/customizer.php:2434
+#: inc/admin/customizer.php:4392 inc/admin/customizer.php:5354
+#: inc/admin/customizer.php:6449 inc/admin/function-panel-menucat.php:89
+msgid "Background color"
+msgstr "پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:2174
+msgid "Links color"
+msgstr "لنکس کا رنگ"
+
+#: inc/admin/customizer.php:2209
+#, php-format
+msgid "Number of columns in %s"
+msgstr "%s میں کالموں کی تعداد"
+
+#: inc/admin/customizer.php:2213
+msgid "One"
+msgstr "ایک"
+
+#: inc/admin/customizer.php:2214
+msgid "Two"
+msgstr "دو"
+
+#: inc/admin/customizer.php:2215
+msgid "Three"
+msgstr "تین"
+
+#: inc/admin/customizer.php:2216
+msgid "Four"
+msgstr "چار"
+
+#: inc/admin/customizer.php:2217
+msgid "Five"
+msgstr "پانچ"
+
+#: inc/admin/customizer.php:2218
+msgid "Six"
+msgstr "چھ"
+
+#: inc/admin/customizer.php:2236
+msgid "graphic"
+msgstr "گرافک"
+
+#: inc/admin/customizer.php:2256 inc/admin/customizer.php:2593
+#: vendor/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "ایکٹیویٹ"
+
+#: inc/admin/customizer.php:2273
+msgid "Priority partition"
+msgstr "ترجیحی تقسیم"
+
+#: inc/admin/customizer.php:2277
+msgid "First the graphical menu, then the lists"
+msgstr "پہلے گرافیکل مینو، پھر فہرستیں۔"
+
+#: inc/admin/customizer.php:2278
+msgid "First the list menu, then the graphic"
+msgstr "پہلے فہرست مینو، پھر گرافک"
+
+#: inc/admin/customizer.php:2291
+msgid "Sections background color"
+msgstr "حصوں کا پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:2305
+msgid "Column titles color"
+msgstr "کالم کے عنوانات کا رنگ"
+
+#: inc/admin/customizer.php:2322 inc/admin/function-panel-reset.php:2491
+#: inc/option/set.php:308
+msgid "Wide slider"
+msgstr "وسیع سلائیڈر"
+
+#: inc/admin/customizer.php:2336
+msgid "Display wide slider"
+msgstr "وسیع سلائیڈر ڈسپلے کریں۔"
+
+#: inc/admin/customizer.php:2340
+msgid "Not display"
+msgstr "ڈسپلے نہیں۔"
+
+#: inc/admin/customizer.php:2341
+msgid "All site"
+msgstr "تمام سائٹ"
+
+#: inc/admin/customizer.php:2342
+msgid "Except main page"
+msgstr "سوائے مرکزی صفحہ کے"
+
+#: inc/admin/customizer.php:2343
+msgid "Only main page"
+msgstr "صرف مرکزی صفحہ"
+
+#: inc/admin/customizer.php:2354
+msgid "Number of slides"
+msgstr "سلائیڈوں کی تعداد"
+
+#: inc/admin/customizer.php:2372
+msgid "Category of posts"
+msgstr "پوسٹس کا زمرہ"
+
+#: inc/admin/customizer.php:2420
+msgid "Show slider full screen width"
+msgstr "سلائیڈر پوری سکرین کی چوڑائی دکھائیں۔"
+
+#: inc/admin/customizer.php:2448
+msgid "Enable auto start"
+msgstr "آٹو اسٹارٹ کو فعال کریں۔"
+
+#: inc/admin/customizer.php:2460
+msgid "Time between slides"
+msgstr "سلائیڈوں کے درمیان وقت"
+
+#: inc/admin/customizer.php:2473
+msgid "Slider move time"
+msgstr "سلائیڈر حرکت کا وقت"
+
+#: inc/admin/customizer.php:2488
+msgid "Enable navigation buttons"
+msgstr "نیویگیشن بٹن کو فعال کریں۔"
+
+#: inc/admin/customizer.php:2502
+msgid "Headers fill variation"
+msgstr "ہیڈر مختلف حالتوں کو بھرتے ہیں۔"
+
+#: inc/admin/customizer.php:2506 inc/admin/function-panel-home.php:127
+msgid "Not display titles"
+msgstr "ڈسپلے ٹائٹلز نہیں۔"
+
+#: inc/admin/customizer.php:2507 inc/admin/function-panel-home.php:128
+msgid "Smooth dimming"
+msgstr "ہموار مدھم ہونا"
+
+#: inc/admin/customizer.php:2508 inc/admin/function-panel-home.php:129
+msgid "Blackout tape"
+msgstr "بلیک آؤٹ ٹیپ"
+
+#: inc/admin/customizer.php:2509 inc/admin/function-panel-home.php:130
+msgid "Animated blackout"
+msgstr "متحرک بلیک آؤٹ"
+
+#: inc/admin/customizer.php:2522 inc/admin/function-panel-menucat.php:77
+msgid "Title color"
+msgstr "عنوان کا رنگ"
+
+#: inc/admin/customizer.php:2557
+msgid "Enable slider in mobile version"
+msgstr "موبائل ورژن میں سلائیڈر کو فعال کریں۔"
+
+#: inc/admin/customizer.php:2558
+msgid ""
+"Usually, the slider is not required on small screens, due to heavy load and "
+"little usefulness. Therefore, by default, the slider in the mobile version "
+"is disabled."
+msgstr ""
+"عام طور پر، زیادہ بوجھ اور بہت کم افادیت کی وجہ سے، چھوٹی اسکرینوں پر "
+"سلائیڈر کی ضرورت نہیں ہوتی ہے۔ لہذا، بطور ڈیفالٹ، موبائل ورژن میں سلائیڈر "
+"غیر فعال ہے۔"
+
+#: inc/admin/customizer.php:2574 inc/admin/function-panel-menucat.php:39
+#: inc/admin/function-panel-reset.php:2492
+msgid "Category menu"
+msgstr "زمرہ مینو"
+
+#: inc/admin/customizer.php:2607
+msgid "Items size"
+msgstr "اشیاء کا سائز"
+
+#: inc/admin/customizer.php:2628 inc/admin/customizer.php:3136
+#: inc/admin/customizer.php:3275 inc/admin/customizer.php:3380
+msgid "Align to center"
+msgstr "مرکز میں سیدھ کریں۔"
+
+#: inc/admin/customizer.php:2659
+msgid "Titles in uppercase"
+msgstr "بڑے حروف میں عنوانات"
+
+#: inc/admin/customizer.php:2672
+msgid "Categories settings"
+msgstr "زمرہ جات کی ترتیبات"
+
+#: inc/admin/customizer.php:2674 inc/admin/customizer.php:5478
+#: inc/module/meta-tags.php:529 inc/option/set.php:262 inc/usability.php:39
+#: inc/usability.php:81 inc/usability.php:116
+#: templates/template-site-map.php:27
+msgid "Categories"
+msgstr "موضوع"
+
+#: inc/admin/customizer.php:2690
+msgid "Category style"
+msgstr "زمرہ کا انداز"
+
+#: inc/admin/customizer.php:2703
+msgid "Number (size) of columns"
+msgstr "کالموں کی تعداد (سائز)"
+
+#: inc/admin/customizer.php:2707 inc/admin/function-panel-reset.php:2494
+msgid "Classic blog"
+msgstr "کلاسک بلاگ"
+
+#: inc/admin/customizer.php:2708 inc/admin/function-panel-reset.php:2495
+msgid "Two columns"
+msgstr "دو کالم"
+
+#: inc/admin/customizer.php:2709 inc/admin/customizer.php:5445
+#: inc/admin/function-panel-reset.php:2496
+msgid "Three columns"
+msgstr "تین کالم"
+
+#: inc/admin/customizer.php:2710 inc/admin/customizer.php:5446
+#: inc/admin/function-panel-reset.php:2497
+msgid "Four columns"
+msgstr "چار کالم"
+
+#: inc/admin/customizer.php:2711 inc/admin/customizer.php:5447
+#: inc/admin/function-panel-reset.php:2498
+msgid "Five columns"
+msgstr "پانچ کالم"
+
+#: inc/admin/customizer.php:2712 inc/admin/customizer.php:2713
+#: inc/admin/customizer.php:2714 inc/admin/function-panel-reset.php:2499
+#: inc/admin/function-panel-reset.php:2500
+#: inc/admin/function-panel-reset.php:2501
+msgid "Horizontal"
+msgstr "افقی"
+
+#: inc/admin/customizer.php:2713 inc/admin/function-panel-reset.php:2500
+msgid "Medium"
+msgstr "درمیانہ"
+
+#: inc/admin/customizer.php:2727
+msgid "Posts design"
+msgstr "پوسٹس ڈیزائن"
+
+#: inc/admin/customizer.php:2731
+msgid "Disable design"
+msgstr "ڈیزائن کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:2732 inc/admin/customizer.php:3099
+#: inc/admin/customizer.php:3893 inc/admin/function-panel-reset.php:2740
+msgid "Simple"
+msgstr "سادہ"
+
+#: inc/admin/customizer.php:2733 inc/admin/customizer.php:3101
+#: inc/admin/customizer.php:3102 inc/admin/customizer.php:3895
+#: inc/admin/customizer.php:3896
+msgid "Underlined"
+msgstr "انڈر لائن"
+
+#: inc/admin/customizer.php:2734 inc/admin/customizer.php:5206
+msgid "In frame"
+msgstr "فریم میں"
+
+#: inc/admin/customizer.php:2735
+msgid "Header background"
+msgstr "ہیڈر کا پس منظر"
+
+#: inc/admin/customizer.php:2736 inc/admin/customizer.php:3104
+#: inc/admin/customizer.php:3898 inc/admin/customizer.php:5203
+#: inc/admin/customizer.php:5750
+msgid "Deepening"
+msgstr "گہرا کرنا"
+
+#: inc/admin/customizer.php:2737 inc/admin/customizer.php:2738
+msgid "Light shadow"
+msgstr "ہلکا سایہ"
+
+#: inc/admin/customizer.php:2738 inc/admin/customizer.php:5500
+msgid "Polaroid"
+msgstr "پولرائڈ"
+
+#: inc/admin/customizer.php:2739 inc/admin/customizer.php:3103
+#: inc/admin/customizer.php:3897 inc/admin/customizer.php:5202
+#: inc/admin/customizer.php:5749
+msgid "Soaring"
+msgstr "بڑھتی ہوئی"
+
+#: inc/admin/customizer.php:2752
+msgid "Animation of posts"
+msgstr "پوسٹس کی حرکت پذیری۔"
+
+#: inc/admin/customizer.php:2757
+msgid "Enlargement picture"
+msgstr "توسیع کی تصویر"
+
+#: inc/admin/customizer.php:2758
+msgid "Reducing picture"
+msgstr "تصویر کو کم کرنا"
+
+#: inc/admin/customizer.php:2759
+msgid "Darkened image"
+msgstr "سیاہ تصویر"
+
+#: inc/admin/customizer.php:2760
+msgid "Curtain on picture"
+msgstr "تصویر پر پردہ"
+
+#: inc/admin/customizer.php:2761
+msgid "Picture frame"
+msgstr "تصویر کی فریم"
+
+#: inc/admin/customizer.php:2762
+msgid "Frame around"
+msgstr "ارد گرد فریم"
+
+#: inc/admin/customizer.php:2763
+msgid "Backlight picture"
+msgstr "بیک لائٹ تصویر"
+
+#: inc/admin/customizer.php:2764
+msgid "Picture contrast"
+msgstr "تصویر کے برعکس"
+
+#: inc/admin/customizer.php:2765
+msgid "Tint picture"
+msgstr "ٹنٹ تصویر"
+
+#: inc/admin/customizer.php:2766
+msgid "Color inversion picture"
+msgstr "رنگ الٹا تصویر"
+
+#: inc/admin/customizer.php:2767
+msgid "Remove color in neighboring blocks"
+msgstr "پڑوسی بلاکس میں رنگ ہٹا دیں۔"
+
+#: inc/admin/customizer.php:2768
+msgid "Toning neighboring blocks"
+msgstr "پڑوسی بلاکس کو ٹن کرنا"
+
+#: inc/admin/customizer.php:2769
+msgid "Block slope"
+msgstr "بلاک ڈھلوان"
+
+#: inc/admin/customizer.php:2782 inc/admin/function-panel-home.php:181
+#: inc/admin/function-panel-xlmega.php:195
+msgid "Posts background color"
+msgstr "پوسٹس کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:2796
+msgid "Background color of sticky posts"
+msgstr "چپچپا پوسٹس کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:2809
+msgid "Post card title size"
+msgstr "پوسٹ کارڈ کے عنوان کا سائز"
+
+#: inc/admin/customizer.php:2822
+msgid "Post card description size"
+msgstr "پوسٹ کارڈ کی تفصیل کا سائز"
+
+#: inc/admin/customizer.php:2835
+msgid "Number of symbols in description"
+msgstr "تفصیل میں علامتوں کی تعداد"
+
+#: inc/admin/customizer.php:2836
+msgid "150 symbols"
+msgstr "150 علامتیں"
+
+#: inc/admin/customizer.php:2859
+msgid "Add button"
+msgstr "بٹن شامل کریں۔"
+
+#: inc/admin/customizer.php:2859 inc/admin/customizer.php:2899
+#: inc/mega/blocks/mega-button-mid.php:49
+#: inc/mega/blocks/mega-button-mid.php:92
+#: inc/mega/blocks/mega-button-mid.php:135
+#: inc/mega/blocks/mega-button-mid.php:178
+msgid "Read more"
+msgstr "مزید پڑھیں"
+
+#: inc/admin/customizer.php:2873
+msgid "Full width \"Read more\" button"
+msgstr "مکمل چوڑائی \"مزید پڑھیں\" بٹن"
+
+#: inc/admin/customizer.php:2887
+msgid "Button orientation"
+msgstr "بٹن کی سمت بندی"
+
+#: inc/admin/customizer.php:2906
+msgid "Button text"
+msgstr "بٹن کا متن"
+
+#: inc/admin/customizer.php:2929
+msgid "Remove the prefix \"Category\" on category pages"
+msgstr "زمرہ کے صفحات پر \"زمرہ\" کا سابقہ ہٹا دیں۔"
+
+#: inc/admin/customizer.php:2943
+msgid "Remove description from post cards"
+msgstr "پوسٹ کارڈز سے تفصیل کو ہٹا دیں۔"
+
+#: inc/admin/customizer.php:2957
+msgid "Remove title from post cards"
+msgstr "پوسٹ کارڈز سے عنوان ہٹا دیں۔"
+
+#: inc/admin/customizer.php:2971
+msgid "Remove the plug"
+msgstr "پلگ ہٹا دیں۔"
+
+#: inc/admin/customizer.php:2971 inc/admin/customizer.php:6996
+msgid "No photo"
+msgstr "کوئی تصویر نہیں۔"
+
+#: inc/admin/customizer.php:2989 inc/admin/customizer.php:3723
+msgid "Meta tags (meta boxs)"
+msgstr "میٹا ٹیگز (میٹا باکس)"
+
+#: inc/admin/customizer.php:3002 inc/admin/customizer.php:3736
+msgid "Activate meta boxs"
+msgstr "میٹا بکس کو چالو کریں۔"
+
+#: inc/admin/customizer.php:3009 inc/admin/customizer.php:3743
+msgid "What meta boxs to display"
+msgstr "کون سے میٹا بکس ڈسپلے کرنے ہیں۔"
+
+#: inc/admin/customizer.php:3025 inc/admin/customizer.php:3759
+#: inc/module/meta-tags.php:24 inc/module/meta-tags.php:289
+msgid "Post author"
+msgstr "پوسٹ مصنف"
+
+#: inc/admin/customizer.php:3039 inc/admin/customizer.php:3773
+#: inc/module/meta-tags.php:92 inc/module/meta-tags.php:317
+msgid "Post creation date"
+msgstr "تخلیق کے بعد کی تاریخ"
+
+#: inc/admin/customizer.php:3053 inc/admin/customizer.php:3787
+#: inc/module/meta-tags.php:132 inc/module/meta-tags.php:357
+msgid "Post update date"
+msgstr "پوسٹ اپ ڈیٹ کی تاریخ"
+
+#: inc/admin/customizer.php:3067 inc/admin/customizer.php:3801
+msgid "Number of comments"
+msgstr "تبصروں کی تعداد"
+
+#: inc/admin/customizer.php:3081 inc/admin/customizer.php:3829
+#: inc/module/meta-tags.php:73 inc/module/meta-tags.php:445
+msgid "Number of post views"
+msgstr "پوسٹ کے ملاحظات کی تعداد"
+
+#: inc/admin/customizer.php:3095 inc/admin/customizer.php:3480
+#: inc/admin/customizer.php:4366 inc/admin/customizer.php:5492
+msgid "Design"
+msgstr "طرحبند"
+
+#: inc/admin/customizer.php:3100 inc/admin/customizer.php:5748
+msgid "Frame"
+msgstr "فریم"
+
+#: inc/admin/customizer.php:3102 inc/admin/customizer.php:3896
+msgid "circle"
+msgstr "دائرہ"
+
+#: inc/admin/customizer.php:3105 inc/admin/customizer.php:3899
+msgid "Background"
+msgstr "پس منظر"
+
+#: inc/admin/customizer.php:3118 inc/admin/customizer.php:3256
+#: inc/admin/customizer.php:3361 inc/admin/customizer.php:3519
+#: inc/admin/customizer.php:3843 inc/admin/customizer.php:4018
+#: inc/admin/customizer.php:4153
+msgid "Size"
+msgstr "سائز"
+
+#: inc/admin/customizer.php:3150
+msgid "Add dynamic tooltips"
+msgstr "متحرک ٹول ٹپس شامل کریں۔"
+
+#: inc/admin/customizer.php:3164
+msgid "Add decryption"
+msgstr "ڈکرپشن شامل کریں۔"
+
+#: inc/admin/customizer.php:3178 inc/admin/customizer.php:3912
+msgid "Remove icons"
+msgstr "شبیہیں ہٹا دیں۔"
+
+#: inc/admin/customizer.php:3196 inc/admin/customizer.php:3957
+msgid "Meta tags (categories)"
+msgstr "میٹا ٹیگز (زمرے)"
+
+#: inc/admin/customizer.php:3209 inc/admin/customizer.php:3970
+msgid "Activate meta tags categories"
+msgstr "میٹا ٹیگز کے زمرے کو چالو کریں۔"
+
+#: inc/admin/customizer.php:3223
+msgid "Where to display"
+msgstr "کہاں ظاہر کرنا ہے۔"
+
+#: inc/admin/customizer.php:3227 inc/admin/customizer.php:4002
+msgid "In the image (top)"
+msgstr "تصویر میں (اوپر)"
+
+#: inc/admin/customizer.php:3228 inc/admin/customizer.php:4003
+msgid "In the image (bottom)"
+msgstr "تصویر میں (نیچے)"
+
+#: inc/admin/customizer.php:3229
+msgid "Outside the image"
+msgstr "تصویر سے باہر"
+
+#: inc/admin/customizer.php:3241 inc/admin/customizer.php:3983
+msgid "Maximum number of category elements"
+msgstr "زمرہ کے عناصر کی زیادہ سے زیادہ تعداد"
+
+#: inc/admin/customizer.php:3289 inc/admin/customizer.php:3394
+#: inc/admin/customizer.php:4064 inc/admin/customizer.php:4199
+msgid "Icons"
+msgstr "شبیہیں"
+
+#: inc/admin/customizer.php:3294 inc/admin/customizer.php:3295
+#: inc/admin/customizer.php:3296 inc/admin/customizer.php:3297
+#: inc/admin/customizer.php:3298 inc/admin/customizer.php:3299
+#: inc/admin/customizer.php:3300 inc/admin/customizer.php:4069
+#: inc/admin/customizer.php:4070 inc/admin/customizer.php:4071
+#: inc/admin/customizer.php:4072 inc/admin/customizer.php:4073
+#: inc/admin/customizer.php:4074 inc/admin/customizer.php:4075
+#: inc/admin/customizer.php:7234 inc/admin/customizer.php:7235
+#: inc/admin/customizer.php:7236 inc/admin/customizer.php:7237
+#: inc/admin/customizer.php:7238 inc/admin/customizer.php:7239
+#: inc/admin/customizer.php:7240 inc/admin/customizer.php:7269
+msgid "Folder"
+msgstr "فولڈر"
+
+#: inc/admin/customizer.php:3301 inc/admin/customizer.php:4076
+#: inc/admin/customizer.php:7241 inc/admin/customizer.php:7267
+msgid "Card catalog"
+msgstr "کارڈ کیٹلاگ"
+
+#: inc/admin/customizer.php:3302 inc/admin/customizer.php:4077
+#: inc/admin/customizer.php:7242 inc/admin/customizer.php:7268
+msgid "Box"
+msgstr "ڈبہ"
+
+#: inc/admin/customizer.php:3320 inc/admin/customizer.php:4094
+msgid "Meta tags (tags)"
+msgstr "میٹا ٹیگز (ٹیگز)"
+
+#: inc/admin/customizer.php:3333 inc/admin/customizer.php:4107
+msgid "Activate meta tags (taxonomy tags)"
+msgstr "میٹا ٹیگز کو چالو کریں (ٹیکسونومی ٹیگز)"
+
+#: inc/admin/customizer.php:3346 inc/admin/customizer.php:4120
+msgid "Maximum number of tag elements"
+msgstr "ٹیگ عناصر کی زیادہ سے زیادہ تعداد"
+
+#: inc/admin/customizer.php:3399 inc/admin/customizer.php:3400
+#: inc/admin/customizer.php:4204 inc/admin/customizer.php:4205
+msgid "Hashtag"
+msgstr "ہیش ٹیگ"
+
+#: inc/admin/customizer.php:3400 inc/admin/customizer.php:4205
+msgid "bold"
+msgstr "بولڈ"
+
+#: inc/admin/customizer.php:3401 inc/admin/customizer.php:4206
+msgid "Sticker"
+msgstr "اسٹیکر"
+
+#: inc/admin/customizer.php:3402 inc/admin/customizer.php:4207
+#: inc/admin/customizer.php:6872 inc/admin/customizer.php:7293
+msgid "Arrow"
+msgstr "تیر"
+
+#: inc/admin/customizer.php:3403 inc/admin/customizer.php:4208
+msgid "Lightning"
+msgstr "بجلی"
+
+#: inc/admin/customizer.php:3420
+msgid "Pagination"
+msgstr "صفحہ بندی"
+
+#: inc/admin/customizer.php:3433
+msgid "Activate pagination in categories"
+msgstr "زمروں میں صفحہ بندی کو چالو کریں۔"
+
+#: inc/admin/customizer.php:3447
+msgid "Activate pagination on the homepage"
+msgstr "ہوم پیج پر صفحہ بندی کو فعال کریں۔"
+
+#: inc/admin/customizer.php:3461
+msgid "Pagination variation"
+msgstr "صفحہ بندی کی تبدیلی"
+
+#: inc/admin/customizer.php:3465
+msgid "Classic (Back and forward)"
+msgstr "کلاسیکی (پیچھے اور آگے)"
+
+#: inc/admin/customizer.php:3466
+msgid "Numeric pagination"
+msgstr "عددی صفحہ بندی"
+
+#: inc/admin/customizer.php:3467
+msgid "Button"
+msgstr "بٹن"
+
+#: inc/admin/customizer.php:3484 inc/admin/customizer.php:4246
+#: inc/admin/customizer.php:4278 inc/admin/customizer.php:4370
+#: inc/admin/customizer.php:4662 inc/admin/customizer.php:4864
+#: inc/admin/customizer.php:7207 inc/admin/customizer.php:7233
+#: inc/admin/customizer.php:7265 inc/admin/customizer.php:7292
+msgid "Turn off styles"
+msgstr "طرزیں بند کریں۔"
+
+#: inc/admin/customizer.php:3485
+msgid "Buttons"
+msgstr "بٹن"
+
+#: inc/admin/customizer.php:3486 inc/admin/customizer.php:3894
+#: inc/admin/customizer.php:5497
+msgid "Frames"
+msgstr "فریم"
+
+#: inc/admin/customizer.php:3499
+msgid "Location"
+msgstr "مقام"
+
+#: inc/admin/customizer.php:3538
+msgid "Remove buttons (back and next) from numeric pagination"
+msgstr "عددی صفحہ بندی سے بٹن (پیچھے اور اگلے) کو ہٹا دیں۔"
+
+#: inc/admin/customizer.php:3552
+msgid "Show all pagination items (for numeric)"
+msgstr "صفحہ بندی کی تمام اشیاء دکھائیں (عددی کے لیے)"
+
+#: inc/admin/customizer.php:3566
+msgid "Remove hidden H2 tag from pagination"
+msgstr "صفحہ بندی سے پوشیدہ H2 ٹیگ کو ہٹا دیں۔"
+
+#: inc/admin/customizer.php:3567
+msgid ""
+"Removing H2 tag from pagination is good for SEO, but worse for special "
+"programs (for the visually impaired)"
+msgstr ""
+"صفحہ بندی سے H2 ٹیگ کو ہٹانا SEO کے لیے اچھا ہے، لیکن خاص پروگراموں کے لیے "
+"برا ہے (ضعیف افراد کے لیے)"
+
+#: inc/admin/customizer.php:3579 inc/admin/customizer.php:3615
+#: inc/option/set.php:265
+msgid "Posts and pages"
+msgstr "پوسٹس اور پیجز"
+
+#: inc/admin/customizer.php:3595
+msgid "Basic settings"
+msgstr "بنیادی ترتیبات"
+
+#: inc/admin/customizer.php:3608
+msgid "Where to display typography"
+msgstr "جہاں ٹائپوگرافی دکھائی جائے۔"
+
+#: inc/admin/customizer.php:3609
+msgid "Lists, Quotes, Headings"
+msgstr "فہرستیں، اقتباسات، عنوانات"
+
+#: inc/admin/customizer.php:3613
+msgid "Only posts"
+msgstr "صرف پوسٹس"
+
+#: inc/admin/customizer.php:3614
+msgid "Only pages"
+msgstr "صرف صفحات"
+
+#: inc/admin/customizer.php:3631
+msgid "Top image"
+msgstr "سرفہرست تصویر"
+
+#: inc/admin/customizer.php:3644
+msgid "Remove the main (top) image in posts"
+msgstr "پوسٹس میں مرکزی (اوپر) تصویر کو ہٹا دیں۔"
+
+#: inc/admin/customizer.php:3658
+msgid "Remove the main (top) image in pages"
+msgstr "صفحات میں مرکزی (اوپر) تصویر کو ہٹا دیں۔"
+
+#: inc/admin/customizer.php:3663
+msgid "width"
+msgstr "چوڑائی"
+
+#: inc/admin/customizer.php:3674
+msgid "Limit the size of the top image in posts"
+msgstr "پوسٹس میں اوپر والی تصویر کا سائز محدود کریں۔"
+
+#: inc/admin/customizer.php:3678 inc/admin/customizer.php:3701
+msgid "Maximum"
+msgstr "زیادہ سے زیادہ"
+
+#: inc/admin/customizer.php:3697
+msgid "Limit the size of the top image in pages"
+msgstr "صفحات میں سب سے اوپر کی تصویر کے سائز کو محدود کریں۔"
+
+#: inc/admin/customizer.php:3815 inc/module/meta-tags.php:422
+msgid "Post reading time"
+msgstr "پوسٹ پڑھنے کا وقت"
+
+#: inc/admin/customizer.php:3861
+msgid "Align meta boxs to the center"
+msgstr "میٹا بکس کو مرکز میں سیدھ کریں۔"
+
+#: inc/admin/customizer.php:3875
+msgid "Remove decryption in meta boxs"
+msgstr "میٹا بکس میں ڈکرپشن کو ہٹا دیں۔"
+
+#: inc/admin/customizer.php:3889
+msgid "Meta box design"
+msgstr "میٹا باکس ڈیزائن"
+
+#: inc/admin/customizer.php:3926
+msgid "Add tooltips to meta boxs"
+msgstr "میٹا بکس میں ٹول ٹپس شامل کریں۔"
+
+#: inc/admin/customizer.php:3940
+msgid "Add the date to the bottom of the post"
+msgstr "پوسٹ کے نیچے تاریخ شامل کریں۔"
+
+#: inc/admin/customizer.php:3998 inc/admin/customizer.php:4135
+msgid "Where to display meta tags"
+msgstr "میٹا ٹیگز کہاں ڈسپلے کرنا ہے۔"
+
+#: inc/admin/customizer.php:4004 inc/admin/customizer.php:4139
+msgid "Top of content"
+msgstr "مواد کا سب سے اوپر"
+
+#: inc/admin/customizer.php:4005 inc/admin/customizer.php:4140
+msgid "Bottom of content"
+msgstr "مواد کا نیچے"
+
+#: inc/admin/customizer.php:4036 inc/admin/customizer.php:4171
+msgid "Align center"
+msgstr "مرکز میں سیدھ کریں۔"
+
+#: inc/admin/customizer.php:4050 inc/admin/customizer.php:4185
+msgid "Remove decryption"
+msgstr "ڈکرپشن کو ہٹا دیں۔"
+
+#: inc/admin/customizer.php:4229
+msgid "Lists"
+msgstr "فہرستیں"
+
+#: inc/admin/customizer.php:4242
+msgid "Bulleted lists variation"
+msgstr "بلیٹڈ فہرستوں کا تغیر"
+
+#: inc/admin/customizer.php:4247
+msgid "Small dot"
+msgstr "چھوٹا ڈاٹ"
+
+#: inc/admin/customizer.php:4248
+msgid "Small square"
+msgstr "چھوٹا مربع"
+
+#: inc/admin/customizer.php:4249
+msgid "Small circle"
+msgstr "چھوٹا دائرہ"
+
+#: inc/admin/customizer.php:4250 inc/admin/customizer.php:4280
+msgid "Square frame"
+msgstr "مربع فریم"
+
+#: inc/admin/customizer.php:4251
+msgid "Small dash"
+msgstr "چھوٹی ڈیش"
+
+#: inc/admin/customizer.php:4252
+msgid "Big dot"
+msgstr "بڑا ڈاٹ"
+
+#: inc/admin/customizer.php:4253
+msgid "Big square"
+msgstr "بڑا مربع"
+
+#: inc/admin/customizer.php:4254
+msgid "Big circle"
+msgstr "بڑا حلقہ"
+
+#: inc/admin/customizer.php:4255
+msgid "Rounded square frame"
+msgstr "گول مربع فریم"
+
+#: inc/admin/customizer.php:4256
+msgid "Big dash"
+msgstr "بڑی ڈیش"
+
+#: inc/admin/customizer.php:4257 inc/admin/customizer.php:4691
+#: inc/admin/customizer.php:4893
+msgid "Check mark"
+msgstr "چیک مارک"
+
+#: inc/admin/customizer.php:4258
+msgid "Rhombus"
+msgstr "رومبس"
+
+#: inc/admin/customizer.php:4259 inc/admin/customizer.php:6542
+#: inc/admin/customizer.php:6874
+msgid "Triangle"
+msgstr "مثلث"
+
+#: inc/admin/customizer.php:4260
+msgid "Star"
+msgstr "ستارہ"
+
+#: inc/admin/customizer.php:4261
+msgid "Snowflake"
+msgstr "سنو فلیک"
+
+#: inc/admin/customizer.php:4274
+msgid "Numeric lists variation"
+msgstr "عددی فہرستوں کا تغیر"
+
+#: inc/admin/customizer.php:4279
+msgid "Colored square"
+msgstr "رنگین مربع"
+
+#: inc/admin/customizer.php:4281
+msgid "Colored circle"
+msgstr "رنگین دائرہ"
+
+#: inc/admin/customizer.php:4282
+msgid "Round frame"
+msgstr "گول فریم"
+
+#: inc/admin/customizer.php:4283
+msgid "Colored numbers"
+msgstr "رنگین نمبر"
+
+#: inc/admin/customizer.php:4284
+msgid "Colored numbers (bold)"
+msgstr "رنگین نمبر (بولڈ)"
+
+#: inc/admin/customizer.php:4285
+msgid "Latin numerals"
+msgstr "لاطینی ہندسے"
+
+#: inc/admin/customizer.php:4286
+msgid "Colored letters (EN)"
+msgstr "رنگین حروف (EN)"
+
+#: inc/admin/customizer.php:4307 inc/admin/customizer.php:4321
+msgid "Marker color"
+msgstr "مارکر کا رنگ"
+
+#: inc/admin/customizer.php:4307
+msgid "bulleted lists"
+msgstr "گولیوں والی فہرستیں"
+
+#: inc/admin/customizer.php:4321 inc/admin/customizer.php:4335
+msgid "numbered lists"
+msgstr "نمبر والی فہرستیں"
+
+#: inc/admin/customizer.php:4335
+msgid "Inner color for marker"
+msgstr "مارکر کے لیے اندرونی رنگ"
+
+#: inc/admin/customizer.php:4353
+msgid "Quote blocks"
+msgstr "کوٹ بلاکس"
+
+#: inc/admin/customizer.php:4371
+msgid "Just a block"
+msgstr "صرف ایک بلاک"
+
+#: inc/admin/customizer.php:4372
+msgid "Gradient 1 (fill)"
+msgstr "گریڈینٹ 1 (پُر)"
+
+#: inc/admin/customizer.php:4373
+msgid "Gradient 2 (fill)"
+msgstr "گریڈینٹ 2 (پُر)"
+
+#: inc/admin/customizer.php:4374
+msgid "Grid (fill)"
+msgstr "گرڈ (پُر)"
+
+#: inc/admin/customizer.php:4375
+msgid "Folded corner"
+msgstr "تہہ شدہ کونا"
+
+#: inc/admin/customizer.php:4376
+msgid "Solid frame"
+msgstr "ٹھوس فریم"
+
+#: inc/admin/customizer.php:4377
+msgid "Dotted frame"
+msgstr "نقطے والا فریم"
+
+#: inc/admin/customizer.php:4378 inc/admin/customizer.php:5933
+#: inc/admin/customizer.php:6208
+msgid "Border left"
+msgstr "بارڈر چھوڑ دیا۔"
+
+#: inc/admin/customizer.php:4379
+msgid "Double border"
+msgstr "ڈبل بارڈر"
+
+#: inc/admin/customizer.php:4393
+msgid "Some styles work well with the background"
+msgstr "کچھ طرزیں پس منظر کے ساتھ اچھی طرح کام کرتی ہیں۔"
+
+#: inc/admin/customizer.php:4407
+msgid "Activate automatic background color selection"
+msgstr "خودکار پس منظر کے رنگ کے انتخاب کو چالو کریں۔"
+
+#: inc/admin/customizer.php:4408
+msgid "(The color is selected based on the background of the content part)"
+msgstr "(رنگ مواد کے حصے کے پس منظر کی بنیاد پر منتخب کیا جاتا ہے)"
+
+#: inc/admin/customizer.php:4422
+msgid "Default - general text color"
+msgstr "پہلے سے طے شدہ - عام متن کا رنگ"
+
+#: inc/admin/customizer.php:4446
+msgid "Add icon"
+msgstr "آئیکن شامل کریں۔"
+
+#: inc/admin/customizer.php:4460
+msgid "Icon location"
+msgstr "آئیکن کا مقام"
+
+#: inc/admin/customizer.php:4461
+msgid "Together with the icon, the text is also aligned"
+msgstr "آئیکن کے ساتھ، متن بھی سیدھ میں ہے۔"
+
+#: inc/admin/customizer.php:4466
+msgid "Centered"
+msgstr "مرکز"
+
+#: inc/admin/customizer.php:4479 inc/admin/customizer.php:4681
+#: inc/admin/customizer.php:4883
+msgid "Icon selection"
+msgstr "آئیکن کا انتخاب"
+
+#: inc/admin/customizer.php:4483
+msgid "Square quotes"
+msgstr "مربع اقتباسات"
+
+#: inc/admin/customizer.php:4484
+msgid "Rectangular quotes"
+msgstr "مستطیل اقتباسات"
+
+#: inc/admin/customizer.php:4485
+msgid "Sharp quotes"
+msgstr "تیز اقتباسات"
+
+#: inc/admin/customizer.php:4486
+msgid "Round quotes"
+msgstr "گول اقتباسات"
+
+#: inc/admin/customizer.php:4487
+msgid "Paper clip"
+msgstr "پیپر کلپ"
+
+#: inc/admin/customizer.php:4488
+msgid "Paper clip (vertical)"
+msgstr "کاغذی کلپ (عمودی)"
+
+#: inc/admin/customizer.php:4489
+msgid "Drawing pin"
+msgstr "ڈرائنگ پن"
+
+#: inc/admin/customizer.php:4490
+msgid "Drawing pin (vertical)"
+msgstr "ڈرائنگ پن (عمودی)"
+
+#: inc/admin/customizer.php:4491
+msgid "Bulb"
+msgstr "بلب"
+
+#: inc/admin/customizer.php:4492
+msgid "Bell"
+msgstr "گھنٹی"
+
+#: inc/admin/customizer.php:4493
+msgid "Attention triangle"
+msgstr "توجہ کا مثلث"
+
+#: inc/admin/customizer.php:4494
+msgid "Exclamation sheet"
+msgstr "فجائیہ نامہ"
+
+#: inc/admin/customizer.php:4495
+msgid "Exclamation mark"
+msgstr "فجائیہ نشان"
+
+#: inc/admin/customizer.php:4496
+msgid "Cloud conversation"
+msgstr "بادل کی گفتگو"
+
+#: inc/admin/customizer.php:4497
+msgid "Speaker"
+msgstr "اسپیکر"
+
+#: inc/admin/customizer.php:4498
+msgid "Open book"
+msgstr "کھلی کتاب"
+
+#: inc/admin/customizer.php:4499
+msgid "Embossed tick"
+msgstr "ابھرا ہوا ٹک"
+
+#: inc/admin/customizer.php:4500
+msgid "Solid tick"
+msgstr "ٹھوس ٹک"
+
+#: inc/admin/customizer.php:4512
+msgid "Icon color"
+msgstr "آئیکن کا رنگ"
+
+#: inc/admin/customizer.php:4526
+msgid "Icon size"
+msgstr "آئیکن کا سائز"
+
+#: inc/admin/customizer.php:4541
+msgid "Add background for icon"
+msgstr "آئیکن کے لیے پس منظر شامل کریں۔"
+
+#: inc/admin/customizer.php:4554
+msgid "Background color of icons and lines"
+msgstr "شبیہیں اور لائنوں کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:4572
+msgid "H1 headings"
+msgstr "H1 عنوانات"
+
+#: inc/admin/customizer.php:4585 inc/admin/customizer.php:4787
+#: inc/admin/customizer.php:4988
+msgid "Default - titles text general color"
+msgstr "پہلے سے طے شدہ - عنوانات کے متن کا عمومی رنگ"
+
+#: inc/admin/customizer.php:4627 inc/admin/customizer.php:4829
+#: inc/admin/customizer.php:5072
+msgid "Line height"
+msgstr "لائن کی اونچائی"
+
+#: inc/admin/customizer.php:4645
+msgid "Headings H2"
+msgstr "عنوانات H2"
+
+#: inc/admin/customizer.php:4658 inc/admin/customizer.php:4860
+msgid "Heading options"
+msgstr "سرخی کے اختیارات"
+
+#: inc/admin/customizer.php:4663 inc/admin/customizer.php:4865
+msgid "Simple headers"
+msgstr "سادہ ہیڈر"
+
+#: inc/admin/customizer.php:4664 inc/admin/customizer.php:4866
+msgid "Light underlining"
+msgstr "لائٹ انڈر لائننگ"
+
+#: inc/admin/customizer.php:4665 inc/admin/customizer.php:4867
+msgid "Side border"
+msgstr "سائیڈ بارڈر"
+
+#: inc/admin/customizer.php:4666 inc/admin/customizer.php:4868
+msgid "With numbering"
+msgstr "نمبر کے ساتھ"
+
+#: inc/admin/customizer.php:4667 inc/admin/customizer.php:4869
+msgid "With icon selection"
+msgstr "آئیکن کے انتخاب کے ساتھ"
+
+#: inc/admin/customizer.php:4668 inc/admin/customizer.php:4870
+msgid "With arbitrary value"
+msgstr "صوابدیدی قدر کے ساتھ"
+
+#: inc/admin/customizer.php:4685 inc/admin/customizer.php:4887
+msgid "Turn off icons"
+msgstr "شبیہیں بند کریں۔"
+
+#: inc/admin/customizer.php:4686 inc/admin/customizer.php:4888
+msgid "Right arrow"
+msgstr "دایاں تیر"
+
+#: inc/admin/customizer.php:4687 inc/admin/customizer.php:4889
+msgid "Arrow to down"
+msgstr "نیچے کی طرف تیر"
+
+#: inc/admin/customizer.php:4688 inc/admin/customizer.php:4890
+msgid "Arrow right and down"
+msgstr "دائیں اور نیچے تیر"
+
+#: inc/admin/customizer.php:4689 inc/admin/customizer.php:4891
+#: inc/admin/customizer.php:6545
+msgid "Volumetric arrow"
+msgstr "والیومیٹرک تیر"
+
+#: inc/admin/customizer.php:4690 inc/admin/customizer.php:4892
+msgid "Pencil"
+msgstr "پینسل"
+
+#: inc/admin/customizer.php:4692 inc/admin/customizer.php:4894
+msgid "Small flag"
+msgstr "چھوٹا جھنڈا۔"
+
+#: inc/admin/customizer.php:4693 inc/admin/customizer.php:4895
+msgid "Blocks"
+msgstr "بلاکس"
+
+#: inc/admin/customizer.php:4694 inc/admin/customizer.php:4896
+msgid "Block hierarchy"
+msgstr "بلاک درجہ بندی"
+
+#: inc/admin/customizer.php:4700 inc/admin/customizer.php:4902
+msgid "Par."
+msgstr "برابر"
+
+#: inc/admin/customizer.php:4707 inc/admin/customizer.php:4722
+#: inc/admin/customizer.php:4909 inc/admin/customizer.php:4923
+msgid "Add label"
+msgstr "لیبل شامل کریں۔"
+
+#: inc/admin/customizer.php:4735 inc/admin/customizer.php:4936
+msgid "Heading icons text color"
+msgstr "سرخی کی شبیہیں متن کا رنگ"
+
+#: inc/admin/customizer.php:4749 inc/admin/customizer.php:4950
+msgid "Background color of icons and lines for heading"
+msgstr "سرخی کے لیے شبیہیں اور لائنوں کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:4772 inc/admin/customizer.php:4973
+msgid "Headings background color"
+msgstr "سرخیوں کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:4774 inc/admin/customizer.php:4974
+msgid "Default - site body background color"
+msgstr "ڈیفالٹ - سائٹ کے جسم کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:4786 inc/admin/customizer.php:4987
+msgid "Headings text color"
+msgstr "عنوانات کے متن کا رنگ"
+
+#: inc/admin/customizer.php:4847
+msgid "Headings H3 - H6"
+msgstr "عنوانات H3 - H6"
+
+#: inc/admin/customizer.php:5085
+msgid "Text"
+msgstr "متن"
+
+#: inc/admin/customizer.php:5098
+msgid "Text font"
+msgstr "ٹیکسٹ فونٹ"
+
+#: inc/admin/customizer.php:5126
+msgid "Text line height"
+msgstr "ٹیکسٹ لائن کی اونچائی"
+
+#: inc/admin/customizer.php:5139
+msgid "Links in content"
+msgstr "مواد میں لنکس"
+
+#: inc/admin/customizer.php:5152
+msgid "Remove link underline"
+msgstr "انڈر لائن لنک کو ہٹا دیں۔"
+
+#: inc/admin/customizer.php:5153
+msgid "This removes the underlining of links in the content text"
+msgstr "یہ مواد کے متن میں روابط کی خط کشی کو ہٹا دیتا ہے۔"
+
+#: inc/admin/customizer.php:5170
+msgid "Author section"
+msgstr "مصنف سیکشن"
+
+#: inc/admin/customizer.php:5183
+msgid "Activate author section"
+msgstr "مصنف کے حصے کو فعال کریں۔"
+
+#: inc/admin/customizer.php:5197
+msgid "Separator variation"
+msgstr "الگ کرنے والا تغیر"
+
+#: inc/admin/customizer.php:5201
+msgid "Turn off separators"
+msgstr "الگ کرنے والوں کو بند کر دیں۔"
+
+#: inc/admin/customizer.php:5204
+msgid "Dividers in width"
+msgstr "چوڑائی میں تقسیم کرنے والے"
+
+#: inc/admin/customizer.php:5205
+msgid "Dividers in center"
+msgstr "بیچ میں تقسیم کرنے والے"
+
+#: inc/admin/customizer.php:5219
+msgid "Separator style"
+msgstr "الگ کرنے والا انداز"
+
+#: inc/admin/customizer.php:5223
+msgid "Solid line"
+msgstr "ٹھوس لکیر"
+
+#: inc/admin/customizer.php:5224
+msgid "Dashed line"
+msgstr "نقطہ دار لکیر"
+
+#: inc/admin/customizer.php:5225
+msgid "Dotted line"
+msgstr "نقطہ دار لکیر"
+
+#: inc/admin/customizer.php:5226
+msgid "Double line"
+msgstr "ڈبل لائن"
+
+#: inc/admin/customizer.php:5238
+msgid "Separator thickness"
+msgstr "جداکار موٹائی"
+
+#: inc/admin/customizer.php:5253
+msgid "Hide avatar"
+msgstr "اوتار چھپائیں۔"
+
+#: inc/admin/customizer.php:5267
+msgid "Hide description"
+msgstr "تفصیل چھپائیں۔"
+
+#: inc/admin/customizer.php:5282
+msgid "Add author latest posts to author section"
+msgstr "مصنف کے حصے میں مصنف کی تازہ ترین پوسٹس شامل کریں۔"
+
+#: inc/admin/customizer.php:5289
+msgid "Latest entries of author"
+msgstr "مصنف کے تازہ ترین اندراجات"
+
+#: inc/admin/customizer.php:5297
+msgid "Author posts title"
+msgstr "مصنف کی پوسٹس کا عنوان"
+
+#: inc/admin/customizer.php:5311
+msgid "Number of posts"
+msgstr "پوسٹس کی تعداد"
+
+#: inc/admin/customizer.php:5328
+msgid "Section (next entry)"
+msgstr "سیکشن (اگلا اندراج)"
+
+#: inc/admin/customizer.php:5341
+msgid "Disable section (next entry)"
+msgstr "سیکشن کو غیر فعال کریں (اگلا اندراج)"
+
+#: inc/admin/customizer.php:5355 inc/admin/customizer.php:5839
+#: inc/admin/customizer.php:6005
+msgid "Default - color of large elements"
+msgstr "پہلے سے طے شدہ - بڑے عناصر کا رنگ"
+
+#: inc/admin/customizer.php:5369 inc/admin/customizer.php:5854
+#: inc/admin/customizer.php:6020
+msgid "Default - secondary color for large elements"
+msgstr "پہلے سے طے شدہ - بڑے عناصر کے لیے ثانوی رنگ"
+
+#: inc/admin/customizer.php:5383
+msgid "Remove label"
+msgstr "لیبل ہٹا دیں۔"
+
+#: inc/admin/customizer.php:5400 inc/admin/customizer.php:5420
+#: template-parts/content-related.php:14
+msgid "Related posts"
+msgstr "متعلقہ اشاعت"
+
+#: inc/admin/customizer.php:5413
+msgid "Activate related posts"
+msgstr "متعلقہ پوسٹس کو فعال کریں۔"
+
+#: inc/admin/customizer.php:5427 inc/admin/customizer.php:6677
+#: inc/admin/customizer.php:6717 inc/admin/customizer.php:6757
+msgid "Section title"
+msgstr "سیکشن کا عنوان"
+
+#: inc/admin/customizer.php:5441
+msgid "Number of columns"
+msgstr "کالموں کی تعداد"
+
+#: inc/admin/customizer.php:5459
+msgid "Number of related posts"
+msgstr "متعلقہ پوسٹس کی تعداد"
+
+#: inc/admin/customizer.php:5473
+msgid "Taxonomy for related posts"
+msgstr "متعلقہ عہدوں کے لیے درجہ بندی"
+
+#: inc/admin/customizer.php:5474
+msgid "The criteria by which posts are selected"
+msgstr "وہ معیار جس کے ذریعے پوسٹوں کا انتخاب کیا جاتا ہے۔"
+
+#: inc/admin/customizer.php:5479 inc/module/meta-tags.php:566
+msgid "Tags"
+msgstr "نشاندہی الفاظ"
+
+#: inc/admin/customizer.php:5496
+msgid "Simple design"
+msgstr "سادہ ڈیزائن"
+
+#: inc/admin/customizer.php:5498
+msgid "Contrast blocks"
+msgstr "کنٹراسٹ بلاکس"
+
+#: inc/admin/customizer.php:5499
+msgid "Soaring blocks"
+msgstr "بڑھتے ہوئے بلاکس"
+
+#: inc/admin/customizer.php:5513
+msgid "Remove stub (No photo) in related posts"
+msgstr "متعلقہ پوسٹس میں سٹب (کوئی تصویر نہیں) ہٹا دیں۔"
+
+#: inc/admin/customizer.php:5530
+msgid "Comment section"
+msgstr "تبصرہ سیکشن"
+
+#: inc/admin/customizer.php:5543
+msgid "Remove comment section (for posts)"
+msgstr "تبصرہ سیکشن کو ہٹا دیں (پوسٹس کے لیے)"
+
+#: inc/admin/customizer.php:5557
+msgid "Remove comment section (for pages)"
+msgstr "تبصرہ سیکشن ہٹائیں (صفحات کے لیے)"
+
+#: inc/admin/customizer.php:5571
+msgid "Remove URL field in comments (for posts and pages)"
+msgstr "تبصروں میں یو آر ایل فیلڈ کو ہٹا دیں (پوسٹس اور پیجز کے لیے)"
+
+#: inc/admin/customizer.php:5583
+msgid "Main page"
+msgstr "سرورق"
+
+#: inc/admin/customizer.php:5604
+msgid "Activate sections with blocks on the main"
+msgstr "مین پر بلاکس والے سیکشنز کو چالو کریں۔"
+
+#: inc/admin/customizer.php:5619
+msgid "Size of section headings"
+msgstr "سیکشن کی سرخیوں کا سائز"
+
+#: inc/admin/customizer.php:5637
+msgid "Color of section headings"
+msgstr "سیکشن کی سرخیوں کا رنگ"
+
+#: inc/admin/customizer.php:5638
+msgid "Default - content text color"
+msgstr "ڈیفالٹ - مواد کے متن کا رنگ"
+
+#: inc/admin/customizer.php:5662
+msgid "Enable the section with the latest posts on the main page"
+msgstr "مرکزی صفحہ پر تازہ ترین پوسٹس کے ساتھ سیکشن کو فعال کریں۔"
+
+#: inc/admin/customizer.php:5663
+msgid ""
+"(Post blocks, as well as pagination, are configured in the \"Categories\" "
+"section)"
+msgstr ""
+"(پوسٹ بلاکس کے ساتھ ساتھ صفحہ بندی بھی \"زمرہ\" سیکشن میں ترتیب دی گئی ہے)"
+
+#: inc/admin/customizer.php:5670 template-parts/home/home-article.php:13
+msgid "Latest posts"
+msgstr "تازہ ترین پوسٹس"
+
+#: inc/admin/customizer.php:5677
+msgid "Title for the latest posts section"
+msgstr "تازہ ترین پوسٹس سیکشن کا عنوان"
+
+#: inc/admin/customizer.php:5692
+msgid "Where to show the latest posts section"
+msgstr "جہاں تازہ ترین پوسٹس سیکشن دکھانا ہے۔"
+
+#: inc/admin/customizer.php:5696
+msgid "At the beginning"
+msgstr "شروع میں"
+
+#: inc/admin/customizer.php:5697
+msgid "At the end"
+msgstr "آخر میں"
+
+#: inc/admin/customizer.php:5730 inc/admin/function-panel-reset.php:2474
+msgid "Sidebar"
+msgstr "سائیڈ بار"
+
+#: inc/admin/customizer.php:5743
+msgid "Design of sections for widgets"
+msgstr "ویجٹ کے لیے حصوں کا ڈیزائن"
+
+#: inc/admin/customizer.php:5747 inc/admin/customizer.php:5929
+#: inc/admin/customizer.php:6204 inc/option/set.php:563 inc/option/set.php:569
+#: inc/option/set.php:575 inc/option/set.php:581 inc/option/set.php:587
+msgid "Switch off"
+msgstr "بند سوئچ"
+
+#: inc/admin/customizer.php:5751
+msgid "Side shadow"
+msgstr "سائیڈ شیڈو"
+
+#: inc/admin/customizer.php:5752
+msgid "Gradient"
+msgstr "میلان"
+
+#: inc/admin/customizer.php:5766
+msgid "Section background color"
+msgstr "سیکشن کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:5783
+msgid "Widget headers"
+msgstr "ویجیٹ ہیڈر"
+
+#: inc/admin/customizer.php:5799
+msgid "Widget header option"
+msgstr "ویجیٹ ہیڈر آپشن"
+
+#: inc/admin/customizer.php:5818
+msgid "Widget headers background size"
+msgstr "ویجیٹ ہیڈر کے پس منظر کا سائز"
+
+#: inc/admin/customizer.php:5838 inc/admin/customizer.php:6115
+msgid "Widgets header fill color"
+msgstr "وجیٹس ہیڈر فل کلر"
+
+#: inc/admin/customizer.php:5853
+msgid "Widgets title text color"
+msgstr "وجیٹس کے عنوان کے متن کا رنگ"
+
+#: inc/admin/customizer.php:5869 inc/admin/customizer.php:6144
+msgid "Widget title font"
+msgstr "ویجیٹ ٹائٹل فونٹ"
+
+#: inc/admin/customizer.php:5882 inc/admin/customizer.php:6157
+msgid "Widget title text size"
+msgstr "ویجیٹ ٹائٹل ٹیکسٹ سائز"
+
+#: inc/admin/customizer.php:5897 inc/admin/customizer.php:6172
+msgid "Widget title in uppercase"
+msgstr "ویجیٹ کا عنوان بڑے حروف میں"
+
+#: inc/admin/customizer.php:5911 inc/admin/customizer.php:6186
+msgid "Center align widget titles"
+msgstr "ویجیٹ کے عنوانات کو بیچ میں سیدھ کریں۔"
+
+#: inc/admin/customizer.php:5925 inc/admin/customizer.php:6200
+msgid "Underline widget titles"
+msgstr "ویجیٹ کے عنوانات کو انڈر لائن کریں۔"
+
+#: inc/admin/customizer.php:5930 inc/admin/customizer.php:6205
+msgid "Left and down"
+msgstr "بائیں اور نیچے"
+
+#: inc/admin/customizer.php:5931 inc/admin/customizer.php:6206
+msgid "Center and bottom"
+msgstr "مرکز اور نیچے"
+
+#: inc/admin/customizer.php:5944 inc/admin/customizer.php:6219
+msgid "Line thickness"
+msgstr "لائن کی موٹائی"
+
+#: inc/admin/customizer.php:5962 inc/option/set.php:271
+msgid "Bottom part"
+msgstr "نیچے کا حصہ"
+
+#: inc/admin/customizer.php:5975
+msgid "Activate footer"
+msgstr "فوٹر کو چالو کریں۔"
+
+#: inc/admin/customizer.php:6004
+msgid "Footer background color"
+msgstr "فوٹر کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:6019
+msgid "Footer text color"
+msgstr "فوٹر متن کا رنگ"
+
+#: inc/admin/customizer.php:6034 inc/admin/customizer.php:6048
+msgid "Footer link color"
+msgstr "فوٹر لنک کا رنگ"
+
+#: inc/admin/customizer.php:6062
+msgid "Footer elements color"
+msgstr "فوٹر عناصر کا رنگ"
+
+#: inc/admin/customizer.php:6098
+msgid "Widgets"
+msgstr "ویجِٹ"
+
+#: inc/admin/customizer.php:6129
+msgid "Widgets titles text color"
+msgstr "وجیٹس کے عنوانات کے متن کا رنگ"
+
+#: inc/admin/customizer.php:6243
+msgid "Activate bottom menu"
+msgstr "نیچے والے مینو کو چالو کریں۔"
+
+#: inc/admin/customizer.php:6257
+msgid "Bottom menu text size"
+msgstr "نیچے والے مینو کے متن کا سائز"
+
+#: inc/admin/customizer.php:6281
+msgid "Add dividing line"
+msgstr "تقسیم کرنے والی لائن شامل کریں۔"
+
+#: inc/admin/customizer.php:6293
+msgid "Text at the bottom of the footer"
+msgstr "فوٹر کے نیچے متن"
+
+#: inc/admin/customizer.php:6307
+msgid "Different settings"
+msgstr "مختلف ترتیبات"
+
+#: inc/admin/customizer.php:6330
+msgid "Breadcrumbs"
+msgstr "بریڈ کرمبس"
+
+#: inc/admin/customizer.php:6344
+msgid "Enable breadcrumbs in posts"
+msgstr "پوسٹس میں بریڈ کرمبس کو فعال کریں۔"
+
+#: inc/admin/customizer.php:6358
+msgid "Enable breadcrumbs in categories"
+msgstr "زمروں میں بریڈ کرمبس کو فعال کریں۔"
+
+#: inc/admin/customizer.php:6372
+msgid "Show link to home page"
+msgstr "ہوم پیج کا لنک دکھائیں۔"
+
+#: inc/admin/customizer.php:6379 inc/module/breadcrumb.php:11
+msgid "Home"
+msgstr "صفحہ اولیں"
+
+#: inc/admin/customizer.php:6386
+msgid "Specify the text for the first link"
+msgstr "پہلے لنک کے لیے متن کی وضاحت کریں۔"
+
+#: inc/admin/customizer.php:6400
+msgid "Show title in breadcrumb for posts"
+msgstr "پوسٹس کے لیے بریڈ کرمب میں عنوان دکھائیں۔"
+
+#: inc/admin/customizer.php:6414
+msgid "Show title for categories, archives and tags"
+msgstr "زمرہ جات، آرکائیوز اور ٹیگز کے لیے عنوان دکھائیں۔"
+
+#: inc/admin/customizer.php:6428
+msgid "Breadcrumbs design option"
+msgstr "بریڈ کرمبس ڈیزائن آپشن"
+
+#: inc/admin/customizer.php:6463 inc/admin/customizer.php:6477
+msgid "Link text color"
+msgstr "لنک ٹیکسٹ کا رنگ"
+
+#: inc/admin/customizer.php:6491
+msgid "Separator and header color"
+msgstr "الگ کرنے والا اور ہیڈر کا رنگ"
+
+#: inc/admin/customizer.php:6538
+msgid "Separator"
+msgstr "سیپاریٹر"
+
+#: inc/admin/customizer.php:6543
+msgid "Arrowhead"
+msgstr "تیر کا نشان"
+
+#: inc/admin/customizer.php:6544 inc/admin/customizer.php:6873
+msgid "Brace"
+msgstr "تسمہ"
+
+#: inc/admin/customizer.php:6546
+msgid "Linear arrow"
+msgstr "لکیری تیر"
+
+#: inc/admin/customizer.php:6557
+msgid "Calm blocks"
+msgstr "پرسکون بلاکس"
+
+#: inc/admin/customizer.php:6571
+msgid "Activate fluently movement for blocks"
+msgstr "بلاکس کے لیے روانی سے حرکت کو چالو کریں۔"
+
+#: inc/admin/customizer.php:6572
+msgid "Applies for sections on the main page and category pages"
+msgstr "مرکزی صفحہ اور زمرہ کے صفحات پر سیکشنز کے لیے درخواست دیتا ہے۔"
+
+#: inc/admin/customizer.php:6581
+msgid ""
+"Warning! After enabling this module, check that the post cards are displayed "
+"correctly."
+msgstr ""
+"وارننگ! اس ماڈیول کو فعال کرنے کے بعد، چیک کریں کہ پوسٹ کارڈ صحیح طریقے سے "
+"دکھائے گئے ہیں۔"
+
+#: inc/admin/customizer.php:6583
+msgid ""
+"This module often conflicts with various plugins that are responsible for "
+"\"Delayed post loading\", \"Infinite post loading\" and \"Caching\"."
+msgstr ""
+"یہ ماڈیول اکثر مختلف پلگ انز سے متصادم ہوتا ہے جو \"تاخیر پوسٹ لوڈنگ\"، "
+"\"لامحدود پوسٹ لوڈنگ\" اور \"کیچنگ\" کے لیے ذمہ دار ہوتے ہیں۔"
+
+#: inc/admin/customizer.php:6602
+msgid "Range for fluently movement"
+msgstr "روانی سے نقل و حرکت کی حد"
+
+#: inc/admin/customizer.php:6621
+msgid "Direction movement"
+msgstr "سمت کی نقل و حرکت"
+
+#: inc/admin/customizer.php:6625
+msgid "Top"
+msgstr "اوپر"
+
+#: inc/admin/customizer.php:6626
+msgid "Bottom"
+msgstr "نیچے"
+
+#: inc/admin/customizer.php:6639
+msgid "Site map"
+msgstr "سائٹ کا نقشہ"
+
+#: inc/admin/customizer.php:6646
+msgid ""
+"To display the sitemap, create a new page through the standard WordPress "
+"menu,\n"
+"\t\t\tgo to page edit mode and select the \"Site Map\" template on the right "
+"side, save the page."
+msgstr ""
+"سائٹ کا نقشہ ظاہر کرنے کے لیے، معیاری ورڈپریس مینو کے ذریعے ایک نیا صفحہ "
+"بنائیں،\n"
+"صفحہ ایڈٹ موڈ پر جائیں اور دائیں جانب \"سائٹ میپ\" ٹیمپلیٹ کو منتخب کریں، "
+"صفحہ کو محفوظ کریں۔"
+
+#: inc/admin/customizer.php:6663
+msgid "Display categories on the sitemap"
+msgstr "سائٹ کے نقشے پر زمرے دکھائیں۔"
+
+#: inc/admin/customizer.php:6689
+msgid "Maximum number of categories"
+msgstr "زمروں کی زیادہ سے زیادہ تعداد"
+
+#: inc/admin/customizer.php:6703
+msgid "Show posts on sitemap"
+msgstr "سائٹ کے نقشے پر پوسٹس دکھائیں۔"
+
+#: inc/admin/customizer.php:6710 inc/admin/customizer.php:6717
+#: templates/template-site-map.php:56
+msgid "Posts"
+msgstr "شائع کریں"
+
+#: inc/admin/customizer.php:6729
+msgid "Maximum number of posts"
+msgstr "پوسٹس کی زیادہ سے زیادہ تعداد"
+
+#: inc/admin/customizer.php:6743
+msgid "Show pages on sitemap"
+msgstr "سائٹ کے نقشے پر صفحات دکھائیں۔"
+
+#: inc/admin/customizer.php:6750 inc/admin/customizer.php:6757
+#: inc/usability.php:26 templates/template-site-map.php:110
+msgid "Pages"
+msgstr "صفحات"
+
+#: inc/admin/customizer.php:6769
+msgid "Maximum number of pages"
+msgstr "صفحات کی زیادہ سے زیادہ تعداد"
+
+#: inc/admin/customizer.php:6786
+msgid "Up button"
+msgstr "اوپر کا بٹن"
+
+#: inc/admin/customizer.php:6800
+msgid "Disable button"
+msgstr "غیر فعال بٹن"
+
+#: inc/admin/customizer.php:6800
+msgid "Up"
+msgstr "اوپر"
+
+#: inc/admin/customizer.php:6814
+msgid "Button location"
+msgstr "بٹن کا مقام"
+
+#: inc/admin/customizer.php:6850
+msgid "Button shape"
+msgstr "بٹن کی شکل"
+
+#: inc/admin/customizer.php:6854 inc/function-customizer.php:11864
+msgid "Circle"
+msgstr "دائرہ"
+
+#: inc/admin/customizer.php:6855 inc/admin/customizer.php:7294
+msgid "Square"
+msgstr "چوکور"
+
+#: inc/admin/customizer.php:6868
+msgid "Button variation"
+msgstr "بٹن کی تبدیلی"
+
+#: inc/admin/customizer.php:6887
+msgid "Button opacity"
+msgstr "بٹن کی دھندلاپن"
+
+#: inc/admin/customizer.php:6901
+msgid "SEO settings"
+msgstr "SEO کی ترتیبات"
+
+#: inc/admin/customizer.php:6916
+msgid "Remove prefix (site name) after SEO Title"
+msgstr "SEO ٹائٹل کے بعد سابقہ (سائٹ کا نام) ہٹا دیں۔"
+
+#: inc/admin/customizer.php:6930
+msgid ""
+"Remove the prefix (site description) after the SEO Title on the main page"
+msgstr "مرکزی صفحہ پر SEO عنوان کے بعد سابقہ (سائٹ کی تفصیل) کو ہٹا دیں۔"
+
+#: inc/admin/customizer.php:6944
+msgid "Set your separator for SEO Title prefix"
+msgstr "SEO ٹائٹل کے سابقہ کے لیے اپنا الگ کرنے والا سیٹ کریں۔"
+
+#: inc/admin/customizer.php:6958
+msgid "Set your SEO Title for the homepage"
+msgstr "ہوم پیج کے لیے اپنا SEO ٹائٹل سیٹ کریں۔"
+
+#: inc/admin/customizer.php:6972
+msgid "Set your SEO Description for the homepage"
+msgstr "ہوم پیج کے لیے اپنی SEO تفصیل سیٹ کریں۔"
+
+#: inc/admin/customizer.php:6986
+msgid "Automatic addition of ALT to images from the title of the post"
+msgstr "پوسٹ کے عنوان سے تصاویر میں ALT کا خودکار اضافہ"
+
+#: inc/admin/customizer.php:6987
+msgid ""
+"(The function automatically fills the ALT tag for the image when you upload "
+"a file while in a text editor. Based on the title in the current post or "
+"page.)"
+msgstr ""
+"(جب آپ ٹیکسٹ ایڈیٹر میں فائل اپ لوڈ کرتے ہیں تو فنکشن خود بخود تصویر کے لیے "
+"ALT ٹیگ کو بھر دیتا ہے۔ موجودہ پوسٹ یا صفحہ کے عنوان کی بنیاد پر۔)"
+
+#: inc/admin/customizer.php:7003
+msgid "Set ALT value for stub No photo"
+msgstr "اسٹب کوئی تصویر کے لیے ALT قدر سیٹ کریں۔"
+
+#: inc/admin/customizer.php:7015
+msgid "Speed Settings"
+msgstr "رفتار کی ترتیبات"
+
+#: inc/admin/customizer.php:7027
+msgid ""
+"This section has been created for your convenience. All settings are safe "
+"and cannot disrupt the site. To further increase the speed of the site, go "
+"to the help page."
+msgstr ""
+"یہ سیکشن آپ کی سہولت کے لیے بنایا گیا ہے۔ تمام ترتیبات محفوظ ہیں اور سائٹ "
+"میں خلل نہیں ڈال سکتی ہیں۔ سائٹ کی رفتار کو مزید بڑھانے کے لیے مدد کے صفحے "
+"پر جائیں۔"
+
+#: inc/admin/customizer.php:7056
+msgid "Relieve the Top menu (replace with lightweight)"
+msgstr "اوپر والے مینو سے نجات حاصل کریں (ہلکے وزن سے بدلیں)"
+
+#: inc/admin/customizer.php:7057
+msgid ""
+"\n"
+"\t\t\tThis will disable the heavy menu and enable the pure CSS menu.\n"
+"\t\t\tPros: Disables JS scripts, which can be important for speed since the "
+"menu is at the top of the site.\n"
+"\t\t\tCons: Support for keyboard control will be disabled. The arrows "
+"(icons) of the menu control are disabled."
+msgstr ""
+"\n"
+"یہ بھاری مینو کو غیر فعال کر دے گا اور خالص CSS مینو کو فعال کر دے گا۔\n"
+"پیشہ: JS اسکرپٹ کو غیر فعال کرتا ہے، جو کہ رفتار کے لیے اہم ہو سکتا ہے "
+"کیونکہ مینو سائٹ کے اوپری حصے میں ہوتا ہے۔\n"
+"Cons: کی بورڈ کنٹرول کے لیے سپورٹ کو غیر فعال کر دیا جائے گا۔ مینو کنٹرول کے "
+"تیر ( شبیہیں) غیر فعال ہیں۔"
+
+#: inc/admin/customizer.php:7064
+msgid "JS Menu"
+msgstr "جے ایس مینو"
+
+#: inc/admin/customizer.php:7065
+msgid "Lightweight menu"
+msgstr "ہلکا پھلکا مینو"
+
+#: inc/admin/customizer.php:7078
+msgid "Disable improved dropdowns (select list)"
+msgstr "بہتر ڈراپ ڈاؤن کو غیر فعال کریں (فہرست منتخب کریں)"
+
+#: inc/admin/customizer.php:7079
+msgid ""
+"\n"
+"\t\t\tThis will disable the script that improves the appearance and "
+"usability of drop-down lists.\n"
+"\t\t\tFor example, in the widget (Categories) it adds a live search filter "
+"if the list is long.\n"
+"\t\t\tThis will not affect the menu.\n"
+"\t\t\tDisable it if site loading speed is important to you and you do not "
+"use drop-down lists."
+msgstr ""
+"\n"
+"یہ اسکرپٹ کو غیر فعال کر دے گا جو ڈراپ ڈاؤن فہرستوں کی ظاہری شکل اور استعمال "
+"کو بہتر بناتا ہے۔\n"
+"مثال کے طور پر، ویجیٹ (کیٹیگریز) میں یہ لائیو سرچ فلٹر شامل کرتا ہے اگر "
+"فہرست لمبی ہو۔\n"
+"یہ مینو کو متاثر نہیں کرے گا۔\n"
+"اگر سائٹ لوڈنگ کی رفتار آپ کے لیے اہم ہے اور آپ ڈراپ ڈاؤن فہرستوں کا استعمال "
+"نہیں کرتے ہیں تو اسے غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:7097
+msgid "Disable enhanced usability in comments"
+msgstr "تبصروں میں بہتر استعمال کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:7098
+msgid ""
+"\n"
+"\t\t\tThis will disable the script that moves the form for adding a comment "
+"under the comment, in which we clicked on the link (answer).\n"
+"\t\t\tThis happens without reloading the page and improves interaction with "
+"the comment form.\n"
+"\t\t\tDisable it if this is not important to you."
+msgstr ""
+"\n"
+"یہ اسکرپٹ کو غیر فعال کردے گا جو تبصرہ کے نیچے تبصرہ شامل کرنے کے لیے فارم "
+"کو منتقل کرتا ہے، جس میں ہم نے لنک (جواب) پر کلک کیا تھا۔\n"
+"یہ صفحہ کو دوبارہ لوڈ کیے بغیر ہوتا ہے اور تبصرہ فارم کے ساتھ تعامل کو بہتر "
+"بناتا ہے۔\n"
+"اگر یہ آپ کے لیے اہم نہیں ہے تو اسے غیر فعال کر دیں۔"
+
+#: inc/admin/customizer.php:7116
+msgid "Disable keyboard support in sliders"
+msgstr "سلائیڈرز میں کی بورڈ سپورٹ کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:7117
+msgid ""
+"This will disable the heavy script required to control the sliders with the "
+"keyboard"
+msgstr ""
+"یہ کی بورڈ کے ساتھ سلائیڈرز کو کنٹرول کرنے کے لیے درکار بھاری اسکرپٹ کو غیر "
+"فعال کر دے گا۔"
+
+#: inc/admin/customizer.php:7132
+msgid "Disable enhanced block styles (Gutenberg)"
+msgstr "بہتر بلاک اسٹائل کو غیر فعال کریں (گٹنبرگ)"
+
+#: inc/admin/customizer.php:7133
+msgid ""
+"The size of these styles is quite large, but the benefit is negligible. \n"
+"\t\t\tDisable if you do not see any difference in the design of block "
+"widgets or in the page editor using blocks (Gutenberg)"
+msgstr ""
+"ان اسٹائلز کا سائز کافی بڑا ہے لیکن فائدہ نہ ہونے کے برابر ہے۔\n"
+"اگر آپ کو بلاک ویجٹ کے ڈیزائن میں یا بلاکس استعمال کرنے والے پیج ایڈیٹر میں "
+"کوئی فرق نظر نہیں آتا ہے تو اسے بند کر دیں (گٹن برگ)"
+
+#: inc/admin/customizer.php:7151
+msgid "Widgets adaptation"
+msgstr "وجیٹس موافقت"
+
+#: inc/admin/customizer.php:7165
+#, php-format
+msgid "Apply styles to %s"
+msgstr "طرزیں %s پر لاگو کریں"
+
+#: inc/admin/customizer.php:7166
+#, php-format
+msgid ""
+"%1$s have their own flexible settings. Disabling this setting can be useful "
+"if you want to control the design of %1$s yourself"
+msgstr ""
+"%1$s کی اپنی لچکدار ترتیبات ہیں۔ اگر آپ خود %1$s کے ڈیزائن کو کنٹرول کرنا "
+"چاہتے ہیں تو اس ترتیب کو غیر فعال کرنا مفید ہو سکتا ہے۔"
+
+#: inc/admin/customizer.php:7182
+msgid "Settings basic widgets (post, page, category, menu)"
+msgstr "بنیادی وجیٹس کی ترتیبات (پوسٹ، صفحہ، زمرہ، مینو)"
+
+#: inc/admin/customizer.php:7203
+msgid "Design for lists of posts and pages in basic widgets"
+msgstr "بنیادی ویجٹ میں پوسٹس اور صفحات کی فہرستوں کے لیے ڈیزائن کریں۔"
+
+#: inc/admin/customizer.php:7208
+msgid "File"
+msgstr "فائل"
+
+#: inc/admin/customizer.php:7209
+msgid "Round dots"
+msgstr "گول نقطے۔"
+
+#: inc/admin/customizer.php:7210
+msgid "Square dots"
+msgstr "مربع نقطے۔"
+
+#: inc/admin/customizer.php:7211
+msgid "Thin border"
+msgstr "پتلی سرحد"
+
+#: inc/admin/customizer.php:7229
+msgid "Design for category lists in basic widgets"
+msgstr "بنیادی ویجٹ میں زمرہ کی فہرستوں کے لیے ڈیزائن"
+
+#: inc/admin/customizer.php:7243 inc/admin/customizer.php:7270
+msgid "Thick border"
+msgstr "موٹی سرحد"
+
+#: inc/admin/customizer.php:7261
+msgid "Design for archives in basic widgets"
+msgstr "بنیادی ویجٹ میں آرکائیوز کے لیے ڈیزائن"
+
+#: inc/admin/customizer.php:7266
+msgid "Archive"
+msgstr "محفوظ کردہ دستاویزات"
+
+#: inc/admin/customizer.php:7288
+msgid "Design for menu lists in basic widgets"
+msgstr "بنیادی ویجٹ میں مینو فہرستوں کے لیے ڈیزائن"
+
+#: inc/admin/customizer.php:7295
+msgid "Icon (sign)"
+msgstr "آئیکن (نشان)"
+
+#: inc/admin/customizer.php:7308 inc/admin/customizer.php:7323
+msgid "Text color of menu items of basic widgets"
+msgstr "بنیادی ویجٹ کے مینو آئٹمز کے متن کا رنگ"
+
+#: inc/admin/customizer.php:7310 inc/admin/customizer.php:7325
+msgid "default - sets the overall color of the links"
+msgstr "ڈیفالٹ - لنکس کا مجموعی رنگ سیٹ کرتا ہے۔"
+
+#: inc/admin/customizer.php:7338 inc/admin/customizer.php:7353
+msgid "Background color of menu items of basic widgets"
+msgstr "بنیادی ویجٹ کے مینو آئٹمز کے پس منظر کا رنگ"
+
+#: inc/admin/customizer.php:7340
+msgid "Default - background not set"
+msgstr "پہلے سے طے شدہ - پس منظر سیٹ نہیں ہے۔"
+
+#: inc/admin/customizer.php:7369
+msgid "Disable demo widgets"
+msgstr "ڈیمو ویجٹ کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:7403 inc/admin/customizer.php:7435
+#, php-format
+msgid "Enable styling support for %s"
+msgstr "%s کے لیے اسٹائلنگ سپورٹ کو فعال کریں"
+
+#: inc/admin/customizer.php:7405
+msgid ""
+"Customizes the Skeleton Styles stylesheet according to the template design. "
+"Turning it off can be useful if you want to control the stylesheet yourself "
+"(Skeleton Styles)"
+msgstr ""
+"ٹیمپلیٹ ڈیزائن کے مطابق Skeleton Styles اسٹائل شیٹ کو اپنی مرضی کے مطابق "
+"بناتا ہے۔ اگر آپ اسٹائل شیٹ کو خود کنٹرول کرنا چاہتے ہیں تو اسے آف کرنا مفید "
+"ہوسکتا ہے (Skeleton Styles)"
+
+#: inc/admin/customizer.php:7464
+msgid "Disable sidebar on bbPress pages"
+msgstr "bbPress کے صفحات پر سائڈبار کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:7479
+msgid "Disable breadcrumbs in bbPress"
+msgstr "bbPress میں بریڈ کرمبس کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:7493
+msgid "Activate your names for user roles"
+msgstr "صارف کے کردار کے لیے اپنے ناموں کو فعال کریں۔"
+
+#: inc/admin/customizer.php:7507 inc/admin/customizer.php:7521
+#: inc/admin/customizer.php:7535 inc/admin/customizer.php:7549
+#: inc/admin/customizer.php:7563
+msgid "Change role name"
+msgstr "کردار کا نام تبدیل کریں۔"
+
+#: inc/admin/customizer.php:7578
+msgid "Disable style support for bbPress"
+msgstr "bbPress کے لیے اسٹائل سپورٹ کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:7579
+msgid ""
+"Can be useful if you want to control the styles of the bbPress plugin "
+"yourself"
+msgstr ""
+"اگر آپ خود bbPress پلگ ان کے اسٹائل کو کنٹرول کرنا چاہتے ہیں تو یہ مفید "
+"ہوسکتا ہے۔"
+
+#: inc/admin/customizer.php:7608
+msgid "Disable sidebar on BuddyPress pages"
+msgstr "BuddyPress کے صفحات پر سائڈبار کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:7622
+msgid "Disable style support for BuddyPress"
+msgstr "BuddyPres کے لیے اسٹائل سپورٹ کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:7623
+msgid ""
+"Can be useful if you want to control the styles of the BuddyPress plugin "
+"yourself"
+msgstr ""
+"اگر آپ خود BuddyPress پلگ ان کے اسٹائل کو کنٹرول کرنا چاہتے ہیں تو یہ مفید "
+"ہو سکتا ہے۔"
+
+#: inc/admin/customizer.php:7659
+msgid "Enable cart in top menu"
+msgstr "ٹاپ مینو میں کارٹ کو فعال کریں۔"
+
+#: inc/admin/customizer.php:7673
+msgid "Cart size in the top menu"
+msgstr "اوپر والے مینو میں کارٹ کا سائز"
+
+#: inc/admin/customizer.php:7692
+msgid "Enable cart in main menu"
+msgstr "مین مینو میں کارٹ کو فعال کریں۔"
+
+#: inc/admin/customizer.php:7693
+msgid "Activate the menu location for this to work"
+msgstr "اس کے کام کرنے کے لیے مینو مقام کو فعال کریں"
+
+#: inc/admin/customizer.php:7707
+msgid "Enable search on store page"
+msgstr "اسٹور پیج پر تلاش کو فعال کریں۔"
+
+#: inc/admin/customizer.php:7721
+msgid "Enable search on product category pages"
+msgstr "مصنوعات کے زمرے کے صفحات پر تلاش کو فعال کریں۔"
+
+#: inc/admin/customizer.php:7735
+msgid "Product price color"
+msgstr "مصنوعات کی قیمت کا رنگ"
+
+#: inc/admin/customizer.php:7750
+msgid "Disable sticker - Sale"
+msgstr "اسٹیکر کو غیر فعال کریں - فروخت"
+
+#: inc/admin/customizer.php:7765
+msgid "Sticker color - Sale"
+msgstr "اسٹیکر کا رنگ - فروخت"
+
+#: inc/admin/customizer.php:7779
+msgid "Disable zoom in the main product photo"
+msgstr "مرکزی مصنوعات کی تصویر میں زوم کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:7793
+msgid "Disable slider in product photos"
+msgstr "مصنوعات کی تصاویر میں سلائیڈر کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:7807
+msgid "Disable lightbox in product photos"
+msgstr "مصنوعات کی تصاویر میں لائٹ باکس کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:7821
+msgid "Disable related products on the products page"
+msgstr "مصنوعات کے صفحہ پر متعلقہ مصنوعات کو غیر فعال کریں۔"
+
+#: inc/admin/customizer.php:7834
+msgid "Specify the number of related products"
+msgstr "متعلقہ مصنوعات کی تعداد کی وضاحت کریں۔"
+
+#: inc/admin/customizer.php:7847
+msgid "Specify the number of columns of related products"
+msgstr "متعلقہ مصنوعات کے کالموں کی تعداد کی وضاحت کریں۔"
+
+#: inc/admin/customizer.php:7861
+msgid "Add popular products to products page"
+msgstr "پروڈکٹس کے صفحہ پر مشہور پروڈکٹس شامل کریں۔"
+
+#: inc/admin/customizer.php:7874
+msgid "Specify the number of popular products"
+msgstr "مشہور مصنوعات کی تعداد کی وضاحت کریں۔"
+
+#: inc/admin/customizer.php:7887
+msgid "Specify the number of columns of popular products"
+msgstr "مشہور پروڈکٹس کے کالموں کی تعداد کی وضاحت کریں۔"
+
+#: inc/admin/customizer.php:7901
+msgid "Add breadcrumbs to product category pages"
+msgstr "پروڈکٹ کے زمرے کے صفحات میں بریڈ کرمبس شامل کریں۔"
+
+#: inc/admin/customizer.php:7915
+msgid "Add breadcrumbs to product pages"
+msgstr "پروڈکٹ کے صفحات میں بریڈ کرمبس شامل کریں۔"
+
+#: inc/admin/customizer.php:7929
+msgid "Where does the main link lead in breadcrumbs"
+msgstr "روٹی کے ٹکڑوں میں مرکزی لنک کہاں لے جاتا ہے۔"
+
+#: inc/admin/customizer.php:7933
+msgid "Main"
+msgstr "مرکزی"
+
+#: inc/admin/customizer.php:7947
+msgid "Text for the main link in breadcrumbs"
+msgstr "بریڈ کرمبس میں مرکزی لنک کے لیے متن"
+
+#: inc/admin/customizer.php:7961
+msgid ""
+"Add the inscription (Out of stock) to the product card in the product grid"
+msgstr "پروڈکٹ گرڈ میں پروڈکٹ کارڈ میں نوشتہ (آؤٹ آف اسٹاک) شامل کریں۔"
+
+#: inc/admin/customizer.php:7975
+msgid "Add an inscription (Out of stock) on the product page"
+msgstr "پروڈکٹ کے صفحہ پر ایک نوشتہ (آؤٹ آف اسٹاک) شامل کریں۔"
+
+#: inc/admin/customizer.php:7989
+msgid "Lettering color (Out of stock)"
+msgstr "حروف کا رنگ (اسٹ آف سٹاک)"
+
+#: inc/admin/customizer.php:8003
+msgid "Change label (Out of stock)"
+msgstr "لیبل تبدیل کریں (اسٹ آف آف)"
+
+#: inc/admin/customizer.php:8021
+msgid "Presets | Reset settings | Import"
+msgstr "پیش سیٹ | ترتیبات کو دوبارہ ترتیب دیں | درآمد کریں۔"
+
+#: inc/admin/customizer.php:8040
+msgid ""
+"Open Features (by activating this, you confirm that you want to reset all "
+"settings for this theme and understand the risk of permanent data loss)"
+msgstr ""
+"خصوصیات کھولیں (اسے چالو کرکے، آپ تصدیق کرتے ہیں کہ آپ اس تھیم کے لیے تمام "
+"ترتیبات کو دوبارہ ترتیب دینا چاہتے ہیں اور ڈیٹا کے مستقل نقصان کے خطرے کو "
+"سمجھتے ہیں)"
+
+#: inc/admin/customizer.php:8042
+msgid ""
+"Important! These options only affect this themes settings (visual customizer "
+"settings). If you have a lot of valuable settings, please back up your "
+"database before using this feature."
+msgstr ""
+"اہم! یہ اختیارات صرف اس تھیمز کی ترتیبات کو متاثر کرتے ہیں (بصری کسٹمائزر کی "
+"ترتیبات)۔ اگر آپ کے پاس بہت زیادہ قیمتی ترتیبات ہیں، تو براہ کرم اس خصوصیت "
+"کو استعمال کرنے سے پہلے اپنے ڈیٹا بیس کا بیک اپ لیں۔"
+
+#: inc/admin/customizer.php:8053
+msgid "Reset settings"
+msgstr "ترتیبات اصل پہ واپس لائیں"
+
+#: inc/admin/customizer.php:8073 inc/admin/customizer.php:8123
+#: inc/option/set.php:97
+msgid "Useful links"
+msgstr "مفید لنکس"
+
+#: inc/admin/customizer.php:8082 inc/option/set.php:99
+#, php-format
+msgid "Management and configuration instructions for the %s"
+msgstr "%s کے لیے انتظام اور ترتیب کی ہدایات"
+
+#: inc/admin/customizer.php:8086 inc/option/set.php:102
+#, php-format
+msgid "Information materials for the %s"
+msgstr "%s کے لیے معلوماتی مواد"
+
+#: inc/admin/customizer.php:8090 inc/option/set.php:104
+msgid "Watch live sites demos"
+msgstr "لائیو سائٹس کے ڈیمو دیکھیں"
+
+#: inc/admin/customizer.php:8094
+msgid "Import ready-made demo versions of websites"
+msgstr "ویب سائٹس کے ریڈی میڈ ڈیمو ورژن درآمد کریں۔"
+
+#: inc/admin/customizer.php:8098 inc/option/set.php:106
+#, php-format
+msgid "List of updates for the %s"
+msgstr "%s کے لیے تازہ کاریوں کی فہرست"
+
+#: inc/admin/customizer.php:8102
+msgid "Support technical"
+msgstr "تکنیکی مدد کریں۔"
+
+#: inc/admin/customizer.php:8106 inc/option/set.php:108
+msgid "Rate this theme"
+msgstr "اس تھیم کی درجہ بندی کریں۔"
+
+#: inc/admin/customizer.php:8137
+msgid "Widget Locations"
+msgstr "ویجیٹ کے مقامات"
+
+#: inc/admin/customizer.php:8142
+msgid "Menu Locations"
+msgstr "مینو کے مقامات"
+
+#: inc/admin/customizer.php:8147
+msgid "Define home page"
+msgstr "ہوم پیج کی وضاحت کریں۔"
+
+#: inc/admin/function-panel-color.php:791
+msgid ""
+"This setting will apply the selected color scheme, all your colors will be "
+"reassigned"
+msgstr ""
+"یہ ترتیب منتخب رنگ سکیم کو لاگو کرے گی، آپ کے تمام رنگ دوبارہ تفویض کیے "
+"جائیں گے۔"
+
+#: inc/admin/function-panel-color.php:799
+msgid "Color scheme option"
+msgstr "رنگ سکیم کا اختیار"
+
+#: inc/admin/function-panel-color.php:955
+msgid "Light color scheme"
+msgstr "ہلکی رنگ سکیم"
+
+#: inc/admin/function-panel-color.php:956
+msgid "Dark color scheme"
+msgstr "گہرا رنگ سکیم"
+
+#: inc/admin/function-panel-color.php:973
+#: inc/admin/function-panel-color.php:979
+#: inc/admin/function-panel-color.php:985
+#: inc/admin/function-panel-color.php:991
+#: inc/admin/function-panel-color.php:997
+#: inc/admin/function-panel-color.php:1003
+#: inc/admin/function-panel-color.php:1009
+#: inc/admin/function-panel-color.php:1015
+#: inc/admin/function-panel-color.php:1021
+#: inc/admin/function-panel-color.php:1027
+#: inc/admin/function-panel-color.php:1033
+#: inc/admin/function-panel-color.php:1039
+#: inc/admin/function-panel-color.php:1045
+#: inc/admin/function-panel-color.php:1051
+#: inc/admin/function-panel-color.php:1057
+#: inc/admin/function-panel-reset.php:2517
+#: inc/admin/function-panel-reset.php:2535
+#: inc/admin/function-panel-reset.php:2553
+#: inc/admin/function-panel-reset.php:2571
+#: inc/admin/function-panel-reset.php:2589
+#: inc/admin/function-panel-reset.php:2607
+#: inc/admin/function-panel-reset.php:2625
+#: inc/admin/function-panel-reset.php:2643
+#: inc/admin/function-panel-reset.php:2661
+#: inc/admin/function-panel-reset.php:2679
+#: inc/admin/function-panel-reset.php:2697
+#: inc/admin/function-panel-reset.php:2715
+#: inc/admin/function-panel-reset.php:2733
+#: inc/admin/function-panel-reset.php:2751
+#: inc/admin/function-panel-reset.php:2769
+msgid "Apply"
+msgstr "کا اطلاق کریں"
+
+#: inc/admin/function-panel-color.php:977
+#: inc/admin/function-panel-reset.php:2525
+msgid "Dark grey and Red"
+msgstr "گہرا سرمئی اور سرخ"
+
+#: inc/admin/function-panel-color.php:983
+#: inc/admin/function-panel-reset.php:2543
+msgid "Dark blue and Light blue"
+msgstr "گہرا نیلا اور ہلکا نیلا۔"
+
+#: inc/admin/function-panel-color.php:989
+#: inc/admin/function-panel-reset.php:2561
+msgid "Green and Light red"
+msgstr "سبز اور ہلکا سرخ"
+
+#: inc/admin/function-panel-color.php:995
+#: inc/admin/function-panel-reset.php:2579
+msgid "Violet and Pink"
+msgstr "وایلیٹ اور پنک"
+
+#: inc/admin/function-panel-color.php:1001
+#: inc/admin/function-panel-reset.php:2597
+msgid "Red and Orange"
+msgstr "سرخ اور نارنجی"
+
+#: inc/admin/function-panel-color.php:1007
+#: inc/admin/function-panel-reset.php:2615
+msgid "Green and Grey"
+msgstr "سبز اور گرے"
+
+#: inc/admin/function-panel-color.php:1013
+#: inc/admin/function-panel-reset.php:2633
+msgid "Turquoise"
+msgstr "فیروزی"
+
+#: inc/admin/function-panel-color.php:1019
+#: inc/admin/function-panel-reset.php:2651
+msgid "Green and Orange"
+msgstr "سبز اور نارنجی"
+
+#: inc/admin/function-panel-color.php:1025
+#: inc/admin/function-panel-reset.php:2669
+msgid "Heavenly and Light blue"
+msgstr "آسمانی اور ہلکا نیلا"
+
+#: inc/admin/function-panel-color.php:1031
+#: inc/admin/function-panel-reset.php:2687
+msgid "Orange and Dark grey"
+msgstr "نارنجی اور گہرا بھوری رنگ"
+
+#: inc/admin/function-panel-color.php:1037
+#: inc/admin/function-panel-reset.php:2705
+msgid "Blue and Dark blue"
+msgstr "نیلا اور گہرا نیلا ۔"
+
+#: inc/admin/function-panel-color.php:1043
+#: inc/admin/function-panel-reset.php:2723
+msgid "Blue and Green"
+msgstr "نیلا اور سبز"
+
+#: inc/admin/function-panel-color.php:1049
+#: inc/admin/function-panel-reset.php:2741
+msgid "Grey and Dark grey"
+msgstr "گرے اور گہرا بھوری رنگ"
+
+#: inc/admin/function-panel-color.php:1055
+#: inc/admin/function-panel-reset.php:2759
+msgid "Blue and Blackberry"
+msgstr "بلیو اور بلیک بیری"
+
+#: inc/admin/function-panel-home.php:50
+msgid "Sections with blocks on the main"
+msgstr "مین پر بلاکس والے حصے"
+
+#: inc/admin/function-panel-home.php:51 inc/admin/function-panel-xlmega.php:55
+msgid "Drag to reposition blocks"
+msgstr "بلاکس کی جگہ پر گھسیٹیں۔"
+
+#: inc/admin/function-panel-home.php:54 inc/admin/function-panel-menucat.php:43
+#: inc/admin/function-panel-soc.php:59 inc/admin/function-panel-xlmega.php:58
+msgid "Section with settings"
+msgstr "ترتیبات کے ساتھ سیکشن"
+
+#: inc/admin/function-panel-home.php:55 inc/admin/function-panel-xlmega.php:59
+msgid "Add block"
+msgstr "بلاک شامل کریں۔"
+
+#: inc/admin/function-panel-home.php:60
+msgid "Section option"
+msgstr "سیکشن آپشن"
+
+#: inc/admin/function-panel-home.php:76
+msgid "Section heading"
+msgstr "سیکشن کی سرخی"
+
+#: inc/admin/function-panel-home.php:82 inc/admin/function-panel-home.php:88
+#: inc/admin/function-panel-home.php:94 inc/admin/function-panel-menucat.php:51
+#: inc/admin/function-panel-menucat.php:59
+msgid "Select category"
+msgstr "زمرہ منتخب کریں"
+
+#: inc/admin/function-panel-home.php:119
+msgid "Number of posts displayed"
+msgstr "ظاہر کردہ پوسٹس کی تعداد"
+
+#: inc/admin/function-panel-home.php:125
+msgid "Post title option"
+msgstr "پوسٹ ٹائٹل کا آپشن"
+
+#: inc/admin/function-panel-home.php:137
+#: inc/admin/function-panel-xlmega.php:164
+msgid "Remove post titles"
+msgstr "پوسٹ کے عنوانات کو ہٹا دیں۔"
+
+#: inc/admin/function-panel-home.php:143
+msgid "Title text size"
+msgstr "عنوان کے متن کا سائز"
+
+#: inc/admin/function-panel-home.php:156
+msgid "Title text size for small cards"
+msgstr "چھوٹے کارڈز کے لیے ٹائٹل ٹیکسٹ سائز"
+
+#: inc/admin/function-panel-home.php:169
+#: inc/admin/function-panel-xlmega.php:183
+msgid "Posts titles text color"
+msgstr "پوسٹس کے عنوانات کے متن کا رنگ"
+
+#: inc/admin/function-panel-home.php:175
+msgid "Posts titles color on hover"
+msgstr "ہور پر عنوانات کا رنگ"
+
+#: inc/admin/function-panel-home.php:187
+msgid "Background color for posts (on hover)"
+msgstr "پوسٹس کے لیے پس منظر کا رنگ (ہوور پر)"
+
+#: inc/admin/function-panel-home.php:193
+msgid "Enable slider auto start"
+msgstr "سلائیڈر آٹو اسٹارٹ کو فعال کریں۔"
+
+#: inc/admin/function-panel-home.php:199
+msgid "Animation for auto slider"
+msgstr "آٹو سلائیڈر کے لیے حرکت پذیری"
+
+#: inc/admin/function-panel-home.php:201
+msgid "Standard flipping"
+msgstr "معیاری پلٹنا"
+
+#: inc/admin/function-panel-home.php:202
+msgid "Dynamic zoom"
+msgstr "متحرک زوم"
+
+#: inc/admin/function-panel-home.php:203
+msgid "Upheaval"
+msgstr "ہلچل"
+
+#: inc/admin/function-panel-home.php:204
+msgid "Fading away"
+msgstr "آھستہ سے غائب ہو جانا، اہمیت کھونا، کمزور ہونا"
+
+#: inc/admin/function-panel-home.php:211
+msgid "Enable slider navigation buttons"
+msgstr "سلائیڈر نیویگیشن بٹن کو فعال کریں۔"
+
+#: inc/admin/function-panel-home.php:217
+msgid "Post date"
+msgstr "پوسٹ کی تاریخ"
+
+#: inc/admin/function-panel-home.php:220 inc/admin/function-panel-home.php:221
+#: inc/admin/function-panel-home.php:222 inc/admin/function-panel-home.php:223
+msgid "Option"
+msgstr "آپشن"
+
+#: inc/admin/function-panel-home.php:230
+msgid "Display date"
+msgstr "تاریخ دکھائیں۔"
+
+#: inc/admin/function-panel-home.php:369
+#: inc/admin/function-panel-menucat.php:237
+#: inc/admin/function-panel-xlmega.php:389
+msgid "No image selected"
+msgstr "کوئی تصویر منتخب نہیں کی گئی۔"
+
+#: inc/admin/function-panel-home.php:375
+#: inc/admin/function-panel-menucat.php:243
+#: inc/admin/function-panel-xlmega.php:395
+msgid "Remove"
+msgstr "ہٹائیں"
+
+#: inc/admin/function-panel-home.php:376
+#: inc/admin/function-panel-menucat.php:244
+#: inc/admin/function-panel-xlmega.php:396
+msgid "Select Image"
+msgstr "تصویر منتخب کریں۔"
+
+#: inc/admin/function-panel-home.php:385
+msgid "Latest posts (default)"
+msgstr "تازہ ترین پوسٹس (پہلے سے طے شدہ)"
+
+#: inc/admin/function-panel-home.php:471
+msgid "Latest Posts"
+msgstr "تازہ ترین پوسٹس"
+
+#: inc/admin/function-panel-home.php:495
+#: inc/admin/function-panel-menucat.php:263
+#: inc/admin/function-panel-soc.php:220 inc/admin/function-panel-xlmega.php:413
+msgid "Roll up block"
+msgstr "رول اپ بلاک"
+
+#: inc/admin/function-panel-home.php:496
+#: inc/admin/function-panel-menucat.php:264
+#: inc/admin/function-panel-soc.php:221 inc/admin/function-panel-xlmega.php:414
+msgid "Delete block"
+msgstr "بلاک کو حذف کریں۔"
+
+#: inc/admin/function-panel-import.php:101
+msgid "Importing settings"
+msgstr "درآمد کی ترتیبات"
+
+#: inc/admin/function-panel-import.php:150
+msgid ""
+"This imports the customizations (visual customizer) from the selected theme "
+"into the current theme."
+msgstr ""
+"یہ منتخب تھیم سے حسب ضرورت (بصری کسٹمائزر) کو موجودہ تھیم میں درآمد کرتا ہے۔"
+
+#: inc/admin/function-panel-import.php:151
+#: inc/admin/function-panel-import.php:189
+msgid ""
+"This can be useful, for example, if you applied a lot of customizations in "
+"the free version and then bought the premium version."
+msgstr ""
+"یہ کارآمد ہو سکتا ہے، مثال کے طور پر، اگر آپ نے مفت ورژن میں بہت سی تخصیصات "
+"لاگو کی ہیں اور پھر پریمیم ورژن خریدا ہے۔"
+
+#: inc/admin/function-panel-import.php:152
+#: inc/admin/function-panel-import.php:190
+msgid "Or if you decide to use a child theme."
+msgstr "یا اگر آپ چائلڈ تھیم استعمال کرنے کا فیصلہ کرتے ہیں۔"
+
+#: inc/admin/function-panel-import.php:153
+#: inc/admin/function-panel-import.php:191
+msgid "This allows you to transfer settings between themes in one click."
+msgstr ""
+"یہ آپ کو ایک کلک میں تھیمز کے درمیان ترتیبات کو منتقل کرنے کی اجازت دیتا ہے۔"
+
+#: inc/admin/function-panel-import.php:154
+msgid ""
+"Important! All settings of the current theme will be deleted! They will be "
+"completely replaced by the settings of the selected theme!"
+msgstr ""
+"اہم! موجودہ تھیم کی تمام ترتیبات کو حذف کر دیا جائے گا! وہ مکمل طور پر منتخب "
+"تھیم کی سیٹنگز سے بدل جائیں گے!"
+
+#: inc/admin/function-panel-import.php:161
+msgid "Select theme (where to get the settings)"
+msgstr "تھیم منتخب کریں (ترتیبات کہاں سے حاصل کریں)"
+
+#: inc/admin/function-panel-import.php:187
+msgid ""
+"The import section is available when there are suitable themes to import"
+msgstr ""
+"امپورٹ سیکشن اس وقت دستیاب ہوتا ہے جب درآمد کرنے کے لیے موزوں تھیمز ہوں۔"
+
+#: inc/admin/function-panel-import.php:293
+#: inc/admin/function-panel-import.php:303
+#: inc/admin/function-panel-import.php:313
+#, php-format
+msgid "From %1$s in %2$s"
+msgstr "%1$s سے %2$s میں"
+
+#: inc/admin/function-panel-import.php:296
+#: inc/admin/function-panel-import.php:306
+#: inc/admin/function-panel-import.php:316
+msgid "Settings copy"
+msgstr "ترتیبات کاپی کریں۔"
+
+#: inc/admin/function-panel-menucat.php:40
+msgid "Drag the block with the cursor to change the position of the items"
+msgstr "آئٹمز کی پوزیشن تبدیل کرنے کے لیے بلاک کو کرسر کے ساتھ گھسیٹیں۔"
+
+#: inc/admin/function-panel-menucat.php:44 inc/admin/function-panel-soc.php:60
+msgid "Add section"
+msgstr "سیکشن شامل کریں۔"
+
+#: inc/admin/function-panel-menucat.php:49
+msgid "Variation"
+msgstr "تغیر"
+
+#: inc/admin/function-panel-menucat.php:52
+msgid "Specify a link"
+msgstr "ایک لنک کی وضاحت کریں۔"
+
+#: inc/admin/function-panel-menucat.php:65
+msgid "Custom link"
+msgstr "حسب ضرورت لنک"
+
+#: inc/admin/function-panel-menucat.php:71
+msgid "Custom title"
+msgstr "حسب ضرورت عنوان"
+
+#: inc/admin/function-panel-menucat.php:83
+msgid "Title background"
+msgstr "عنوان کا پس منظر"
+
+#: inc/admin/function-panel-menucat.php:90
+msgid ""
+"This color will work if there is no picture or the picture is transparent"
+msgstr "اگر کوئی تصویر نہ ہو یا تصویر شفاف ہو تو یہ رنگ کام کرے گا۔"
+
+#: inc/admin/function-panel-menucat.php:96
+msgid "Background image"
+msgstr "پس منظر کی تصویر"
+
+#: inc/admin/function-panel-menucat.php:165
+msgid "Category element"
+msgstr "زمرہ کا عنصر"
+
+#: inc/admin/function-panel-menucat.php:212
+msgid "Random category"
+msgstr "بے ترتیب زمرہ"
+
+#: inc/admin/function-panel-reset.php:2282
+msgid "Preset settings"
+msgstr "پہلے سے طے شدہ ترتیبات"
+
+#: inc/admin/function-panel-reset.php:2307
+msgid ""
+"This will reset all theme settings to default, apply the chosen color scheme "
+"and activate some settings for the example"
+msgstr ""
+"یہ تمام تھیم سیٹنگز کو ڈیفالٹ پر ری سیٹ کر دے گا، منتخب کردہ رنگ سکیم کو "
+"لاگو کر دے گا اور مثال کے لیے کچھ سیٹنگز کو چالو کر دے گا۔"
+
+#: inc/admin/function-panel-reset.php:2314
+msgid "Preset options"
+msgstr "پیش سیٹ اختیارات"
+
+#: inc/admin/function-panel-reset.php:2470
+msgid "Style"
+msgstr "انداز"
+
+#: inc/admin/function-panel-reset.php:2471
+msgid "Color scheme"
+msgstr "رنگ سکیم"
+
+#: inc/admin/function-panel-reset.php:2473
+msgid "Width"
+msgstr "چوڑائی"
+
+#: inc/admin/function-panel-reset.php:2475
+msgid "Navigation"
+msgstr "نیویگیشن"
+
+#: inc/admin/function-panel-reset.php:2476
+msgid "Category grid"
+msgstr "زمرہ گرڈ"
+
+#: inc/admin/function-panel-reset.php:2477
+msgid "Features"
+msgstr "خصوصیات"
+
+#: inc/admin/function-panel-reset.php:2479
+msgid "Light"
+msgstr "روشنی"
+
+#: inc/admin/function-panel-reset.php:2480
+msgid "Dark"
+msgstr "اندھیرا"
+
+#: inc/admin/function-panel-reset.php:2487
+msgid "Full site width"
+msgstr "مکمل سائٹ کی چوڑائی"
+
+#: inc/admin/function-panel-reset.php:2516
+msgid "Without settings (Defaults)"
+msgstr "ترتیبات کے بغیر (پہلے سے طے شدہ)"
+
+#: inc/admin/function-panel-reset.php:2524
+msgid "News time"
+msgstr "خبروں کا وقت"
+
+#: inc/admin/function-panel-reset.php:2542
+msgid "News book"
+msgstr "خبروں کی کتاب"
+
+#: inc/admin/function-panel-reset.php:2560
+msgid "Photo maximalism"
+msgstr "تصویر زیادہ سے زیادہ"
+
+#: inc/admin/function-panel-reset.php:2567
+msgid "Live picture"
+msgstr "زندہ تصویر"
+
+#: inc/admin/function-panel-reset.php:2578
+msgid "Womens blog"
+msgstr "خواتین کا بلاگ"
+
+#: inc/admin/function-panel-reset.php:2596
+msgid "Night magazine"
+msgstr "نائٹ میگزین"
+
+#: inc/admin/function-panel-reset.php:2614
+msgid "Intrusive frames"
+msgstr "مداخلت کرنے والے فریم"
+
+#: inc/admin/function-panel-reset.php:2632
+msgid "Fairy World"
+msgstr "پریوں کی دنیا"
+
+#: inc/admin/function-panel-reset.php:2650
+msgid "Confident oasis"
+msgstr "پراعتماد نخلستان"
+
+#: inc/admin/function-panel-reset.php:2668
+msgid "Heavenly"
+msgstr "آسمانی"
+
+#: inc/admin/function-panel-reset.php:2686
+msgid "Strict carrot"
+msgstr "سخت گاجر"
+
+#: inc/admin/function-panel-reset.php:2704
+msgid "Minimalism"
+msgstr "Minimalism"
+
+#: inc/admin/function-panel-reset.php:2722
+msgid "Micro blog"
+msgstr "مائیکرو بلاگ"
+
+#: inc/admin/function-panel-reset.php:2758
+msgid "Through limitations"
+msgstr "حدود کے ذریعے"
+
+#: inc/admin/function-panel-soc.php:56
+msgid "Drag the block with the cursor to change the position of the links"
+msgstr "لنکس کی پوزیشن کو تبدیل کرنے کے لیے بلاک کو کرسر کے ساتھ گھسیٹیں۔"
+
+#: inc/admin/function-panel-soc.php:65
+msgid "Picture variant"
+msgstr "تصویری قسم"
+
+#: inc/admin/function-panel-soc.php:72
+msgid "Link to social network (URL)"
+msgstr "سوشل نیٹ ورک سے لنک (URL)"
+
+#: inc/admin/function-panel-xlmega.php:54
+msgid "Sections"
+msgstr "سیکشنز"
+
+#: inc/admin/function-panel-xlmega.php:64
+msgid "Menu variants"
+msgstr "مینو کی مختلف حالتیں۔"
+
+#: inc/admin/function-panel-xlmega.php:79
+msgid "Menu item name"
+msgstr "مینو آئٹم کا نام"
+
+#: inc/admin/function-panel-xlmega.php:85
+#: inc/admin/function-panel-xlmega.php:97
+#: inc/admin/function-panel-xlmega.php:109
+#: inc/admin/function-panel-xlmega.php:121
+#: inc/admin/function-panel-xlmega.php:133
+msgid "Title for column"
+msgstr "کالم کا عنوان"
+
+#: inc/admin/function-panel-xlmega.php:91
+#: inc/admin/function-panel-xlmega.php:103
+#: inc/admin/function-panel-xlmega.php:115
+#: inc/admin/function-panel-xlmega.php:127
+#: inc/admin/function-panel-xlmega.php:139
+msgid "Select category for column"
+msgstr "کالم کے لیے زمرہ منتخب کریں۔"
+
+#: inc/admin/function-panel-xlmega.php:158
+msgid "Number of posts displayed (In each column)"
+msgstr "ظاہر کردہ پوسٹس کی تعداد (ہر کالم میں)"
+
+#: inc/admin/function-panel-xlmega.php:170
+msgid "Post titles size"
+msgstr "پوسٹ ٹائٹلز کا سائز"
+
+#: inc/admin/function-panel-xlmega.php:189
+msgid "Posts titles text color (on hover)"
+msgstr "پوسٹس کے عنوانات کے متن کا رنگ (ہوور پر)"
+
+#: inc/admin/function-panel-xlmega.php:201
+msgid "Posts background color (on hover)"
+msgstr "پوسٹس کے پس منظر کا رنگ (ہوور پر)"
+
+#: inc/admin/function-panel-xlmega.php:207
+msgid "Section image"
+msgstr "سیکشن کی تصویر"
+
+#: inc/admin/function-panel-xlmega.php:213
+msgid "Image layout"
+msgstr "تصویری ترتیب"
+
+#: inc/admin/function-panel-xlmega.php:282
+#: inc/admin/function-panel-xlmega.php:289
+msgid "small"
+msgstr "چھوٹا"
+
+#: inc/admin/function-panel-xlmega.php:288
+msgid "Horizontal items without images"
+msgstr "تصویروں کے بغیر افقی اشیاء"
+
+#: inc/admin/function-panel-xlmega.php:289
+#: inc/admin/function-panel-xlmega.php:290
+#: inc/admin/function-panel-xlmega.php:291
+msgid "Horizontal items with image"
+msgstr "تصویر کے ساتھ افقی اشیاء"
+
+#: inc/admin/function-panel-xlmega.php:290
+msgid "mid"
+msgstr "وسط"
+
+#: inc/admin/function-panel-xlmega.php:291
+msgid "big"
+msgstr "بڑا"
+
+#: inc/admin/function-panel-xlmega.php:292
+msgid "Vertical items with image"
+msgstr "تصویر کے ساتھ عمودی اشیاء"
+
+#: inc/admin/function-panel-xlmega.php:293
+msgid "Vertical items with button"
+msgstr "بٹن کے ساتھ عمودی اشیاء"
+
+#: inc/admin/function-panel-xlmega.php:294
+msgid "Items (string) with category image"
+msgstr "زمرہ کی تصویر کے ساتھ آئٹمز (سٹرنگ)"
+
+#: inc/admin/help_usability.php:49
+msgid "Get more colors with the premium version"
+msgstr "پریمیم ورژن کے ساتھ مزید رنگ حاصل کریں۔"
+
+#: inc/admin/help_usability.php:51 inc/admin/help_usability.php:58
+#: inc/admin/help_usability.php:65 inc/admin/help_usability.php:72
+#: inc/admin/help_usability.php:79 inc/admin/help_usability.php:86
+#: inc/admin/help_usability.php:93 inc/admin/help_usability.php:135
+msgid "Read More"
+msgstr "مزید پڑھ"
+
+#: inc/admin/help_usability.php:56 inc/admin/help_usability.php:63
+#: inc/admin/help_usability.php:70
+#, php-format
+msgid "Get flexible color settings for %s in the premium version"
+msgstr "پریمیم ورژن میں %s کے لیے لچکدار رنگ کی ترتیبات حاصل کریں۔"
+
+#: inc/admin/help_usability.php:77
+msgid "More fonts are available in the premium version"
+msgstr "پریمیم ورژن میں مزید فونٹس دستیاب ہیں۔"
+
+#: inc/admin/help_usability.php:84
+msgid ""
+"A graphical mega menu with its own customizer is available in the premium "
+"version"
+msgstr ""
+"اس کے اپنے کسٹمائزر کے ساتھ ایک گرافیکل میگا مینو پریمیم ورژن میں دستیاب ہے۔"
+
+#: inc/admin/help_usability.php:91
+msgid ""
+"In this section, there can be a flexible customizer that will allow you to "
+"quickly and easily customize a cool homepage"
+msgstr ""
+"اس حصے میں، ایک لچکدار کسٹمائزر ہو سکتا ہے جو آپ کو ایک ٹھنڈے ہوم پیج کو "
+"جلدی اور آسانی سے اپنی مرضی کے مطابق کرنے کی اجازت دے گا۔"
+
+#: inc/admin/help_usability.php:108 inc/admin/help_usability.php:219
+msgid "Home page customizer (choice of 8 blocks)"
+msgstr "ہوم پیج کسٹمائزر (8 بلاکس کا انتخاب)"
+
+#: inc/admin/help_usability.php:109 inc/admin/help_usability.php:224
+#: inc/option/set.php:307
+msgid "Category menu customizer"
+msgstr "زمرہ مینو کسٹمائزر"
+
+#: inc/admin/help_usability.php:110 inc/admin/help_usability.php:229
+msgid "Megamenu (graphic) with customizer in the main menu"
+msgstr "مین مینو میں کسٹمائزر کے ساتھ میگا مینیو (گرافک)"
+
+#: inc/admin/help_usability.php:111 inc/admin/help_usability.php:234
+msgid "Wide slider (below the main menu)"
+msgstr "وسیع سلائیڈر (مین مینو کے نیچے)"
+
+#: inc/admin/help_usability.php:112 inc/admin/help_usability.php:239
+msgid "More fonts to choose from"
+msgstr "منتخب کرنے کے لیے مزید فونٹس"
+
+#: inc/admin/help_usability.php:113 inc/admin/help_usability.php:244
+msgid "Powerful color settings"
+msgstr "طاقتور رنگ کی ترتیبات"
+
+#: inc/admin/help_usability.php:114 inc/admin/help_usability.php:249
+msgid "Ready-made color schemes"
+msgstr "ریڈی میڈ رنگ سکیمیں"
+
+#: inc/admin/help_usability.php:115 inc/admin/help_usability.php:254
+msgid "Reset theme settings and activate presets"
+msgstr "تھیم کی ترتیبات کو دوبارہ ترتیب دیں اور پیش سیٹوں کو چالو کریں۔"
+
+#: inc/admin/help_usability.php:116 inc/admin/help_usability.php:259
+msgid ""
+"Full demo versions of sites (Import thematic demo versions in one click)"
+msgstr "سائٹس کے مکمل ڈیمو ورژن (ایک کلک میں تھیمیٹک ڈیمو ورژن درآمد کریں)"
+
+#: inc/admin/help_usability.php:117 inc/admin/help_usability.php:264
+msgid "Import settings from theme to theme"
+msgstr "تھیم سے تھیم میں ترتیبات درآمد کریں۔"
+
+#: inc/admin/help_usability.php:118 inc/admin/help_usability.php:269
+msgid "Lots of hooks (windows for codes)"
+msgstr "بہت سارے ہکس (کوڈز کے لیے ونڈوز)"
+
+#: inc/admin/help_usability.php:119 inc/admin/help_usability.php:274
+msgid "Additional widgets"
+msgstr "اضافی ویجٹ"
+
+#: inc/admin/help_usability.php:120 inc/admin/help_usability.php:279
+#, php-format
+msgid "Separate sidebars for %1$s and %2$s"
+msgstr "%1$s اور %2$s کے لیے الگ سائڈ بار"
+
+#: inc/admin/help_usability.php:121 inc/admin/help_usability.php:284
+msgid "Expanded plugins adapting"
+msgstr "توسیع شدہ پلگ ان ڈھال رہے ہیں۔"
+
+#: inc/admin/help_usability.php:122 inc/admin/help_usability.php:292
+msgid "Buy"
+msgstr "خریدنے"
+
+#: inc/admin/help_usability.php:133
+msgid "Get even more windows to insert codes in the premium version"
+msgstr "پریمیم ورژن میں کوڈز داخل کرنے کے لیے مزید ونڈوز حاصل کریں۔"
+
+#: inc/admin/help_usability.php:146
+msgid "(Comparison of Versions)"
+msgstr "(ورژن کا موازنہ)"
+
+#: inc/admin/help_usability.php:152
+msgid "Available features"
+msgstr "دستیاب خصوصیات"
+
+#: inc/admin/help_usability.php:153
+msgid "Free"
+msgstr "مفت"
+
+#: inc/admin/help_usability.php:159
+msgid "Powerful typography"
+msgstr "طاقتور نوع ٹائپ"
+
+#: inc/admin/help_usability.php:164
+msgid "Modularity and flexibility"
+msgstr "ماڈیولرٹی اور لچک"
+
+#: inc/admin/help_usability.php:169
+#, php-format
+msgid "Visual customizer support (%s)"
+msgstr "بصری کسٹمائزر سپورٹ (%s)"
+
+#: inc/admin/help_usability.php:174
+msgid "Flexible heading customization with logo"
+msgstr "لوگو کے ساتھ لچکدار سرخی کی تخصیص"
+
+#: inc/admin/help_usability.php:179
+msgid "Flexible sidebar orientation"
+msgstr "لچکدار سائڈبار واقفیت"
+
+#: inc/admin/help_usability.php:184
+msgid "Ability to choose your own sidebar orientation for posts and pages"
+msgstr "خطوط اور صفحات کے لیے اپنی سائڈبار واقفیت کا انتخاب کرنے کی اہلیت"
+
+#: inc/admin/help_usability.php:189
+msgid "Selecting the width of the site"
+msgstr "سائٹ کی چوڑائی کا انتخاب"
+
+#: inc/admin/help_usability.php:194
+msgid "Three pagination options"
+msgstr "صفحہ بندی کے تین اختیارات"
+
+#: inc/admin/help_usability.php:199
+msgid "Four menu locations"
+msgstr "چار مینو مقامات"
+
+#: inc/admin/help_usability.php:204
+msgid "Mega menu (mega lists, dropdown, single) in the main menu"
+msgstr "مین مینو میں میگا مینو (میگا لسٹ، ڈراپ ڈاؤن، سنگل)"
+
+#: inc/admin/help_usability.php:209
+msgid "Social link customizer in the site header"
+msgstr "سائٹ ہیڈر میں سوشل لنک کسٹمائزر"
+
+#: inc/admin/help_usability.php:214
+msgid "Plugins adapting"
+msgstr "موافقت پذیر پلگ انز"
+
+#: inc/admin/help_usability.php:306
+msgid "Social Media Links"
+msgstr "سوشل میڈیا لنکس"
+
+#: inc/admin/help_usability.php:308
+msgid ""
+"Follow theme updates, suggest new features, participate in polls, discuss, "
+"and ask questions"
+msgstr ""
+"تھیم اپ ڈیٹس پر عمل کریں، نئی خصوصیات تجویز کریں، پولز میں حصہ لیں، بحث کریں "
+"اور سوالات پوچھیں۔"
+
+#: inc/admin/help_usability.php:340
+msgid "Codes (Hooks theme)"
+msgstr "کوڈز (ہکس تھیم)"
+
+#: inc/demo/demo.php:13
+msgid "News"
+msgstr "خبریں"
+
+#: inc/demo/demo.php:23
+msgid "Cars"
+msgstr "کاریں"
+
+#: inc/demo/demo.php:32
+msgid "Food"
+msgstr "کھانا"
+
+#: inc/demo/demo.php:41
+msgid "Travel"
+msgstr "سفر"
+
+#: inc/demo/demo.php:50
+msgid "Interior"
+msgstr "داخلہ"
+
+#: inc/function-customizer.php:10227
+msgid "Loading..."
+msgstr "لوڈ ہورہا ہے ..."
+
+#: inc/function-customizer.php:11570 inc/function-customizer.php:11596
+msgid "Search"
+msgstr "تلاش"
+
+#. translators: Hidden accessibility text.
+#: inc/function-customizer.php:11604
+msgid "Close search"
+msgstr "تلاش بند کریں۔"
+
+#: inc/function-customizer.php:11862
+msgid "Without background"
+msgstr "پس منظر کے بغیر"
+
+#: inc/function-customizer.php:11863
+msgid "Rounded square"
+msgstr "گول مربع"
+
+#: inc/general.php:118
+msgid "Main Menu"
+msgstr "مین مینو"
+
+#: inc/general.php:119
+msgid "Top Menu"
+msgstr "ٹاپ مینو"
+
+#: inc/general.php:120
+msgid "Footer Menu"
+msgstr "فوٹر مینو"
+
+#: inc/general.php:121
+msgid "Widget Menu"
+msgstr "ویجیٹ مینو"
+
+#: inc/general.php:228 inc/general.php:229 inc/general.php:230
+msgid "Theme"
+msgstr "خیالیہ"
+
+#: inc/general.php:251
+msgid "Side column"
+msgstr "سائیڈ کالم"
+
+#: inc/general.php:252
+msgid ""
+"These widgets are displayed when the corresponding template is selected in "
+"the record or page properties"
+msgstr ""
+"یہ ویجٹ اس وقت ظاہر ہوتے ہیں جب متعلقہ ٹیمپلیٹ کو ریکارڈ یا صفحہ کی خصوصیات "
+"میں منتخب کیا جاتا ہے۔"
+
+#: inc/general.php:256
+msgid ""
+"These widgets are displayed in the right or left column, depending on the "
+"site settings"
+msgstr ""
+"سائٹ کی ترتیبات کے لحاظ سے یہ وجیٹس دائیں یا بائیں کالم میں دکھائے جاتے ہیں۔"
+
+#: inc/general.php:263
+msgid "posts"
+msgstr "پوسٹس"
+
+#: inc/general.php:265 inc/general.php:274 inc/general.php:283
+#: inc/general.php:294 inc/general.php:305 inc/general.php:316
+#, php-format
+msgid ""
+"Widgets added to this sidebar will appear only on %1$s %2$s. If this sidebar "
+"is empty, the default sidebar widgets will be displayed on %1$s %2$s."
+msgstr ""
+"اس سائڈبار میں شامل کردہ وجیٹس صرف %1$s %2$s پر ظاہر ہوں گے۔ اگر یہ سائڈبار "
+"خالی ہے تو، پہلے سے طے شدہ سائڈبار ویجٹ %1$s %2$s پر ظاہر ہوں گے۔"
+
+#: inc/general.php:272
+msgid "pages"
+msgstr "صفحات"
+
+#: inc/general.php:281
+msgid "home"
+msgstr "گھر"
+
+#: inc/general.php:325 inc/general.php:334
+msgid "featured"
+msgstr "نمایاں"
+
+#: inc/general.php:343 inc/general.php:352 inc/general.php:361
+#: inc/general.php:370
+msgid "Footer"
+msgstr "فوٹر"
+
+#: inc/general.php:345 inc/general.php:354 inc/general.php:363
+#: inc/general.php:372
+#, php-format
+msgid "These widgets are displayed in the %s column of the footer"
+msgstr "یہ ویجٹ فوٹر کے %s کالم میں دکھائے جاتے ہیں۔"
+
+#: inc/general.php:554
+msgid "Nothing found:"
+msgstr "کچھ نہیں ملا:"
+
+#: inc/general.php:555
+msgid "No sorting"
+msgstr "کوئی چھانٹی نہیں۔"
+
+#: inc/general.php:585
+msgid "MENU"
+msgstr "مینو"
+
+#: inc/general.php:738
+msgid "Now you can follow the theme updates on the page"
+msgstr "اب آپ صفحہ پر تھیم اپ ڈیٹس کو فالو کر سکتے ہیں۔"
+
+#: inc/general.php:746
+#, php-format
+msgid "Congratulations! You have activated the theme %s"
+msgstr "مبارک ہو! آپ نے تھیم کو چالو کر دیا ہے %s"
+
+#: inc/general.php:747
+msgid "This is the most customizable theme out of the customizable themes"
+msgstr "یہ حسب ضرورت تھیمز میں سے سب سے زیادہ حسب ضرورت تھیم ہے۔"
+
+#: inc/general.php:748
+msgid "Open settings"
+msgstr "ترتیبات کھولیں۔"
+
+#: inc/general.php:753
+msgid "Hello!"
+msgstr "ہیلو!"
+
+#: inc/general.php:754
+#, php-format
+msgid ""
+"This is theme developer %s. I improving and maintaining the theme on my own."
+msgstr "میں %s تھیم کا ڈویلپر ہوں۔ میں خود تھیم کو بہتر اور برقرار رکھتا ہوں۔"
+
+#: inc/general.php:755
+msgid ""
+"I would be very grateful if you would report any errors or poor quality "
+"translations."
+msgstr ""
+"اگر آپ کسی غلطی یا ناقص معیار کے ترجمہ کی اطلاع دیں گے تو میں بہت مشکور ہوں "
+"گا۔"
+
+#: inc/general.php:756
+msgid "Contacts can be found in the section - Appearance"
+msgstr "روابط کو سیکشن - ظاہری شکل میں دیکھا جا سکتا ہے۔"
+
+#: inc/general.php:758
+msgid ""
+"I also remind you that I have a premium version, which contains even more "
+"functionality"
+msgstr ""
+"میں آپ کو یہ بھی یاد دلاتا ہوں کہ میرے پاس ایک پریمیم ورژن ہے، جس میں اور "
+"بھی زیادہ فعالیت ہے۔"
+
+#: inc/general.php:759
+msgid "Presentation page"
+msgstr "پریزنٹیشن صفحہ"
+
+#: inc/general.php:760
+msgid "View price"
+msgstr "قیمت دیکھیں"
+
+#: inc/general.php:813
+msgid ""
+"\n"
+" Important!\n"
+"\n"
+" You are deleting all settings for the current theme.\n"
+"\n"
+" This action is irreversible!"
+msgstr ""
+"\n"
+" اہم!\n"
+"\n"
+" آپ موجودہ تھیم کی تمام ترتیبات کو حذف کر رہے ہیں۔\n"
+"\n"
+" یہ عمل ناقابل واپسی ہے!"
+
+#: inc/general.php:814
+msgid ""
+"\n"
+" Important!\n"
+"\n"
+" You change all colors of the current theme.\n"
+"\n"
+" This action is irreversible!"
+msgstr ""
+"\n"
+" اہم!\n"
+"\n"
+" آپ موجودہ تھیم کے تمام رنگ بدل دیتے ہیں۔\n"
+"\n"
+" یہ عمل ناقابل واپسی ہے!"
+
+#: inc/mega/blocks/mega-cat-image.php:12
+msgid "Category image"
+msgstr "زمرہ کی تصویر"
+
+#: inc/module/breadcrumb.php:177
+msgid "Posted by "
+msgstr "کی طرف سے پوسٹ کیا گیا"
+
+#: inc/module/breadcrumb.php:183
+msgid "Error"
+msgstr "نقص"
+
+#: inc/module/breadcrumb.php:188
+msgid "Page"
+msgstr "صفحہ"
+
+#: inc/module/meta-tags.php:29 inc/module/meta-tags.php:296
+#: template-parts/content-autor.php:42
+msgid "Author"
+msgstr "مصنف"
+
+#: inc/module/meta-tags.php:35 inc/module/meta-tags.php:304
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr "%s"
+
+#: inc/module/meta-tags.php:49 inc/module/meta-tags.php:398
+msgid "Number of comments on a post"
+msgstr "پوسٹ پر تبصروں کی تعداد"
+
+#: inc/module/meta-tags.php:56 inc/module/meta-tags.php:405
+msgid "Comments"
+msgstr "کمنٹس"
+
+#: inc/module/meta-tags.php:78 inc/module/meta-tags.php:452
+msgid "Views"
+msgstr "ناظرین"
+
+#: inc/module/meta-tags.php:99 inc/module/meta-tags.php:324
+msgid "Created"
+msgstr "بنایا"
+
+#: inc/module/meta-tags.php:119 inc/module/meta-tags.php:155
+#: inc/module/meta-tags.php:344 inc/module/meta-tags.php:384
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr "%s"
+
+#: inc/module/meta-tags.php:137 inc/module/meta-tags.php:364
+msgid "Updated"
+msgstr "تازہ کاری"
+
+#: inc/module/meta-tags.php:275
+msgid "Less 1 min"
+msgstr "1 منٹ سے کم"
+
+#: inc/module/meta-tags.php:277
+msgid "min"
+msgstr "منٹ"
+
+#: inc/module/meta-tags.php:429
+msgid "Reading time"
+msgstr "پڑھنے کا وقت"
+
+#: inc/module/meta-tags.php:480
+msgid "Publication date"
+msgstr "اشاعت کی تاریخ"
+
+#: inc/module/top-menu.php:43
+msgid "Mobile"
+msgstr "موبائل"
+
+#: inc/option/hook.php:45
+msgid "Page for adding codes"
+msgstr "کوڈز شامل کرنے کے لیے صفحہ"
+
+#: inc/option/hook.php:61 inc/option/hook.php:68 inc/option/hook.php:76
+#, php-format
+msgid "Before the closing %s tag"
+msgstr "اختتامی %s ٹیگ سے پہلے"
+
+#: inc/option/hook.php:85
+msgid "Before top menu"
+msgstr "ٹاپ مینو سے پہلے"
+
+#: inc/option/hook.php:91
+msgid "After top menu"
+msgstr "ٹاپ مینو کے بعد"
+
+#: inc/option/hook.php:100
+msgid "Before the banner and social links"
+msgstr "بینر اور سماجی روابط سے پہلے"
+
+#: inc/option/hook.php:106
+msgid "After the banner and social links"
+msgstr "بینر اور سماجی روابط کے بعد"
+
+#: inc/option/hook.php:115
+msgid "Before main menu"
+msgstr "مین مینو سے پہلے"
+
+#: inc/option/hook.php:121
+msgid "After main menu"
+msgstr "مین مینو کے بعد"
+
+#: inc/option/hook.php:130
+msgid "After Wide slider"
+msgstr "وائڈ سلائیڈر کے بعد"
+
+#: inc/option/hook.php:139
+msgid "After Category menu"
+msgstr "زمرہ مینو کے بعد"
+
+#: inc/option/hook.php:148
+msgid "Top of footer"
+msgstr "فوٹر کا سب سے اوپر"
+
+#: inc/option/hook.php:154
+msgid "Before bottom menu"
+msgstr "نیچے والے مینو سے پہلے"
+
+#: inc/option/hook.php:163 inc/option/hook.php:169 inc/option/hook.php:175
+#: inc/option/hook.php:181 inc/option/hook.php:187 inc/option/hook.php:193
+#: inc/option/hook.php:199 inc/option/hook.php:205
+#, php-format
+msgid "Before the \"%s\" section on the main page"
+msgstr "مرکزی صفحہ پر \"%s\" سیکشن سے پہلے"
+
+#: inc/option/hook.php:211
+msgid "Before the \"Rrecent posts\" section on the main page"
+msgstr "مرکزی صفحہ پر \"حالیہ پوسٹس\" سیکشن سے پہلے"
+
+#: inc/option/hook.php:217
+msgid "After the \"Rrecent posts\" section on the main page"
+msgstr "مرکزی صفحہ پر \"حالیہ پوسٹس\" سیکشن کے بعد"
+
+#: inc/option/hook.php:226
+msgid "Before breadcrumbs"
+msgstr "بریڈ کرمبس سے پہلے"
+
+#: inc/option/hook.php:235
+msgid "Before the list of posts on the category page"
+msgstr "زمرہ کے صفحے پر پوسٹس کی فہرست سے پہلے"
+
+#: inc/option/hook.php:241
+msgid "After the list of posts on the category page"
+msgstr "زمرہ کے صفحے پر پوسٹس کی فہرست کے بعد"
+
+#: inc/option/hook.php:250
+msgid "Before the main image inside the post"
+msgstr "پوسٹ کے اندر مرکزی تصویر سے پہلے"
+
+#: inc/option/hook.php:256
+msgid "Before the title inside the post"
+msgstr "پوسٹ کے اندر عنوان سے پہلے"
+
+#: inc/option/hook.php:262
+msgid "Before meta data inside a post"
+msgstr "پوسٹ کے اندر میٹا ڈیٹا سے پہلے"
+
+#: inc/option/hook.php:268
+msgid "Before content within a post"
+msgstr "پوسٹ کے اندر مواد سے پہلے"
+
+#: inc/option/hook.php:274
+msgid "Before the author section inside the post"
+msgstr "پوسٹ کے اندر مصنف کے حصے سے پہلے"
+
+#: inc/option/hook.php:280
+msgid "Before the \"Next post\" block inside the post"
+msgstr "پوسٹ کے اندر \"اگلی پوسٹ\" بلاک کرنے سے پہلے"
+
+#: inc/option/hook.php:286
+msgid "Before the \"Related posts\" block inside the post"
+msgstr "پوسٹ کے اندر \"متعلقہ پوسٹس\" کو بلاک کرنے سے پہلے"
+
+#: inc/option/hook.php:292
+msgid "Before the \"Comments\" block inside the post"
+msgstr "پوسٹ کے اندر \"تبصرے\" بلاک کرنے سے پہلے"
+
+#: inc/option/hook.php:298
+msgid "At the end of the post"
+msgstr "پوسٹ کے آخر میں"
+
+#: inc/option/hook.php:307
+msgid "Before the main image inside the page"
+msgstr "صفحہ کے اندر مرکزی تصویر سے پہلے"
+
+#: inc/option/hook.php:313
+msgid "Before the title inside the page"
+msgstr "صفحہ کے اندر عنوان سے پہلے"
+
+#: inc/option/hook.php:319
+msgid "After the title inside the page"
+msgstr "صفحہ کے اندر عنوان کے بعد"
+
+#: inc/option/hook.php:325 inc/option/hook.php:490 inc/option/hook.php:511
+msgid "At the end of the page"
+msgstr "صفحہ کے آخر میں"
+
+#: inc/option/hook.php:334
+msgid "Before searching for products"
+msgstr "مصنوعات کی تلاش سے پہلے"
+
+#: inc/option/hook.php:340
+msgid "Above the product grid"
+msgstr "پروڈکٹ گرڈ کے اوپر"
+
+#: inc/option/hook.php:346
+msgid "After the product grid"
+msgstr "پروڈکٹ گرڈ کے بعد"
+
+#: inc/option/hook.php:355
+msgid "At the top of the product page"
+msgstr "پروڈکٹ پیج کے اوپری حصے میں"
+
+#: inc/option/hook.php:361
+msgid "After the title on the product page"
+msgstr "پروڈکٹ کے صفحے پر عنوان کے بعد"
+
+#: inc/option/hook.php:367
+msgid "After the price on the product page"
+msgstr "پروڈکٹ پیج پر قیمت کے بعد"
+
+#: inc/option/hook.php:373
+msgid "At the bottom of the product data on the product page"
+msgstr "پروڈکٹ کے صفحہ پر پروڈکٹ ڈیٹا کے نیچے"
+
+#: inc/option/hook.php:379
+msgid "Before related products on product page"
+msgstr "مصنوعات کے صفحے پر متعلقہ مصنوعات سے پہلے"
+
+#: inc/option/hook.php:385
+msgid "At the end of the product page"
+msgstr "پروڈکٹ پیج کے آخر میں"
+
+#: inc/option/hook.php:394
+msgid "Above the list of products on the shopping cart page"
+msgstr "خریداری کی ٹوکری کے صفحے پر مصنوعات کی فہرست کے اوپر"
+
+#: inc/option/hook.php:400
+msgid "After the list of products on the cart page"
+msgstr "کارٹ کے صفحے پر مصنوعات کی فہرست کے بعد"
+
+#: inc/option/hook.php:406
+msgid "After the cart totals on the cart page"
+msgstr "ٹوکری کے صفحہ پر کارٹ کے ٹوٹل کے بعد"
+
+#: inc/option/hook.php:415
+msgid "Under the heading on the order page"
+msgstr "آرڈر کے صفحے پر عنوان کے تحت"
+
+#: inc/option/hook.php:421
+msgid "Near the order totals on the order page"
+msgstr "آرڈر کے صفحے پر آرڈر کے ٹوٹل کے قریب"
+
+#: inc/option/hook.php:427
+msgid "At the end of the order page"
+msgstr "آرڈر کے صفحے کے آخر میں"
+
+#: inc/option/hook.php:436
+msgid "Above the order information on the page - Order accepted"
+msgstr "صفحہ پر آرڈر کی معلومات کے اوپر - آرڈر قبول کر لیا گیا۔"
+
+#: inc/option/hook.php:442
+msgid "After the information about the order on the page - Order accepted"
+msgstr "صفحہ پر آرڈر کے بارے میں معلومات کے بعد - آرڈر قبول کر لیا گیا۔"
+
+#: inc/option/hook.php:448
+msgid "At the bottom of the page - Order accepted"
+msgstr "صفحہ کے نیچے - آرڈر قبول کر لیا گیا۔"
+
+#: inc/option/hook.php:457
+msgid "Top of personal account"
+msgstr "ذاتی اکاؤنٹ کا سب سے اوپر"
+
+#: inc/option/hook.php:463
+msgid "At the bottom of the dashboard tab in personal account"
+msgstr "ذاتی اکاؤنٹ میں ڈیش بورڈ ٹیب کے نیچے"
+
+#: inc/option/hook.php:469
+msgid "At the bottom of personal account"
+msgstr "ذاتی اکاؤنٹ کے نیچے"
+
+#: inc/option/hook.php:478 inc/option/hook.php:499
+msgid "Above the heading on the page"
+msgstr "صفحہ پر سرخی کے اوپر"
+
+#: inc/option/hook.php:484 inc/option/hook.php:505
+msgid "After the title on the page"
+msgstr "صفحہ پر عنوان کے بعد"
+
+#: inc/option/hook.php:526
+msgid ""
+"On this page you can insert counters, banners, or any other content that "
+"will be displayed on the front of the site"
+msgstr ""
+"اس صفحہ پر آپ کاؤنٹر، بینرز، یا کوئی دوسرا مواد داخل کر سکتے ہیں جو سائٹ کے "
+"سامنے دکھائے جائیں گے۔"
+
+#: inc/option/set.php:32
+msgid "All settings saved!"
+msgstr "تمام ترتیبات محفوظ ہو گئیں!"
+
+#: inc/option/set.php:52
+msgid "Pro page"
+msgstr "پرو صفحہ"
+
+#: inc/option/set.php:57
+msgid "General"
+msgstr "عمومی"
+
+#: inc/option/set.php:127
+#, php-format
+msgid "Additional functionality for the %s"
+msgstr "%s کے لیے اضافی فعالیت"
+
+#: inc/option/set.php:129
+#, php-format
+msgid "Some functionality is provided in a separate plugin (as required by %s)"
+msgstr "کچھ فعالیت ایک الگ پلگ ان میں فراہم کی گئی ہے (جیسا کہ %s کی ضرورت ہے)"
+
+#: inc/option/set.php:130
+msgid "To extend the theme, install the free plugin"
+msgstr "تھیم کو بڑھانے کے لیے، مفت پلگ ان انسٹال کریں۔"
+
+#: inc/option/set.php:132
+msgid "What does this give?"
+msgstr "یہ کیا دیتا ہے؟"
+
+#: inc/option/set.php:133
+msgid "Additional widgets for the front part"
+msgstr "سامنے والے حصے کے لیے اضافی ویجٹ"
+
+#: inc/option/set.php:135
+msgid "Two author widgets"
+msgstr "دو مصنف ویجٹ"
+
+#: inc/option/set.php:136
+msgid "Two widgets for recent posts"
+msgstr "حالیہ پوسٹس کے لیے دو ویجٹ"
+
+#: inc/option/set.php:137
+msgid "Widget with slider"
+msgstr "سلائیڈر کے ساتھ ویجیٹ"
+
+#: inc/option/set.php:138
+msgid "Widget with banner"
+msgstr "بینر کے ساتھ ویجیٹ"
+
+#: inc/option/set.php:139
+msgid "Widget with links"
+msgstr "روابط کے ساتھ ویجیٹ"
+
+#: inc/option/set.php:141
+msgid ""
+"After activating the plugin, the widgets will appear in the section - "
+"\"Appearance\" - \"Widgets\""
+msgstr ""
+"پلگ ان کو چالو کرنے کے بعد، ویجٹ سیکشن میں ظاہر ہوں گے - \"ظاہر\" - \"وجیٹس\""
+
+#: inc/option/set.php:142
+msgid "Additional useful functionality in the admin panel"
+msgstr "ایڈمن پینل میں اضافی مفید فعالیت"
+
+#: inc/option/set.php:144
+msgid "Function (button) for clearing the counter of post and page views"
+msgstr "پوسٹ اور پیج ویوز کے کاؤنٹر کو صاف کرنے کے لیے فنکشن (بٹن)"
+
+#: inc/option/set.php:145
+msgid ""
+"Column \"Views\" (counter) in the list of posts and pages of the admin panel"
+msgstr "ایڈمن پینل کی پوسٹس اور پیجز کی فہرست میں کالم \"ویو\" (کاؤنٹر)"
+
+#: inc/option/set.php:146
+msgid "Column \"Thumbnails\" in the list of posts of the admin panel"
+msgstr "ایڈمن پینل کی پوسٹس کی فہرست میں کالم \"تھمب نیلز\""
+
+#: inc/option/set.php:147
+msgid "Category filter in classic post editor"
+msgstr "کلاسک پوسٹ ایڈیٹر میں زمرہ فلٹر"
+
+#: inc/option/set.php:148
+#, php-format
+msgid "Option to disable block editor (%s) in text editor"
+msgstr "ٹیکسٹ ایڈیٹر میں بلاک ایڈیٹر (%s) کو غیر فعال کرنے کا اختیار"
+
+#: inc/option/set.php:149
+#, php-format
+msgid "Option to disable block editor (%s) in widgets"
+msgstr "ویجیٹس میں بلاک ایڈیٹر (%s) کو غیر فعال کرنے کا اختیار"
+
+#: inc/option/set.php:150
+#, php-format
+msgid ""
+"Ability to change %s graphics engine (useful if large photos are not loading)"
+msgstr ""
+"%s گرافکس انجن کو تبدیل کرنے کی اہلیت (اگر بڑی تصاویر لوڈ نہیں ہو رہی ہیں تو "
+"مفید ہے)"
+
+#: inc/option/set.php:152
+#, php-format
+msgid ""
+"After activating the plugin, these options will appear in the section - "
+"\"Appearance\" - \"%s\" - in the new tab \"Extended\""
+msgstr ""
+"پلگ ان کو فعال کرنے کے بعد، یہ اختیارات سیکشن میں ظاہر ہوں گے - \"ظاہر\" - "
+"\"%s\" - نئے ٹیب \"توسیع شدہ\" میں"
+
+#: inc/option/set.php:153
+msgid "View more information"
+msgstr "مزید معلومات دیکھیں"
+
+#: inc/option/set.php:162
+msgid "Information materials"
+msgstr "معلوماتی مواد"
+
+#: inc/option/set.php:165
+msgid "These are not bugs, these are features"
+msgstr "یہ کیڑے نہیں ہیں، یہ خصوصیات ہیں۔"
+
+#: inc/option/set.php:167
+#, php-format
+msgid "How to increase website loading speed with %s"
+msgstr "%s کے ساتھ ویب سائٹ کی لوڈنگ کی رفتار کیسے بڑھائی جائے"
+
+#: inc/option/set.php:169
+#, php-format
+msgid "How to customize the %s"
+msgstr "%s کو کس طرح اپنی مرضی کے مطابق بنائیں"
+
+#: inc/option/set.php:171
+msgid "How to change the sidebar orientation for a separate page or post"
+msgstr "علیحدہ صفحہ یا پوسٹ کے لیے سائڈبار کی سمت کیسے تبدیل کی جائے۔"
+
+#: inc/option/set.php:173
+msgid "Import in one click full demo versions of sites"
+msgstr "سائٹس کے مکمل ڈیمو ورژن ایک کلک میں درآمد کریں۔"
+
+#: inc/option/set.php:175
+msgid "How to reset theme settings"
+msgstr "تھیم کی ترتیبات کو دوبارہ ترتیب دینے کا طریقہ"
+
+#: inc/option/set.php:177
+msgid "Why do you need a child theme"
+msgstr "آپ کو چائلڈ تھیم کی ضرورت کیوں ہے۔"
+
+#: inc/option/set.php:179
+msgid "Plugin for inserting your own functions"
+msgstr "آپ کے اپنے افعال داخل کرنے کے لیے پلگ ان"
+
+#: inc/option/set.php:229
+msgid ""
+"All settings of the front part of the theme are located in the visual editor"
+msgstr "تھیم کے سامنے والے حصے کی تمام ترتیبات بصری ایڈیٹر میں موجود ہیں۔"
+
+#: inc/option/set.php:230
+msgid "Open"
+msgstr "کھولیں۔"
+
+#: inc/option/set.php:233
+msgid "Visual Customizer Quick Links"
+msgstr "بصری کسٹمائزر فوری لنکس"
+
+#: inc/option/set.php:241
+msgid "Common colors"
+msgstr "عام رنگ"
+
+#: inc/option/set.php:259
+msgid "Sidebar settings"
+msgstr "سائڈبار کی ترتیبات"
+
+#: inc/option/set.php:280
+msgid "Expert settings of the administrative part of the theme"
+msgstr "تھیم کے انتظامی حصے کی ماہر ترتیبات"
+
+#: inc/option/set.php:303
+msgid "Quick Links"
+msgstr "فوری رابطے"
+
+#: inc/option/set.php:305
+msgid "Home page customizer"
+msgstr "ہوم پیج کسٹمائزر"
+
+#: inc/option/set.php:306
+msgid "Megamenu customizer"
+msgstr "میگا مینیو کسٹمائزر"
+
+#: inc/option/set.php:310
+msgid "Reset settings and Apply presets"
+msgstr "سیٹنگز کو ری سیٹ کریں اور پری سیٹ اپلائی کریں۔"
+
+#: inc/option/set.php:311
+msgid "Import full demo"
+msgstr "مکمل ڈیمو درآمد کریں۔"
+
+#: inc/option/set.php:367
+msgid "Technical support"
+msgstr "ٹیکنیکل سپورٹ"
+
+#: inc/option/set.php:380
+#, php-format
+msgid "Additional support for %s subscriptions"
+msgstr "%s سبسکرپشنز کے لیے اضافی تعاون"
+
+#: inc/option/set.php:393
+msgid "Removing extra image sizes"
+msgstr "تصویر کے اضافی سائز کو ہٹانا"
+
+#: inc/option/set.php:401 inc/option/set.php:411 inc/option/set.php:421
+#: inc/option/set.php:431 inc/option/set.php:441
+#, php-format
+msgid "Remove image slicing for %s"
+msgstr "%s کے لیے تصویر کے ٹکڑے ہٹائیں"
+
+#: inc/option/set.php:411 inc/option/set.php:441
+#, php-format
+msgid "aka \"%s\""
+msgstr "عرف \"%s\""
+
+#: inc/option/set.php:458
+msgid "Images format"
+msgstr "امیجز فارمیٹ"
+
+#: inc/option/set.php:466
+msgid "Choose which images to use for the entire site"
+msgstr "منتخب کریں کہ کون سی تصاویر پوری سائٹ کے لیے استعمال کی جائیں۔"
+
+#: inc/option/set.php:482
+msgid "Avatar for users"
+msgstr "صارفین کے لیے اوتار"
+
+#: inc/option/set.php:490
+msgid "Change avatar (default) for users without an avatar"
+msgstr "اوتار کے بغیر صارفین کے لیے اوتار (پہلے سے طے شدہ) تبدیل کریں۔"
+
+#: inc/option/set.php:537
+msgid "Avatar URL (only external address), demo - "
+msgstr "اوتار یو آر ایل (صرف بیرونی پتہ)، ڈیمو -"
+
+#: inc/option/set.php:553
+#, php-format
+msgid ""
+"When uploading an image to the media library, %s cuts many sizes from one "
+"image."
+msgstr ""
+"میڈیا لائبریری میں تصویر اپ لوڈ کرتے وقت، %s ایک تصویر سے کئی سائز کاٹتا ہے۔"
+
+#: inc/option/set.php:554
+msgid ""
+"All these files take up a huge amount of space, while some of them are not "
+"used at all."
+msgstr ""
+"یہ تمام فائلیں بہت زیادہ جگہ لیتی ہیں، جبکہ ان میں سے کچھ بالکل استعمال نہیں "
+"ہوتیں۔"
+
+#: inc/option/set.php:555
+msgid ""
+"The presented settings allow you to remove from the slicing the largest "
+"sizes that are not used in this theme."
+msgstr ""
+"پیش کردہ ترتیبات آپ کو سلائسنگ سے سب سے بڑے سائز کو ہٹانے کی اجازت دیتی ہیں "
+"جو اس تھیم میں استعمال نہیں ہوتے ہیں۔"
+
+#: inc/option/set.php:556 inc/option/set.php:605
+#, php-format
+msgid ""
+"It is important to know! These settings cannot delete or modify existing "
+"image files. Slicing of images occurs at the time of uploading a new image "
+"to the %s media library."
+msgstr ""
+"یہ جاننا ضروری ہے! یہ ترتیبات موجودہ تصویری فائلوں کو حذف یا ترمیم نہیں "
+"کرسکتی ہیں۔ تصویروں کو کاٹنا ایک نئی تصویر کو %s میڈیا لائبریری میں اپ لوڈ "
+"کرنے کے وقت ہوتا ہے۔"
+
+#: inc/option/set.php:562
+msgid ""
+"The size is registered by this theme. Used only when \"Full width website\" "
+"is set."
+msgstr ""
+"سائز اس تھیم کے ذریعہ رجسٹرڈ ہے۔ صرف اس وقت استعمال کیا جاتا ہے جب \"مکمل "
+"چوڑائی کی ویب سائٹ\" سیٹ ہو۔"
+
+#: inc/option/set.php:568
+#, php-format
+msgid ""
+"The size is registered by %s itself. Can be used by this theme when 1920 x "
+"1080 is disabled and set to Full Screen."
+msgstr ""
+"سائز خود %s کے ذریعہ رجسٹرڈ ہے۔ اس تھیم کے ذریعے استعمال کیا جا سکتا ہے جب "
+"1920 x 1080 غیر فعال ہو اور فل سکرین پر سیٹ ہو۔"
+
+#: inc/option/set.php:574 inc/option/set.php:580 inc/option/set.php:586
+#, php-format
+msgid "The size is registered by %s itself. Not used in this theme."
+msgstr "سائز خود %s کے ذریعہ رجسٹرڈ ہے۔ اس تھیم میں استعمال نہیں کیا گیا۔"
+
+#: inc/option/set.php:599
+msgid ""
+"The theme creates multiple thumbnail sizes in a single 16x9 format and uses "
+"optimal sizes in the right places. This has a good effect on loading speed "
+"and proper display in a unified style."
+msgstr ""
+"تھیم ایک ہی 16x9 فارمیٹ میں تھمب نیل کے متعدد سائز بناتا ہے اور صحیح جگہوں "
+"پر بہترین سائز استعمال کرتا ہے۔ یہ ایک متحد انداز میں لوڈنگ کی رفتار اور "
+"مناسب ڈسپلے پر اچھا اثر ڈالتا ہے۔"
+
+#: inc/option/set.php:600
+msgid "You can change this setting to control the size of the images yourself."
+msgstr ""
+"آپ تصاویر کے سائز کو خود کنٹرول کرنے کے لیے اس ترتیب کو تبدیل کر سکتے ہیں۔"
+
+#: inc/option/set.php:602 inc/option/set.php:604
+#, php-format
+msgid "%s sizes"
+msgstr "%s سائز"
+
+#: inc/option/set.php:606
+msgid "To change old pictures, use the thumbnail regeneration plugin."
+msgstr ""
+"پرانی تصویروں کو تبدیل کرنے کے لیے، تھمب نیل ری جنریشن پلگ ان کا استعمال "
+"کریں۔"
+
+#: inc/usability.php:26 inc/usability.php:39 inc/usability.php:52
+#: inc/usability.php:64 inc/usability.php:99
+msgid "Widget example"
+msgstr "ویجیٹ کی مثال"
+
+#: inc/usability.php:52 inc/usability.php:99
+msgid "Archives"
+msgstr "آرکائیو"
+
+#: inc/usability.php:64
+msgid "Tag cloud"
+msgstr "بادل کو ٹیگ کریں۔"
+
+#: inc/usability.php:81 inc/usability.php:116 inc/usability.php:136
+msgid "Widget"
+msgstr "ویجیٹ سائٹ پر لنکس کی فہرست دکھاتا ہے"
+
+#: inc/usability.php:136
+msgid "Calendar"
+msgstr "کیلنڈر"
+
+#: search.php:20
+#, php-format
+msgid "Search results for: %s"
+msgstr "تلاش کے نتائج برائے: %s"
+
+#: template-parts/content-autor.php:27
+msgid "Author photo"
+msgstr "مصنف کی تصویر"
+
+#: template-parts/content-autor.php:77
+msgid "Latest posts (Author)"
+msgstr "تازہ ترین پوسٹس (مصنف)"
+
+#: template-parts/content-next-post.php:22
+msgid "Previous post"
+msgstr "پچھلی پوسٹ"
+
+#: template-parts/content-next-post.php:51
+msgid "Next post"
+msgstr "اگلی پوسٹ"
+
+#: template-parts/content-none.php:13
+msgid "Site not ready"
+msgstr "سائٹ تیار نہیں ہے۔"
+
+#: template-parts/content-none.php:15
+msgid "Nothing found"
+msgstr "کچھ نہیں ملا"
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Start here</a>."
+msgstr ""
+"اپنی پہلی پوسٹ شائع کرنے کے لیے تیار ہیں؟ <a href=\"%1$s\">یہاں سے شروع کرو</"
+"a> ."
+
+#: template-parts/content-none.php:36
+msgid "Nothing matched your search terms. Try other keywords."
+msgstr ""
+"کچھ بھی آپ کی تلاش کے الفاظ سے مماثل نہیں ہے۔ دوسرے مطلوبہ الفاظ آزمائیں۔"
+
+#: template-parts/content-none.php:93
+msgid "We cannot find what you are looking for. Try using search."
+msgstr ""
+"آپ جس چیز کی تلاش کر رہے ہیں ہمیں وہ نہیں مل سکتا۔ تلاش استعمال کرنے کی کوشش "
+"کریں۔"
+
+#: template-parts/content-page.php:58
+msgid "Pages:"
+msgstr "صفحات:"
+
+#: template-parts/content-page.php:69 template-parts/content-single.php:108
+#, php-format
+msgid "Edit %s"
+msgstr "%s کو ترمیم کریں"
+
+#: template-parts/content-single.php:83
+msgid "Posts:"
+msgstr "پوسٹس:"
+
+#: templates/template-new-posts.php:10
+msgid "New Posts"
+msgstr "نئی پوسٹس"
+
+#: templates/template-site-map.php:10
+msgid "Site Map"
+msgstr "سائٹ کا نقشہ"
+
+#: vendor/freemius/assets/js/pricing/freemius-pricing.js:2
+msgid "display"
+msgstr "ڈسپلے"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "مطلوبہ پلگ ان انسٹال کریں۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "پلگ ان انسٹال کریں۔"
+
+#. translators: %s: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "پلگ ان نصب ہو رہا ہے:%s"
+
+#. translators: %s: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "پلگ ان کو اپ ڈیٹ کرنا: %s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "پلگ ان API میں کچھ غلط ہو گیا۔"
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "اس تھیم کو درج ذیل پلگ ان کی ضرورت ہے: %1$s۔"
+msgstr[1] "اس تھیم کو درج ذیل پلگ انز کی ضرورت ہے: %1$s۔"
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "یہ تھیم درج ذیل پلگ ان کی تجویز کرتا ہے: %1$s۔"
+msgstr[1] "یہ تھیم درج ذیل پلگ انز کی تجویز کرتا ہے: %1$s۔"
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"اس تھیم کے ساتھ زیادہ سے زیادہ مطابقت کو یقینی بنانے کے لیے درج ذیل پلگ ان "
+"کو اس کے تازہ ترین ورژن میں اپ ڈیٹ کرنے کی ضرورت ہے: %1$s۔"
+msgstr[1] ""
+"اس تھیم کے ساتھ زیادہ سے زیادہ مطابقت کو یقینی بنانے کے لیے درج ذیل پلگ انز "
+"کو ان کے تازہ ترین ورژن میں اپ ڈیٹ کرنے کی ضرورت ہے: %1$s۔"
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "ایک تازہ کاری دستیاب ہے برائے:%1$s."
+msgstr[1] "درج ذیل پلگ ان کے لیے تازہ کاریاں دستیاب ہیں:%1$s ۔"
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "درج ذیل مطلوبہ پلگ ان فی الحال غیر فعال ہے: %1$s۔"
+msgstr[1] "درج ذیل مطلوبہ پلگ ان فی الحال غیر فعال ہیں: %1$s۔"
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "درج ذیل تجویز کردہ پلگ ان فی الحال غیر فعال ہے: %1$s۔"
+msgstr[1] "درج ذیل تجویز کردہ پلگ ان فی الحال غیر فعال ہیں: %1$s۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "پلگ ان انسٹال کرنا شروع کریں۔"
+msgstr[1] "پلگ ان انسٹال کرنا شروع کریں۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "پلگ ان کو اپ ڈیٹ کرنا شروع کریں۔"
+msgstr[1] "پلگ ان کو اپ ڈیٹ کرنا شروع کریں۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "پلگ ان کو چالو کرنا شروع کریں۔"
+msgstr[1] "پلگ ان کو چالو کرنا شروع کریں۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "مطلوبہ پلگ ان انسٹالر پر واپس جائیں۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:386
+#: vendor/tgm/class-tgm-plugin-activation.php:827
+#: vendor/tgm/class-tgm-plugin-activation.php:2533
+#: vendor/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "ڈیش بورڈ پر واپس جائیں۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:387
+#: vendor/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "پلگ ان کامیابی سے چالو ہو گیا۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully - "
+msgstr "درج ذیل پلگ ان کو کامیابی سے چالو کر دیا گیا تھا۔"
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "کوئی ایکشن نہیں لیا گیا۔ پلگ ان %1$s پہلے ہی فعال تھا۔"
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"پلگ ان فعال نہیں ہے۔ اس تھیم کے لیے %s کے اعلی ورژن کی ضرورت ہے۔ پلگ ان کو "
+"اپ ڈیٹ کریں."
+
+#. translators: 1: dashboard link.
+#: vendor/tgm/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "تمام پلگ ان انسٹال اور کامیابی کے ساتھ چالو ہو گئے۔ %1$s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "اس نوٹس کو مسترد کریں۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"انسٹال، اپ ڈیٹ یا چالو کرنے کے لیے ایک یا زیادہ مطلوبہ یا تجویز کردہ پلگ ان "
+"ہیں۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "براہ کرم مدد کے لیے اس سائٹ کے منتظم سے رابطہ کریں۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"اس پلگ ان کو آپ کے تھیم کے ساتھ ہم آہنگ ہونے کے لیے اپ ڈیٹ کرنے کی ضرورت ہے۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "اپ ڈیٹ درکار ہے۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"ریموٹ پلگ ان پیکیج میں مطلوبہ سلگ والا فولڈر نہیں ہے اور نام تبدیل کرنے سے "
+"کام نہیں ہوا۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:934
+#: vendor/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"براہ کرم پلگ ان فراہم کنندہ سے رابطہ کریں اور ان سے کہیں کہ وہ اپنے پلگ ان "
+"کو ورڈپریس کے رہنما خطوط کے مطابق پیک کریں۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"ریموٹ پلگ ان پیکیج ایک سے زیادہ فائلوں پر مشتمل ہوتا ہے، لیکن فائلوں کو "
+"فولڈر میں پیک نہیں کیا جاتا ہے۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:1121
+#: vendor/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "اور"
+
+#. translators: %s: version number
+#: vendor/tgm/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "مطلوبہ"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "تجویز کردہ"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "ورڈپریس ذخیرہ"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "بیرونی ماخذ"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "پہلے سے پیک شدہ"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "انسٹال نہیں ہے۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "انسٹال ہے لیکن چالو نہیں ہے۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "فعال"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "مطلوبہ اپ ڈیٹ دستیاب نہیں ہے۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "اپ ڈیٹ کی ضرورت ہے۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "اپ ڈیٹ کی سفارش کی گئی۔"
+
+#. translators: 1: install status, 2: update status
+#: vendor/tgm/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s، %2$s"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "تمام <span class=\"count\">(%s)</span>"
+msgstr[1] "تمام <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "انسٹال کرنا <span class=\"count\">(%s)</span>"
+msgstr[1] "انسٹال کرنا <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "اپ ڈیٹ دستیاب ہے <span class=\"count\">(%s)</span>"
+msgstr[1] "اپ ڈیٹ دستیاب ہے <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "چالو کرنے کے لیے <span class=\"count\">(%s)</span>"
+msgstr[1] "چالو کرنے کے لیے <span class=\"count\">(%s)</span>"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "نامعلوم"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "انسٹال شدہ ورژن:"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "کم از کم مطلوبہ ورژن:"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "دستیاب ورژن:"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "انسٹال، اپ ڈیٹ یا چالو کرنے کے لیے کوئی پلگ ان نہیں ہے۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "رابطہ بحال کرو"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "ذریعہ"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "نوعیت"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "ورژن"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "حالت"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgm/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "انسٹال کریں %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgm/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "اپ ڈیٹ کریں %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgm/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "%2$s کو چالو کریں"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "پلگ ان مصنف سے پیغام کو اپ گریڈ کریں:"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "انسٹال کریں"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "تجدید"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"انسٹال کرنے کے لیے کوئی پلگ ان منتخب نہیں کیا گیا۔ کوئی ایکشن نہیں لیا گیا۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"اپ ڈیٹ کرنے کے لیے کوئی پلگ ان منتخب نہیں کیا گیا۔ کوئی ایکشن نہیں لیا گیا۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "اس وقت انسٹال کرنے کے لیے کوئی پلگ ان دستیاب نہیں ہے۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "اس وقت اپ ڈیٹ کرنے کے لیے کوئی پلگ ان دستیاب نہیں ہے۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"چالو کرنے کے لیے کوئی پلگ ان منتخب نہیں کیا گیا۔ کوئی ایکشن نہیں لیا گیا۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "اس وقت چالو کرنے کے لیے کوئی پلگ ان دستیاب نہیں ہے۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "درج ذیل پلگ ان کو کامیابی سے چالو کیا گیا تھا:"
+msgstr[1] "درج ذیل پلگ انز کو کامیابی سے چالو کیا گیا:"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "پلگ ان ایکٹیویشن ناکام ہو گیا۔"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgm/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "پلگ ان کی تازہ کاری %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: vendor/tgm/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "انسٹال کرتے وقت ایک خرابی پیش آگئی %1$s: <strong>%2$s</strong> ۔"
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s کی تنصیب ناکام ہو گئی۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"تنصیب اور ایکٹیویشن کا عمل شروع ہو رہا ہے۔ کچھ میزبانوں پر اس عمل میں کچھ "
+"وقت لگ سکتا ہے، لہذا براہ کرم صبر کریں۔"
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s انسٹال اور کامیابی سے چالو ہو گیا۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3509
+#: vendor/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "تفصیلات ظاہر کریں"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3509
+#: vendor/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "تفصیلات چھپائیں۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "تمام تنصیبات اور سرگرمیاں مکمل ہو چکی ہیں۔"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgm/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "پلگ ان انسٹال اور چالو کرنا %1$s (%2$d/%3$d)"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"تنصیب کا عمل شروع ہو رہا ہے۔ کچھ میزبانوں پر اس عمل میں کچھ وقت لگ سکتا ہے، "
+"لہذا براہ کرم صبر کریں۔"
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s کامیابی سے انسٹال ہو گیا۔"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "تمام تنصیبات مکمل ہو چکی ہیں۔"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgm/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "پلگ ان انسٹال ہو رہا ہے %1$s (%2$d/%3$d)"
+
+#: woocommerce/loop/no-products-found.php:22
+msgid "No products were found matching your selection."
+msgstr "آپ کے انتخاب سے مماثل کوئی پروڈکٹس نہیں ملے۔"
+
+#. Theme Name of the plugin/theme
+msgid "Bado Blog"
+msgstr "Bado Blog"
+
+#. Theme URI of the plugin/theme
+msgid "https://web-zone.org/bado-blog"
+msgstr "https://web-zone.org/bado-blog"
+
+#. Author of the plugin/theme
+msgid "DMCWebZone"
+msgstr "DMCWebZone"
+
+#. Author URI of the plugin/theme
+msgid "https://web-zone.org"
+msgstr "https://web-zone.org"
+
+#~ msgid "Social link"
+#~ msgstr "سماجی ربط"
+
+#~ msgid "At the bottom of the cart page"
+#~ msgstr "کارٹ کے صفحے کے نیچے"
+
+#~ msgid "After the order details on the order page"
+#~ msgstr "آرڈر کے صفحے پر آرڈر کی تفصیلات کے بعد"
+
+#~ msgid ""
+#~ "A graphical mega menu with its own builder is available in the premium "
+#~ "version"
+#~ msgstr ""
+#~ "اس کے اپنے بلڈر کے ساتھ ایک گرافیکل میگا مینو پریمیم ورژن میں دستیاب ہے۔"
+
+#~ msgid ""
+#~ "In this section, there can be a flexible builder that will allow you to "
+#~ "quickly and easily customize a cool homepage"
+#~ msgstr ""
+#~ "اس سیکشن میں، ایک لچکدار بلڈر ہوسکتا ہے جو آپ کو ایک ٹھنڈے ہوم پیج کو "
+#~ "جلدی اور آسانی سے اپنی مرضی کے مطابق کرنے کی اجازت دے گا"
+
+#~ msgid "Home page builder (choice of 8 blocks)"
+#~ msgstr "ہوم پیج بلڈر (8 بلاکس کا انتخاب)"
+
+#~ msgid "Category menu builder"
+#~ msgstr "زمرہ مینو بلڈر"
+
+#~ msgid "Megamenu (graphic) with builder in the main menu"
+#~ msgstr "مین مینو میں بلڈر کے ساتھ میگا مینیو (گرافک)"
+
+#~ msgid "Social link builder in the site header"
+#~ msgstr "سائٹ ہیڈر میں سوشل لنک بلڈر"
+
+#~ msgid "Side column (WooCommerce)"
+#~ msgstr "سائیڈ کالم (WooCommerce)"
+
+#~ msgid "These widgets are displayed in the sidebar on WooCommerce pages"
+#~ msgstr "یہ وجیٹس WooCommerce صفحات پر سائڈبار میں دکھائے جاتے ہیں۔"
+
+#~ msgid "Side column (bbPress)"
+#~ msgstr "سائیڈ کالم (bbPress)"
+
+#~ msgid "These widgets are displayed in the sidebar on bbPress pages"
+#~ msgstr "یہ وجیٹس bbPress کے صفحات پر سائڈبار میں دکھائے جاتے ہیں۔"
+
+#~ msgid "Side column (BuddyPress)"
+#~ msgstr "سائیڈ کالم (بڈی پریس)"
+
+#~ msgid "These widgets are displayed in the sidebar on BuddyPress pages"
+#~ msgstr "یہ وجیٹس BuddyPress کے صفحات پر سائڈبار میں دکھائے جاتے ہیں۔"
+
+#~ msgid "Home page builder"
+#~ msgstr "ہوم پیج بلڈر"
+
+#~ msgid "Mega menu (graphic) with constructor"
+#~ msgstr "کنسٹرکٹر کے ساتھ میگا مینو (گرافک)"
+
+#~ msgid "Full demo versions of sites"
+#~ msgstr "سائٹس کے مکمل ڈیمو ورژن"
+
+#~ msgid "Mega menu (lists)"
+#~ msgstr "میگا مینو (فہرستیں)"
+
+#~ msgid "Full-width main menu background"
+#~ msgstr "مکمل چوڑائی والے مین مینو کا پس منظر"
+
+#~ msgid "Orientation for main menu items"
+#~ msgstr "مین مینو آئٹمز کے لیے واقفیت"
+
+#~ msgid "Size of main menu items"
+#~ msgstr "مین مینو آئٹمز کا سائز"
+
+#~ msgid "Background color of main menu items"
+#~ msgstr "مین مینو آئٹمز کے پس منظر کا رنگ"
+
+#~ msgid "Text color main menu"
+#~ msgstr "متن کا رنگ مین مینو"
+
+#~ msgid "Main menu item font"
+#~ msgstr "مین مینو آئٹم فونٹ"
+
+#~ msgid "Main menu items text size"
+#~ msgstr "مین مینو آئٹمز ٹیکسٹ سائز"
+
+#~ msgid "Main menu items titles in uppercase"
+#~ msgstr "مین مینو آئٹمز کے عنوانات بڑے حروف میں"
+
+#~ msgid "Select category to display"
+#~ msgstr "ظاہر کرنے کے لیے زمرہ منتخب کریں۔"
+
+#~ msgid "Default - background color of the main menu"
+#~ msgstr "ڈیفالٹ - مین مینو کا پس منظر کا رنگ"
+
+#~ msgid "Default - text color of the main menu"
+#~ msgstr "ڈیفالٹ - مین مینو کا متن کا رنگ"
+
+#~ msgid "Full-width footer background"
+#~ msgstr "مکمل چوڑائی والا فوٹر پس منظر"
+
+#~ msgid "Default - color of the main menu"
+#~ msgstr "ڈیفالٹ - مین مینو کا رنگ"
+
+#~ msgid "Light color scheme (Green and Orange)"
+#~ msgstr "ہلکا رنگ سکیم (سبز اور نارنجی)"
+
+#~ msgid "Light color scheme (Light grey and Light red)"
+#~ msgstr "ہلکا رنگ سکیم (ہلکا سرمئی اور ہلکا سرخ)"
+
+#~ msgid "Light color scheme (Dark blue and Light blue)"
+#~ msgstr "ہلکے رنگ سکیم (گہرا نیلا اور ہلکا نیلا)"
+
+#~ msgid "Light color scheme (Blue)"
+#~ msgstr "ہلکے رنگ سکیم (نیلے)"
+
+#~ msgid "Dark color scheme (Red and Orange)"
+#~ msgstr "گہرا رنگ سکیم (سرخ اور نارنجی)"
+
+#~ msgid "Dark color scheme (Green and Orange)"
+#~ msgstr "گہرا رنگ سکیم (سبز اور نارنجی)"
+
+#~ msgid "Light color scheme (Dark grey and Red)"
+#~ msgstr "ہلکے رنگ سکیم (گہرا سرمئی اور سرخ)"
+
+#~ msgid "Light color scheme (Light grey and Green)"
+#~ msgstr "ہلکا رنگ سکیم (ہلکا سرمئی اور سبز)"
+
+#~ msgid "Light color scheme (Orange and Gray)"
+#~ msgstr "ہلکے رنگ سکیم (اورنج اور گرے)"
+
+#~ msgid "Light color scheme (Violet and Pink)"
+#~ msgstr "ہلکے رنگ سکیم (بنفشی اور گلابی)"
+
+#~ msgid "Light color scheme (Heavenly and Light blue)"
+#~ msgstr "ہلکا رنگ سکیم (آسمانی اور ہلکا نیلا)"
+
+#~ msgid "Light color scheme (Turquoise)"
+#~ msgstr "ہلکے رنگ سکیم (فیروزی)"
+
+#~ msgid "Import settings"
+#~ msgstr "ترتیبات درآمد کریں۔"
+
+#~ msgid ""
+#~ "The import section is not available! The import section is available when "
+#~ "there are suitable themes to import"
+#~ msgstr ""
+#~ "درآمدی سیکشن دستیاب نہیں ہے! امپورٹ سیکشن اس وقت دستیاب ہوتا ہے جب درآمد "
+#~ "کرنے کے لیے موزوں تھیمز ہوں۔"
+
+#~ msgid "Style: Confident oasis"
+#~ msgstr "انداز: پراعتماد نخلستان"
+
+#~ msgid "Color scheme: Light (Green and Orange)"
+#~ msgstr "رنگ سکیم: ہلکا (سبز اور نارنجی)"
+
+#~ msgid "Style: Photo maximalism"
+#~ msgstr "انداز: تصویر زیادہ سے زیادہ"
+
+#~ msgid "Color scheme: Light (Light grey and Light red)"
+#~ msgstr "رنگ سکیم: ہلکا (ہلکا سرمئی اور ہلکا سرخ)"
+
+#~ msgid "Style: News book"
+#~ msgstr "انداز: نیوز بک"
+
+#~ msgid "Color scheme: Light (Dark blue and Light blue)"
+#~ msgstr "رنگ سکیم: ہلکا (گہرا نیلا اور ہلکا نیلا)"
+
+#~ msgid "Style: Minimalism"
+#~ msgstr "انداز: Minimalism"
+
+#~ msgid "Color scheme: Light (Blue)"
+#~ msgstr "رنگ سکیم: ہلکا (بلیو)"
+
+#~ msgid "Style: Night magazine"
+#~ msgstr "انداز: نائٹ میگزین"
+
+#~ msgid "Color scheme: Dark (Red and Orange)"
+#~ msgstr "رنگ سکیم: گہرا (سرخ اور نارنجی)"
+
+#~ msgid "Style: Intrusive frames"
+#~ msgstr "انداز: دخل اندازی کرنے والے فریم"
+
+#~ msgid "Color scheme: Dark (Green and Orange)"
+#~ msgstr "رنگ سکیم: گہرا (سبز اور نارنجی)"
+
+#~ msgid "Style: News time"
+#~ msgstr "انداز: نیوز ٹائم"
+
+#~ msgid "Color scheme: Light (Dark grey and Red)"
+#~ msgstr "رنگ سکیم: ہلکا (گہرا سرمئی اور سرخ)"
+
+#~ msgid "Style: Hippopotamus"
+#~ msgstr "انداز: ہپپوپوٹیمس"
+
+#~ msgid "Color scheme: Light (Light grey and Green)"
+#~ msgstr "رنگ سکیم: ہلکا (ہلکا سرمئی اور سبز)"
+
+#~ msgid "Style: Strict carrot"
+#~ msgstr "انداز: سخت گاجر"
+
+#~ msgid "Color scheme: Light (Orange and Gray)"
+#~ msgstr "رنگ سکیم: ہلکا (اورنج اور گرے)"
+
+#~ msgid "Style: Womens blog"
+#~ msgstr "انداز: خواتین کا بلاگ"
+
+#~ msgid "Color scheme: Light (Violet and Pink)"
+#~ msgstr "رنگ سکیم: ہلکا (بنفشی اور گلابی)"
+
+#~ msgid "Style: Heavenly"
+#~ msgstr "انداز: آسمانی"
+
+#~ msgid "Color scheme: Light (Heavenly and Light blue)"
+#~ msgstr "رنگ سکیم: ہلکا (آسمانی اور ہلکا نیلا)"
+
+#~ msgid "Style: Through limitations"
+#~ msgstr "انداز: حدود کے ذریعے"
+
+#~ msgid "Color scheme: Light (Turquoise)"
+#~ msgstr "رنگ سکیم: روشنی (فیروزی)"
+
+#~ msgid "Style: Mixing colors"
+#~ msgstr "انداز: رنگوں کو ملانا"
+
+#~ msgid "Multicolor scheme: Demo location of color"
+#~ msgstr "ملٹی کلر اسکیم: رنگ کا ڈیمو مقام"
+
+#~ msgid "Favorites"
+#~ msgstr "پسندیدہ"
+
+#~ msgid "Learn More"
+#~ msgstr "مزید جانیں"

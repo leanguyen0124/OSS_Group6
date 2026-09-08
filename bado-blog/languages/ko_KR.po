@@ -1,0 +1,5596 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bado Blog\n"
+"POT-Creation-Date: 2026-07-15 11:36+0700\n"
+"PO-Revision-Date: 2026-07-15 11:36+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:14
+msgid "Unfortunately! This page cannot be found."
+msgstr "안타깝게도! 이 페이지를 찾을 수 없습니다."
+
+#: 404.php:21
+msgid ""
+"Nothing was found at this location. Try one of the links below or use the "
+"search."
+msgstr ""
+"이 위치에서는 아무것도 발견되지 않았습니다. 아래 링크 중 하나를 시도하거나 검"
+"색을 사용하십시오."
+
+#: 404.php:41 template-parts/content-none.php:54
+msgid "Most popular categories"
+msgstr "인기 카테고리"
+
+#: 404.php:62 template-parts/content-none.php:75
+#, php-format
+msgid "Try searching the monthly archives. %1$s"
+msgstr "월간자료실을 검색해 보세요. %1$s"
+
+#: archive.php:90 inc/admin/customizer.php:3467
+#: inc/function-customizer.php:10228 template-parts/home/home-article.php:79
+msgid "Show more"
+msgstr "더 보기"
+
+#: archive.php:102 template-parts/home/home-article.php:91
+#: templates/template-new-posts.php:64
+msgid "Previous posts"
+msgstr "이전 게시물"
+
+#: archive.php:105 template-parts/home/home-article.php:94
+#: templates/template-new-posts.php:65
+msgid "Next posts"
+msgstr "다음 게시물"
+
+#: archive.php:120
+msgid "There are no posts in this category. Perhaps a search will help."
+msgstr "해당 카테고리에는 게시물이 없습니다. 아마도 검색이 도움이 될 것입니다."
+
+#: comments.php:20
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "\"%1$s\"에 대한 한 가지 생각"
+
+#: comments.php:25
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%2$s에 대한 %1$s 의 댓글"
+
+#: comments.php:39 comments.php:59
+msgid "Old comments"
+msgstr "오래된 댓글"
+
+#: comments.php:40 comments.php:60
+msgid "Latest comments"
+msgstr "최신 댓글"
+
+#: comments.php:72
+msgid "Comments closed"
+msgstr "댓글이 닫혔습니다"
+
+#: functions.php:69
+msgid "Contact"
+msgstr "연락처"
+
+#: functions.php:70
+msgid "Account"
+msgstr "계정"
+
+#: functions.php:71
+msgid "Pricing"
+msgstr "가격"
+
+#: functions.php:72
+msgid "Upgrade"
+msgstr "업그레이드"
+
+#: functions.php:73
+msgid "Add-Ons"
+msgstr "부가기능"
+
+#: functions.php:74
+msgid "Affiliate program"
+msgstr "제휴 프로그램"
+
+#: functions.php:78
+msgid ""
+"Bado Blog is a cool, modern multipurpose WordPress theme with many free "
+"settings to create a responsive, fast, SEO optimized website that is easy to "
+"modify with a visual customizer. Bado Blog is well suited for magazines, "
+"personal blogs, article sites, news, and media. Translated into 20+ "
+"languages. Easy to use without coding knowledge. Good flexibility and "
+"functionality - multiple site width options (with full-width option), change "
+"sidebar orientation (left, right, or no sidebar), category grids with "
+"vertical and horizontal posts of various sizes, flexible header with logo, "
+"social link builder, ticker, 4 menu locations, main menu (mega menu), "
+"breadcrumbs, three pagination options, author block, related posts block, "
+"and styled widgets. Powerful Typography – change font size and line height, "
+"choose font designs, color typography for posts and pages. Clean code, no "
+"frameworks, minimum scripts. Good adaptability for any mobile devices. SEO-"
+"optimized with correct headings and markup. Adaptation for WooCommerce, "
+"Elementor, bbPress, Events Calendar, Jetpack, WPML, Contact Form 7, and "
+"Newsletter. Demo – web-zone.org/bado-blog"
+msgstr ""
+"Bado Blog 는 시각적 사용자 지정 도구로 쉽게 수정할 수 있는 반응형, 빠른 SEO "
+"최적화된 웹사이트를 만드는 데 필요한 많은 무료 설정이 포함된 멋지고 현대적인 "
+"다목적 WordPress 테마입니다. Bado Blog 는 잡지, 개인 블로그, 기사 사이트, 뉴"
+"스 및 미디어에 적합합니다. 20개 이상의 언어로 번역되었습니다. 코딩 지식 없이"
+"도 쉽게 사용할 수 있습니다. 우수한 유연성과 기능성 - 여러 사이트 너비 옵션(전"
+"체 너비 옵션 포함), 사이드바 방향 변경(왼쪽, 오른쪽 또는 사이드바 없음), 다양"
+"한 크기의 수직 및 수평 게시물이 있는 카테고리 그리드, 로고가 있는 유연한 헤"
+"더, 소셜 링크 빌더, 티커, 4개 메뉴 위치, 메인 메뉴(메가 메뉴), 브레드크럼, 3"
+"개의 페이지 번호 옵션, 작성자 블록, 관련 게시물 블록 및 스타일이 지정된 위"
+"젯. 강력한 타이포그래피 - 글꼴 크기와 줄 높이 변경, 글꼴 디자인 선택, 게시물 "
+"및 페이지의 색상 타이포그래피. 깔끔한 코드, 프레임워크 없음, 최소한의 스크립"
+"트. 모든 모바일 기기에 대한 우수한 적응성. 올바른 제목과 마크업으로 SEO 최적"
+"화. 적응 - WooCommerce, Elementor, bbPress, Events Calendar, Jetpack, WPML, "
+"Contact Form 7, Newsletter. 데모 – web-zone.org/bado-blog"
+
+#: header.php:20
+msgid "Skip to main content"
+msgstr "주 내용으로 건너뛰기"
+
+#: inc/adaptation/function-woo.php:717 inc/adaptation/function-woo.php:738
+msgid "View your shopping cart"
+msgstr "장바구니 보기"
+
+#: inc/adaptation/function-woo.php:734
+msgid "Your order"
+msgstr "주문내역"
+
+#: inc/adaptation/function-woo.php:827
+#: woocommerce/loop/no-products-found.php:25
+msgid "Popular products"
+msgstr "인기 상품"
+
+#: inc/adaptation/function-woo.php:842
+msgid "Not available"
+msgstr "사용 불가"
+
+#: inc/adaptation/function-woo.php:897 inc/admin/customizer.php:7934
+#: inc/admin/customizer.php:7940
+msgid "Shop"
+msgstr "상점"
+
+#: inc/admin/customizer.php:15
+#, php-format
+msgid "Advanced settings (%s)"
+msgstr "고급 설정(%s)"
+
+#: inc/admin/customizer.php:16 inc/general.php:254
+msgid "default"
+msgstr "기본값"
+
+#: inc/admin/customizer.php:17 inc/admin/function-panel-color.php:971
+msgid "Default"
+msgstr "기본값"
+
+#: inc/admin/customizer.php:18
+msgid "on hover"
+msgstr "호버에"
+
+#: inc/admin/customizer.php:103 inc/option/set.php:238
+msgid "Template orientation"
+msgstr "템플릿 방향"
+
+#: inc/admin/customizer.php:115
+msgid "Sidebar orientation on the entire site"
+msgstr "전체 사이트의 사이드바 방향"
+
+#: inc/admin/customizer.php:119 inc/admin/customizer.php:139
+#: templates/page-right-sidebar-featured-1.php:11
+#: templates/page-right-sidebar-featured-2.php:11
+#: templates/page-right-sidebar.php:11
+#: templates/post-right-sidebar-featured-1.php:11
+#: templates/post-right-sidebar-featured-2.php:11
+#: templates/post-right-sidebar.php:11
+msgid "Right sidebar"
+msgstr "오른쪽 사이드바"
+
+#: inc/admin/customizer.php:120 inc/admin/customizer.php:140
+#: templates/page-left-sidebar-featured-1.php:11
+#: templates/page-left-sidebar-featured-2.php:11
+#: templates/page-left-sidebar.php:11
+#: templates/post-left-sidebar-featured-1.php:11
+#: templates/post-left-sidebar-featured-2.php:11
+#: templates/post-left-sidebar.php:11
+msgid "Left sidebar"
+msgstr "왼쪽 사이드바"
+
+#: inc/admin/customizer.php:121 inc/admin/customizer.php:141
+#: inc/admin/function-panel-reset.php:2484 templates/page-nosidebar-full.php:11
+#: templates/post-nosidebar-full.php:11
+msgid "No sidebar (full width)"
+msgstr "사이드바 없음(전체 너비)"
+
+#: inc/admin/customizer.php:122 inc/admin/customizer.php:142
+#: inc/admin/function-panel-reset.php:2485
+#: templates/page-nosidebar-center.php:11
+#: templates/post-nosidebar-center.php:11
+msgid "No sidebar (center)"
+msgstr "사이드바 없음(가운데)"
+
+#: inc/admin/customizer.php:135
+msgid "Sidebar orientation on main page"
+msgstr "메인 페이지의 사이드바 방향"
+
+#: inc/admin/customizer.php:164
+msgid "Site width"
+msgstr "사이트 너비"
+
+#: inc/admin/customizer.php:171 inc/admin/customizer.php:3506
+#: inc/admin/customizer.php:5932 inc/admin/customizer.php:6207
+msgid "Full width"
+msgstr "전체 너비"
+
+#: inc/admin/customizer.php:178
+msgid "Add margin at the top and bottom of the site (PC version only)"
+msgstr "사이트 상단 및 하단에 여백 추가(PC버전만 해당)"
+
+#: inc/admin/customizer.php:193
+msgid "Top margin"
+msgstr "카테고리 항목 상단 여백"
+
+#: inc/admin/customizer.php:197 inc/admin/customizer.php:220
+#: inc/admin/customizer.php:696 inc/admin/customizer.php:958
+#: inc/admin/customizer.php:1788 inc/admin/customizer.php:3293
+#: inc/admin/customizer.php:3398 inc/admin/customizer.php:4068
+#: inc/admin/customizer.php:4203 inc/admin/function-panel-home.php:219
+#: inc/admin/function-panel-xlmega.php:350
+msgid "Off"
+msgstr "끄기"
+
+#: inc/admin/customizer.php:216
+msgid "Bottom margin"
+msgstr "아래쪽 여백"
+
+#: inc/admin/customizer.php:240 inc/admin/function-panel-color.php:790
+#: inc/option/set.php:309
+msgid "Color schemes"
+msgstr "색 구성표"
+
+#: inc/admin/customizer.php:250
+msgid "General colors"
+msgstr "일반 색상"
+
+#: inc/admin/customizer.php:256
+msgid "Background color of the entire area"
+msgstr "전체 영역의 배경색"
+
+#: inc/admin/customizer.php:268
+msgid ""
+"This section contains general colors that affect the whole site. After that, "
+"you can make additional settings in other sections to specify individual "
+"colors for each module."
+msgstr ""
+"이 섹션에는 전체 사이트에 영향을 미치는 일반적인 색상이 들어 있습니다. 그 "
+"후, 다른 섹션에서 추가 설정을 하여 각 모듈에 대한 개별 색상을 지정할 수 있습"
+"니다."
+
+#: inc/admin/customizer.php:297
+msgid "Background color of large elements"
+msgstr "큰 요소의 배경색"
+
+#: inc/admin/customizer.php:298
+msgid "(Titles, breadcrumbs, footer and widget titles)"
+msgstr "(제목, 탐색 경로, 바닥글 및 위젯 제목)"
+
+#: inc/admin/customizer.php:312
+msgid "Secondary color for large elements"
+msgstr "대형 요소의 보조 색상"
+
+#: inc/admin/customizer.php:326
+msgid "Color of small elements"
+msgstr "작은 요소의 색상"
+
+#: inc/admin/customizer.php:327
+msgid "(Buttons, icons, lines and other design elements)"
+msgstr "(버튼, 아이콘, 선 및 기타 디자인 요소)"
+
+#: inc/admin/customizer.php:341
+msgid "Secondary color for small elements"
+msgstr "작은 요소의 보조 색상"
+
+#: inc/admin/customizer.php:357 inc/admin/customizer.php:372
+msgid "General color for links"
+msgstr "링크의 일반 색상"
+
+#: inc/admin/customizer.php:386
+msgid "General text color"
+msgstr "일반 텍스트 색상"
+
+#: inc/admin/customizer.php:400
+msgid "Titles text general color"
+msgstr "제목 텍스트 일반 색상"
+
+#: inc/admin/customizer.php:414
+msgid "Site header background color"
+msgstr "사이트 헤더 배경색"
+
+#: inc/admin/customizer.php:428
+msgid "Site body background color"
+msgstr "사이트 본문 배경색"
+
+#: inc/admin/customizer.php:462
+msgid "Site fill color"
+msgstr "사이트 채우기 색상"
+
+#: inc/admin/customizer.php:475 inc/option/set.php:244
+msgid "General typography"
+msgstr "일반 타이포그래피"
+
+#: inc/admin/customizer.php:487
+msgid "General text font"
+msgstr "일반 텍스트 글꼴"
+
+#: inc/admin/customizer.php:501
+msgid "Overall text size"
+msgstr "전체 텍스트 크기"
+
+#: inc/admin/customizer.php:515
+msgid "Total line height of text"
+msgstr "텍스트의 총 줄 높이"
+
+#: inc/admin/customizer.php:539
+msgid "General heading font"
+msgstr "일반 제목 글꼴"
+
+#: inc/admin/customizer.php:553 inc/admin/customizer.php:566
+#: inc/admin/customizer.php:579 inc/admin/customizer.php:592
+#: inc/admin/customizer.php:605 inc/admin/customizer.php:618
+msgid "Total heading size"
+msgstr "전체 헤딩 크기"
+
+#: inc/admin/customizer.php:631
+msgid "Overall titles line height"
+msgstr "전체 제목 줄 높이"
+
+#: inc/admin/customizer.php:664 inc/option/set.php:268
+msgid "Top part"
+msgstr "윗부분"
+
+#: inc/admin/customizer.php:679
+msgid "Top bar"
+msgstr "최상단 바"
+
+#: inc/admin/customizer.php:692
+msgid "Display option (Ticker or Date)"
+msgstr "표시 옵션(티커 또는 날짜)"
+
+#: inc/admin/customizer.php:697
+msgid "Ticker"
+msgstr "티커"
+
+#: inc/admin/customizer.php:698 inc/admin/customizer.php:905
+msgid "Date"
+msgstr "날짜"
+
+#: inc/admin/customizer.php:710
+msgid "Proportion of width occupied by top menu"
+msgstr "상단 메뉴가 차지하는 너비의 비율"
+
+#: inc/admin/customizer.php:729
+msgid "Ticker display variations"
+msgstr "티커 표시 변형"
+
+#: inc/admin/customizer.php:733 inc/admin/customizer.php:6670
+#: inc/admin/customizer.php:6677
+msgid "Category"
+msgstr "카테고리"
+
+#: inc/admin/customizer.php:734
+msgid "Custom"
+msgstr "사용자 정의"
+
+#: inc/admin/customizer.php:747
+msgid "Ticker name"
+msgstr "종목명"
+
+#: inc/admin/customizer.php:761
+msgid "Ticker link"
+msgstr "티커 링크"
+
+#: inc/admin/customizer.php:768 inc/admin/customizer.php:2362
+#: inc/admin/function-panel-xlmega.php:341
+#: inc/admin/function-panel-xlmega.php:351
+msgid "All categories"
+msgstr "서비스 선택"
+
+#: inc/admin/customizer.php:778
+msgid "Category where the ticker comes from"
+msgstr "티커의 출처 카테고리"
+
+#: inc/admin/customizer.php:779
+msgid ""
+"Ticker is taken from the title of the last entry in the selected category"
+msgstr "티커는 선택한 카테고리의 마지막 항목 제목에서 가져옵니다"
+
+#: inc/admin/customizer.php:794 inc/admin/customizer.php:2387
+#: inc/admin/function-panel-home.php:100
+#: inc/admin/function-panel-xlmega.php:145
+msgid "Post sorting"
+msgstr "게시물 정렬"
+
+#: inc/admin/customizer.php:798 inc/admin/customizer.php:2391
+#: inc/admin/function-panel-home.php:102
+#: inc/admin/function-panel-xlmega.php:147
+msgid "By publication date"
+msgstr "출판일별"
+
+#: inc/admin/customizer.php:799 inc/admin/customizer.php:2392
+#: inc/admin/function-panel-home.php:103
+#: inc/admin/function-panel-xlmega.php:148
+msgid "By date modified"
+msgstr "수정된 날짜별"
+
+#: inc/admin/customizer.php:800 inc/admin/customizer.php:2393
+#: inc/admin/function-panel-home.php:104
+#: inc/admin/function-panel-xlmega.php:149
+msgid "By title"
+msgstr "제목"
+
+#: inc/admin/customizer.php:801 inc/admin/customizer.php:2394
+#: inc/admin/function-panel-home.php:105
+#: inc/admin/function-panel-xlmega.php:150
+msgid "By number of comments"
+msgstr "댓글 수"
+
+#: inc/admin/customizer.php:802 inc/admin/customizer.php:2395
+#: inc/admin/function-panel-home.php:106
+#: inc/admin/function-panel-xlmega.php:151
+msgid "In random order"
+msgstr "무작위 순서로"
+
+#: inc/admin/customizer.php:813 inc/admin/customizer.php:2406
+#: inc/admin/function-panel-home.php:113
+msgid "Number of posts available"
+msgstr "사용 가능한 게시물 수"
+
+#: inc/admin/customizer.php:825
+msgid "Ticker speed"
+msgstr "티커 속도"
+
+#: inc/admin/customizer.php:826
+msgid "Total time to scroll through all messages in seconds"
+msgstr "모든 메시지를 스크롤하는 데 걸리는 총 시간(초)"
+
+#: inc/admin/customizer.php:839
+msgid "Scroll ticker endlessly"
+msgstr "티커를 끝없이 스크롤하세요"
+
+#: inc/admin/customizer.php:854 inc/admin/customizer.php:4421
+#: inc/admin/customizer.php:4584 inc/admin/customizer.php:5368
+msgid "Text color"
+msgstr "글자 색상"
+
+#: inc/admin/customizer.php:867 inc/admin/customizer.php:1124
+#: inc/admin/customizer.php:1138 inc/admin/customizer.php:2029
+#: inc/admin/customizer.php:2536 inc/admin/customizer.php:2642
+#: inc/admin/customizer.php:4613 inc/admin/customizer.php:4815
+#: inc/admin/customizer.php:5016 inc/admin/customizer.php:5030
+#: inc/admin/customizer.php:5044 inc/admin/customizer.php:5058
+#: inc/admin/customizer.php:5112 inc/admin/customizer.php:6522
+msgid "Text size"
+msgstr "글자크기"
+
+#: inc/admin/customizer.php:881 inc/admin/customizer.php:2044
+msgid "Uppercase text"
+msgstr "대문자 텍스트"
+
+#: inc/admin/customizer.php:894
+msgid "Where to get the date"
+msgstr "날짜는 어디서 구하나요"
+
+#: inc/admin/customizer.php:898
+msgid "Set settings here"
+msgstr "여기에서 설정을 지정하세요"
+
+#: inc/admin/customizer.php:899
+#, php-format
+msgid "From %s settings"
+msgstr "%s 설정에서"
+
+#: inc/admin/customizer.php:906
+msgid "Month"
+msgstr "월"
+
+#: inc/admin/customizer.php:907
+msgid "Year"
+msgstr "년"
+
+#: inc/admin/customizer.php:916
+msgid "Date format"
+msgstr "날짜 형식"
+
+#: inc/admin/customizer.php:934
+msgid "Separator between numbers"
+msgstr "숫자 사이의 구분 기호"
+
+#: inc/admin/customizer.php:938
+msgid "Spaces"
+msgstr "인원"
+
+#: inc/admin/customizer.php:939
+msgid "Dash"
+msgstr "점선"
+
+#: inc/admin/customizer.php:940
+msgid "Dot"
+msgstr "점"
+
+#: inc/admin/customizer.php:941
+msgid "Slash"
+msgstr "슬래시"
+
+#: inc/admin/customizer.php:942
+msgid "Vertical line"
+msgstr "수직선"
+
+#: inc/admin/customizer.php:954
+msgid "Display weeks"
+msgstr "주 표시"
+
+#: inc/admin/customizer.php:959
+msgid "Before"
+msgstr "이전"
+
+#: inc/admin/customizer.php:960
+msgid "After"
+msgstr "다음"
+
+#: inc/admin/customizer.php:972
+msgid "Month in letters"
+msgstr "월을 문자로"
+
+#: inc/admin/customizer.php:985
+msgid "Display year"
+msgstr "표시연도"
+
+#: inc/admin/customizer.php:1006 inc/admin/function-panel-reset.php:2489
+#: inc/module/top-menu.php:75 inc/option/set.php:250
+msgid "Top menu"
+msgstr "최상단 메뉴"
+
+#: inc/admin/customizer.php:1021
+msgid "Disable top menu"
+msgstr "상단 메뉴 비활성화"
+
+#: inc/admin/customizer.php:1036
+msgid "Links color (outside)"
+msgstr "링크 색상(외부)"
+
+#: inc/admin/customizer.php:1037
+msgid "Default - general color for links"
+msgstr "기본값 - 링크의 일반 색상"
+
+#: inc/admin/customizer.php:1051 inc/admin/customizer.php:1065
+msgid "Color of links in dropdown menu"
+msgstr "드롭다운 메뉴의 링크 색상"
+
+#: inc/admin/customizer.php:1079
+msgid "Dropdown menu background color"
+msgstr "드롭다운 메뉴 배경색"
+
+#: inc/admin/customizer.php:1093
+msgid "Background color for dropdown menu links"
+msgstr "드롭다운 메뉴 링크의 배경색"
+
+#: inc/admin/customizer.php:1138
+msgid "small screens"
+msgstr "작은 화면"
+
+#: inc/admin/customizer.php:1170
+msgid "Move social links in the header over the image"
+msgstr "헤더의 소셜 링크를 이미지 위로 이동하세요"
+
+#: inc/admin/customizer.php:1171 inc/admin/customizer.php:1805
+msgid ""
+"(For this to work, you need to activate social links in the \"Social Links\" "
+"section)"
+msgstr ""
+"(이 기능이 작동하려면 \"소셜 링크\" 섹션에서 소셜 링크를 활성화해야 합니다)"
+
+#: inc/admin/customizer.php:1186
+msgid "Enable effect (live picture)"
+msgstr "효과 활성화(라이브 영상)"
+
+#: inc/admin/customizer.php:1200
+msgid "Header image link"
+msgstr "헤더 이미지 링크"
+
+#: inc/admin/customizer.php:1201
+msgid "This works when you click on the image"
+msgstr "이미지를 클릭하면 작동됩니다"
+
+#: inc/admin/customizer.php:1228
+msgid "Fixed size logo"
+msgstr "고정 크기 로고"
+
+#: inc/admin/customizer.php:1229
+msgid "Site title and description text color"
+msgstr "사이트 제목 및 설명 텍스트 색상"
+
+#: inc/admin/customizer.php:1232
+#, php-format
+msgid "The selected image will be compressed to the optimal size %s"
+msgstr "선택된 이미지는 최적의 크기 %s 로 압축됩니다"
+
+#: inc/admin/customizer.php:1233
+msgid ""
+"(If disabled, the title is hidden only visually. The entered text will "
+"continue to be present for the main page in h1 tags)"
+msgstr ""
+"(비활성화하면 제목이 시각적으로만 숨겨집니다. 입력한 텍스트는 기본 페이지의 "
+"h1 태그에 계속 표시됩니다.)"
+
+#: inc/admin/customizer.php:1240 inc/option/set.php:247
+msgid "Title and logo"
+msgstr "제목 및 로고"
+
+#: inc/admin/customizer.php:1255
+msgid "Title and logo design option"
+msgstr "타이틀 및 로고 디자인 옵션"
+
+#: inc/admin/customizer.php:1275
+msgid "Fill or border color"
+msgstr "채우기 또는 테두리 색상"
+
+#: inc/admin/customizer.php:1289
+msgid "Add a dividing line between the title and description"
+msgstr "제목과 설명 사이에 구분선을 추가합니다"
+
+#: inc/admin/customizer.php:1303
+msgid "Title area width with logo"
+msgstr "로고가 있는 제목 영역 너비"
+
+#: inc/admin/customizer.php:1304
+#, no-php-format
+msgid "Specify 100% for center the title"
+msgstr "100% f을 지정하거나 제목을 중앙에 배치하세요"
+
+#: inc/admin/customizer.php:1337
+msgid "Site title font"
+msgstr "사이트 제목 글꼴"
+
+#: inc/admin/customizer.php:1351
+msgid "Site title size"
+msgstr "사이트 제목 크기"
+
+#: inc/admin/customizer.php:1364
+msgid "Site title line height"
+msgstr "사이트 제목 줄 높이"
+
+#: inc/admin/customizer.php:1387
+msgid "Site description font"
+msgstr "사이트 설명 글꼴"
+
+#: inc/admin/customizer.php:1401
+msgid "Site description text size"
+msgstr "사이트 설명 텍스트 크기"
+
+#: inc/admin/customizer.php:1414
+msgid "Line height of the site description text"
+msgstr "사이트 설명 텍스트의 줄 높이"
+
+#: inc/admin/customizer.php:1437
+msgid "Orientation of the logo and site name"
+msgstr "로고 및 사이트 이름의 방향"
+
+#: inc/admin/customizer.php:1441
+msgid "Horizontally"
+msgstr "수평으로"
+
+#: inc/admin/customizer.php:1442
+msgid "Vertical"
+msgstr "수직"
+
+#: inc/admin/customizer.php:1455
+msgid "Logo variation"
+msgstr "로고 변형"
+
+#: inc/admin/customizer.php:1459
+msgid "Size fixed"
+msgstr "크기 고정"
+
+#: inc/admin/customizer.php:1460
+msgid "No limits"
+msgstr "제한 없음"
+
+#: inc/admin/customizer.php:1472
+msgid "Logo without limits"
+msgstr "제한 없는 로고"
+
+#: inc/admin/customizer.php:1491
+msgid "Top banner"
+msgstr "상단 배너"
+
+#: inc/admin/customizer.php:1505
+msgid "Activate top banner"
+msgstr "상단 배너 활성화"
+
+#: inc/admin/customizer.php:1519
+msgid "Link to advertising source"
+msgstr "광고 소스로의 링크"
+
+#: inc/admin/customizer.php:1533 inc/admin/function-panel-soc.php:78
+msgid "Open link in new tab"
+msgstr "새 탭에서 링크 열기"
+
+#: inc/admin/customizer.php:1548
+msgid "Select image"
+msgstr "이미지 선택"
+
+#: inc/admin/customizer.php:1562
+msgid "ALT value for the image"
+msgstr "이미지의 ALT 값"
+
+#: inc/admin/customizer.php:1576
+msgid "Frame thickness"
+msgstr "프레임 두께"
+
+#: inc/admin/customizer.php:1593
+msgid "Frame color"
+msgstr "프레임 색상"
+
+#: inc/admin/customizer.php:1594
+msgid "Default - main theme color"
+msgstr "기본값 - 기본 테마 색상"
+
+#: inc/admin/customizer.php:1611 inc/admin/function-panel-soc.php:55
+#: inc/option/set.php:256
+msgid "Social links"
+msgstr "소셜 링크"
+
+#: inc/admin/customizer.php:1625
+msgid "Activate social links"
+msgstr "소셜 링크 활성화"
+
+#: inc/admin/customizer.php:1639
+msgid "Social link size"
+msgstr "소셜 링크 크기"
+
+#: inc/admin/customizer.php:1643 inc/admin/customizer.php:1823
+#: inc/admin/customizer.php:1921 inc/admin/customizer.php:2541
+#: inc/admin/customizer.php:2612 inc/admin/customizer.php:2714
+#: inc/admin/customizer.php:3122 inc/admin/customizer.php:3260
+#: inc/admin/customizer.php:3365 inc/admin/customizer.php:3523
+#: inc/admin/customizer.php:3847 inc/admin/customizer.php:4022
+#: inc/admin/customizer.php:4157 inc/admin/customizer.php:5822
+#: inc/admin/customizer.php:6606 inc/admin/customizer.php:6837
+#: inc/admin/customizer.php:7677 inc/admin/function-panel-home.php:146
+#: inc/admin/function-panel-home.php:159
+#: inc/admin/function-panel-reset.php:2501
+#: inc/admin/function-panel-xlmega.php:173
+msgid "Small"
+msgstr "작게"
+
+#: inc/admin/customizer.php:1644 inc/admin/customizer.php:1824
+#: inc/admin/customizer.php:1922 inc/admin/customizer.php:2542
+#: inc/admin/customizer.php:2613 inc/admin/customizer.php:3261
+#: inc/admin/customizer.php:3366 inc/admin/customizer.php:3524
+#: inc/admin/customizer.php:5823 inc/admin/customizer.php:6607
+#: inc/admin/customizer.php:7678 inc/admin/function-panel-home.php:147
+#: inc/admin/function-panel-home.php:160
+#: inc/admin/function-panel-xlmega.php:174
+msgid "Average"
+msgstr "평균"
+
+#: inc/admin/customizer.php:1645 inc/admin/customizer.php:1825
+#: inc/admin/customizer.php:1923 inc/admin/customizer.php:2543
+#: inc/admin/customizer.php:2614 inc/admin/customizer.php:2712
+#: inc/admin/customizer.php:3123 inc/admin/customizer.php:3262
+#: inc/admin/customizer.php:3367 inc/admin/customizer.php:3525
+#: inc/admin/customizer.php:3848 inc/admin/customizer.php:4023
+#: inc/admin/customizer.php:4158 inc/admin/customizer.php:5824
+#: inc/admin/customizer.php:6608 inc/admin/customizer.php:6836
+#: inc/admin/customizer.php:7679 inc/admin/function-panel-home.php:148
+#: inc/admin/function-panel-home.php:161
+#: inc/admin/function-panel-reset.php:2499
+#: inc/admin/function-panel-xlmega.php:175
+msgid "Big"
+msgstr "큰"
+
+#: inc/admin/customizer.php:1658
+msgid "Social link form"
+msgstr "소셜 링크 양식"
+
+#: inc/admin/customizer.php:1671 inc/function-customizer.php:11886
+msgid "Flat"
+msgstr "플랫"
+
+#: inc/admin/customizer.php:1672 inc/function-customizer.php:11887
+msgid "Volumetric"
+msgstr "용적"
+
+#: inc/admin/customizer.php:1685
+msgid "Social link design (for icons with background)"
+msgstr "소셜 링크 디자인(배경이 있는 아이콘용)"
+
+#: inc/admin/customizer.php:1697
+msgid "Black"
+msgstr "검정"
+
+#: inc/admin/customizer.php:1698
+msgid "White"
+msgstr "흰색"
+
+#: inc/admin/customizer.php:1711
+msgid "Social link design (for icons no background)"
+msgstr "소셜 링크 디자인(배경이 없는 아이콘용)"
+
+#: inc/admin/customizer.php:1726
+msgid "Animation of social links"
+msgstr "소셜 링크 애니메이션"
+
+#: inc/admin/customizer.php:1730 inc/admin/customizer.php:2756
+msgid "Without animation"
+msgstr "애니메이션 없이"
+
+#: inc/admin/customizer.php:1731
+msgid "Increase"
+msgstr "증가"
+
+#: inc/admin/customizer.php:1732
+msgid "Zoom (with background)"
+msgstr "확대/축소(배경 포함)"
+
+#: inc/admin/customizer.php:1733
+msgid "Reduction"
+msgstr "감소"
+
+#: inc/admin/customizer.php:1734
+msgid "Zoom out (with background)"
+msgstr "축소(배경 포함)"
+
+#: inc/admin/customizer.php:1735
+msgid "Frame around the link"
+msgstr "링크 주위의 프레임"
+
+#: inc/admin/customizer.php:1736
+msgid "Increasing contrast"
+msgstr "대비 증가"
+
+#: inc/admin/customizer.php:1737
+msgid "Hue change"
+msgstr "색조 변화"
+
+#: inc/admin/customizer.php:1738
+msgid "Color inversion"
+msgstr "색상 반전"
+
+#: inc/admin/customizer.php:1739
+msgid "Dimming adjacent links"
+msgstr "인접한 링크를 흐리게 하기"
+
+#: inc/admin/customizer.php:1740
+msgid "Slight slope"
+msgstr "약간의 경사"
+
+#: inc/admin/customizer.php:1753
+msgid "Social links fill color"
+msgstr "소셜 링크 채우기 색상"
+
+#: inc/admin/customizer.php:1754 inc/admin/customizer.php:1940
+#: inc/admin/customizer.php:4308 inc/admin/customizer.php:4322
+#: inc/admin/customizer.php:4555 inc/admin/customizer.php:4750
+#: inc/admin/customizer.php:4951 inc/admin/customizer.php:6063
+msgid "Default - color of small elements"
+msgstr "기본값 - 작은 요소의 색상"
+
+#: inc/admin/customizer.php:1771
+msgid "Top search"
+msgstr "인기 검색어"
+
+#: inc/admin/customizer.php:1784
+msgid "Activate top Search"
+msgstr "상위 검색 활성화"
+
+#: inc/admin/customizer.php:1789
+msgid "In a top bar"
+msgstr "상단 바에서"
+
+#: inc/admin/customizer.php:1790
+msgid "In area of soc links (before)"
+msgstr "Soc 링크 영역(이전)"
+
+#: inc/admin/customizer.php:1791
+msgid "In area of soc links (after)"
+msgstr "Soc 링크 영역(이후)"
+
+#: inc/admin/customizer.php:1804
+msgid "Use social icon styles"
+msgstr "소셜 아이콘 스타일 사용"
+
+#: inc/admin/customizer.php:1818
+msgid "Search button size"
+msgstr "검색 버튼 크기"
+
+#: inc/admin/customizer.php:1822 inc/admin/customizer.php:2540
+#: inc/admin/customizer.php:2611 inc/admin/function-panel-home.php:145
+#: inc/admin/function-panel-home.php:158
+#: inc/admin/function-panel-xlmega.php:172
+msgid "Very small"
+msgstr "매우 작은"
+
+#: inc/admin/customizer.php:1826 inc/admin/customizer.php:2544
+#: inc/admin/customizer.php:2615 inc/admin/function-panel-home.php:149
+#: inc/admin/function-panel-home.php:162
+#: inc/admin/function-panel-xlmega.php:176
+msgid "Very big"
+msgstr "매우 크다"
+
+#: inc/admin/customizer.php:1846 inc/admin/function-panel-reset.php:2490
+#: inc/option/set.php:253
+msgid "Main menu"
+msgstr "메인 메뉴"
+
+#: inc/admin/customizer.php:1866
+msgid "Disable main menu"
+msgstr "메인 메뉴 비활성화"
+
+#: inc/admin/customizer.php:1868
+#, php-format
+msgid "This setting will completely disable the main menu, including the %s"
+msgstr "이 설정은 %s 을 포함한 주 메뉴를 완전히 비활성화합니다"
+
+#: inc/admin/customizer.php:1883 inc/admin/customizer.php:5989
+msgid "Full-width background"
+msgstr "전체 너비 배경"
+
+#: inc/admin/customizer.php:1897
+msgid "Buttons orientation"
+msgstr "버튼 방향"
+
+#: inc/admin/customizer.php:1901 inc/admin/customizer.php:2891
+#: inc/admin/customizer.php:3503 inc/admin/customizer.php:4465
+#: inc/admin/customizer.php:6627 inc/admin/customizer.php:6819
+#: inc/admin/function-panel-reset.php:2482
+#: inc/admin/function-panel-xlmega.php:215
+msgid "Left"
+msgstr "왼쪽"
+
+#: inc/admin/customizer.php:1902 inc/admin/customizer.php:2893
+#: inc/admin/customizer.php:3504 inc/admin/customizer.php:6628
+#: inc/admin/customizer.php:6818 inc/admin/function-panel-reset.php:2483
+#: inc/admin/function-panel-xlmega.php:216
+msgid "Right"
+msgstr "오른쪽"
+
+#: inc/admin/customizer.php:1903 inc/admin/customizer.php:2892
+#: inc/admin/customizer.php:3505
+msgid "Center"
+msgstr "중앙"
+
+#: inc/admin/customizer.php:1904
+msgid "Distributed"
+msgstr "분산"
+
+#: inc/admin/customizer.php:1917 inc/admin/customizer.php:6832
+msgid "Button size"
+msgstr "버튼 크기"
+
+#: inc/admin/customizer.php:1939 inc/admin/customizer.php:1969
+msgid "Button background color"
+msgstr "버튼 배경 색상"
+
+#: inc/admin/customizer.php:1954 inc/admin/customizer.php:1983
+msgid "Button text color"
+msgstr "버튼 텍스트 색상"
+
+#: inc/admin/customizer.php:1955 inc/admin/customizer.php:4336
+#: inc/admin/customizer.php:4513 inc/admin/customizer.php:4736
+#: inc/admin/customizer.php:4937
+msgid "Default - secondary color for small elements"
+msgstr "기본값 - 작은 요소에 대한 보조 색상"
+
+#: inc/admin/customizer.php:2016 inc/admin/customizer.php:4599
+#: inc/admin/customizer.php:4801 inc/admin/customizer.php:5002
+#: inc/admin/function-panel-reset.php:2472
+msgid "Font"
+msgstr "폰트"
+
+#: inc/admin/customizer.php:2058
+msgid "Make main menu sticky when scrolling (only for desktop versions of pc)"
+msgstr "스크롤할 때 기본 메뉴를 고정시킵니다(데스크탑 버전의 PC에만 해당)."
+
+#: inc/admin/customizer.php:2075
+msgid "lists"
+msgstr "기울기"
+
+#: inc/admin/customizer.php:2087 inc/admin/customizer.php:2257
+msgid "Warning"
+msgstr "경고"
+
+#: inc/admin/customizer.php:2087 inc/admin/customizer.php:2258
+#, php-format
+msgid "The main menu must be enabled for the %s to be displayed"
+msgstr "%s 을 표시하려면 메인 메뉴를 활성화해야 합니다"
+
+#: inc/admin/customizer.php:2110 inc/general.php:757 inc/option/set.php:64
+msgid "Information"
+msgstr "정보"
+
+#: inc/admin/customizer.php:2110 inc/admin/customizer.php:6244
+#, php-format
+msgid ""
+"Items of this menu are customized in the - \"Panel %s\" - \"Appearance\" - "
+"\"Menus\" section."
+msgstr ""
+"이 메뉴의 항목은 \"패널 %s\" - \"모양\" - \"메뉴\" 섹션에서 사용자 정의됩니"
+"다."
+
+#: inc/admin/customizer.php:2128
+msgid "Links size (drop-down menu)"
+msgstr "링크 크기(드롭다운 메뉴)"
+
+#: inc/admin/customizer.php:2141
+msgid "Links size"
+msgstr "링크 크기"
+
+#: inc/admin/customizer.php:2149
+msgid "drop-down menu and mega menu"
+msgstr "드롭다운 메뉴와 메가 메뉴"
+
+#: inc/admin/customizer.php:2160 inc/admin/customizer.php:2434
+#: inc/admin/customizer.php:4392 inc/admin/customizer.php:5354
+#: inc/admin/customizer.php:6449 inc/admin/function-panel-menucat.php:89
+msgid "Background color"
+msgstr "배경 색상"
+
+#: inc/admin/customizer.php:2174
+msgid "Links color"
+msgstr "링크 색상"
+
+#: inc/admin/customizer.php:2209
+#, php-format
+msgid "Number of columns in %s"
+msgstr "%s의 열 수"
+
+#: inc/admin/customizer.php:2213
+msgid "One"
+msgstr "하나"
+
+#: inc/admin/customizer.php:2214
+msgid "Two"
+msgstr "2"
+
+#: inc/admin/customizer.php:2215
+msgid "Three"
+msgstr "셋"
+
+#: inc/admin/customizer.php:2216
+msgid "Four"
+msgstr "넷"
+
+#: inc/admin/customizer.php:2217
+msgid "Five"
+msgstr "다섯"
+
+#: inc/admin/customizer.php:2218
+msgid "Six"
+msgstr "여섯"
+
+#: inc/admin/customizer.php:2236
+msgid "graphic"
+msgstr "그래픽"
+
+#: inc/admin/customizer.php:2256 inc/admin/customizer.php:2593
+#: vendor/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "활성화"
+
+#: inc/admin/customizer.php:2273
+msgid "Priority partition"
+msgstr "우선순위 파티션"
+
+#: inc/admin/customizer.php:2277
+msgid "First the graphical menu, then the lists"
+msgstr "먼저 그래픽 메뉴, 그다음 목록"
+
+#: inc/admin/customizer.php:2278
+msgid "First the list menu, then the graphic"
+msgstr "먼저 목록 메뉴, 그 다음에는 그래픽"
+
+#: inc/admin/customizer.php:2291
+msgid "Sections background color"
+msgstr "섹션 배경색"
+
+#: inc/admin/customizer.php:2305
+msgid "Column titles color"
+msgstr "열 제목 색상"
+
+#: inc/admin/customizer.php:2322 inc/admin/function-panel-reset.php:2491
+#: inc/option/set.php:308
+msgid "Wide slider"
+msgstr "와이드 슬라이더"
+
+#: inc/admin/customizer.php:2336
+msgid "Display wide slider"
+msgstr "넓은 슬라이더 표시"
+
+#: inc/admin/customizer.php:2340
+msgid "Not display"
+msgstr "표시되지 않음"
+
+#: inc/admin/customizer.php:2341
+msgid "All site"
+msgstr "모든 사이트"
+
+#: inc/admin/customizer.php:2342
+msgid "Except main page"
+msgstr "메인페이지 제외"
+
+#: inc/admin/customizer.php:2343
+msgid "Only main page"
+msgstr "메인페이지만"
+
+#: inc/admin/customizer.php:2354
+msgid "Number of slides"
+msgstr "슬라이드 갯수"
+
+#: inc/admin/customizer.php:2372
+msgid "Category of posts"
+msgstr "게시물 카테고리"
+
+#: inc/admin/customizer.php:2420
+msgid "Show slider full screen width"
+msgstr "슬라이더 전체 화면 너비 표시"
+
+#: inc/admin/customizer.php:2448
+msgid "Enable auto start"
+msgstr "자동 시작 활성화"
+
+#: inc/admin/customizer.php:2460
+msgid "Time between slides"
+msgstr "슬라이드 사이의 시간"
+
+#: inc/admin/customizer.php:2473
+msgid "Slider move time"
+msgstr "슬라이더 이동 시간"
+
+#: inc/admin/customizer.php:2488
+msgid "Enable navigation buttons"
+msgstr "탐색 버튼 활성화"
+
+#: inc/admin/customizer.php:2502
+msgid "Headers fill variation"
+msgstr "헤더는 변형을 채웁니다"
+
+#: inc/admin/customizer.php:2506 inc/admin/function-panel-home.php:127
+msgid "Not display titles"
+msgstr "제목을 표시하지 않음"
+
+#: inc/admin/customizer.php:2507 inc/admin/function-panel-home.php:128
+msgid "Smooth dimming"
+msgstr "부드러운 디밍"
+
+#: inc/admin/customizer.php:2508 inc/admin/function-panel-home.php:129
+msgid "Blackout tape"
+msgstr "정전테이프"
+
+#: inc/admin/customizer.php:2509 inc/admin/function-panel-home.php:130
+msgid "Animated blackout"
+msgstr "애니메이션 정전"
+
+#: inc/admin/customizer.php:2522 inc/admin/function-panel-menucat.php:77
+msgid "Title color"
+msgstr "바닥글 제목 색"
+
+#: inc/admin/customizer.php:2557
+msgid "Enable slider in mobile version"
+msgstr "모바일 버전에서 슬라이더 활성화"
+
+#: inc/admin/customizer.php:2558
+msgid ""
+"Usually, the slider is not required on small screens, due to heavy load and "
+"little usefulness. Therefore, by default, the slider in the mobile version "
+"is disabled."
+msgstr ""
+"일반적으로 슬라이더는 작은 화면에서는 필요하지 않습니다. 부하가 크고 유용성"
+"이 낮기 때문입니다. 따라서 모바일 버전의 슬라이더는 기본적으로 비활성화되어 "
+"있습니다."
+
+#: inc/admin/customizer.php:2574 inc/admin/function-panel-menucat.php:39
+#: inc/admin/function-panel-reset.php:2492
+msgid "Category menu"
+msgstr "카테고리 메뉴"
+
+#: inc/admin/customizer.php:2607
+msgid "Items size"
+msgstr "품목 크기"
+
+#: inc/admin/customizer.php:2628 inc/admin/customizer.php:3136
+#: inc/admin/customizer.php:3275 inc/admin/customizer.php:3380
+msgid "Align to center"
+msgstr "가운데 정렬"
+
+#: inc/admin/customizer.php:2659
+msgid "Titles in uppercase"
+msgstr "제목은 대문자로 표시"
+
+#: inc/admin/customizer.php:2672
+msgid "Categories settings"
+msgstr "카테고리 설정"
+
+#: inc/admin/customizer.php:2674 inc/admin/customizer.php:5478
+#: inc/module/meta-tags.php:529 inc/option/set.php:262 inc/usability.php:39
+#: inc/usability.php:81 inc/usability.php:116
+#: templates/template-site-map.php:27
+msgid "Categories"
+msgstr "카테고리"
+
+#: inc/admin/customizer.php:2690
+msgid "Category style"
+msgstr "카테고리 스타일"
+
+#: inc/admin/customizer.php:2703
+msgid "Number (size) of columns"
+msgstr "열의 개수(크기)"
+
+#: inc/admin/customizer.php:2707 inc/admin/function-panel-reset.php:2494
+msgid "Classic blog"
+msgstr "클래식 블로그"
+
+#: inc/admin/customizer.php:2708 inc/admin/function-panel-reset.php:2495
+msgid "Two columns"
+msgstr "2열"
+
+#: inc/admin/customizer.php:2709 inc/admin/customizer.php:5445
+#: inc/admin/function-panel-reset.php:2496
+msgid "Three columns"
+msgstr "3열"
+
+#: inc/admin/customizer.php:2710 inc/admin/customizer.php:5446
+#: inc/admin/function-panel-reset.php:2497
+msgid "Four columns"
+msgstr "4열"
+
+#: inc/admin/customizer.php:2711 inc/admin/customizer.php:5447
+#: inc/admin/function-panel-reset.php:2498
+msgid "Five columns"
+msgstr "5개의 열"
+
+#: inc/admin/customizer.php:2712 inc/admin/customizer.php:2713
+#: inc/admin/customizer.php:2714 inc/admin/function-panel-reset.php:2499
+#: inc/admin/function-panel-reset.php:2500
+#: inc/admin/function-panel-reset.php:2501
+msgid "Horizontal"
+msgstr "가로"
+
+#: inc/admin/customizer.php:2713 inc/admin/function-panel-reset.php:2500
+msgid "Medium"
+msgstr "중간"
+
+#: inc/admin/customizer.php:2727
+msgid "Posts design"
+msgstr "게시물 디자인"
+
+#: inc/admin/customizer.php:2731
+msgid "Disable design"
+msgstr "디자인 비활성화"
+
+#: inc/admin/customizer.php:2732 inc/admin/customizer.php:3099
+#: inc/admin/customizer.php:3893 inc/admin/function-panel-reset.php:2740
+msgid "Simple"
+msgstr "단순"
+
+#: inc/admin/customizer.php:2733 inc/admin/customizer.php:3101
+#: inc/admin/customizer.php:3102 inc/admin/customizer.php:3895
+#: inc/admin/customizer.php:3896
+msgid "Underlined"
+msgstr "밑줄"
+
+#: inc/admin/customizer.php:2734 inc/admin/customizer.php:5206
+msgid "In frame"
+msgstr "프레임 내"
+
+#: inc/admin/customizer.php:2735
+msgid "Header background"
+msgstr "머리글 배경"
+
+#: inc/admin/customizer.php:2736 inc/admin/customizer.php:3104
+#: inc/admin/customizer.php:3898 inc/admin/customizer.php:5203
+#: inc/admin/customizer.php:5750
+msgid "Deepening"
+msgstr "심화"
+
+#: inc/admin/customizer.php:2737 inc/admin/customizer.php:2738
+msgid "Light shadow"
+msgstr "밝은 그림자"
+
+#: inc/admin/customizer.php:2738 inc/admin/customizer.php:5500
+msgid "Polaroid"
+msgstr "폴라로이드"
+
+#: inc/admin/customizer.php:2739 inc/admin/customizer.php:3103
+#: inc/admin/customizer.php:3897 inc/admin/customizer.php:5202
+#: inc/admin/customizer.php:5749
+msgid "Soaring"
+msgstr "활상"
+
+#: inc/admin/customizer.php:2752
+msgid "Animation of posts"
+msgstr "게시물의 애니메이션"
+
+#: inc/admin/customizer.php:2757
+msgid "Enlargement picture"
+msgstr "확대 사진"
+
+#: inc/admin/customizer.php:2758
+msgid "Reducing picture"
+msgstr "사진 줄이기"
+
+#: inc/admin/customizer.php:2759
+msgid "Darkened image"
+msgstr "어두워진 이미지"
+
+#: inc/admin/customizer.php:2760
+msgid "Curtain on picture"
+msgstr "그림의 커튼"
+
+#: inc/admin/customizer.php:2761
+msgid "Picture frame"
+msgstr "사진 프레임"
+
+#: inc/admin/customizer.php:2762
+msgid "Frame around"
+msgstr "주위에 프레임"
+
+#: inc/admin/customizer.php:2763
+msgid "Backlight picture"
+msgstr "역광 사진"
+
+#: inc/admin/customizer.php:2764
+msgid "Picture contrast"
+msgstr "그림 대비"
+
+#: inc/admin/customizer.php:2765
+msgid "Tint picture"
+msgstr "색조 그림"
+
+#: inc/admin/customizer.php:2766
+msgid "Color inversion picture"
+msgstr "색상 반전 그림"
+
+#: inc/admin/customizer.php:2767
+msgid "Remove color in neighboring blocks"
+msgstr "인접한 블록의 색상 제거"
+
+#: inc/admin/customizer.php:2768
+msgid "Toning neighboring blocks"
+msgstr "이웃 블록 토닝"
+
+#: inc/admin/customizer.php:2769
+msgid "Block slope"
+msgstr "블록 경사"
+
+#: inc/admin/customizer.php:2782 inc/admin/function-panel-home.php:181
+#: inc/admin/function-panel-xlmega.php:195
+msgid "Posts background color"
+msgstr "게시물 배경색"
+
+#: inc/admin/customizer.php:2796
+msgid "Background color of sticky posts"
+msgstr "고정 게시물의 배경색"
+
+#: inc/admin/customizer.php:2809
+msgid "Post card title size"
+msgstr "엽서 제목 크기"
+
+#: inc/admin/customizer.php:2822
+msgid "Post card description size"
+msgstr "엽서 설명 크기"
+
+#: inc/admin/customizer.php:2835
+msgid "Number of symbols in description"
+msgstr "설명의 기호 수"
+
+#: inc/admin/customizer.php:2836
+msgid "150 symbols"
+msgstr "150개의 심볼"
+
+#: inc/admin/customizer.php:2859
+msgid "Add button"
+msgstr "버튼 추가"
+
+#: inc/admin/customizer.php:2859 inc/admin/customizer.php:2899
+#: inc/mega/blocks/mega-button-mid.php:49
+#: inc/mega/blocks/mega-button-mid.php:92
+#: inc/mega/blocks/mega-button-mid.php:135
+#: inc/mega/blocks/mega-button-mid.php:178
+msgid "Read more"
+msgstr "더 보기"
+
+#: inc/admin/customizer.php:2873
+msgid "Full width \"Read more\" button"
+msgstr "전체 너비 '자세히 보기' 버튼"
+
+#: inc/admin/customizer.php:2887
+msgid "Button orientation"
+msgstr "버튼 방향"
+
+#: inc/admin/customizer.php:2906
+msgid "Button text"
+msgstr "버튼 텍스트"
+
+#: inc/admin/customizer.php:2929
+msgid "Remove the prefix \"Category\" on category pages"
+msgstr "카테고리 페이지에서 접두사 \"카테고리\"를 제거하세요"
+
+#: inc/admin/customizer.php:2943
+msgid "Remove description from post cards"
+msgstr "엽서에서 설명 제거"
+
+#: inc/admin/customizer.php:2957
+msgid "Remove title from post cards"
+msgstr "엽서에서 제목 제거"
+
+#: inc/admin/customizer.php:2971
+msgid "Remove the plug"
+msgstr "플러그를 제거하세요"
+
+#: inc/admin/customizer.php:2971 inc/admin/customizer.php:6996
+msgid "No photo"
+msgstr "사진 촬영 금지"
+
+#: inc/admin/customizer.php:2989 inc/admin/customizer.php:3723
+msgid "Meta tags (meta boxs)"
+msgstr "메타 태그(메타 박스)"
+
+#: inc/admin/customizer.php:3002 inc/admin/customizer.php:3736
+msgid "Activate meta boxs"
+msgstr "메타 박스 활성화"
+
+#: inc/admin/customizer.php:3009 inc/admin/customizer.php:3743
+msgid "What meta boxs to display"
+msgstr "어떤 메타 상자를 표시할 것인가"
+
+#: inc/admin/customizer.php:3025 inc/admin/customizer.php:3759
+#: inc/module/meta-tags.php:24 inc/module/meta-tags.php:289
+msgid "Post author"
+msgstr "글 작성자"
+
+#: inc/admin/customizer.php:3039 inc/admin/customizer.php:3773
+#: inc/module/meta-tags.php:92 inc/module/meta-tags.php:317
+msgid "Post creation date"
+msgstr "게시물 작성 날짜"
+
+#: inc/admin/customizer.php:3053 inc/admin/customizer.php:3787
+#: inc/module/meta-tags.php:132 inc/module/meta-tags.php:357
+msgid "Post update date"
+msgstr "업데이트 날짜 게시"
+
+#: inc/admin/customizer.php:3067 inc/admin/customizer.php:3801
+msgid "Number of comments"
+msgstr "댓글 수"
+
+#: inc/admin/customizer.php:3081 inc/admin/customizer.php:3829
+#: inc/module/meta-tags.php:73 inc/module/meta-tags.php:445
+msgid "Number of post views"
+msgstr "게시물 조회수"
+
+#: inc/admin/customizer.php:3095 inc/admin/customizer.php:3480
+#: inc/admin/customizer.php:4366 inc/admin/customizer.php:5492
+msgid "Design"
+msgstr "디자인"
+
+#: inc/admin/customizer.php:3100 inc/admin/customizer.php:5748
+msgid "Frame"
+msgstr "프레임"
+
+#: inc/admin/customizer.php:3102 inc/admin/customizer.php:3896
+msgid "circle"
+msgstr "원"
+
+#: inc/admin/customizer.php:3105 inc/admin/customizer.php:3899
+msgid "Background"
+msgstr "배경"
+
+#: inc/admin/customizer.php:3118 inc/admin/customizer.php:3256
+#: inc/admin/customizer.php:3361 inc/admin/customizer.php:3519
+#: inc/admin/customizer.php:3843 inc/admin/customizer.php:4018
+#: inc/admin/customizer.php:4153
+msgid "Size"
+msgstr "크기"
+
+#: inc/admin/customizer.php:3150
+msgid "Add dynamic tooltips"
+msgstr "동적 도구 설명 추가"
+
+#: inc/admin/customizer.php:3164
+msgid "Add decryption"
+msgstr "복호화 추가"
+
+#: inc/admin/customizer.php:3178 inc/admin/customizer.php:3912
+msgid "Remove icons"
+msgstr "아이콘 제거"
+
+#: inc/admin/customizer.php:3196 inc/admin/customizer.php:3957
+msgid "Meta tags (categories)"
+msgstr "메타 태그(카테고리)"
+
+#: inc/admin/customizer.php:3209 inc/admin/customizer.php:3970
+msgid "Activate meta tags categories"
+msgstr "메타 태그 카테고리 활성화"
+
+#: inc/admin/customizer.php:3223
+msgid "Where to display"
+msgstr "표시할 위치"
+
+#: inc/admin/customizer.php:3227 inc/admin/customizer.php:4002
+msgid "In the image (top)"
+msgstr "이미지(위)에서"
+
+#: inc/admin/customizer.php:3228 inc/admin/customizer.php:4003
+msgid "In the image (bottom)"
+msgstr "이미지(아래)"
+
+#: inc/admin/customizer.php:3229
+msgid "Outside the image"
+msgstr "이미지 외부"
+
+#: inc/admin/customizer.php:3241 inc/admin/customizer.php:3983
+msgid "Maximum number of category elements"
+msgstr "카테고리 요소의 최대 개수"
+
+#: inc/admin/customizer.php:3289 inc/admin/customizer.php:3394
+#: inc/admin/customizer.php:4064 inc/admin/customizer.php:4199
+msgid "Icons"
+msgstr "아이콘"
+
+#: inc/admin/customizer.php:3294 inc/admin/customizer.php:3295
+#: inc/admin/customizer.php:3296 inc/admin/customizer.php:3297
+#: inc/admin/customizer.php:3298 inc/admin/customizer.php:3299
+#: inc/admin/customizer.php:3300 inc/admin/customizer.php:4069
+#: inc/admin/customizer.php:4070 inc/admin/customizer.php:4071
+#: inc/admin/customizer.php:4072 inc/admin/customizer.php:4073
+#: inc/admin/customizer.php:4074 inc/admin/customizer.php:4075
+#: inc/admin/customizer.php:7234 inc/admin/customizer.php:7235
+#: inc/admin/customizer.php:7236 inc/admin/customizer.php:7237
+#: inc/admin/customizer.php:7238 inc/admin/customizer.php:7239
+#: inc/admin/customizer.php:7240 inc/admin/customizer.php:7269
+msgid "Folder"
+msgstr "폴더"
+
+#: inc/admin/customizer.php:3301 inc/admin/customizer.php:4076
+#: inc/admin/customizer.php:7241 inc/admin/customizer.php:7267
+msgid "Card catalog"
+msgstr "카드 카탈로그"
+
+#: inc/admin/customizer.php:3302 inc/admin/customizer.php:4077
+#: inc/admin/customizer.php:7242 inc/admin/customizer.php:7268
+msgid "Box"
+msgstr "박스"
+
+#: inc/admin/customizer.php:3320 inc/admin/customizer.php:4094
+msgid "Meta tags (tags)"
+msgstr "메타 태그(태그)"
+
+#: inc/admin/customizer.php:3333 inc/admin/customizer.php:4107
+msgid "Activate meta tags (taxonomy tags)"
+msgstr "메타 태그(분류 태그) 활성화"
+
+#: inc/admin/customizer.php:3346 inc/admin/customizer.php:4120
+msgid "Maximum number of tag elements"
+msgstr "태그 요소의 최대 개수"
+
+#: inc/admin/customizer.php:3399 inc/admin/customizer.php:3400
+#: inc/admin/customizer.php:4204 inc/admin/customizer.php:4205
+msgid "Hashtag"
+msgstr "해시태그"
+
+#: inc/admin/customizer.php:3400 inc/admin/customizer.php:4205
+msgid "bold"
+msgstr "굵게"
+
+#: inc/admin/customizer.php:3401 inc/admin/customizer.php:4206
+msgid "Sticker"
+msgstr "상표"
+
+#: inc/admin/customizer.php:3402 inc/admin/customizer.php:4207
+#: inc/admin/customizer.php:6872 inc/admin/customizer.php:7293
+msgid "Arrow"
+msgstr "화살표"
+
+#: inc/admin/customizer.php:3403 inc/admin/customizer.php:4208
+msgid "Lightning"
+msgstr "번개"
+
+#: inc/admin/customizer.php:3420
+msgid "Pagination"
+msgstr "페이지 번호매김"
+
+#: inc/admin/customizer.php:3433
+msgid "Activate pagination in categories"
+msgstr "카테고리에서 페이지 매김 활성화"
+
+#: inc/admin/customizer.php:3447
+msgid "Activate pagination on the homepage"
+msgstr "홈페이지에서 페이지 매김 활성화"
+
+#: inc/admin/customizer.php:3461
+msgid "Pagination variation"
+msgstr "페이지 매김 변형"
+
+#: inc/admin/customizer.php:3465
+msgid "Classic (Back and forward)"
+msgstr "클래식(뒤로, 앞으로)"
+
+#: inc/admin/customizer.php:3466
+msgid "Numeric pagination"
+msgstr "숫자 페이지 매김"
+
+#: inc/admin/customizer.php:3467
+msgid "Button"
+msgstr "버튼"
+
+#: inc/admin/customizer.php:3484 inc/admin/customizer.php:4246
+#: inc/admin/customizer.php:4278 inc/admin/customizer.php:4370
+#: inc/admin/customizer.php:4662 inc/admin/customizer.php:4864
+#: inc/admin/customizer.php:7207 inc/admin/customizer.php:7233
+#: inc/admin/customizer.php:7265 inc/admin/customizer.php:7292
+msgid "Turn off styles"
+msgstr "스타일 끄기"
+
+#: inc/admin/customizer.php:3485
+msgid "Buttons"
+msgstr "버튼"
+
+#: inc/admin/customizer.php:3486 inc/admin/customizer.php:3894
+#: inc/admin/customizer.php:5497
+msgid "Frames"
+msgstr "프레임"
+
+#: inc/admin/customizer.php:3499
+msgid "Location"
+msgstr "위치"
+
+#: inc/admin/customizer.php:3538
+msgid "Remove buttons (back and next) from numeric pagination"
+msgstr "숫자 페이지 매김에서 버튼(뒤로 및 다음) 제거"
+
+#: inc/admin/customizer.php:3552
+msgid "Show all pagination items (for numeric)"
+msgstr "모든 페이지 매기기 항목 표시(숫자의 경우)"
+
+#: inc/admin/customizer.php:3566
+msgid "Remove hidden H2 tag from pagination"
+msgstr "페이지 매김에서 숨겨진 H2 태그 제거"
+
+#: inc/admin/customizer.php:3567
+msgid ""
+"Removing H2 tag from pagination is good for SEO, but worse for special "
+"programs (for the visually impaired)"
+msgstr ""
+"페이지 매김에서 H2 태그를 제거하는 것은 SEO에는 좋지만 특수 프로그램(시각 장"
+"애인용)에는 더 나쁩니다."
+
+#: inc/admin/customizer.php:3579 inc/admin/customizer.php:3615
+#: inc/option/set.php:265
+msgid "Posts and pages"
+msgstr "게시물 및 페이지"
+
+#: inc/admin/customizer.php:3595
+msgid "Basic settings"
+msgstr "기보 설정"
+
+#: inc/admin/customizer.php:3608
+msgid "Where to display typography"
+msgstr "타이포그래피를 표시할 위치"
+
+#: inc/admin/customizer.php:3609
+msgid "Lists, Quotes, Headings"
+msgstr "목록, 인용문, 제목"
+
+#: inc/admin/customizer.php:3613
+msgid "Only posts"
+msgstr "게시물만"
+
+#: inc/admin/customizer.php:3614
+msgid "Only pages"
+msgstr "페이지만"
+
+#: inc/admin/customizer.php:3631
+msgid "Top image"
+msgstr "상단 이미지"
+
+#: inc/admin/customizer.php:3644
+msgid "Remove the main (top) image in posts"
+msgstr "게시물의 기본(상단) 이미지 제거"
+
+#: inc/admin/customizer.php:3658
+msgid "Remove the main (top) image in pages"
+msgstr "페이지의 기본(상단) 이미지 제거"
+
+#: inc/admin/customizer.php:3663
+msgid "width"
+msgstr "너비"
+
+#: inc/admin/customizer.php:3674
+msgid "Limit the size of the top image in posts"
+msgstr "게시물 상단 이미지 크기 제한"
+
+#: inc/admin/customizer.php:3678 inc/admin/customizer.php:3701
+msgid "Maximum"
+msgstr "최대"
+
+#: inc/admin/customizer.php:3697
+msgid "Limit the size of the top image in pages"
+msgstr "페이지 상단 이미지 크기 제한"
+
+#: inc/admin/customizer.php:3815 inc/module/meta-tags.php:422
+msgid "Post reading time"
+msgstr "포스트 독서 시간"
+
+#: inc/admin/customizer.php:3861
+msgid "Align meta boxs to the center"
+msgstr "메타박스를 중앙에 정렬"
+
+#: inc/admin/customizer.php:3875
+msgid "Remove decryption in meta boxs"
+msgstr "메타박스의 복호화 제거"
+
+#: inc/admin/customizer.php:3889
+msgid "Meta box design"
+msgstr "메타박스 디자인"
+
+#: inc/admin/customizer.php:3926
+msgid "Add tooltips to meta boxs"
+msgstr "메타 상자에 툴팁 추가"
+
+#: inc/admin/customizer.php:3940
+msgid "Add the date to the bottom of the post"
+msgstr "게시물 하단에 날짜를 추가하세요"
+
+#: inc/admin/customizer.php:3998 inc/admin/customizer.php:4135
+msgid "Where to display meta tags"
+msgstr "메타 태그를 표시할 위치"
+
+#: inc/admin/customizer.php:4004 inc/admin/customizer.php:4139
+msgid "Top of content"
+msgstr "맨 위로"
+
+#: inc/admin/customizer.php:4005 inc/admin/customizer.php:4140
+msgid "Bottom of content"
+msgstr "하단"
+
+#: inc/admin/customizer.php:4036 inc/admin/customizer.php:4171
+msgid "Align center"
+msgstr "중심 정렬"
+
+#: inc/admin/customizer.php:4050 inc/admin/customizer.php:4185
+msgid "Remove decryption"
+msgstr "복호화 제거"
+
+#: inc/admin/customizer.php:4229
+msgid "Lists"
+msgstr "목록"
+
+#: inc/admin/customizer.php:4242
+msgid "Bulleted lists variation"
+msgstr "글머리 기호 목록 변형"
+
+#: inc/admin/customizer.php:4247
+msgid "Small dot"
+msgstr "작은 점"
+
+#: inc/admin/customizer.php:4248
+msgid "Small square"
+msgstr "작은 정사각형"
+
+#: inc/admin/customizer.php:4249
+msgid "Small circle"
+msgstr "작은 원"
+
+#: inc/admin/customizer.php:4250 inc/admin/customizer.php:4280
+msgid "Square frame"
+msgstr "사각 프레임"
+
+#: inc/admin/customizer.php:4251
+msgid "Small dash"
+msgstr "작은 대시"
+
+#: inc/admin/customizer.php:4252
+msgid "Big dot"
+msgstr "큰 점"
+
+#: inc/admin/customizer.php:4253
+msgid "Big square"
+msgstr "큰 광장"
+
+#: inc/admin/customizer.php:4254
+msgid "Big circle"
+msgstr "큰 원"
+
+#: inc/admin/customizer.php:4255
+msgid "Rounded square frame"
+msgstr "둥근 사각형 프레임"
+
+#: inc/admin/customizer.php:4256
+msgid "Big dash"
+msgstr "큰 대시"
+
+#: inc/admin/customizer.php:4257 inc/admin/customizer.php:4691
+#: inc/admin/customizer.php:4893
+msgid "Check mark"
+msgstr "체크 표시"
+
+#: inc/admin/customizer.php:4258
+msgid "Rhombus"
+msgstr "마름모"
+
+#: inc/admin/customizer.php:4259 inc/admin/customizer.php:6542
+#: inc/admin/customizer.php:6874
+msgid "Triangle"
+msgstr "삼각형"
+
+#: inc/admin/customizer.php:4260
+msgid "Star"
+msgstr "별점"
+
+#: inc/admin/customizer.php:4261
+msgid "Snowflake"
+msgstr "눈송이"
+
+#: inc/admin/customizer.php:4274
+msgid "Numeric lists variation"
+msgstr "숫자 목록 변형"
+
+#: inc/admin/customizer.php:4279
+msgid "Colored square"
+msgstr "컬러 사각형"
+
+#: inc/admin/customizer.php:4281
+msgid "Colored circle"
+msgstr "컬러 서클"
+
+#: inc/admin/customizer.php:4282
+msgid "Round frame"
+msgstr "라운드 프레임"
+
+#: inc/admin/customizer.php:4283
+msgid "Colored numbers"
+msgstr "색깔있는 숫자"
+
+#: inc/admin/customizer.php:4284
+msgid "Colored numbers (bold)"
+msgstr "색깔이 있는 숫자(굵게)"
+
+#: inc/admin/customizer.php:4285
+msgid "Latin numerals"
+msgstr "라틴 숫자"
+
+#: inc/admin/customizer.php:4286
+msgid "Colored letters (EN)"
+msgstr "컬러문자(EN)"
+
+#: inc/admin/customizer.php:4307 inc/admin/customizer.php:4321
+msgid "Marker color"
+msgstr "마커 색상"
+
+#: inc/admin/customizer.php:4307
+msgid "bulleted lists"
+msgstr "글머리 기호 목록"
+
+#: inc/admin/customizer.php:4321 inc/admin/customizer.php:4335
+msgid "numbered lists"
+msgstr "번호가 매겨진 목록"
+
+#: inc/admin/customizer.php:4335
+msgid "Inner color for marker"
+msgstr "마커 내부 색상"
+
+#: inc/admin/customizer.php:4353
+msgid "Quote blocks"
+msgstr "인용 블록"
+
+#: inc/admin/customizer.php:4371
+msgid "Just a block"
+msgstr "그냥 블록"
+
+#: inc/admin/customizer.php:4372
+msgid "Gradient 1 (fill)"
+msgstr "그라데이션 1(채우기)"
+
+#: inc/admin/customizer.php:4373
+msgid "Gradient 2 (fill)"
+msgstr "그라데이션 2(채우기)"
+
+#: inc/admin/customizer.php:4374
+msgid "Grid (fill)"
+msgstr "그리드(채우기)"
+
+#: inc/admin/customizer.php:4375
+msgid "Folded corner"
+msgstr "접힌 모서리"
+
+#: inc/admin/customizer.php:4376
+msgid "Solid frame"
+msgstr "견고한 프레임"
+
+#: inc/admin/customizer.php:4377
+msgid "Dotted frame"
+msgstr "점선 프레임"
+
+#: inc/admin/customizer.php:4378 inc/admin/customizer.php:5933
+#: inc/admin/customizer.php:6208
+msgid "Border left"
+msgstr "테두리 왼쪽"
+
+#: inc/admin/customizer.php:4379
+msgid "Double border"
+msgstr "이중 국경"
+
+#: inc/admin/customizer.php:4393
+msgid "Some styles work well with the background"
+msgstr "일부 스타일은 배경과 잘 어울립니다."
+
+#: inc/admin/customizer.php:4407
+msgid "Activate automatic background color selection"
+msgstr "자동 배경색 선택 활성화"
+
+#: inc/admin/customizer.php:4408
+msgid "(The color is selected based on the background of the content part)"
+msgstr "(컨텐츠 부분의 배경을 기준으로 색상이 선택됩니다.)"
+
+#: inc/admin/customizer.php:4422
+msgid "Default - general text color"
+msgstr "기본값 - 일반 텍스트 색상"
+
+#: inc/admin/customizer.php:4446
+msgid "Add icon"
+msgstr "아이콘 추가"
+
+#: inc/admin/customizer.php:4460
+msgid "Icon location"
+msgstr "아이콘 위치"
+
+#: inc/admin/customizer.php:4461
+msgid "Together with the icon, the text is also aligned"
+msgstr "아이콘과 함께 텍스트도 정렬됩니다"
+
+#: inc/admin/customizer.php:4466
+msgid "Centered"
+msgstr "중앙"
+
+#: inc/admin/customizer.php:4479 inc/admin/customizer.php:4681
+#: inc/admin/customizer.php:4883
+msgid "Icon selection"
+msgstr "아이콘 선택"
+
+#: inc/admin/customizer.php:4483
+msgid "Square quotes"
+msgstr "정사각형 따옴표"
+
+#: inc/admin/customizer.php:4484
+msgid "Rectangular quotes"
+msgstr "직사각형 따옴표"
+
+#: inc/admin/customizer.php:4485
+msgid "Sharp quotes"
+msgstr "날카로운 따옴표"
+
+#: inc/admin/customizer.php:4486
+msgid "Round quotes"
+msgstr "둥근 따옴표"
+
+#: inc/admin/customizer.php:4487
+msgid "Paper clip"
+msgstr "종이 클립"
+
+#: inc/admin/customizer.php:4488
+msgid "Paper clip (vertical)"
+msgstr "종이클립(세로)"
+
+#: inc/admin/customizer.php:4489
+msgid "Drawing pin"
+msgstr "드로잉 핀"
+
+#: inc/admin/customizer.php:4490
+msgid "Drawing pin (vertical)"
+msgstr "드로잉 핀(세로)"
+
+#: inc/admin/customizer.php:4491
+msgid "Bulb"
+msgstr "전구"
+
+#: inc/admin/customizer.php:4492
+msgid "Bell"
+msgstr "벨"
+
+#: inc/admin/customizer.php:4493
+msgid "Attention triangle"
+msgstr "주의삼각형"
+
+#: inc/admin/customizer.php:4494
+msgid "Exclamation sheet"
+msgstr "느낌표"
+
+#: inc/admin/customizer.php:4495
+msgid "Exclamation mark"
+msgstr "느낌표"
+
+#: inc/admin/customizer.php:4496
+msgid "Cloud conversation"
+msgstr "클라우드 대화"
+
+#: inc/admin/customizer.php:4497
+msgid "Speaker"
+msgstr "주관"
+
+#: inc/admin/customizer.php:4498
+msgid "Open book"
+msgstr "책 공개 시험"
+
+#: inc/admin/customizer.php:4499
+msgid "Embossed tick"
+msgstr "양각된 진드기"
+
+#: inc/admin/customizer.php:4500
+msgid "Solid tick"
+msgstr "솔리드 틱"
+
+#: inc/admin/customizer.php:4512
+msgid "Icon color"
+msgstr "아이콘 색"
+
+#: inc/admin/customizer.php:4526
+msgid "Icon size"
+msgstr "아이콘 크기"
+
+#: inc/admin/customizer.php:4541
+msgid "Add background for icon"
+msgstr "아이콘 배경 추가"
+
+#: inc/admin/customizer.php:4554
+msgid "Background color of icons and lines"
+msgstr "아이콘 및 선의 배경색"
+
+#: inc/admin/customizer.php:4572
+msgid "H1 headings"
+msgstr "H1 제목"
+
+#: inc/admin/customizer.php:4585 inc/admin/customizer.php:4787
+#: inc/admin/customizer.php:4988
+msgid "Default - titles text general color"
+msgstr "기본값 - 제목 텍스트 일반 색상"
+
+#: inc/admin/customizer.php:4627 inc/admin/customizer.php:4829
+#: inc/admin/customizer.php:5072
+msgid "Line height"
+msgstr "줄 간격"
+
+#: inc/admin/customizer.php:4645
+msgid "Headings H2"
+msgstr "제목 H2"
+
+#: inc/admin/customizer.php:4658 inc/admin/customizer.php:4860
+msgid "Heading options"
+msgstr "제목 옵션"
+
+#: inc/admin/customizer.php:4663 inc/admin/customizer.php:4865
+msgid "Simple headers"
+msgstr "간단한 헤더"
+
+#: inc/admin/customizer.php:4664 inc/admin/customizer.php:4866
+msgid "Light underlining"
+msgstr "가벼운 밑줄"
+
+#: inc/admin/customizer.php:4665 inc/admin/customizer.php:4867
+msgid "Side border"
+msgstr "측면 테두리"
+
+#: inc/admin/customizer.php:4666 inc/admin/customizer.php:4868
+msgid "With numbering"
+msgstr "넘버링 포함"
+
+#: inc/admin/customizer.php:4667 inc/admin/customizer.php:4869
+msgid "With icon selection"
+msgstr "아이콘 선택 포함"
+
+#: inc/admin/customizer.php:4668 inc/admin/customizer.php:4870
+msgid "With arbitrary value"
+msgstr "임의의 값으로"
+
+#: inc/admin/customizer.php:4685 inc/admin/customizer.php:4887
+msgid "Turn off icons"
+msgstr "아이콘 끄기"
+
+#: inc/admin/customizer.php:4686 inc/admin/customizer.php:4888
+msgid "Right arrow"
+msgstr "오른쪽 화살표"
+
+#: inc/admin/customizer.php:4687 inc/admin/customizer.php:4889
+msgid "Arrow to down"
+msgstr "아래쪽 화살표"
+
+#: inc/admin/customizer.php:4688 inc/admin/customizer.php:4890
+msgid "Arrow right and down"
+msgstr "오른쪽 및 아래쪽 화살표"
+
+#: inc/admin/customizer.php:4689 inc/admin/customizer.php:4891
+#: inc/admin/customizer.php:6545
+msgid "Volumetric arrow"
+msgstr "체적 화살표"
+
+#: inc/admin/customizer.php:4690 inc/admin/customizer.php:4892
+msgid "Pencil"
+msgstr "연필"
+
+#: inc/admin/customizer.php:4692 inc/admin/customizer.php:4894
+msgid "Small flag"
+msgstr "작은 깃발"
+
+#: inc/admin/customizer.php:4693 inc/admin/customizer.php:4895
+msgid "Blocks"
+msgstr "블록"
+
+#: inc/admin/customizer.php:4694 inc/admin/customizer.php:4896
+msgid "Block hierarchy"
+msgstr "블록 계층"
+
+#: inc/admin/customizer.php:4700 inc/admin/customizer.php:4902
+msgid "Par."
+msgstr "평가."
+
+#: inc/admin/customizer.php:4707 inc/admin/customizer.php:4722
+#: inc/admin/customizer.php:4909 inc/admin/customizer.php:4923
+msgid "Add label"
+msgstr "레이블 추가"
+
+#: inc/admin/customizer.php:4735 inc/admin/customizer.php:4936
+msgid "Heading icons text color"
+msgstr "제목 아이콘 텍스트 색상"
+
+#: inc/admin/customizer.php:4749 inc/admin/customizer.php:4950
+msgid "Background color of icons and lines for heading"
+msgstr "제목 아이콘 및 선의 배경색"
+
+#: inc/admin/customizer.php:4772 inc/admin/customizer.php:4973
+msgid "Headings background color"
+msgstr "제목 배경색"
+
+#: inc/admin/customizer.php:4774 inc/admin/customizer.php:4974
+msgid "Default - site body background color"
+msgstr "기본값 - 사이트 본문 배경색"
+
+#: inc/admin/customizer.php:4786 inc/admin/customizer.php:4987
+msgid "Headings text color"
+msgstr "제목 텍스트 색"
+
+#: inc/admin/customizer.php:4847
+msgid "Headings H3 - H6"
+msgstr "제목 H3 - H6"
+
+#: inc/admin/customizer.php:5085
+msgid "Text"
+msgstr "텍스트"
+
+#: inc/admin/customizer.php:5098
+msgid "Text font"
+msgstr "텍스트 글꼴"
+
+#: inc/admin/customizer.php:5126
+msgid "Text line height"
+msgstr "텍스트 줄 높이"
+
+#: inc/admin/customizer.php:5139
+msgid "Links in content"
+msgstr "콘텐츠의 링크"
+
+#: inc/admin/customizer.php:5152
+msgid "Remove link underline"
+msgstr "링크 밑줄 제거"
+
+#: inc/admin/customizer.php:5153
+msgid "This removes the underlining of links in the content text"
+msgstr "콘텐츠 텍스트의 링크 밑줄이 제거됩니다"
+
+#: inc/admin/customizer.php:5170
+msgid "Author section"
+msgstr "저자 섹션"
+
+#: inc/admin/customizer.php:5183
+msgid "Activate author section"
+msgstr "작성자 섹션 활성화"
+
+#: inc/admin/customizer.php:5197
+msgid "Separator variation"
+msgstr "구분자 변형"
+
+#: inc/admin/customizer.php:5201
+msgid "Turn off separators"
+msgstr "구분 기호 끄기"
+
+#: inc/admin/customizer.php:5204
+msgid "Dividers in width"
+msgstr "너비 구분선"
+
+#: inc/admin/customizer.php:5205
+msgid "Dividers in center"
+msgstr "중앙에 칸막이"
+
+#: inc/admin/customizer.php:5219
+msgid "Separator style"
+msgstr "구분 스타일"
+
+#: inc/admin/customizer.php:5223
+msgid "Solid line"
+msgstr "실선"
+
+#: inc/admin/customizer.php:5224
+msgid "Dashed line"
+msgstr "점선"
+
+#: inc/admin/customizer.php:5225
+msgid "Dotted line"
+msgstr "점선"
+
+#: inc/admin/customizer.php:5226
+msgid "Double line"
+msgstr "이중선"
+
+#: inc/admin/customizer.php:5238
+msgid "Separator thickness"
+msgstr "분리막 두께"
+
+#: inc/admin/customizer.php:5253
+msgid "Hide avatar"
+msgstr "아바타 숨기기"
+
+#: inc/admin/customizer.php:5267
+msgid "Hide description"
+msgstr "설명 숨기기"
+
+#: inc/admin/customizer.php:5282
+msgid "Add author latest posts to author section"
+msgstr "작성자 섹션에 작성자 최신 게시물 추가"
+
+#: inc/admin/customizer.php:5289
+msgid "Latest entries of author"
+msgstr "저자의 최신 항목"
+
+#: inc/admin/customizer.php:5297
+msgid "Author posts title"
+msgstr "작성자 게시물 제목"
+
+#: inc/admin/customizer.php:5311
+msgid "Number of posts"
+msgstr "글의 개수"
+
+#: inc/admin/customizer.php:5328
+msgid "Section (next entry)"
+msgstr "섹션(다음 항목)"
+
+#: inc/admin/customizer.php:5341
+msgid "Disable section (next entry)"
+msgstr "섹션 비활성화(다음 항목)"
+
+#: inc/admin/customizer.php:5355 inc/admin/customizer.php:5839
+#: inc/admin/customizer.php:6005
+msgid "Default - color of large elements"
+msgstr "기본값 - 큰 요소의 색상"
+
+#: inc/admin/customizer.php:5369 inc/admin/customizer.php:5854
+#: inc/admin/customizer.php:6020
+msgid "Default - secondary color for large elements"
+msgstr "기본값 - 큰 요소의 보조 색상"
+
+#: inc/admin/customizer.php:5383
+msgid "Remove label"
+msgstr "라벨 제거"
+
+#: inc/admin/customizer.php:5400 inc/admin/customizer.php:5420
+#: template-parts/content-related.php:14
+msgid "Related posts"
+msgstr "관련 글"
+
+#: inc/admin/customizer.php:5413
+msgid "Activate related posts"
+msgstr "관련 게시물 활성화"
+
+#: inc/admin/customizer.php:5427 inc/admin/customizer.php:6677
+#: inc/admin/customizer.php:6717 inc/admin/customizer.php:6757
+msgid "Section title"
+msgstr "섹션 제목"
+
+#: inc/admin/customizer.php:5441
+msgid "Number of columns"
+msgstr "열 수"
+
+#: inc/admin/customizer.php:5459
+msgid "Number of related posts"
+msgstr "관련 게시물의 수"
+
+#: inc/admin/customizer.php:5473
+msgid "Taxonomy for related posts"
+msgstr "관련 게시물의 분류"
+
+#: inc/admin/customizer.php:5474
+msgid "The criteria by which posts are selected"
+msgstr "게시물이 선택되는 기준"
+
+#: inc/admin/customizer.php:5479 inc/module/meta-tags.php:566
+msgid "Tags"
+msgstr "태그"
+
+#: inc/admin/customizer.php:5496
+msgid "Simple design"
+msgstr "심플한 디자인"
+
+#: inc/admin/customizer.php:5498
+msgid "Contrast blocks"
+msgstr "대비 블록"
+
+#: inc/admin/customizer.php:5499
+msgid "Soaring blocks"
+msgstr "급상승하는 블록"
+
+#: inc/admin/customizer.php:5513
+msgid "Remove stub (No photo) in related posts"
+msgstr "관련 게시물에서 스텁(사진 없음) 제거"
+
+#: inc/admin/customizer.php:5530
+msgid "Comment section"
+msgstr "댓글 섹션"
+
+#: inc/admin/customizer.php:5543
+msgid "Remove comment section (for posts)"
+msgstr "댓글 섹션 삭제(게시물용)"
+
+#: inc/admin/customizer.php:5557
+msgid "Remove comment section (for pages)"
+msgstr "댓글 섹션 삭제(페이지용)"
+
+#: inc/admin/customizer.php:5571
+msgid "Remove URL field in comments (for posts and pages)"
+msgstr "댓글에서 URL 필드 제거(게시물 및 페이지의 경우)"
+
+#: inc/admin/customizer.php:5583
+msgid "Main page"
+msgstr "메인 페이지"
+
+#: inc/admin/customizer.php:5604
+msgid "Activate sections with blocks on the main"
+msgstr "메인에 블록이 있는 섹션을 활성화하세요"
+
+#: inc/admin/customizer.php:5619
+msgid "Size of section headings"
+msgstr "섹션 제목의 크기"
+
+#: inc/admin/customizer.php:5637
+msgid "Color of section headings"
+msgstr "섹션 제목의 색상"
+
+#: inc/admin/customizer.php:5638
+msgid "Default - content text color"
+msgstr "기본값 - 콘텐츠 텍스트 색상"
+
+#: inc/admin/customizer.php:5662
+msgid "Enable the section with the latest posts on the main page"
+msgstr "메인 페이지에 최신 게시물이 포함된 섹션을 활성화하세요"
+
+#: inc/admin/customizer.php:5663
+msgid ""
+"(Post blocks, as well as pagination, are configured in the \"Categories\" "
+"section)"
+msgstr "(게시물 블록과 페이지 매김은 \"카테고리\" 섹션에서 구성됩니다)"
+
+#: inc/admin/customizer.php:5670 template-parts/home/home-article.php:13
+msgid "Latest posts"
+msgstr "최신 글"
+
+#: inc/admin/customizer.php:5677
+msgid "Title for the latest posts section"
+msgstr "최신 게시물 섹션 제목"
+
+#: inc/admin/customizer.php:5692
+msgid "Where to show the latest posts section"
+msgstr "최신 게시물 섹션을 표시하는 위치"
+
+#: inc/admin/customizer.php:5696
+msgid "At the beginning"
+msgstr "처음에는"
+
+#: inc/admin/customizer.php:5697
+msgid "At the end"
+msgstr "마지막에"
+
+#: inc/admin/customizer.php:5730 inc/admin/function-panel-reset.php:2474
+msgid "Sidebar"
+msgstr "사이드바"
+
+#: inc/admin/customizer.php:5743
+msgid "Design of sections for widgets"
+msgstr "위젯 섹션 디자인"
+
+#: inc/admin/customizer.php:5747 inc/admin/customizer.php:5929
+#: inc/admin/customizer.php:6204 inc/option/set.php:563 inc/option/set.php:569
+#: inc/option/set.php:575 inc/option/set.php:581 inc/option/set.php:587
+msgid "Switch off"
+msgstr "차단기 내리기"
+
+#: inc/admin/customizer.php:5751
+msgid "Side shadow"
+msgstr "사이드 섀도우"
+
+#: inc/admin/customizer.php:5752
+msgid "Gradient"
+msgstr "그라디언트"
+
+#: inc/admin/customizer.php:5766
+msgid "Section background color"
+msgstr "Section background color"
+
+#: inc/admin/customizer.php:5783
+msgid "Widget headers"
+msgstr "위젯 헤더"
+
+#: inc/admin/customizer.php:5799
+msgid "Widget header option"
+msgstr "위젯 헤더 옵션"
+
+#: inc/admin/customizer.php:5818
+msgid "Widget headers background size"
+msgstr "위젯 헤더 배경 크기"
+
+#: inc/admin/customizer.php:5838 inc/admin/customizer.php:6115
+msgid "Widgets header fill color"
+msgstr "위젯 헤더 채우기 색상"
+
+#: inc/admin/customizer.php:5853
+msgid "Widgets title text color"
+msgstr "위젯 제목 텍스트 색상"
+
+#: inc/admin/customizer.php:5869 inc/admin/customizer.php:6144
+msgid "Widget title font"
+msgstr "위젯 제목 글꼴"
+
+#: inc/admin/customizer.php:5882 inc/admin/customizer.php:6157
+msgid "Widget title text size"
+msgstr "위젯 제목 텍스트 크기"
+
+#: inc/admin/customizer.php:5897 inc/admin/customizer.php:6172
+msgid "Widget title in uppercase"
+msgstr "위젯 제목을 대문자로 표시"
+
+#: inc/admin/customizer.php:5911 inc/admin/customizer.php:6186
+msgid "Center align widget titles"
+msgstr "위젯 제목을 가운데 정렬"
+
+#: inc/admin/customizer.php:5925 inc/admin/customizer.php:6200
+msgid "Underline widget titles"
+msgstr "위젯 제목에 밑줄 긋기"
+
+#: inc/admin/customizer.php:5930 inc/admin/customizer.php:6205
+msgid "Left and down"
+msgstr "왼쪽과 아래"
+
+#: inc/admin/customizer.php:5931 inc/admin/customizer.php:6206
+msgid "Center and bottom"
+msgstr "중앙 및 하단"
+
+#: inc/admin/customizer.php:5944 inc/admin/customizer.php:6219
+msgid "Line thickness"
+msgstr "선 두께"
+
+#: inc/admin/customizer.php:5962 inc/option/set.php:271
+msgid "Bottom part"
+msgstr "하단 부분"
+
+#: inc/admin/customizer.php:5975
+msgid "Activate footer"
+msgstr "바닥글 활성화"
+
+#: inc/admin/customizer.php:6004
+msgid "Footer background color"
+msgstr "푸터 배경 색"
+
+#: inc/admin/customizer.php:6019
+msgid "Footer text color"
+msgstr "바닥글 텍스트 색상"
+
+#: inc/admin/customizer.php:6034 inc/admin/customizer.php:6048
+msgid "Footer link color"
+msgstr "바닥글 링크 색상"
+
+#: inc/admin/customizer.php:6062
+msgid "Footer elements color"
+msgstr "바닥글 요소 색상"
+
+#: inc/admin/customizer.php:6098
+msgid "Widgets"
+msgstr "위젯"
+
+#: inc/admin/customizer.php:6129
+msgid "Widgets titles text color"
+msgstr "위젯 제목 텍스트 색상"
+
+#: inc/admin/customizer.php:6243
+msgid "Activate bottom menu"
+msgstr "하단 메뉴 활성화"
+
+#: inc/admin/customizer.php:6257
+msgid "Bottom menu text size"
+msgstr "하단 메뉴 텍스트 크기"
+
+#: inc/admin/customizer.php:6281
+msgid "Add dividing line"
+msgstr "구분선 추가"
+
+#: inc/admin/customizer.php:6293
+msgid "Text at the bottom of the footer"
+msgstr "바닥글 하단의 텍스트"
+
+#: inc/admin/customizer.php:6307
+msgid "Different settings"
+msgstr "다른 설정"
+
+#: inc/admin/customizer.php:6330
+msgid "Breadcrumbs"
+msgstr "브레드크럼"
+
+#: inc/admin/customizer.php:6344
+msgid "Enable breadcrumbs in posts"
+msgstr "게시물에 탐색경로 활성화"
+
+#: inc/admin/customizer.php:6358
+msgid "Enable breadcrumbs in categories"
+msgstr "카테고리에서 탐색경로 활성화"
+
+#: inc/admin/customizer.php:6372
+msgid "Show link to home page"
+msgstr "홈페이지 링크 표시"
+
+#: inc/admin/customizer.php:6379 inc/module/breadcrumb.php:11
+msgid "Home"
+msgstr "홈"
+
+#: inc/admin/customizer.php:6386
+msgid "Specify the text for the first link"
+msgstr "첫 번째 링크의 텍스트를 지정하세요"
+
+#: inc/admin/customizer.php:6400
+msgid "Show title in breadcrumb for posts"
+msgstr "게시물의 탐색경로에 제목 표시"
+
+#: inc/admin/customizer.php:6414
+msgid "Show title for categories, archives and tags"
+msgstr "카테고리, 아카이브 및 태그의 제목 표시"
+
+#: inc/admin/customizer.php:6428
+msgid "Breadcrumbs design option"
+msgstr "빵가루 디자인 옵션"
+
+#: inc/admin/customizer.php:6463 inc/admin/customizer.php:6477
+msgid "Link text color"
+msgstr "링크 텍스트 색상"
+
+#: inc/admin/customizer.php:6491
+msgid "Separator and header color"
+msgstr "구분선 및 헤더 색상"
+
+#: inc/admin/customizer.php:6538
+msgid "Separator"
+msgstr "분리 기호"
+
+#: inc/admin/customizer.php:6543
+msgid "Arrowhead"
+msgstr "화살촉"
+
+#: inc/admin/customizer.php:6544 inc/admin/customizer.php:6873
+msgid "Brace"
+msgstr "중괄호"
+
+#: inc/admin/customizer.php:6546
+msgid "Linear arrow"
+msgstr "선형 화살표"
+
+#: inc/admin/customizer.php:6557
+msgid "Calm blocks"
+msgstr "차분한 블록"
+
+#: inc/admin/customizer.php:6571
+msgid "Activate fluently movement for blocks"
+msgstr "블록의 원활한 이동 활성화"
+
+#: inc/admin/customizer.php:6572
+msgid "Applies for sections on the main page and category pages"
+msgstr "메인 페이지 및 카테고리 페이지의 섹션에 적용됩니다"
+
+#: inc/admin/customizer.php:6581
+msgid ""
+"Warning! After enabling this module, check that the post cards are displayed "
+"correctly."
+msgstr "경고! 이 모듈을 활성화한 후, 엽서가 올바르게 표시되는지 확인하세요."
+
+#: inc/admin/customizer.php:6583
+msgid ""
+"This module often conflicts with various plugins that are responsible for "
+"\"Delayed post loading\", \"Infinite post loading\" and \"Caching\"."
+msgstr ""
+"이 모듈은 \"지연된 게시물 로딩\", \"무한 게시물 로딩\" 및 \"캐싱\"을 담당하"
+"는 다양한 플러그인과 종종 충돌합니다."
+
+#: inc/admin/customizer.php:6602
+msgid "Range for fluently movement"
+msgstr "유창하게 움직일 수 있는 범위"
+
+#: inc/admin/customizer.php:6621
+msgid "Direction movement"
+msgstr "방향 이동"
+
+#: inc/admin/customizer.php:6625
+msgid "Top"
+msgstr "상단"
+
+#: inc/admin/customizer.php:6626
+msgid "Bottom"
+msgstr "하단"
+
+#: inc/admin/customizer.php:6639
+msgid "Site map"
+msgstr "사이트 맵"
+
+#: inc/admin/customizer.php:6646
+msgid ""
+"To display the sitemap, create a new page through the standard WordPress "
+"menu,\n"
+"\t\t\tgo to page edit mode and select the \"Site Map\" template on the right "
+"side, save the page."
+msgstr ""
+"사이트맵을 표시하려면 표준 WordPress 메뉴를 통해 새 페이지를 생성하고,\n"
+"페이지 편집 모드로 이동하여 오른쪽에 있는 \"사이트 맵\" 템플릿을 선택하고 페"
+"이지를 저장하세요."
+
+#: inc/admin/customizer.php:6663
+msgid "Display categories on the sitemap"
+msgstr "사이트맵에 카테고리 표시"
+
+#: inc/admin/customizer.php:6689
+msgid "Maximum number of categories"
+msgstr "최대 카테고리 수"
+
+#: inc/admin/customizer.php:6703
+msgid "Show posts on sitemap"
+msgstr "사이트맵에 게시물 표시"
+
+#: inc/admin/customizer.php:6710 inc/admin/customizer.php:6717
+#: templates/template-site-map.php:56
+msgid "Posts"
+msgstr "글"
+
+#: inc/admin/customizer.php:6729
+msgid "Maximum number of posts"
+msgstr "최대 게시물 수"
+
+#: inc/admin/customizer.php:6743
+msgid "Show pages on sitemap"
+msgstr "사이트맵에 페이지 표시"
+
+#: inc/admin/customizer.php:6750 inc/admin/customizer.php:6757
+#: inc/usability.php:26 templates/template-site-map.php:110
+msgid "Pages"
+msgstr "페이지"
+
+#: inc/admin/customizer.php:6769
+msgid "Maximum number of pages"
+msgstr "최대 페이지 수"
+
+#: inc/admin/customizer.php:6786
+msgid "Up button"
+msgstr "위로 버튼"
+
+#: inc/admin/customizer.php:6800
+msgid "Disable button"
+msgstr "버튼 비활성화"
+
+#: inc/admin/customizer.php:6800
+msgid "Up"
+msgstr "위로"
+
+#: inc/admin/customizer.php:6814
+msgid "Button location"
+msgstr "버튼 위치"
+
+#: inc/admin/customizer.php:6850
+msgid "Button shape"
+msgstr "버튼 셰이프"
+
+#: inc/admin/customizer.php:6854 inc/function-customizer.php:11864
+msgid "Circle"
+msgstr "원형"
+
+#: inc/admin/customizer.php:6855 inc/admin/customizer.php:7294
+msgid "Square"
+msgstr "사각형"
+
+#: inc/admin/customizer.php:6868
+msgid "Button variation"
+msgstr "버튼 변형"
+
+#: inc/admin/customizer.php:6887
+msgid "Button opacity"
+msgstr "버튼 불투명도"
+
+#: inc/admin/customizer.php:6901
+msgid "SEO settings"
+msgstr "SEO 설정"
+
+#: inc/admin/customizer.php:6916
+msgid "Remove prefix (site name) after SEO Title"
+msgstr "SEO 제목 뒤의 접두사(사이트 이름) 제거"
+
+#: inc/admin/customizer.php:6930
+msgid ""
+"Remove the prefix (site description) after the SEO Title on the main page"
+msgstr "메인 페이지의 SEO 제목 뒤의 접두어(사이트 설명)를 제거하세요"
+
+#: inc/admin/customizer.php:6944
+msgid "Set your separator for SEO Title prefix"
+msgstr "SEO 제목 접두어에 대한 구분 기호 설정"
+
+#: inc/admin/customizer.php:6958
+msgid "Set your SEO Title for the homepage"
+msgstr "홈페이지의 SEO 제목을 설정하세요"
+
+#: inc/admin/customizer.php:6972
+msgid "Set your SEO Description for the homepage"
+msgstr "홈페이지에 대한 SEO 설명 설정"
+
+#: inc/admin/customizer.php:6986
+msgid "Automatic addition of ALT to images from the title of the post"
+msgstr "게시물 제목의 이미지에 ALT 자동 추가"
+
+#: inc/admin/customizer.php:6987
+msgid ""
+"(The function automatically fills the ALT tag for the image when you upload "
+"a file while in a text editor. Based on the title in the current post or "
+"page.)"
+msgstr ""
+"(이 기능은 텍스트 편집기에서 파일을 업로드할 때 이미지의 ALT 태그를 자동으로 "
+"채웁니다. 현재 게시물이나 페이지의 제목을 기준으로 합니다.)"
+
+#: inc/admin/customizer.php:7003
+msgid "Set ALT value for stub No photo"
+msgstr "스텁에 대한 ALT 값 설정 사진 없음"
+
+#: inc/admin/customizer.php:7015
+msgid "Speed Settings"
+msgstr "속도 설정"
+
+#: inc/admin/customizer.php:7027
+msgid ""
+"This section has been created for your convenience. All settings are safe "
+"and cannot disrupt the site. To further increase the speed of the site, go "
+"to the help page."
+msgstr ""
+"이 섹션은 귀하의 편의를 위해 만들어졌습니다. 모든 설정은 안전하며 사이트를 방"
+"해할 수 없습니다. 사이트 속도를 더욱 높이려면 도움말 페이지로 이동하세요."
+
+#: inc/admin/customizer.php:7056
+msgid "Relieve the Top menu (replace with lightweight)"
+msgstr "톱메뉴 완화(라이트웨이트로 대체)"
+
+#: inc/admin/customizer.php:7057
+msgid ""
+"\n"
+"\t\t\tThis will disable the heavy menu and enable the pure CSS menu.\n"
+"\t\t\tPros: Disables JS scripts, which can be important for speed since the "
+"menu is at the top of the site.\n"
+"\t\t\tCons: Support for keyboard control will be disabled. The arrows "
+"(icons) of the menu control are disabled."
+msgstr ""
+"\n"
+"이렇게 하면 무거운 메뉴가 비활성화되고 순수 CSS 메뉴가 활성화됩니다.\n"
+"장점: 메뉴가 사이트 상단에 있으므로 속도 측면에서 중요할 수 있는 JS 스크립트"
+"를 비활성화합니다.\n"
+"단점: 키보드 제어 지원이 비활성화됩니다. 메뉴 컨트롤의 화살표(아이콘)가 비활"
+"성화됩니다."
+
+#: inc/admin/customizer.php:7064
+msgid "JS Menu"
+msgstr "JS 메뉴"
+
+#: inc/admin/customizer.php:7065
+msgid "Lightweight menu"
+msgstr "경량 메뉴"
+
+#: inc/admin/customizer.php:7078
+msgid "Disable improved dropdowns (select list)"
+msgstr "개선된 드롭다운 비활성화(목록 선택)"
+
+#: inc/admin/customizer.php:7079
+msgid ""
+"\n"
+"\t\t\tThis will disable the script that improves the appearance and "
+"usability of drop-down lists.\n"
+"\t\t\tFor example, in the widget (Categories) it adds a live search filter "
+"if the list is long.\n"
+"\t\t\tThis will not affect the menu.\n"
+"\t\t\tDisable it if site loading speed is important to you and you do not "
+"use drop-down lists."
+msgstr ""
+"\n"
+"이렇게 하면 드롭다운 목록의 모양과 유용성을 향상시키는 스크립트가 비활성화됩"
+"니다.\n"
+"예를 들어 위젯(카테고리)에서는 목록이 길면 실시간 검색 필터를 추가합니다.\n"
+"이는 메뉴에 영향을 미치지 않습니다.\n"
+"사이트 로딩 속도가 중요하고 드롭다운 목록을 사용하지 않는 경우에는 비활성화하"
+"세요."
+
+#: inc/admin/customizer.php:7097
+msgid "Disable enhanced usability in comments"
+msgstr "댓글에서 향상된 유용성을 비활성화합니다"
+
+#: inc/admin/customizer.php:7098
+msgid ""
+"\n"
+"\t\t\tThis will disable the script that moves the form for adding a comment "
+"under the comment, in which we clicked on the link (answer).\n"
+"\t\t\tThis happens without reloading the page and improves interaction with "
+"the comment form.\n"
+"\t\t\tDisable it if this is not important to you."
+msgstr ""
+"\n"
+"이렇게 하면 링크(답변)를 클릭한 댓글 아래에 댓글을 추가하기 위한 양식을 이동"
+"하는 스크립트가 비활성화됩니다.\n"
+"이는 페이지를 다시 로드하지 않고도 이루어지며 댓글 양식과의 상호 작용이 향상"
+"됩니다.\n"
+"이것이 중요하지 않은 경우 비활성화하십시오."
+
+#: inc/admin/customizer.php:7116
+msgid "Disable keyboard support in sliders"
+msgstr "슬라이더에서 키보드 지원 비활성화"
+
+#: inc/admin/customizer.php:7117
+msgid ""
+"This will disable the heavy script required to control the sliders with the "
+"keyboard"
+msgstr ""
+"이렇게 하면 키보드로 슬라이더를 제어하는 데 필요한 무거운 스크립트가 비활성화"
+"됩니다"
+
+#: inc/admin/customizer.php:7132
+msgid "Disable enhanced block styles (Gutenberg)"
+msgstr "향상된 블록 스타일 비활성화(구텐베르그)"
+
+#: inc/admin/customizer.php:7133
+msgid ""
+"The size of these styles is quite large, but the benefit is negligible. \n"
+"\t\t\tDisable if you do not see any difference in the design of block "
+"widgets or in the page editor using blocks (Gutenberg)"
+msgstr ""
+"이러한 스타일의 크기는 상당히 크지만 이점은 미미합니다.\n"
+"블록 위젯 디자인이나 블록을 사용하는 페이지 편집기에서 차이가 보이지 않으면 "
+"비활성화합니다(구텐베르그)"
+
+#: inc/admin/customizer.php:7151
+msgid "Widgets adaptation"
+msgstr "위젯 적응"
+
+#: inc/admin/customizer.php:7165
+#, php-format
+msgid "Apply styles to %s"
+msgstr "%s에 스타일 적용"
+
+#: inc/admin/customizer.php:7166
+#, php-format
+msgid ""
+"%1$s have their own flexible settings. Disabling this setting can be useful "
+"if you want to control the design of %1$s yourself"
+msgstr ""
+"%1$s에는 고유한 유연한 설정이 있습니다. %1$s의 디자인을 직접 제어하려는 경우 "
+"이 설정을 비활성화하는 것이 유용할 수 있습니다"
+
+#: inc/admin/customizer.php:7182
+msgid "Settings basic widgets (post, page, category, menu)"
+msgstr "기본 위젯 설정(글, 페이지, 카테고리, 메뉴)"
+
+#: inc/admin/customizer.php:7203
+msgid "Design for lists of posts and pages in basic widgets"
+msgstr "기본 위젯의 게시물 및 페이지 목록 디자인"
+
+#: inc/admin/customizer.php:7208
+msgid "File"
+msgstr "파일"
+
+#: inc/admin/customizer.php:7209
+msgid "Round dots"
+msgstr "둥근 점"
+
+#: inc/admin/customizer.php:7210
+msgid "Square dots"
+msgstr "정사각형 도트"
+
+#: inc/admin/customizer.php:7211
+msgid "Thin border"
+msgstr "얇은 테두리"
+
+#: inc/admin/customizer.php:7229
+msgid "Design for category lists in basic widgets"
+msgstr "기본 위젯의 카테고리 목록 디자인"
+
+#: inc/admin/customizer.php:7243 inc/admin/customizer.php:7270
+msgid "Thick border"
+msgstr "두꺼운 테두리"
+
+#: inc/admin/customizer.php:7261
+msgid "Design for archives in basic widgets"
+msgstr "기본 위젯의 아카이브 디자인"
+
+#: inc/admin/customizer.php:7266
+msgid "Archive"
+msgstr "아카이브"
+
+#: inc/admin/customizer.php:7288
+msgid "Design for menu lists in basic widgets"
+msgstr "기본 위젯의 메뉴 목록 디자인"
+
+#: inc/admin/customizer.php:7295
+msgid "Icon (sign)"
+msgstr "아이콘(기호)"
+
+#: inc/admin/customizer.php:7308 inc/admin/customizer.php:7323
+msgid "Text color of menu items of basic widgets"
+msgstr "기본 위젯 메뉴 항목의 텍스트 색상"
+
+#: inc/admin/customizer.php:7310 inc/admin/customizer.php:7325
+msgid "default - sets the overall color of the links"
+msgstr "기본값 - 링크의 전체 색상을 설정합니다"
+
+#: inc/admin/customizer.php:7338 inc/admin/customizer.php:7353
+msgid "Background color of menu items of basic widgets"
+msgstr "기본 위젯 메뉴 항목의 배경색"
+
+#: inc/admin/customizer.php:7340
+msgid "Default - background not set"
+msgstr "기본값 - 배경이 설정되지 않음"
+
+#: inc/admin/customizer.php:7369
+msgid "Disable demo widgets"
+msgstr "데모 위젯 비활성화"
+
+#: inc/admin/customizer.php:7403 inc/admin/customizer.php:7435
+#, php-format
+msgid "Enable styling support for %s"
+msgstr "%s에 대한 스타일 지원 활성화"
+
+#: inc/admin/customizer.php:7405
+msgid ""
+"Customizes the Skeleton Styles stylesheet according to the template design. "
+"Turning it off can be useful if you want to control the stylesheet yourself "
+"(Skeleton Styles)"
+msgstr ""
+"템플릿 디자인에 따라 Skeleton Styles 스타일시트를 사용자 정의합니다. 스타일시"
+"트를 직접 제어하려는 경우 이 기능을 끄는 것이 유용할 수 있습니다(스켈레톤 스"
+"타일)."
+
+#: inc/admin/customizer.php:7464
+msgid "Disable sidebar on bbPress pages"
+msgstr "bbPress 페이지에서 사이드바 비활성화"
+
+#: inc/admin/customizer.php:7479
+msgid "Disable breadcrumbs in bbPress"
+msgstr "bbPress 에서 탐색경로 비활성화"
+
+#: inc/admin/customizer.php:7493
+msgid "Activate your names for user roles"
+msgstr "사용자 역할에 대한 이름을 활성화하세요"
+
+#: inc/admin/customizer.php:7507 inc/admin/customizer.php:7521
+#: inc/admin/customizer.php:7535 inc/admin/customizer.php:7549
+#: inc/admin/customizer.php:7563
+msgid "Change role name"
+msgstr "역할 이름 변경"
+
+#: inc/admin/customizer.php:7578
+msgid "Disable style support for bbPress"
+msgstr "bbPress 에 대한 스타일 지원 비활성화"
+
+#: inc/admin/customizer.php:7579
+msgid ""
+"Can be useful if you want to control the styles of the bbPress plugin "
+"yourself"
+msgstr "bbPress 플러그인의 스타일을 직접 제어하려는 경우 유용할 수 있습니다"
+
+#: inc/admin/customizer.php:7608
+msgid "Disable sidebar on BuddyPress pages"
+msgstr "BuddyPress 페이지에서 사이드바 비활성화"
+
+#: inc/admin/customizer.php:7622
+msgid "Disable style support for BuddyPress"
+msgstr "BuddyPress에 대한 스타일 지원 비활성화"
+
+#: inc/admin/customizer.php:7623
+msgid ""
+"Can be useful if you want to control the styles of the BuddyPress plugin "
+"yourself"
+msgstr "BuddyPress 플러그인의 스타일을 직접 제어하려는 경우 유용할 수 있습니다"
+
+#: inc/admin/customizer.php:7659
+msgid "Enable cart in top menu"
+msgstr "상단 메뉴에서 장바구니 활성화"
+
+#: inc/admin/customizer.php:7673
+msgid "Cart size in the top menu"
+msgstr "상단 메뉴의 장바구니 크기"
+
+#: inc/admin/customizer.php:7692
+msgid "Enable cart in main menu"
+msgstr "메인 메뉴에서 장바구니 활성화"
+
+#: inc/admin/customizer.php:7693
+msgid "Activate the menu location for this to work"
+msgstr "이 작업을 수행하려면 메뉴 위치를 활성화하세요"
+
+#: inc/admin/customizer.php:7707
+msgid "Enable search on store page"
+msgstr "상점 페이지에서 검색 활성화"
+
+#: inc/admin/customizer.php:7721
+msgid "Enable search on product category pages"
+msgstr "제품 카테고리 페이지에서 검색 활성화"
+
+#: inc/admin/customizer.php:7735
+msgid "Product price color"
+msgstr "상품 가격 색상"
+
+#: inc/admin/customizer.php:7750
+msgid "Disable sticker - Sale"
+msgstr "스티커 비활성화 - 할인"
+
+#: inc/admin/customizer.php:7765
+msgid "Sticker color - Sale"
+msgstr "스티커 색상 - 세일"
+
+#: inc/admin/customizer.php:7779
+msgid "Disable zoom in the main product photo"
+msgstr "주요 제품 사진 확대 비활성화"
+
+#: inc/admin/customizer.php:7793
+msgid "Disable slider in product photos"
+msgstr "제품 사진의 슬라이더 비활성화"
+
+#: inc/admin/customizer.php:7807
+msgid "Disable lightbox in product photos"
+msgstr "제품 사진에서 라이트박스 비활성화"
+
+#: inc/admin/customizer.php:7821
+msgid "Disable related products on the products page"
+msgstr "제품 페이지에서 관련 제품 비활성화"
+
+#: inc/admin/customizer.php:7834
+msgid "Specify the number of related products"
+msgstr "관련 상품 수 지정"
+
+#: inc/admin/customizer.php:7847
+msgid "Specify the number of columns of related products"
+msgstr "관련 상품의 열 개수 지정"
+
+#: inc/admin/customizer.php:7861
+msgid "Add popular products to products page"
+msgstr "인기 상품을 상품 페이지에 추가"
+
+#: inc/admin/customizer.php:7874
+msgid "Specify the number of popular products"
+msgstr "인기상품 개수 지정"
+
+#: inc/admin/customizer.php:7887
+msgid "Specify the number of columns of popular products"
+msgstr "인기상품 열수 지정"
+
+#: inc/admin/customizer.php:7901
+msgid "Add breadcrumbs to product category pages"
+msgstr "제품 카테고리 페이지에 탐색경로 추가"
+
+#: inc/admin/customizer.php:7915
+msgid "Add breadcrumbs to product pages"
+msgstr "제품 페이지에 탐색경로 추가"
+
+#: inc/admin/customizer.php:7929
+msgid "Where does the main link lead in breadcrumbs"
+msgstr "탐색경로의 기본 링크는 어디로 연결되나요"
+
+#: inc/admin/customizer.php:7933
+msgid "Main"
+msgstr "메인"
+
+#: inc/admin/customizer.php:7947
+msgid "Text for the main link in breadcrumbs"
+msgstr "탐색경로의 기본 링크에 대한 텍스트"
+
+#: inc/admin/customizer.php:7961
+msgid ""
+"Add the inscription (Out of stock) to the product card in the product grid"
+msgstr "제품 그리드의 제품 카드에 (품절) 문구를 추가하세요"
+
+#: inc/admin/customizer.php:7975
+msgid "Add an inscription (Out of stock) on the product page"
+msgstr "제품 페이지에 문구(품절)를 추가하세요"
+
+#: inc/admin/customizer.php:7989
+msgid "Lettering color (Out of stock)"
+msgstr "레터링 색상 (품절)"
+
+#: inc/admin/customizer.php:8003
+msgid "Change label (Out of stock)"
+msgstr "라벨 변경(품절)"
+
+#: inc/admin/customizer.php:8021
+msgid "Presets | Reset settings | Import"
+msgstr "사전 설정 | 설정 재설정 | 가져오기 설정"
+
+#: inc/admin/customizer.php:8040
+msgid ""
+"Open Features (by activating this, you confirm that you want to reset all "
+"settings for this theme and understand the risk of permanent data loss)"
+msgstr ""
+"기능 열기(이 기능을 활성화하면 이 테마에 대한 모든 설정을 재설정하고 영구 데"
+"이터 손실의 위험을 이해함을 확인하게 됩니다)"
+
+#: inc/admin/customizer.php:8042
+msgid ""
+"Important! These options only affect this themes settings (visual customizer "
+"settings). If you have a lot of valuable settings, please back up your "
+"database before using this feature."
+msgstr ""
+"중요한! 이러한 옵션은 이 테마 설정(시각적 사용자 정의 설정)에만 영향을 미칩니"
+"다. 중요한 설정이 많은 경우 이 기능을 사용하기 전에 데이터베이스를 백업하십시"
+"오."
+
+#: inc/admin/customizer.php:8053
+msgid "Reset settings"
+msgstr "설정 초기화"
+
+#: inc/admin/customizer.php:8073 inc/admin/customizer.php:8123
+#: inc/option/set.php:97
+msgid "Useful links"
+msgstr "유용한 링크"
+
+#: inc/admin/customizer.php:8082 inc/option/set.php:99
+#, php-format
+msgid "Management and configuration instructions for the %s"
+msgstr "%s에 대한 관리 및 구성 지침"
+
+#: inc/admin/customizer.php:8086 inc/option/set.php:102
+#, php-format
+msgid "Information materials for the %s"
+msgstr "%s 에 대한 정보 자료"
+
+#: inc/admin/customizer.php:8090 inc/option/set.php:104
+msgid "Watch live sites demos"
+msgstr "라이브 사이트 데모 보기"
+
+#: inc/admin/customizer.php:8094
+msgid "Import ready-made demo versions of websites"
+msgstr "웹사이트의 미리 만들어진 데모 버전 가져오기"
+
+#: inc/admin/customizer.php:8098 inc/option/set.php:106
+#, php-format
+msgid "List of updates for the %s"
+msgstr "%s 에 대한 업데이트 목록"
+
+#: inc/admin/customizer.php:8102
+msgid "Support technical"
+msgstr "기술지원"
+
+#: inc/admin/customizer.php:8106 inc/option/set.php:108
+msgid "Rate this theme"
+msgstr "이 테마를 평가해 주세요"
+
+#: inc/admin/customizer.php:8137
+msgid "Widget Locations"
+msgstr "위젯 위치"
+
+#: inc/admin/customizer.php:8142
+msgid "Menu Locations"
+msgstr "메뉴 위치"
+
+#: inc/admin/customizer.php:8147
+msgid "Define home page"
+msgstr "홈페이지 정의"
+
+#: inc/admin/function-panel-color.php:791
+msgid ""
+"This setting will apply the selected color scheme, all your colors will be "
+"reassigned"
+msgstr "이 설정은 선택한 색 구성표를 적용하며 모든 색상이 다시 할당됩니다"
+
+#: inc/admin/function-panel-color.php:799
+msgid "Color scheme option"
+msgstr "색 구성표 옵션"
+
+#: inc/admin/function-panel-color.php:955
+msgid "Light color scheme"
+msgstr "밝은 색상 구성표"
+
+#: inc/admin/function-panel-color.php:956
+msgid "Dark color scheme"
+msgstr "어두운 색상 구성표"
+
+#: inc/admin/function-panel-color.php:973
+#: inc/admin/function-panel-color.php:979
+#: inc/admin/function-panel-color.php:985
+#: inc/admin/function-panel-color.php:991
+#: inc/admin/function-panel-color.php:997
+#: inc/admin/function-panel-color.php:1003
+#: inc/admin/function-panel-color.php:1009
+#: inc/admin/function-panel-color.php:1015
+#: inc/admin/function-panel-color.php:1021
+#: inc/admin/function-panel-color.php:1027
+#: inc/admin/function-panel-color.php:1033
+#: inc/admin/function-panel-color.php:1039
+#: inc/admin/function-panel-color.php:1045
+#: inc/admin/function-panel-color.php:1051
+#: inc/admin/function-panel-color.php:1057
+#: inc/admin/function-panel-reset.php:2517
+#: inc/admin/function-panel-reset.php:2535
+#: inc/admin/function-panel-reset.php:2553
+#: inc/admin/function-panel-reset.php:2571
+#: inc/admin/function-panel-reset.php:2589
+#: inc/admin/function-panel-reset.php:2607
+#: inc/admin/function-panel-reset.php:2625
+#: inc/admin/function-panel-reset.php:2643
+#: inc/admin/function-panel-reset.php:2661
+#: inc/admin/function-panel-reset.php:2679
+#: inc/admin/function-panel-reset.php:2697
+#: inc/admin/function-panel-reset.php:2715
+#: inc/admin/function-panel-reset.php:2733
+#: inc/admin/function-panel-reset.php:2751
+#: inc/admin/function-panel-reset.php:2769
+msgid "Apply"
+msgstr "적용"
+
+#: inc/admin/function-panel-color.php:977
+#: inc/admin/function-panel-reset.php:2525
+msgid "Dark grey and Red"
+msgstr "짙은 회색과 빨간색"
+
+#: inc/admin/function-panel-color.php:983
+#: inc/admin/function-panel-reset.php:2543
+msgid "Dark blue and Light blue"
+msgstr "진한 파란색과 밝은 파란색"
+
+#: inc/admin/function-panel-color.php:989
+#: inc/admin/function-panel-reset.php:2561
+msgid "Green and Light red"
+msgstr "녹색과 밝은 빨간색"
+
+#: inc/admin/function-panel-color.php:995
+#: inc/admin/function-panel-reset.php:2579
+msgid "Violet and Pink"
+msgstr "바이올렛과 핑크"
+
+#: inc/admin/function-panel-color.php:1001
+#: inc/admin/function-panel-reset.php:2597
+msgid "Red and Orange"
+msgstr "빨간색과 주황색"
+
+#: inc/admin/function-panel-color.php:1007
+#: inc/admin/function-panel-reset.php:2615
+msgid "Green and Grey"
+msgstr "녹색과 회색"
+
+#: inc/admin/function-panel-color.php:1013
+#: inc/admin/function-panel-reset.php:2633
+msgid "Turquoise"
+msgstr "청록색"
+
+#: inc/admin/function-panel-color.php:1019
+#: inc/admin/function-panel-reset.php:2651
+msgid "Green and Orange"
+msgstr "녹색과 주황색"
+
+#: inc/admin/function-panel-color.php:1025
+#: inc/admin/function-panel-reset.php:2669
+msgid "Heavenly and Light blue"
+msgstr "하늘빛과 밝은 파란색"
+
+#: inc/admin/function-panel-color.php:1031
+#: inc/admin/function-panel-reset.php:2687
+msgid "Orange and Dark grey"
+msgstr "오렌지색과 짙은 회색"
+
+#: inc/admin/function-panel-color.php:1037
+#: inc/admin/function-panel-reset.php:2705
+msgid "Blue and Dark blue"
+msgstr "파란색과 진한 파란색"
+
+#: inc/admin/function-panel-color.php:1043
+#: inc/admin/function-panel-reset.php:2723
+msgid "Blue and Green"
+msgstr "파란색과 녹색"
+
+#: inc/admin/function-panel-color.php:1049
+#: inc/admin/function-panel-reset.php:2741
+msgid "Grey and Dark grey"
+msgstr "회색과 짙은 회색"
+
+#: inc/admin/function-panel-color.php:1055
+#: inc/admin/function-panel-reset.php:2759
+msgid "Blue and Blackberry"
+msgstr "블루와 블랙베리"
+
+#: inc/admin/function-panel-home.php:50
+msgid "Sections with blocks on the main"
+msgstr "메인에 블록이 있는 섹션"
+
+#: inc/admin/function-panel-home.php:51 inc/admin/function-panel-xlmega.php:55
+msgid "Drag to reposition blocks"
+msgstr "드래그하여 블록 위치를 변경하세요"
+
+#: inc/admin/function-panel-home.php:54 inc/admin/function-panel-menucat.php:43
+#: inc/admin/function-panel-soc.php:59 inc/admin/function-panel-xlmega.php:58
+msgid "Section with settings"
+msgstr "설정이 있는 섹션"
+
+#: inc/admin/function-panel-home.php:55 inc/admin/function-panel-xlmega.php:59
+msgid "Add block"
+msgstr "블록 추가하기"
+
+#: inc/admin/function-panel-home.php:60
+msgid "Section option"
+msgstr "섹션 옵션"
+
+#: inc/admin/function-panel-home.php:76
+msgid "Section heading"
+msgstr "섹션 제목"
+
+#: inc/admin/function-panel-home.php:82 inc/admin/function-panel-home.php:88
+#: inc/admin/function-panel-home.php:94 inc/admin/function-panel-menucat.php:51
+#: inc/admin/function-panel-menucat.php:59
+msgid "Select category"
+msgstr "카테고리 선택"
+
+#: inc/admin/function-panel-home.php:119
+msgid "Number of posts displayed"
+msgstr "표시된 게시물 수"
+
+#: inc/admin/function-panel-home.php:125
+msgid "Post title option"
+msgstr "게시물 제목 옵션"
+
+#: inc/admin/function-panel-home.php:137
+#: inc/admin/function-panel-xlmega.php:164
+msgid "Remove post titles"
+msgstr "게시물 제목 삭제"
+
+#: inc/admin/function-panel-home.php:143
+msgid "Title text size"
+msgstr "타이틀 사이즈"
+
+#: inc/admin/function-panel-home.php:156
+msgid "Title text size for small cards"
+msgstr "작은 카드의 제목 텍스트 크기"
+
+#: inc/admin/function-panel-home.php:169
+#: inc/admin/function-panel-xlmega.php:183
+msgid "Posts titles text color"
+msgstr "게시물 제목 텍스트 색상"
+
+#: inc/admin/function-panel-home.php:175
+msgid "Posts titles color on hover"
+msgstr "마우스를 올리면 게시물 제목 색상이 표시됩니다"
+
+#: inc/admin/function-panel-home.php:187
+msgid "Background color for posts (on hover)"
+msgstr "게시물의 배경색(마우스를 올리면)"
+
+#: inc/admin/function-panel-home.php:193
+msgid "Enable slider auto start"
+msgstr "슬라이더 자동 시작 활성화"
+
+#: inc/admin/function-panel-home.php:199
+msgid "Animation for auto slider"
+msgstr "자동 슬라이더용 애니메이션"
+
+#: inc/admin/function-panel-home.php:201
+msgid "Standard flipping"
+msgstr "표준 뒤집기"
+
+#: inc/admin/function-panel-home.php:202
+msgid "Dynamic zoom"
+msgstr "동적 줌"
+
+#: inc/admin/function-panel-home.php:203
+msgid "Upheaval"
+msgstr "대변동"
+
+#: inc/admin/function-panel-home.php:204
+msgid "Fading away"
+msgstr "사라져"
+
+#: inc/admin/function-panel-home.php:211
+msgid "Enable slider navigation buttons"
+msgstr "슬라이더 탐색 버튼 활성화"
+
+#: inc/admin/function-panel-home.php:217
+msgid "Post date"
+msgstr "게시물 날짜"
+
+#: inc/admin/function-panel-home.php:220 inc/admin/function-panel-home.php:221
+#: inc/admin/function-panel-home.php:222 inc/admin/function-panel-home.php:223
+msgid "Option"
+msgstr "옵션"
+
+#: inc/admin/function-panel-home.php:230
+msgid "Display date"
+msgstr "날짜 표시"
+
+#: inc/admin/function-panel-home.php:369
+#: inc/admin/function-panel-menucat.php:237
+#: inc/admin/function-panel-xlmega.php:389
+msgid "No image selected"
+msgstr "선택한 이미지가 없습니다"
+
+#: inc/admin/function-panel-home.php:375
+#: inc/admin/function-panel-menucat.php:243
+#: inc/admin/function-panel-xlmega.php:395
+msgid "Remove"
+msgstr "제거"
+
+#: inc/admin/function-panel-home.php:376
+#: inc/admin/function-panel-menucat.php:244
+#: inc/admin/function-panel-xlmega.php:396
+msgid "Select Image"
+msgstr "이미지 선택"
+
+#: inc/admin/function-panel-home.php:385
+msgid "Latest posts (default)"
+msgstr "최신 게시물(기본값)"
+
+#: inc/admin/function-panel-home.php:471
+msgid "Latest Posts"
+msgstr "최근 게시물"
+
+#: inc/admin/function-panel-home.php:495
+#: inc/admin/function-panel-menucat.php:263
+#: inc/admin/function-panel-soc.php:220 inc/admin/function-panel-xlmega.php:413
+msgid "Roll up block"
+msgstr "롤업 블록"
+
+#: inc/admin/function-panel-home.php:496
+#: inc/admin/function-panel-menucat.php:264
+#: inc/admin/function-panel-soc.php:221 inc/admin/function-panel-xlmega.php:414
+msgid "Delete block"
+msgstr "블록 삭제"
+
+#: inc/admin/function-panel-import.php:101
+msgid "Importing settings"
+msgstr "설정 가져오기"
+
+#: inc/admin/function-panel-import.php:150
+msgid ""
+"This imports the customizations (visual customizer) from the selected theme "
+"into the current theme."
+msgstr ""
+"선택한 테마의 사용자 정의 항목(시각적 사용자 정의 도구)을 현재 테마로 가져옵"
+"니다."
+
+#: inc/admin/function-panel-import.php:151
+#: inc/admin/function-panel-import.php:189
+msgid ""
+"This can be useful, for example, if you applied a lot of customizations in "
+"the free version and then bought the premium version."
+msgstr ""
+"예를 들어, 무료 버전에서 많은 사용자 정의를 적용한 후 프리미엄 버전을 구입한 "
+"경우에 유용할 수 있습니다."
+
+#: inc/admin/function-panel-import.php:152
+#: inc/admin/function-panel-import.php:190
+msgid "Or if you decide to use a child theme."
+msgstr "또는 하위 테마를 사용하기로 결정한 경우."
+
+#: inc/admin/function-panel-import.php:153
+#: inc/admin/function-panel-import.php:191
+msgid "This allows you to transfer settings between themes in one click."
+msgstr "이를 통해 한 번의 클릭으로 테마 간에 설정을 전송할 수 있습니다."
+
+#: inc/admin/function-panel-import.php:154
+msgid ""
+"Important! All settings of the current theme will be deleted! They will be "
+"completely replaced by the settings of the selected theme!"
+msgstr ""
+"중요한! 현재 테마의 모든 설정이 삭제됩니다! 선택한 테마의 설정으로 완전히 대"
+"체됩니다!"
+
+#: inc/admin/function-panel-import.php:161
+msgid "Select theme (where to get the settings)"
+msgstr "테마 선택(설정을 가져올 위치)"
+
+#: inc/admin/function-panel-import.php:187
+msgid ""
+"The import section is available when there are suitable themes to import"
+msgstr "가져오기 섹션은 가져오기에 적합한 테마가 있는 경우 사용할 수 있습니다"
+
+#: inc/admin/function-panel-import.php:293
+#: inc/admin/function-panel-import.php:303
+#: inc/admin/function-panel-import.php:313
+#, php-format
+msgid "From %1$s in %2$s"
+msgstr "이 %1$s에서 이 %2$s까지"
+
+#: inc/admin/function-panel-import.php:296
+#: inc/admin/function-panel-import.php:306
+#: inc/admin/function-panel-import.php:316
+msgid "Settings copy"
+msgstr "설정 복사"
+
+#: inc/admin/function-panel-menucat.php:40
+msgid "Drag the block with the cursor to change the position of the items"
+msgstr "커서로 블록을 드래그하여 항목의 위치를 변경하세요"
+
+#: inc/admin/function-panel-menucat.php:44 inc/admin/function-panel-soc.php:60
+msgid "Add section"
+msgstr "섹션 추가"
+
+#: inc/admin/function-panel-menucat.php:49
+msgid "Variation"
+msgstr "베리에이션"
+
+#: inc/admin/function-panel-menucat.php:52
+msgid "Specify a link"
+msgstr "링크를 지정하세요"
+
+#: inc/admin/function-panel-menucat.php:65
+msgid "Custom link"
+msgstr "링크"
+
+#: inc/admin/function-panel-menucat.php:71
+msgid "Custom title"
+msgstr "사용자 정의 제목"
+
+#: inc/admin/function-panel-menucat.php:83
+msgid "Title background"
+msgstr "배경 제목"
+
+#: inc/admin/function-panel-menucat.php:90
+msgid ""
+"This color will work if there is no picture or the picture is transparent"
+msgstr "그림이 없거나 그림이 투명한 경우 이 색상이 작동합니다"
+
+#: inc/admin/function-panel-menucat.php:96
+msgid "Background image"
+msgstr "배경 이미지"
+
+#: inc/admin/function-panel-menucat.php:165
+msgid "Category element"
+msgstr "카테고리 요소"
+
+#: inc/admin/function-panel-menucat.php:212
+msgid "Random category"
+msgstr "무작위 카테고리"
+
+#: inc/admin/function-panel-reset.php:2282
+msgid "Preset settings"
+msgstr "사전 설정"
+
+#: inc/admin/function-panel-reset.php:2307
+msgid ""
+"This will reset all theme settings to default, apply the chosen color scheme "
+"and activate some settings for the example"
+msgstr ""
+"그러면 모든 테마 설정이 기본값으로 재설정되고 선택한 색 구성표가 적용되며 예"
+"제의 일부 설정이 활성화됩니다"
+
+#: inc/admin/function-panel-reset.php:2314
+msgid "Preset options"
+msgstr "사전 설정 옵션"
+
+#: inc/admin/function-panel-reset.php:2470
+msgid "Style"
+msgstr "스타일"
+
+#: inc/admin/function-panel-reset.php:2471
+msgid "Color scheme"
+msgstr "Color scheme"
+
+#: inc/admin/function-panel-reset.php:2473
+msgid "Width"
+msgstr "넓이"
+
+#: inc/admin/function-panel-reset.php:2475
+msgid "Navigation"
+msgstr "네비게이션"
+
+#: inc/admin/function-panel-reset.php:2476
+msgid "Category grid"
+msgstr "카테고리 그리드"
+
+#: inc/admin/function-panel-reset.php:2477
+msgid "Features"
+msgstr "특징"
+
+#: inc/admin/function-panel-reset.php:2479
+msgid "Light"
+msgstr "라이트"
+
+#: inc/admin/function-panel-reset.php:2480
+msgid "Dark"
+msgstr "다크"
+
+#: inc/admin/function-panel-reset.php:2487
+msgid "Full site width"
+msgstr "전체 사이트 너비"
+
+#: inc/admin/function-panel-reset.php:2516
+msgid "Without settings (Defaults)"
+msgstr "설정 없음(기본값)"
+
+#: inc/admin/function-panel-reset.php:2524
+msgid "News time"
+msgstr "뉴스 시간"
+
+#: inc/admin/function-panel-reset.php:2542
+msgid "News book"
+msgstr "뉴스북"
+
+#: inc/admin/function-panel-reset.php:2560
+msgid "Photo maximalism"
+msgstr "사진의 극대주의"
+
+#: inc/admin/function-panel-reset.php:2567
+msgid "Live picture"
+msgstr "라이브 영상"
+
+#: inc/admin/function-panel-reset.php:2578
+msgid "Womens blog"
+msgstr "여성 블로그"
+
+#: inc/admin/function-panel-reset.php:2596
+msgid "Night magazine"
+msgstr "나이트 매거진"
+
+#: inc/admin/function-panel-reset.php:2614
+msgid "Intrusive frames"
+msgstr "침입적 프레임"
+
+#: inc/admin/function-panel-reset.php:2632
+msgid "Fairy World"
+msgstr "요정의 세계"
+
+#: inc/admin/function-panel-reset.php:2650
+msgid "Confident oasis"
+msgstr "자신감 넘치는 오아시스"
+
+#: inc/admin/function-panel-reset.php:2668
+msgid "Heavenly"
+msgstr "천국 같은"
+
+#: inc/admin/function-panel-reset.php:2686
+msgid "Strict carrot"
+msgstr "엄격한 당근"
+
+#: inc/admin/function-panel-reset.php:2704
+msgid "Minimalism"
+msgstr "미니멀리즘"
+
+#: inc/admin/function-panel-reset.php:2722
+msgid "Micro blog"
+msgstr "마이크로 블로그"
+
+#: inc/admin/function-panel-reset.php:2758
+msgid "Through limitations"
+msgstr "제한을 통해"
+
+#: inc/admin/function-panel-soc.php:56
+msgid "Drag the block with the cursor to change the position of the links"
+msgstr "링크 위치를 변경하려면 커서로 블록을 드래그하세요"
+
+#: inc/admin/function-panel-soc.php:65
+msgid "Picture variant"
+msgstr "그림 변형"
+
+#: inc/admin/function-panel-soc.php:72
+msgid "Link to social network (URL)"
+msgstr "소셜 네트워크 링크(URL)"
+
+#: inc/admin/function-panel-xlmega.php:54
+msgid "Sections"
+msgstr "섹션"
+
+#: inc/admin/function-panel-xlmega.php:64
+msgid "Menu variants"
+msgstr "메뉴 변형"
+
+#: inc/admin/function-panel-xlmega.php:79
+msgid "Menu item name"
+msgstr "메뉴 항목 이름"
+
+#: inc/admin/function-panel-xlmega.php:85
+#: inc/admin/function-panel-xlmega.php:97
+#: inc/admin/function-panel-xlmega.php:109
+#: inc/admin/function-panel-xlmega.php:121
+#: inc/admin/function-panel-xlmega.php:133
+msgid "Title for column"
+msgstr "칼럼 제목"
+
+#: inc/admin/function-panel-xlmega.php:91
+#: inc/admin/function-panel-xlmega.php:103
+#: inc/admin/function-panel-xlmega.php:115
+#: inc/admin/function-panel-xlmega.php:127
+#: inc/admin/function-panel-xlmega.php:139
+msgid "Select category for column"
+msgstr "컬럼의 카테고리를 선택하세요"
+
+#: inc/admin/function-panel-xlmega.php:158
+msgid "Number of posts displayed (In each column)"
+msgstr "표시된 게시물 수(각 열)"
+
+#: inc/admin/function-panel-xlmega.php:170
+msgid "Post titles size"
+msgstr "게시물 제목 크기"
+
+#: inc/admin/function-panel-xlmega.php:189
+msgid "Posts titles text color (on hover)"
+msgstr "게시물 제목 텍스트 색상(마우스를 올렸을 때)"
+
+#: inc/admin/function-panel-xlmega.php:201
+msgid "Posts background color (on hover)"
+msgstr "게시물 배경색(마우스 오버 시)"
+
+#: inc/admin/function-panel-xlmega.php:207
+msgid "Section image"
+msgstr "섹션 이미지"
+
+#: inc/admin/function-panel-xlmega.php:213
+msgid "Image layout"
+msgstr "이미지 레이아웃"
+
+#: inc/admin/function-panel-xlmega.php:282
+#: inc/admin/function-panel-xlmega.php:289
+msgid "small"
+msgstr "작은"
+
+#: inc/admin/function-panel-xlmega.php:288
+msgid "Horizontal items without images"
+msgstr "이미지가 없는 수평 항목"
+
+#: inc/admin/function-panel-xlmega.php:289
+#: inc/admin/function-panel-xlmega.php:290
+#: inc/admin/function-panel-xlmega.php:291
+msgid "Horizontal items with image"
+msgstr "이미지가 있는 수평 항목"
+
+#: inc/admin/function-panel-xlmega.php:290
+msgid "mid"
+msgstr "중간"
+
+#: inc/admin/function-panel-xlmega.php:291
+msgid "big"
+msgstr "큰"
+
+#: inc/admin/function-panel-xlmega.php:292
+msgid "Vertical items with image"
+msgstr "이미지가 있는 세로 항목"
+
+#: inc/admin/function-panel-xlmega.php:293
+msgid "Vertical items with button"
+msgstr "버튼이 있는 세로 항목"
+
+#: inc/admin/function-panel-xlmega.php:294
+msgid "Items (string) with category image"
+msgstr "카테고리 이미지가 있는 항목(문자열)"
+
+#: inc/admin/help_usability.php:49
+msgid "Get more colors with the premium version"
+msgstr "프리미엄 버전으로 더 많은 색상을 만나보세요"
+
+#: inc/admin/help_usability.php:51 inc/admin/help_usability.php:58
+#: inc/admin/help_usability.php:65 inc/admin/help_usability.php:72
+#: inc/admin/help_usability.php:79 inc/admin/help_usability.php:86
+#: inc/admin/help_usability.php:93 inc/admin/help_usability.php:135
+msgid "Read More"
+msgstr "더 보기"
+
+#: inc/admin/help_usability.php:56 inc/admin/help_usability.php:63
+#: inc/admin/help_usability.php:70
+#, php-format
+msgid "Get flexible color settings for %s in the premium version"
+msgstr "프리미엄 버전에서 %s에 대한 유연한 색상 설정을 받으세요"
+
+#: inc/admin/help_usability.php:77
+msgid "More fonts are available in the premium version"
+msgstr "프리미엄 버전에서는 더 많은 글꼴을 사용할 수 있습니다"
+
+#: inc/admin/help_usability.php:84
+msgid ""
+"A graphical mega menu with its own customizer is available in the premium "
+"version"
+msgstr ""
+"프리미엄 버전에서는 사용자 정의 기능이 있는 그래픽 메가 메뉴를 사용할 수 있습"
+"니다"
+
+#: inc/admin/help_usability.php:91
+msgid ""
+"In this section, there can be a flexible customizer that will allow you to "
+"quickly and easily customize a cool homepage"
+msgstr ""
+"이 섹션에서는 멋진 홈페이지를 빠르고 쉽게 사용자 지정할 수 있는 유연한 사용"
+"자 지정 도구가 있습니다"
+
+#: inc/admin/help_usability.php:108 inc/admin/help_usability.php:219
+msgid "Home page customizer (choice of 8 blocks)"
+msgstr "홈페이지 사용자 정의(8개 블록 선택)"
+
+#: inc/admin/help_usability.php:109 inc/admin/help_usability.php:224
+#: inc/option/set.php:307
+msgid "Category menu customizer"
+msgstr "카테고리 메뉴 사용자 정의"
+
+#: inc/admin/help_usability.php:110 inc/admin/help_usability.php:229
+msgid "Megamenu (graphic) with customizer in the main menu"
+msgstr "메인 메뉴에 사용자 정의 기능이 있는 메가메뉴(그래픽)"
+
+#: inc/admin/help_usability.php:111 inc/admin/help_usability.php:234
+msgid "Wide slider (below the main menu)"
+msgstr "넓은 슬라이더(메인 메뉴 아래)"
+
+#: inc/admin/help_usability.php:112 inc/admin/help_usability.php:239
+msgid "More fonts to choose from"
+msgstr "선택할 수 있는 더 많은 글꼴"
+
+#: inc/admin/help_usability.php:113 inc/admin/help_usability.php:244
+msgid "Powerful color settings"
+msgstr "강력한 색상 설정"
+
+#: inc/admin/help_usability.php:114 inc/admin/help_usability.php:249
+msgid "Ready-made color schemes"
+msgstr "기성품 색 구성표"
+
+#: inc/admin/help_usability.php:115 inc/admin/help_usability.php:254
+msgid "Reset theme settings and activate presets"
+msgstr "테마 설정 재설정 및 사전 설정 활성화"
+
+#: inc/admin/help_usability.php:116 inc/admin/help_usability.php:259
+msgid ""
+"Full demo versions of sites (Import thematic demo versions in one click)"
+msgstr "사이트의 전체 데모 버전(한 번의 클릭으로 주제별 데모 버전 가져오기)"
+
+#: inc/admin/help_usability.php:117 inc/admin/help_usability.php:264
+msgid "Import settings from theme to theme"
+msgstr "테마에서 테마로 설정 가져오기"
+
+#: inc/admin/help_usability.php:118 inc/admin/help_usability.php:269
+msgid "Lots of hooks (windows for codes)"
+msgstr "많은 후크(코드용 창)"
+
+#: inc/admin/help_usability.php:119 inc/admin/help_usability.php:274
+msgid "Additional widgets"
+msgstr "추가 위젯"
+
+#: inc/admin/help_usability.php:120 inc/admin/help_usability.php:279
+#, php-format
+msgid "Separate sidebars for %1$s and %2$s"
+msgstr "%1$s 및 %2$s에 대한 별도의 사이드바"
+
+#: inc/admin/help_usability.php:121 inc/admin/help_usability.php:284
+msgid "Expanded plugins adapting"
+msgstr "확장된 플러그인 적응"
+
+#: inc/admin/help_usability.php:122 inc/admin/help_usability.php:292
+msgid "Buy"
+msgstr "구매"
+
+#: inc/admin/help_usability.php:133
+msgid "Get even more windows to insert codes in the premium version"
+msgstr "프리미엄 버전에서는 코드를 삽입할 수 있는 창이 더 많아졌습니다"
+
+#: inc/admin/help_usability.php:146
+msgid "(Comparison of Versions)"
+msgstr "(버전 비교)"
+
+#: inc/admin/help_usability.php:152
+msgid "Available features"
+msgstr "사용 가능한 기능"
+
+#: inc/admin/help_usability.php:153
+msgid "Free"
+msgstr "무료"
+
+#: inc/admin/help_usability.php:159
+msgid "Powerful typography"
+msgstr "강력한 타이포그래피"
+
+#: inc/admin/help_usability.php:164
+msgid "Modularity and flexibility"
+msgstr "모듈성과 유연성"
+
+#: inc/admin/help_usability.php:169
+#, php-format
+msgid "Visual customizer support (%s)"
+msgstr "시각적 맞춤설정 도구 지원(%s)"
+
+#: inc/admin/help_usability.php:174
+msgid "Flexible heading customization with logo"
+msgstr "로고를 사용한 유연한 제목 맞춤설정"
+
+#: inc/admin/help_usability.php:179
+msgid "Flexible sidebar orientation"
+msgstr "유연한 사이드바 방향"
+
+#: inc/admin/help_usability.php:184
+msgid "Ability to choose your own sidebar orientation for posts and pages"
+msgstr "게시물 및 페이지에 대한 사이드바 방향을 직접 선택할 수 있는 기능"
+
+#: inc/admin/help_usability.php:189
+msgid "Selecting the width of the site"
+msgstr "사이트 너비 선택"
+
+#: inc/admin/help_usability.php:194
+msgid "Three pagination options"
+msgstr "세 가지 페이지 매김 옵션"
+
+#: inc/admin/help_usability.php:199
+msgid "Four menu locations"
+msgstr "4가지 메뉴 위치"
+
+#: inc/admin/help_usability.php:204
+msgid "Mega menu (mega lists, dropdown, single) in the main menu"
+msgstr "메인 메뉴의 메가 메뉴(메가 목록, 드롭다운, 단일)"
+
+#: inc/admin/help_usability.php:209
+msgid "Social link customizer in the site header"
+msgstr "사이트 헤더의 소셜 링크 사용자 정의 도구"
+
+#: inc/admin/help_usability.php:214
+msgid "Plugins adapting"
+msgstr "플러그인 적응"
+
+#: inc/admin/help_usability.php:306
+msgid "Social Media Links"
+msgstr "소셜미디어 링크"
+
+#: inc/admin/help_usability.php:308
+msgid ""
+"Follow theme updates, suggest new features, participate in polls, discuss, "
+"and ask questions"
+msgstr ""
+"테마 업데이트를 팔로우하고, 새로운 기능을 제안하고, 여론조사에 참여하고, 토론"
+"하고, 질문하세요"
+
+#: inc/admin/help_usability.php:340
+msgid "Codes (Hooks theme)"
+msgstr "코드(후크 테마)"
+
+#: inc/demo/demo.php:13
+msgid "News"
+msgstr "뉴스"
+
+#: inc/demo/demo.php:23
+msgid "Cars"
+msgstr "자동차"
+
+#: inc/demo/demo.php:32
+msgid "Food"
+msgstr "식품"
+
+#: inc/demo/demo.php:41
+msgid "Travel"
+msgstr "이송"
+
+#: inc/demo/demo.php:50
+msgid "Interior"
+msgstr "내부"
+
+#: inc/function-customizer.php:10227
+msgid "Loading..."
+msgstr "로딩 중..."
+
+#: inc/function-customizer.php:11570 inc/function-customizer.php:11596
+msgid "Search"
+msgstr "검색"
+
+#. translators: Hidden accessibility text.
+#: inc/function-customizer.php:11604
+msgid "Close search"
+msgstr "검색 닫기"
+
+#: inc/function-customizer.php:11862
+msgid "Without background"
+msgstr "배경 없음"
+
+#: inc/function-customizer.php:11863
+msgid "Rounded square"
+msgstr "둥근 사각형"
+
+#: inc/general.php:118
+msgid "Main Menu"
+msgstr "메인 메뉴"
+
+#: inc/general.php:119
+msgid "Top Menu"
+msgstr "상단 메뉴"
+
+#: inc/general.php:120
+msgid "Footer Menu"
+msgstr "푸터 메뉴"
+
+#: inc/general.php:121
+msgid "Widget Menu"
+msgstr "위젯 메뉴"
+
+#: inc/general.php:228 inc/general.php:229 inc/general.php:230
+msgid "Theme"
+msgstr "테마"
+
+#: inc/general.php:251
+msgid "Side column"
+msgstr "사이드 컬럼"
+
+#: inc/general.php:252
+msgid ""
+"These widgets are displayed when the corresponding template is selected in "
+"the record or page properties"
+msgstr ""
+"이러한 위젯은 레코드 또는 페이지 속성에서 해당 템플릿이 선택되면 표시됩니다"
+
+#: inc/general.php:256
+msgid ""
+"These widgets are displayed in the right or left column, depending on the "
+"site settings"
+msgstr "이러한 위젯은 사이트 설정에 따라 오른쪽 또는 왼쪽 열에 표시됩니다"
+
+#: inc/general.php:263
+msgid "posts"
+msgstr "게시물"
+
+#: inc/general.php:265 inc/general.php:274 inc/general.php:283
+#: inc/general.php:294 inc/general.php:305 inc/general.php:316
+#, php-format
+msgid ""
+"Widgets added to this sidebar will appear only on %1$s %2$s. If this sidebar "
+"is empty, the default sidebar widgets will be displayed on %1$s %2$s."
+msgstr ""
+"이 사이드바에 추가된 위젯은 %1$s %2$s에만 표시됩니다. 이 사이드바가 비어 있으"
+"면 기본 사이드바 위젯이 %1$s %2$s에 표시됩니다."
+
+#: inc/general.php:272
+msgid "pages"
+msgstr "페이지"
+
+#: inc/general.php:281
+msgid "home"
+msgstr "홈"
+
+#: inc/general.php:325 inc/general.php:334
+msgid "featured"
+msgstr "추천"
+
+#: inc/general.php:343 inc/general.php:352 inc/general.php:361
+#: inc/general.php:370
+msgid "Footer"
+msgstr "푸터"
+
+#: inc/general.php:345 inc/general.php:354 inc/general.php:363
+#: inc/general.php:372
+#, php-format
+msgid "These widgets are displayed in the %s column of the footer"
+msgstr "이러한 위젯은 바닥글의 %s 열에 표시됩니다"
+
+#: inc/general.php:554
+msgid "Nothing found:"
+msgstr "아무것도 찾을 수 없음:"
+
+#: inc/general.php:555
+msgid "No sorting"
+msgstr "정렬 없음"
+
+#: inc/general.php:585
+msgid "MENU"
+msgstr "메뉴"
+
+#: inc/general.php:738
+msgid "Now you can follow the theme updates on the page"
+msgstr "이제 페이지에서 테마 업데이트를 따라갈 수 있습니다"
+
+#: inc/general.php:746
+#, php-format
+msgid "Congratulations! You have activated the theme %s"
+msgstr "축하해요! %s 테마를 활성화했습니다"
+
+#: inc/general.php:747
+msgid "This is the most customizable theme out of the customizable themes"
+msgstr "사용자 정의 가능한 테마 중에서 가장 사용자 정의 가능한 테마입니다"
+
+#: inc/general.php:748
+msgid "Open settings"
+msgstr "설정 열기"
+
+#: inc/general.php:753
+msgid "Hello!"
+msgstr "안녕하세요!"
+
+#: inc/general.php:754
+#, php-format
+msgid ""
+"This is theme developer %s. I improving and maintaining the theme on my own."
+msgstr "테마 개발자 %s입니다. 저는 테마를 스스로 개선하고 유지 관리합니다."
+
+#: inc/general.php:755
+msgid ""
+"I would be very grateful if you would report any errors or poor quality "
+"translations."
+msgstr "오류나 번역 품질이 낮은 부분이 있으면 알려 주시면 매우 감사하겠습니다."
+
+#: inc/general.php:756
+msgid "Contacts can be found in the section - Appearance"
+msgstr "연락처는 - 모양 섹션에서 찾을 수 있습니다"
+
+#: inc/general.php:758
+msgid ""
+"I also remind you that I have a premium version, which contains even more "
+"functionality"
+msgstr ""
+"또한 더 많은 기능을 포함하는 프리미엄 버전이 있다는 사실을 상기시켜드립니다"
+
+#: inc/general.php:759
+msgid "Presentation page"
+msgstr "프레젠테이션 페이지"
+
+#: inc/general.php:760
+msgid "View price"
+msgstr "가격 보기"
+
+#: inc/general.php:813
+msgid ""
+"\n"
+" Important!\n"
+"\n"
+" You are deleting all settings for the current theme.\n"
+"\n"
+" This action is irreversible!"
+msgstr ""
+"\n"
+" 중요한!\n"
+"\n"
+" 현재 테마의 모든 설정을 삭제 중입니다.\n"
+"\n"
+" 이 작업은 되돌릴 수 없습니다!"
+
+#: inc/general.php:814
+msgid ""
+"\n"
+" Important!\n"
+"\n"
+" You change all colors of the current theme.\n"
+"\n"
+" This action is irreversible!"
+msgstr ""
+"\n"
+" 중요한!\n"
+"\n"
+" 현재 테마의 모든 색상을 변경합니다.\n"
+"\n"
+" 이 작업은 되돌릴 수 없습니다!"
+
+#: inc/mega/blocks/mega-cat-image.php:12
+msgid "Category image"
+msgstr "카테고리 이미지"
+
+#: inc/module/breadcrumb.php:177
+msgid "Posted by "
+msgstr "게시자 "
+
+#: inc/module/breadcrumb.php:183
+msgid "Error"
+msgstr "오류"
+
+#: inc/module/breadcrumb.php:188
+msgid "Page"
+msgstr "페이지"
+
+#: inc/module/meta-tags.php:29 inc/module/meta-tags.php:296
+#: template-parts/content-autor.php:42
+msgid "Author"
+msgstr "작성자"
+
+#: inc/module/meta-tags.php:35 inc/module/meta-tags.php:304
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr "%s"
+
+#: inc/module/meta-tags.php:49 inc/module/meta-tags.php:398
+msgid "Number of comments on a post"
+msgstr "게시물의 댓글 수"
+
+#: inc/module/meta-tags.php:56 inc/module/meta-tags.php:405
+msgid "Comments"
+msgstr "댓글"
+
+#: inc/module/meta-tags.php:78 inc/module/meta-tags.php:452
+msgid "Views"
+msgstr "조회수"
+
+#: inc/module/meta-tags.php:99 inc/module/meta-tags.php:324
+msgid "Created"
+msgstr "생성됨"
+
+#: inc/module/meta-tags.php:119 inc/module/meta-tags.php:155
+#: inc/module/meta-tags.php:344 inc/module/meta-tags.php:384
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr "%s"
+
+#: inc/module/meta-tags.php:137 inc/module/meta-tags.php:364
+msgid "Updated"
+msgstr "업데이트됨"
+
+#: inc/module/meta-tags.php:275
+msgid "Less 1 min"
+msgstr "1분 이내"
+
+#: inc/module/meta-tags.php:277
+msgid "min"
+msgstr "분"
+
+#: inc/module/meta-tags.php:429
+msgid "Reading time"
+msgstr "읽은 시간"
+
+#: inc/module/meta-tags.php:480
+msgid "Publication date"
+msgstr "발행일"
+
+#: inc/module/top-menu.php:43
+msgid "Mobile"
+msgstr "모바일"
+
+#: inc/option/hook.php:45
+msgid "Page for adding codes"
+msgstr "코드 추가 페이지"
+
+#: inc/option/hook.php:61 inc/option/hook.php:68 inc/option/hook.php:76
+#, php-format
+msgid "Before the closing %s tag"
+msgstr "닫는 %s 태그 앞"
+
+#: inc/option/hook.php:85
+msgid "Before top menu"
+msgstr "상위 메뉴 전"
+
+#: inc/option/hook.php:91
+msgid "After top menu"
+msgstr "상위 메뉴 이후"
+
+#: inc/option/hook.php:100
+msgid "Before the banner and social links"
+msgstr "배너와 소셜 링크가 나오기 전"
+
+#: inc/option/hook.php:106
+msgid "After the banner and social links"
+msgstr "배너와 소셜 링크 후"
+
+#: inc/option/hook.php:115
+msgid "Before main menu"
+msgstr "메인메뉴 전"
+
+#: inc/option/hook.php:121
+msgid "After main menu"
+msgstr "메인메뉴 이후"
+
+#: inc/option/hook.php:130
+msgid "After Wide slider"
+msgstr "와이드 슬라이더 이후"
+
+#: inc/option/hook.php:139
+msgid "After Category menu"
+msgstr "카테고리 메뉴 이후"
+
+#: inc/option/hook.php:148
+msgid "Top of footer"
+msgstr "바닥글 상단"
+
+#: inc/option/hook.php:154
+msgid "Before bottom menu"
+msgstr "하단 메뉴 전"
+
+#: inc/option/hook.php:163 inc/option/hook.php:169 inc/option/hook.php:175
+#: inc/option/hook.php:181 inc/option/hook.php:187 inc/option/hook.php:193
+#: inc/option/hook.php:199 inc/option/hook.php:205
+#, php-format
+msgid "Before the \"%s\" section on the main page"
+msgstr "기본 페이지의 \"%s\" 섹션 앞"
+
+#: inc/option/hook.php:211
+msgid "Before the \"Rrecent posts\" section on the main page"
+msgstr "메인 페이지의 '최근 게시물' 섹션 이전"
+
+#: inc/option/hook.php:217
+msgid "After the \"Rrecent posts\" section on the main page"
+msgstr "메인 페이지 '최근 게시물' 섹션 이후"
+
+#: inc/option/hook.php:226
+msgid "Before breadcrumbs"
+msgstr "탐색경로 이전"
+
+#: inc/option/hook.php:235
+msgid "Before the list of posts on the category page"
+msgstr "카테고리 페이지 게시물 목록 앞"
+
+#: inc/option/hook.php:241
+msgid "After the list of posts on the category page"
+msgstr "카테고리 페이지 게시물 목록 뒤"
+
+#: inc/option/hook.php:250
+msgid "Before the main image inside the post"
+msgstr "게시물 내부 메인 이미지 전"
+
+#: inc/option/hook.php:256
+msgid "Before the title inside the post"
+msgstr "게시물 내 제목 앞에"
+
+#: inc/option/hook.php:262
+msgid "Before meta data inside a post"
+msgstr "게시물 내부의 메타데이터 이전"
+
+#: inc/option/hook.php:268
+msgid "Before content within a post"
+msgstr "게시물 내 콘텐츠 전"
+
+#: inc/option/hook.php:274
+msgid "Before the author section inside the post"
+msgstr "게시물 내부 작성자 섹션 이전"
+
+#: inc/option/hook.php:280
+msgid "Before the \"Next post\" block inside the post"
+msgstr "게시물 내부의 \"다음 게시물\" 블록 앞"
+
+#: inc/option/hook.php:286
+msgid "Before the \"Related posts\" block inside the post"
+msgstr "게시물 내부의 \"관련 게시물\" 블록 앞"
+
+#: inc/option/hook.php:292
+msgid "Before the \"Comments\" block inside the post"
+msgstr "게시물 내부의 \"댓글\" 블록 앞"
+
+#: inc/option/hook.php:298
+msgid "At the end of the post"
+msgstr "포스팅 마지막에는"
+
+#: inc/option/hook.php:307
+msgid "Before the main image inside the page"
+msgstr "페이지 내부의 메인 이미지 이전"
+
+#: inc/option/hook.php:313
+msgid "Before the title inside the page"
+msgstr "페이지 내 제목 앞"
+
+#: inc/option/hook.php:319
+msgid "After the title inside the page"
+msgstr "페이지 내부의 제목 뒤에"
+
+#: inc/option/hook.php:325 inc/option/hook.php:490 inc/option/hook.php:511
+msgid "At the end of the page"
+msgstr "페이지 끝에서"
+
+#: inc/option/hook.php:334
+msgid "Before searching for products"
+msgstr "상품을 검색하기 전에"
+
+#: inc/option/hook.php:340
+msgid "Above the product grid"
+msgstr "제품 그리드 위"
+
+#: inc/option/hook.php:346
+msgid "After the product grid"
+msgstr "제품 그리드 후"
+
+#: inc/option/hook.php:355
+msgid "At the top of the product page"
+msgstr "제품 페이지 상단에서"
+
+#: inc/option/hook.php:361
+msgid "After the title on the product page"
+msgstr "상품페이지 제목 뒤에"
+
+#: inc/option/hook.php:367
+msgid "After the price on the product page"
+msgstr "상품페이지 가격 뒤에"
+
+#: inc/option/hook.php:373
+msgid "At the bottom of the product data on the product page"
+msgstr "상품페이지 상품정보 하단"
+
+#: inc/option/hook.php:379
+msgid "Before related products on product page"
+msgstr "제품 페이지의 관련 제품 이전"
+
+#: inc/option/hook.php:385
+msgid "At the end of the product page"
+msgstr "제품 페이지의 끝에서"
+
+#: inc/option/hook.php:394
+msgid "Above the list of products on the shopping cart page"
+msgstr "장바구니 페이지의 상품 목록 위에"
+
+#: inc/option/hook.php:400
+msgid "After the list of products on the cart page"
+msgstr "장바구니 페이지에서 상품 목록 후"
+
+#: inc/option/hook.php:406
+msgid "After the cart totals on the cart page"
+msgstr "장바구니 페이지에서 장바구니 총액을 확인한 후"
+
+#: inc/option/hook.php:415
+msgid "Under the heading on the order page"
+msgstr "주문 페이지의 제목 아래"
+
+#: inc/option/hook.php:421
+msgid "Near the order totals on the order page"
+msgstr "주문 페이지의 주문 총액 근처"
+
+#: inc/option/hook.php:427
+msgid "At the end of the order page"
+msgstr "주문 페이지의 마지막 부분에서"
+
+#: inc/option/hook.php:436
+msgid "Above the order information on the page - Order accepted"
+msgstr "페이지의 주문 정보 위 - 주문 승인"
+
+#: inc/option/hook.php:442
+msgid "After the information about the order on the page - Order accepted"
+msgstr "페이지에서 주문에 대한 정보를 확인한 후 - 주문 승인"
+
+#: inc/option/hook.php:448
+msgid "At the bottom of the page - Order accepted"
+msgstr "페이지 하단 - 주문 승인"
+
+#: inc/option/hook.php:457
+msgid "Top of personal account"
+msgstr "개인 계정 상단"
+
+#: inc/option/hook.php:463
+msgid "At the bottom of the dashboard tab in personal account"
+msgstr "개인 계정의 대시보드 탭 하단"
+
+#: inc/option/hook.php:469
+msgid "At the bottom of personal account"
+msgstr "개인 계정 하단"
+
+#: inc/option/hook.php:478 inc/option/hook.php:499
+msgid "Above the heading on the page"
+msgstr "페이지의 제목 위에"
+
+#: inc/option/hook.php:484 inc/option/hook.php:505
+msgid "After the title on the page"
+msgstr "페이지의 제목 뒤에"
+
+#: inc/option/hook.php:526
+msgid ""
+"On this page you can insert counters, banners, or any other content that "
+"will be displayed on the front of the site"
+msgstr ""
+"이 페이지에서는 사이트 전면에 표시될 카운터, 배너 또는 기타 콘텐츠를 삽입할 "
+"수 있습니다"
+
+#: inc/option/set.php:32
+msgid "All settings saved!"
+msgstr "모든 설정이 저장되었습니다!"
+
+#: inc/option/set.php:52
+msgid "Pro page"
+msgstr "프로 페이지"
+
+#: inc/option/set.php:57
+msgid "General"
+msgstr "일반"
+
+#: inc/option/set.php:127
+#, php-format
+msgid "Additional functionality for the %s"
+msgstr "%s의 추가 기능"
+
+#: inc/option/set.php:129
+#, php-format
+msgid "Some functionality is provided in a separate plugin (as required by %s)"
+msgstr "일부 기능은 별도의 플러그인으로 제공됩니다(%s의 요구에 따라)"
+
+#: inc/option/set.php:130
+msgid "To extend the theme, install the free plugin"
+msgstr "테마를 확장하려면 무료 플러그인을 설치하세요"
+
+#: inc/option/set.php:132
+msgid "What does this give?"
+msgstr "이것은 무엇을 제공합니까?"
+
+#: inc/option/set.php:133
+msgid "Additional widgets for the front part"
+msgstr "앞부분에 대한 추가 위젯"
+
+#: inc/option/set.php:135
+msgid "Two author widgets"
+msgstr "두 개의 작성자 위젯"
+
+#: inc/option/set.php:136
+msgid "Two widgets for recent posts"
+msgstr "최근 게시물을 위한 두 개의 위젯"
+
+#: inc/option/set.php:137
+msgid "Widget with slider"
+msgstr "슬라이더가 있는 위젯"
+
+#: inc/option/set.php:138
+msgid "Widget with banner"
+msgstr "배너가 포함된 위젯"
+
+#: inc/option/set.php:139
+msgid "Widget with links"
+msgstr "링크가 포함된 위젯"
+
+#: inc/option/set.php:141
+msgid ""
+"After activating the plugin, the widgets will appear in the section - "
+"\"Appearance\" - \"Widgets\""
+msgstr "플러그인을 활성화하면 위젯이 \"모양\" - \"위젯\" 섹션에 나타납니다."
+
+#: inc/option/set.php:142
+msgid "Additional useful functionality in the admin panel"
+msgstr "관리자 패널의 추가 유용한 기능"
+
+#: inc/option/set.php:144
+msgid "Function (button) for clearing the counter of post and page views"
+msgstr "게시물 및 페이지 조회수 카운터를 삭제하는 기능(버튼)"
+
+#: inc/option/set.php:145
+msgid ""
+"Column \"Views\" (counter) in the list of posts and pages of the admin panel"
+msgstr "관리자 패널의 게시물 및 페이지 목록에 있는 \"조회수\" 열(카운터)"
+
+#: inc/option/set.php:146
+msgid "Column \"Thumbnails\" in the list of posts of the admin panel"
+msgstr "관리자 패널 게시물 목록의 \"썸네일\" 열"
+
+#: inc/option/set.php:147
+msgid "Category filter in classic post editor"
+msgstr "클래식 게시물 편집기의 카테고리 필터"
+
+#: inc/option/set.php:148
+#, php-format
+msgid "Option to disable block editor (%s) in text editor"
+msgstr "텍스트 편집기에서 블록 편집기(%s)를 비활성화하는 옵션"
+
+#: inc/option/set.php:149
+#, php-format
+msgid "Option to disable block editor (%s) in widgets"
+msgstr "위젯에서 블록 편집기(%s)를 비활성화하는 옵션"
+
+#: inc/option/set.php:150
+#, php-format
+msgid ""
+"Ability to change %s graphics engine (useful if large photos are not loading)"
+msgstr "%s 그래픽 엔진 변경 기능(큰 사진이 로드되지 않는 경우 유용함)"
+
+#: inc/option/set.php:152
+#, php-format
+msgid ""
+"After activating the plugin, these options will appear in the section - "
+"\"Appearance\" - \"%s\" - in the new tab \"Extended\""
+msgstr ""
+"플러그인을 활성화하면 이러한 옵션이 \"외관\" - \"%s\" 섹션의 새 탭 \"확장"
+"\"에 표시됩니다."
+
+#: inc/option/set.php:153
+msgid "View more information"
+msgstr "더 많은 정보 보기"
+
+#: inc/option/set.php:162
+msgid "Information materials"
+msgstr "정보자료"
+
+#: inc/option/set.php:165
+msgid "These are not bugs, these are features"
+msgstr "이것은 버그가 아니며 기능입니다"
+
+#: inc/option/set.php:167
+#, php-format
+msgid "How to increase website loading speed with %s"
+msgstr "%s으로 웹사이트 로딩 속도를 높이는 방법"
+
+#: inc/option/set.php:169
+#, php-format
+msgid "How to customize the %s"
+msgstr "%s을 사용자 지정하는 방법"
+
+#: inc/option/set.php:171
+msgid "How to change the sidebar orientation for a separate page or post"
+msgstr "별도의 페이지나 게시물의 사이드바 방향을 변경하는 방법"
+
+#: inc/option/set.php:173
+msgid "Import in one click full demo versions of sites"
+msgstr "한 번의 클릭으로 사이트의 전체 데모 버전을 가져옵니다"
+
+#: inc/option/set.php:175
+msgid "How to reset theme settings"
+msgstr "테마 설정을 재설정하는 방법"
+
+#: inc/option/set.php:177
+msgid "Why do you need a child theme"
+msgstr "왜 어린이 테마가 필요한가요"
+
+#: inc/option/set.php:179
+msgid "Plugin for inserting your own functions"
+msgstr "자신만의 기능을 삽입하기 위한 플러그인"
+
+#: inc/option/set.php:229
+msgid ""
+"All settings of the front part of the theme are located in the visual editor"
+msgstr "테마 앞부분의 모든 설정은 비주얼 편집기에 있습니다"
+
+#: inc/option/set.php:230
+msgid "Open"
+msgstr "열기"
+
+#: inc/option/set.php:233
+msgid "Visual Customizer Quick Links"
+msgstr "비주얼 커스터마이저 빠른 링크"
+
+#: inc/option/set.php:241
+msgid "Common colors"
+msgstr "일반적인 색상"
+
+#: inc/option/set.php:259
+msgid "Sidebar settings"
+msgstr "사이드바 설정"
+
+#: inc/option/set.php:280
+msgid "Expert settings of the administrative part of the theme"
+msgstr "테마 관리 부분의 전문가 설정"
+
+#: inc/option/set.php:303
+msgid "Quick Links"
+msgstr "바로가기"
+
+#: inc/option/set.php:305
+msgid "Home page customizer"
+msgstr "홈페이지 사용자 정의"
+
+#: inc/option/set.php:306
+msgid "Megamenu customizer"
+msgstr "메가메뉴 커스터마이저"
+
+#: inc/option/set.php:310
+msgid "Reset settings and Apply presets"
+msgstr "설정 재설정 및 사전 설정 적용"
+
+#: inc/option/set.php:311
+msgid "Import full demo"
+msgstr "전체 데모 가져오기"
+
+#: inc/option/set.php:367
+msgid "Technical support"
+msgstr "기술적 지원"
+
+#: inc/option/set.php:380
+#, php-format
+msgid "Additional support for %s subscriptions"
+msgstr "%s 구독에 대한 추가 지원"
+
+#: inc/option/set.php:393
+msgid "Removing extra image sizes"
+msgstr "추가 이미지 크기 제거"
+
+#: inc/option/set.php:401 inc/option/set.php:411 inc/option/set.php:421
+#: inc/option/set.php:431 inc/option/set.php:441
+#, php-format
+msgid "Remove image slicing for %s"
+msgstr "%s에 대한 이미지 슬라이싱 제거"
+
+#: inc/option/set.php:411 inc/option/set.php:441
+#, php-format
+msgid "aka \"%s\""
+msgstr "일명 \"%s\""
+
+#: inc/option/set.php:458
+msgid "Images format"
+msgstr "이미지 형식"
+
+#: inc/option/set.php:466
+msgid "Choose which images to use for the entire site"
+msgstr "전체 사이트에 사용할 이미지 선택"
+
+#: inc/option/set.php:482
+msgid "Avatar for users"
+msgstr "사용자를 위한 아바타"
+
+#: inc/option/set.php:490
+msgid "Change avatar (default) for users without an avatar"
+msgstr "아바타가 없는 사용자를 위한 아바타 변경(기본값)"
+
+#: inc/option/set.php:537
+msgid "Avatar URL (only external address), demo - "
+msgstr "아바타 URL(외부 주소만 해당), 데모 - "
+
+#: inc/option/set.php:553
+#, php-format
+msgid ""
+"When uploading an image to the media library, %s cuts many sizes from one "
+"image."
+msgstr ""
+"미디어 라이브러리에 이미지를 업로드할 때 %s는 하나의 이미지에서 다양한 크기"
+"를 잘라냅니다."
+
+#: inc/option/set.php:554
+msgid ""
+"All these files take up a huge amount of space, while some of them are not "
+"used at all."
+msgstr ""
+"이 모든 파일은 엄청난 양의 공간을 차지하지만 일부는 전혀 사용되지 않습니다."
+
+#: inc/option/set.php:555
+msgid ""
+"The presented settings allow you to remove from the slicing the largest "
+"sizes that are not used in this theme."
+msgstr ""
+"제시된 설정을 사용하면 이 테마에서 사용되지 않는 가장 큰 크기를 슬라이싱에서 "
+"제거할 수 있습니다."
+
+#: inc/option/set.php:556 inc/option/set.php:605
+#, php-format
+msgid ""
+"It is important to know! These settings cannot delete or modify existing "
+"image files. Slicing of images occurs at the time of uploading a new image "
+"to the %s media library."
+msgstr ""
+"아는 것이 중요합니다! 이러한 설정은 기존 이미지 파일을 삭제하거나 수정할 수 "
+"없습니다. 이미지 조각화는 %s 미디어 라이브러리에 새 이미지를 업로드할 때 발생"
+"합니다."
+
+#: inc/option/set.php:562
+msgid ""
+"The size is registered by this theme. Used only when \"Full width website\" "
+"is set."
+msgstr ""
+"이 테마로 크기가 등록됩니다. \"전체 너비 웹 사이트\"가 설정된 경우에만 사용됩"
+"니다."
+
+#: inc/option/set.php:568
+#, php-format
+msgid ""
+"The size is registered by %s itself. Can be used by this theme when 1920 x "
+"1080 is disabled and set to Full Screen."
+msgstr ""
+"크기는 %s 자체에 의해 등록됩니다. 1920 x 1080이 비활성화되고 전체 화면으로 설"
+"정된 경우 이 테마에서 사용할 수 있습니다."
+
+#: inc/option/set.php:574 inc/option/set.php:580 inc/option/set.php:586
+#, php-format
+msgid "The size is registered by %s itself. Not used in this theme."
+msgstr "크기는 %s 자체에 의해 등록됩니다. 이 테마에서는 사용되지 않습니다."
+
+#: inc/option/set.php:599
+msgid ""
+"The theme creates multiple thumbnail sizes in a single 16x9 format and uses "
+"optimal sizes in the right places. This has a good effect on loading speed "
+"and proper display in a unified style."
+msgstr ""
+"테마는 단일 16x9 형식으로 여러 축소판 크기를 생성하고 올바른 위치에서 최적의 "
+"크기를 사용합니다. 이는 로딩 속도와 통일된 스타일의 적절한 표시에 좋은 영향"
+"을 미칩니다."
+
+#: inc/option/set.php:600
+msgid "You can change this setting to control the size of the images yourself."
+msgstr "이 설정을 변경하여 이미지 크기를 직접 제어할 수 있습니다."
+
+#: inc/option/set.php:602 inc/option/set.php:604
+#, php-format
+msgid "%s sizes"
+msgstr "%s 사이즈"
+
+#: inc/option/set.php:606
+msgid "To change old pictures, use the thumbnail regeneration plugin."
+msgstr "오래된 사진을 변경하려면 썸네일 재생성 플러그인을 사용하세요."
+
+#: inc/usability.php:26 inc/usability.php:39 inc/usability.php:52
+#: inc/usability.php:64 inc/usability.php:99
+msgid "Widget example"
+msgstr "위젯 예시"
+
+#: inc/usability.php:52 inc/usability.php:99
+msgid "Archives"
+msgstr "보관함"
+
+#: inc/usability.php:64
+msgid "Tag cloud"
+msgstr "태그 구름"
+
+#: inc/usability.php:81 inc/usability.php:116 inc/usability.php:136
+msgid "Widget"
+msgstr "위젯"
+
+#: inc/usability.php:136
+msgid "Calendar"
+msgstr "캘린더"
+
+#: search.php:20
+#, php-format
+msgid "Search results for: %s"
+msgstr "%s 검색 결과"
+
+#: template-parts/content-autor.php:27
+msgid "Author photo"
+msgstr "저자 사진"
+
+#: template-parts/content-autor.php:77
+msgid "Latest posts (Author)"
+msgstr "최신 게시물 (작성자)"
+
+#: template-parts/content-next-post.php:22
+msgid "Previous post"
+msgstr "이전 게시물"
+
+#: template-parts/content-next-post.php:51
+msgid "Next post"
+msgstr "다음게시물"
+
+#: template-parts/content-none.php:13
+msgid "Site not ready"
+msgstr "사이트가 준비되지 않았습니다"
+
+#: template-parts/content-none.php:15
+msgid "Nothing found"
+msgstr "아무 것도 찾지 못했습니다"
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Start here</a>."
+msgstr ""
+"첫 번째 게시물을 게시할 준비가 되셨나요? <a href=\"%1$s\">여기에서 시작하세요"
+"</a> ."
+
+#: template-parts/content-none.php:36
+msgid "Nothing matched your search terms. Try other keywords."
+msgstr "검색어와 일치하는 항목이 없습니다. 다른 키워드를 사용해 보세요."
+
+#: template-parts/content-none.php:93
+msgid "We cannot find what you are looking for. Try using search."
+msgstr "우리는 당신이 찾고 있는 것을 찾을 수 없습니다. 검색을 사용해 보세요."
+
+#: template-parts/content-page.php:58
+msgid "Pages:"
+msgstr "페이지:"
+
+#: template-parts/content-page.php:69 template-parts/content-single.php:108
+#, php-format
+msgid "Edit %s"
+msgstr "%s 편집"
+
+#: template-parts/content-single.php:83
+msgid "Posts:"
+msgstr "게시물:"
+
+#: templates/template-new-posts.php:10
+msgid "New Posts"
+msgstr "새 글"
+
+#: templates/template-site-map.php:10
+msgid "Site Map"
+msgstr "사이트 맵"
+
+#: vendor/freemius/assets/js/pricing/freemius-pricing.js:2
+msgid "display"
+msgstr "디스플레이"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "필수 플러그인 설치"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "플러그인 설치"
+
+#. translators: %s: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "플러그인 설치 중: %s"
+
+#. translators: %s: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "플러그인 업데이트중: %s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "플러그인 API에 문제가 발생했습니다."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "이 테마에는 다음 플러그인이 필요합니다: %1$s."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "이 테마에는 다음 플러그인을 권장합니다:  %1$s."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"이 테마와의 호환성을 최대한 보장하려면 다음 플러그인을 최신 버전으로 업데이트"
+"해야 합니다: %1$s."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "사용할 수 있는 업데이트가 있습니다: %1$s."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "다음 필수 플러그인이 현재 비활성 상태입니다: %1$s."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "다음 권장 플러그인이 현재 비활성 상태입니다: %1$s."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "플러그인 설치 시작"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "플러그인 업데이트"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "플러그인 활성화"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "필수 플러그인 설치로 돌아가기"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:386
+#: vendor/tgm/class-tgm-plugin-activation.php:827
+#: vendor/tgm/class-tgm-plugin-activation.php:2533
+#: vendor/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "대시보드로 돌아가기"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:387
+#: vendor/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "플러그인이 성공적으로 활성화되었습니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully - "
+msgstr "다음 플러그인이 성공적으로 활성화되었습니다 - "
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "실행할 작업이 없습니다. %1$s가 이미 활성화되어 있습니다."
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"플러그인이 활성화되지 않았습니다. 이 테마에는 %s의 상위 버전이 필요 합니다. "
+"플러그인을 업데이트하십시오."
+
+#. translators: 1: dashboard link.
+#: vendor/tgm/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "모든 플러그인들이 성공적으로 설치되고 활성화됐습니다. %1$s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "알림 무시하기"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"설치, 업데이트 또는 활성화하려면 하나 이상의 필수 또는 권장 플러그인이 있어"
+"야 합니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "관리자에게 도움을 요청하십시오."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "이 플러그인은 테마와 호환 되도록 업데이트 해야 합니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "업데이트 필요"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"원격 플러그인 패키지에는 원하는 슬러그가 있는 폴더가 없으며 이름 변경이 작동"
+"하지 않습니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:934
+#: vendor/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"플러그인 공급자에게 문의하여 워드프레스 가이드 라인에 따라 플러그인을 패키지"
+"하도록 요청하십시오."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"원격 플러그인 패키지는 둘 이상의 파일로 구성되어 있지만 파일은 폴더에 패키지 "
+"되어 있지 않습니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:1121
+#: vendor/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "그리고"
+
+#. translators: %s: version number
+#: vendor/tgm/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "필수"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "추천"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "워드프레스 저장소"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "외부 소스"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "사전 패키지"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "설치되지 않음"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "설치됐지만 활성화되지 않았습니다"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "활성"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "필수 업데이트를 사용할 수 없음"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "업데이트 필요"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "업데이트 권장"
+
+#. translators: 1: install status, 2: update status
+#: vendor/tgm/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "모두 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)를</span>를 설치하기 위해"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "업데이트 가능 <span class=\"count\">((%s))</span>"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "활성화하려면 <span class=\"count\">(%s)</span>"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "알 수 없음"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "설치된 버전 :"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "최소 요구 버전:"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "사용 가능한 버전 :"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "설치하거나 업데이트, 활성화 할 플러그인이 없습니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "플러그인"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "출처"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "유형"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "버전"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "상태"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgm/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "%2$s 설치"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgm/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "%2$s 업데이트"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgm/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "%2$s 활성화"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "플러그인 작성자의 업그레이드 메시지:"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "설치"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "업데이트"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "설치할 플러그인이 선택되지 않았습니다. 아무런 입력이 없었습니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "업데이트할 플러그인이 선택되지 않았습니다. 아무런 입력이 없었습니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "현재 설치할 수 있는 플러그인이 없습니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "현재 업데이트 할 수 있는 플러그인이 없습니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"활성화 할 플러그인이 선택되지 않았습니다. 아무런 조치도 취하지 않았습니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "현재 활성화 할 수있는 플러그인이 없습니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "다음의 플러그인이 성공적으로 활성화되었습니다:"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "플러그인 활성화 실패."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgm/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "플러그인 업데이트 중 %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: vendor/tgm/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s 설치 중에 오류가 발생했습니다: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s 설치에 실패했습니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"설치 및 활성화를 시작하는 중입니다. 이 과정은 일부 호스트에서 다소 시간이 걸"
+"릴 수 있으므로 조금만 기다려주세요."
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s 설치 및 활성화에 성공했습니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3509
+#: vendor/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "세부 정보 보기"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3509
+#: vendor/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "상세 내용 숨기기"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "모든 설치 및 활성화가 완료되었습니다."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgm/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "플러그인 설치 및 활성화 %1$s (%2$d/%3$d)"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"설치를 시작하는 중입니다. 이 과정은 일부 호스트에서 다소 시간이 걸릴 수 있으"
+"므로 잠시 기다려 주세요."
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s 설치에 성공했습니다."
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "모든 설치가 완료되었습니다."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgm/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "플러그인 설치 %1$s (%2$d/%3$d)"
+
+#: woocommerce/loop/no-products-found.php:22
+msgid "No products were found matching your selection."
+msgstr "선택과 일치하는 제품을 발견하지 못했습니다."
+
+#. Theme Name of the plugin/theme
+msgid "Bado Blog"
+msgstr "Bado Blog"
+
+#. Theme URI of the plugin/theme
+msgid "https://web-zone.org/bado-blog"
+msgstr "https://web-zone.org/bado-blog"
+
+#. Author of the plugin/theme
+msgid "DMCWebZone"
+msgstr "DMCWebZone"
+
+#. Author URI of the plugin/theme
+msgid "https://web-zone.org"
+msgstr "https://web-zone.org"
+
+#~ msgid "Social link"
+#~ msgstr "소셜 링크"
+
+#~ msgid "At the bottom of the cart page"
+#~ msgstr "장바구니 페이지 하단에서"
+
+#~ msgid "After the order details on the order page"
+#~ msgstr "주문 페이지에서 주문 세부 정보를 확인한 후"
+
+#~ msgid ""
+#~ "A graphical mega menu with its own builder is available in the premium "
+#~ "version"
+#~ msgstr ""
+#~ "프리미엄 버전에서는 자체 빌더가 있는 그래픽 메가 메뉴를 사용할 수 있습니다"
+
+#~ msgid ""
+#~ "In this section, there can be a flexible builder that will allow you to "
+#~ "quickly and easily customize a cool homepage"
+#~ msgstr ""
+#~ "이 섹션에는 멋진 홈페이지를 빠르고 쉽게 맞춤설정할 수 있는 유연한 빌더가 "
+#~ "있습니다"
+
+#~ msgid "Home page builder (choice of 8 blocks)"
+#~ msgstr "홈페이지 빌더(8개 블록 선택)"
+
+#~ msgid "Category menu builder"
+#~ msgstr "카테고리 메뉴 빌더"
+
+#~ msgid "Megamenu (graphic) with builder in the main menu"
+#~ msgstr "메인 메뉴에 빌더가 있는 메가메뉴(그래픽)"
+
+#~ msgid "Social link builder in the site header"
+#~ msgstr "사이트 헤더의 소셜 링크 빌더"
+
+#~ msgid "Side column (WooCommerce)"
+#~ msgstr "사이드 컬럼(WooCommerce)"
+
+#~ msgid "These widgets are displayed in the sidebar on WooCommerce pages"
+#~ msgstr "이 위젯은 WooCommerce 페이지의 사이드바에 표시됩니다"
+
+#~ msgid "Side column (bbPress)"
+#~ msgstr "사이드 컬럼(bbPress)"
+
+#~ msgid "These widgets are displayed in the sidebar on bbPress pages"
+#~ msgstr "이 위젯은 bbPress 페이지의 사이드바에 표시됩니다"
+
+#~ msgid "Side column (BuddyPress)"
+#~ msgstr "사이드 컬럼(BuddyPress)"
+
+#~ msgid "These widgets are displayed in the sidebar on BuddyPress pages"
+#~ msgstr "이 위젯은 BuddyPress 페이지의 사이드바에 표시됩니다"
+
+#~ msgid "Home page builder"
+#~ msgstr "홈 페이지 빌더"
+
+#~ msgid "Mega menu (graphic) with constructor"
+#~ msgstr "생성자가 있는 메가 메뉴(그래픽)"
+
+#~ msgid "Full demo versions of sites"
+#~ msgstr "사이트의 전체 데모 버전"
+
+#~ msgid "Mega menu (lists)"
+#~ msgstr "메가 메뉴(목록)"
+
+#~ msgid "Full-width main menu background"
+#~ msgstr "전체 너비 기본 메뉴 배경"
+
+#~ msgid "Orientation for main menu items"
+#~ msgstr "메인 메뉴 항목의 방향"
+
+#~ msgid "Size of main menu items"
+#~ msgstr "메인 메뉴 항목의 크기"
+
+#~ msgid "Background color of main menu items"
+#~ msgstr "메인 메뉴 항목의 배경색"
+
+#~ msgid "Text color main menu"
+#~ msgstr "텍스트 색상 메인 메뉴, 푸터 및 위젯 제목"
+
+#~ msgid "Main menu item font"
+#~ msgstr "메인 메뉴 항목 글꼴"
+
+#~ msgid "Main menu items text size"
+#~ msgstr "메인 메뉴 항목 텍스트 크기"
+
+#~ msgid "Main menu items titles in uppercase"
+#~ msgstr "주 메뉴 항목 제목은 대문자로 표시"
+
+#~ msgid "Select category to display"
+#~ msgstr "표시할 카테고리를 선택하세요"
+
+#~ msgid "Default - background color of the main menu"
+#~ msgstr "기본값 - 주 메뉴의 배경색"
+
+#~ msgid "Default - text color of the main menu"
+#~ msgstr "기본값 - 주 메뉴의 텍스트 색상"
+
+#~ msgid "Full-width footer background"
+#~ msgstr "전체 너비 바닥글 배경"
+
+#~ msgid "Default - color of the main menu"
+#~ msgstr "기본값 - 주 메뉴의 색상"
+
+#~ msgid "Light color scheme (Green and Orange)"
+#~ msgstr "밝은 색상 구성(녹색 및 주황색)"
+
+#~ msgid "Light color scheme (Light grey and Light red)"
+#~ msgstr "밝은 색상 구성(밝은 회색 및 밝은 빨간색)"
+
+#~ msgid "Light color scheme (Dark blue and Light blue)"
+#~ msgstr "밝은 색 구성표(진한 파란색 및 밝은 파란색)"
+
+#~ msgid "Light color scheme (Blue)"
+#~ msgstr "밝은 색 구성표(파란색)"
+
+#~ msgid "Dark color scheme (Red and Orange)"
+#~ msgstr "어두운 색상 구성(빨간색과 주황색)"
+
+#~ msgid "Dark color scheme (Green and Orange)"
+#~ msgstr "어두운 색상 구성(녹색 및 주황색)"
+
+#~ msgid "Light color scheme (Dark grey and Red)"
+#~ msgstr "밝은 색상 구성(진한 회색 및 빨간색)"
+
+#~ msgid "Light color scheme (Light grey and Green)"
+#~ msgstr "밝은 색 구성표(밝은 회색 및 녹색)"
+
+#~ msgid "Light color scheme (Orange and Gray)"
+#~ msgstr "밝은 색상 구성(주황색 및 회색)"
+
+#~ msgid "Light color scheme (Violet and Pink)"
+#~ msgstr "밝은 색상 구성(보라색 및 분홍색)"
+
+#~ msgid "Light color scheme (Heavenly and Light blue)"
+#~ msgstr "밝은 색 구성표(Heavenly 및 Light blue)"
+
+#~ msgid "Light color scheme (Turquoise)"
+#~ msgstr "밝은 색 구성표(청록색)"
+
+#~ msgid "Import settings"
+#~ msgstr "설정 가져오기"
+
+#~ msgid ""
+#~ "The import section is not available! The import section is available when "
+#~ "there are suitable themes to import"
+#~ msgstr ""
+#~ "가져오기 섹션을 사용할 수 없습니다! 가져오기 섹션은 가져올 적절한 테마가 "
+#~ "있는 경우 사용할 수 있습니다"
+
+#~ msgid "Style: Confident oasis"
+#~ msgstr "스타일: 컨피던트 오아시스"
+
+#~ msgid "Color scheme: Light (Green and Orange)"
+#~ msgstr "색 구성표: 밝은색(녹색 및 주황색)"
+
+#~ msgid "Style: Photo maximalism"
+#~ msgstr "스타일: 사진 최대화"
+
+#~ msgid "Color scheme: Light (Light grey and Light red)"
+#~ msgstr "색 구성표: 밝은(밝은 회색 및 밝은 빨간색)"
+
+#~ msgid "Style: News book"
+#~ msgstr "스타일: 뉴스 북"
+
+#~ msgid "Color scheme: Light (Dark blue and Light blue)"
+#~ msgstr "색상 구성: 밝은색(진한 파란색 및 밝은 파란색)"
+
+#~ msgid "Style: Minimalism"
+#~ msgstr "스타일: 미니멀리즘"
+
+#~ msgid "Color scheme: Light (Blue)"
+#~ msgstr "색 구성표: 빛(파란색)"
+
+#~ msgid "Style: Night magazine"
+#~ msgstr "스타일: 야간 잡지"
+
+#~ msgid "Color scheme: Dark (Red and Orange)"
+#~ msgstr "색 구성표: 어두운(빨간색과 주황색)"
+
+#~ msgid "Style: Intrusive frames"
+#~ msgstr "스타일: 방해가 되는 프레임"
+
+#~ msgid "Color scheme: Dark (Green and Orange)"
+#~ msgstr "색 구성표: 어두운(녹색 및 주황색)"
+
+#~ msgid "Style: News time"
+#~ msgstr "스타일: 뉴스 시간"
+
+#~ msgid "Color scheme: Light (Dark grey and Red)"
+#~ msgstr "색 구성표: 밝은색(진한 회색 및 빨간색)"
+
+#~ msgid "Style: Hippopotamus"
+#~ msgstr "스타일: 하마"
+
+#~ msgid "Color scheme: Light (Light grey and Green)"
+#~ msgstr "색상 구성: 밝은색(밝은 회색 및 녹색)"
+
+#~ msgid "Style: Strict carrot"
+#~ msgstr "스타일: 엄격한 당근"
+
+#~ msgid "Color scheme: Light (Orange and Gray)"
+#~ msgstr "색 구성표: 밝은(주황색 및 회색)"
+
+#~ msgid "Style: Womens blog"
+#~ msgstr "스타일: 여성 블로그"
+
+#~ msgid "Color scheme: Light (Violet and Pink)"
+#~ msgstr "색 구성표: 밝은색(보라색 및 분홍색)"
+
+#~ msgid "Style: Heavenly"
+#~ msgstr "스타일: 천국"
+
+#~ msgid "Color scheme: Light (Heavenly and Light blue)"
+#~ msgstr "색 구성표: 밝은색(하늘색 및 밝은 파란색)"
+
+#~ msgid "Style: Through limitations"
+#~ msgstr "스타일: 한계를 통해"
+
+#~ msgid "Color scheme: Light (Turquoise)"
+#~ msgstr "색 구성표: 밝은색(터키색)"
+
+#~ msgid "Style: Mixing colors"
+#~ msgstr "스타일: 색상 혼합"
+
+#~ msgid "Multicolor scheme: Demo location of color"
+#~ msgstr "다색 구성표: 색상의 데모 위치"
+
+#~ msgid "Favorites"
+#~ msgstr "즐겨찾기"
+
+#~ msgid "Learn More"
+#~ msgstr "더 알아보기"

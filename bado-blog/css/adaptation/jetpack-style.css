@@ -1,0 +1,15 @@
+/* ------------------------------------------------------------------------------
+* Author: web-zone.org
+* @package Bado Blog
+* Description: Styles for Jetpack
+* ------------------------------------------------------------------------------ */
+
+/*
+Minor edits
+*/
+#infinite-handle {
+	margin-bottom: 20px;
+}
+.site #jp-relatedposts h3.jp-relatedposts-headline em:before {
+	border-top: 0;
+}

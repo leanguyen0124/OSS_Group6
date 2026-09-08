@@ -1,0 +1,270 @@
+/* ------------------------------------------------------------------------------
+* Author: web-zone.org
+* @package Bado Blog
+* Description: Styles fix for BuddyPress
+* ------------------------------------------------------------------------------ */
+
+
+/* Editing colors */
+div.buddypress-wrap .bp-search button,
+div.buddypress-wrap .bp-search button:hover,
+.buddypress-wrap .dir-list .bp-pagination,
+.bp-list li .list-wrap .item-meta,
+.bp-list li .list-wrap .meta,
+.single-headers div.item-meta,
+#buddypress .dir-form div.pagination,
+div.buddypress-wrap .standard-form input:focus,
+div.buddypress-wrap .standard-form input:focus,
+div.buddypress-wrap .standard-form select:focus,
+div.buddypress-wrap .standard-form textarea:focus,
+div.drag-drop .drag-drop-inside p,
+.buddypress div.buddypress-wrap button.bp-icons,
+.buddypress div.buddypress-wrap button.bp-icons:hover,
+div.buddypress-wrap .bp-feedback,
+ul.activity-list .activity-item .activity-content .activity-header,
+ul.activity-list .activity-item .activity-content .comment-header,
+ul.activity-list .activity-item .activity-header .time-since,
+ul.activity-list .activity-item .activity-header .time-since:hover,
+div.buddypress-wrap .groups-list li .group-desc,
+div.buddypress-wrap .bp-pagination,
+div#buddypress a.activity-time-since,
+div#buddypress a.activity-time-since:hover,
+div#buddypress .activity-list .activity-content .activity-header,
+div#buddypress .activity-list .activity-content .comment-header,
+div#buddypress ul.item-list li div.item-title span,
+div.buddypress-wrap .members-list li .user-update,
+div#buddypress div#item-header div#item-meta,
+div#buddypress .field-visibility-settings-notoggle {
+  color: inherit;
+}
+
+ul.grid > li .list-wrap,
+div.buddypress-wrap .standard-form .groups-members-search input[type=search],
+div.buddypress-wrap .standard-form .groups-members-search input[type=text],
+div.buddypress-wrap .standard-form [data-bp-search] input[type=search],
+div.buddypress-wrap .standard-form [data-bp-search] input[type=text],
+div.buddypress-wrap .standard-form input[type=color],
+div.buddypress-wrap .standard-form input[type=date],
+div.buddypress-wrap .standard-form input[type=datetime-local],
+div.buddypress-wrap .standard-form input[type=datetime],
+div.buddypress-wrap .standard-form input[type=email],
+div.buddypress-wrap .standard-form input[type=month],
+div.buddypress-wrap .standard-form input[type=number],
+div.buddypress-wrap .standard-form input[type=password],
+div.buddypress-wrap .standard-form input[type=range],
+div.buddypress-wrap .standard-form input[type=search],
+div.buddypress-wrap .standard-form input[type=tel],
+div.buddypress-wrap .standard-form input[type=text],
+div.buddypress-wrap .standard-form input[type=time],
+div.buddypress-wrap .standard-form input[type=url],
+div.buddypress-wrap .standard-form input[type=week],
+div.buddypress-wrap .standard-form select,
+div.buddypress-wrap .standard-form textarea,
+div.buddypress-wrap .standard-form input:focus,
+div.buddypress-wrap .standard-form select:focus,
+div.buddypress-wrap .standard-form textarea:focus,
+div.buddypress-wrap .bp-feedback,
+ul.activity-list.bp-list,
+ul.activity-list.bp-list .activity-item,
+ul.activity-list .activity-item .activity-content .activity-inner,
+ul.activity-list .activity-item .activity-content blockquote,
+div.groups-header .desc-wrap,
+div.groups-header .desc-wrap .group-description,
+div.buddypress-wrap .profile.edit .editfield,
+.buddypress-wrap .standard-form.profile-edit .editfield input:focus,
+div.buddypress-wrap .bp-tables-user tbody tr,
+div.buddypress-wrap table.forum tbody tr,
+div.buddypress-wrap table.wp-profile-fields tbody tr,
+.widget_bp_core_login_widget #bp-login-widget-form input[type=password],
+.widget_bp_core_login_widget #bp-login-widget-form input[type=text] {
+  background: inherit;
+}
+
+@media screen and (min-width: 46.8em) {
+  .bp-single-vert-nav div.item-body:not(#group-create-body) {
+    background: inherit;
+  }
+  .buddypress-wrap.bp-vertical-navs .bp-wrap .main-navs.user-nav-tabs ul li.selected a,
+  .buddypress-wrap .bp-wrap .tabbed-links ul li.current a,
+  div.buddypress-wrap.bp-vertical-navs .dir-navs.activity-nav-tabs ul li.selected a,
+  div.buddypress-wrap.bp-vertical-navs .dir-navs.groups-nav-tabs ul li.selected a,
+  div.buddypress-wrap.bp-vertical-navs .dir-navs.members-nav-tabs ul li.selected a,
+  div.buddypress-wrap.bp-vertical-navs .dir-navs.sites-nav-tabs ul li.selected a,
+  div.buddypress-wrap.bp-vertical-navs .main-navs.group-nav-tabs ul li.selected a,
+  div.buddypress-wrap.bp-vertical-navs .main-navs.user-nav-tabs ul li.selected a,
+  div.buddypress-wrap .tabbed-links ol li.current a,
+  div.buddypress-wrap .tabbed-links ol li.current a,
+  div.buddypress-wrap .tabbed-links ul li.current a,
+  div.buddypress-wrap .tabbed-links ol li.current a:hover,
+  div.buddypress-wrap .tabbed-links ol li.current a:hover,
+  div.buddypress-wrap .tabbed-links ul li.current a:hover,
+  div.buddypress-wrap .field-visibility-settings,
+  div.buddypress-wrap .field-visibility-settings-header {
+    color: inherit;
+  }
+}
+
+div.buddypress-wrap .bp-navs.tabbed-links ul li a:hover,
+div.buddypress-wrap .bp-navs.tabbed-links ul li a:focus,
+div.buddypress-wrap.bp-vertical-navs .main-navs.user-nav-tabs ul li:not(.selected) a:focus {
+  background: #ccc;
+}
+
+
+/* Minor fixes */
+.bp-navs ul.bp-priority-object-nav-nav-items {
+  padding: 5px 5px 3px;
+}
+
+/* Editing the search icon */
+.bp-search input[type="search"] {
+  box-sizing: border-box;
+}
+div.buddypress-wrap form#group-members-search button[type=submit] span,
+div.buddypress-wrap form.bp-dir-search-form button[type=submit] span,
+div.buddypress-wrap form.bp-messages-search-form button[type=submit] span,
+div.buddypress-wrap form[data-bp-search].bp-invites-search-form button[type=submit] span {
+  font-size: 20px;
+}
+div#buddypress div.dir-search {
+  margin: 0;
+  float: none;
+}
+div#buddypress input[type=submit] {
+  margin: 10px 0;
+  padding: 15px 30px;
+}
+div#buddypress .dir-search input[type=submit] {
+  border-radius: 50px;
+}
+
+
+/* Messages on the substrate */
+.buddypress-wrap .bp-feedback p {
+  padding: 10px 0;
+}
+
+/* Counter in numbers (in tabs and buttons) */
+nav.bp-navs ul li .count {
+  border-radius: 50%;
+}
+
+
+/* Editing for widgets */
+.buddypress-wrap .widget .widget-title {
+  padding: 0 7px;
+}
+
+.buddypress-wrap .group-front-page nav {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+/* avatar */
+#buddypress ul.item-list li img.avatar,
+#buddypress div#item-header img.avatar,
+.single-headers #item-header-avatar a img {
+  border-radius: 50%;
+}
+
+
+/* Common */
+body div#buddypress div,
+body div#buddypress dl,
+body div#buddypress input[type=reset],
+body div#buddypress input[type=search],
+body div#buddypress input[type=submit],
+body div#buddypress li,
+body div#buddypress select,
+body div#buddypress textarea,
+div#buddypress .standard-form input[required],
+div#buddypress .standard-form select[required],
+div#buddypress .standard-form textarea[required],
+div#buddypress .standard-form input[type=text],
+div#buddypress .standard-form input[type=password],
+div#buddypress .standard-form input[type=email] {
+  border-radius: 15px;
+}
+
+/* select */
+#buddypress div.item-list-tabs ul li.last select {
+  border-radius: 18px;
+}
+body #buddypress div.select-wrap {
+  border-radius: 10px;
+}
+
+/* search */
+.buddypress-wrap form.bp-dir-search-form {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px;
+}
+.buddypress-wrap form.bp-dir-search-form button[type=submit] span.dashicons-search {
+  line-height: 1;
+}
+
+/* nav */
+.bp-navs,
+.main-navs.dir-navs,
+.buddypress-wrap .bp-subnavs,
+#buddypress div.item-list-tabs ul li.current a,
+#buddypress div.item-list-tabs ul li.selected a {
+  border-radius: 15px;
+}
+#buddypress.buddypress-wrap .bp-navs ul li a {
+  border-radius: 15px;
+  margin: 5px;
+}
+
+
+/* info */
+.buddypress-wrap .bp-feedback,
+.buddypress-wrap .bp-feedback.help .bp-icon,
+.buddypress-wrap .bp-feedback.info .bp-icon,
+#buddypress div#message p,
+#sitewide-notice #message,
+.buddypress-wrap .standard-form p.description {
+  border-radius: 15px;
+}
+.buddypress-wrap .standard-form p.description {
+  padding: 15px 20px;
+}
+
+
+/* Content */
+.buddypress-wrap .item-list {
+  border-radius: 20px;
+}
+
+/* user page */
+#buddypress #header-cover-image {
+  border-radius: 20px;
+}
+
+
+/* Search users */
+div#buddypress div.dir-search input[type=text] {
+  border-radius: 15px;
+  padding: 5px 15px;
+}
+
+
+/* Support bbpress */
+#buddypress .bbp-topics {
+  border-radius: 15px;
+}
+
+#buddypress .bbp-search-form div {
+  display: flex;
+  align-items: center;
+}
+#buddypress .bbp-search-form input[type="text"] {
+  border-radius: 15px;
+  margin: 0 15px;
+}
+div#buddypress .bbp-search-form input[type=submit] {
+  font-size: 14px;
+  padding: 18px 30px;
+  border-radius: 50px;
+}

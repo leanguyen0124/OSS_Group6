@@ -1,0 +1,47 @@
+/* ------------------------------------------------------------------------------
+* Author: web-zone.org
+* @package Bado Blog
+* Description: Styles for Elementor
+* ------------------------------------------------------------------------------ */
+
+/* 
+Fixes for block widgets on Elementor pages (Because - elementor resets block styles)
+*/
+
+/* 
+Widgets 
+*/
+
+/* Search */
+.widget_block .wp-block-search__inside-wrapper {
+    display: flex;
+    flex: auto;
+    flex-wrap: nowrap;
+    max-width: 100%;
+}
+
+/* Calendar */
+.widget_block :where(.wp-block-calendar table:not(.has-background) th) {
+    background: #ddd;
+}
+
+.widget_block .wp-block-calendar td,
+.widget_block .wp-block-calendar th {
+    border: 1px solid;
+    padding: 0.25em;
+}
+
+/* Comments */
+.widget_block .wp-block-latest-comments__comment {
+    list-style: none;
+}
+
+.widget_block .wp-block-latest-comments__comment-date {
+    display: block;
+    font-size: .75em;
+}
+
+/* Social links */
+.widget_block .wp-social-link {
+	list-style: none;
+}

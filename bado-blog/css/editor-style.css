@@ -1,0 +1,20 @@
+/* ------------------------------------------------------------------------------
+* Author: web-zone.org
+* @package Bado Blog
+* Description: Block editor styles (Gutenberg)
+* ------------------------------------------------------------------------------ */
+
+
+.wp-block {
+	max-width: 960px;
+}
+
+/* wide */
+.wp-block[data-align="wide"] {
+	max-width: 1400px;
+}
+
+/* full-wide */
+.wp-block[data-align="full"] {
+	max-width: none;
+}

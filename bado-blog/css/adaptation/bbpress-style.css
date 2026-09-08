@@ -1,0 +1,23 @@
+/* ------------------------------------------------------------------------------
+* Author: web-zone.org
+* @package Bado Blog
+* Description: Styles for bbPress
+* ------------------------------------------------------------------------------ */
+
+/* Custom sidebar control for bbpress */
+/* This also prevents the sidebar from being removed if it is removed in the general settings. */
+.bbpress #primary {
+  width: 69.3%;
+  float: left;
+}
+.bbpress.badoblog-css-left-sidebar #primary {
+  float: right;
+}
+.bbpress .badoblog-css-site-main {
+	width: 100%;
+}
+@media (max-width: 1100px) {
+	.bbpress #primary {
+    width: 100%;
+  }
+}

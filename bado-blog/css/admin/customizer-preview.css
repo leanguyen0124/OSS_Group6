@@ -1,0 +1,158 @@
+/* ------------------------------------------------------------------------------
+* Author: web-zone.org
+* @package Bado Blog
+* Description: Styles for Preview Customizer
+* ------------------------------------------------------------------------------ */
+
+/*
+Changing the position of the editing pencil button in the customizer preview area
+*/
+
+/* Top button */
+.badoblog-css-scrollup .customize-partial-edit-shortcut {
+  position: static;
+}
+
+/* Top menu marker (base) */
+.badoblog-css-top-menu-pc .customize-partial-edit-shortcut button {
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+/* Main menu markers (all) */
+.badoblog-css-mega-menu-box .customize-partial-edit-shortcut button {
+  margin-left: 85px;
+  margin-top: -20px;
+}
+
+/* Main menu marker (Mega menu - Location) */
+.badoblog-css-mega-menu > ul .customize-partial-edit-shortcut button {
+  left: 0;
+}
+
+/* Main menu marker (Mega menu lists) */
+.badoblog-css-mega-menu-box > .customize-partial-edit-shortcut button {
+  left: -60px;
+}
+.badoblog-css-mega-menu-box > .customize-partial-edit-shortcut {
+  z-index: 1000;
+}
+
+/* Main menu marker (XL Mega Menu) */
+.badoblog-css-mega-menu-container > .customize-partial-edit-shortcut button {
+  left: -90px;
+}
+
+/* Marker - Social Links */
+.badoblog-css-site-brand-top-2 .badoblog-css-soc-top-box .customize-partial-edit-shortcut button {
+  top: -55px;
+  left: -55px;
+}
+
+/* Marker - Top search */
+.badoblog-css-soc-search .customize-partial-edit-shortcut button {
+  top: 40px;
+  left: -15px;
+}
+
+/* Marker - Main page */
+/* Marker - Category style */
+.badoblog-css-home-box > .customize-partial-edit-shortcut button,
+.badoblog-css-cat-box > .customize-partial-edit-shortcut button {
+  height: 40px;
+  width: 40px;
+}
+
+/* Marker - Meta boxs */
+.badoblog-css-cat-meta-boxs .customize-partial-edit-shortcut button {
+  height: 25px;
+  width: 25px;
+}
+
+/* Gategory meta tag in grid cat if in the image */
+.badoblog-css-cat-thumbnail .badoblog-css-cat-meta-taxonomy-cat .customize-partial-edit-shortcut button {
+  left: -5px;
+  top: 5px;
+}
+
+/* Marker - Pagination */
+.nav-links .customize-partial-edit-shortcut button,
+.badoblog-css-loadmore .customize-partial-edit-shortcut button {
+  top: 40px;
+}
+
+/* Markers meta tags in post */
+.badoblog-css-post-meta-boxs .customize-partial-edit-shortcut button {
+  top: -20px;
+}
+
+/* Post image */
+.badoblog-css-post-thumbnail > .customize-partial-edit-shortcut {
+  left: 50%;
+}
+
+/* Gategory meta tag in post if in the image */
+.badoblog-css-post-thumbnail .badoblog-css-post-tax-cat .customize-partial-edit-shortcut button {
+  left: 20px;
+}
+
+/* Markers bulleted lists */
+.badoblog-css-mod-pp-content > ul .customize-partial-edit-shortcut button,
+.badoblog-css-post-content > ul .customize-partial-edit-shortcut button,
+.badoblog-css-page-content > ul .customize-partial-edit-shortcut button {
+  left: -55px;
+}
+
+/* Markers numbered lists */
+.badoblog-css-mod-pp-content > ol .customize-partial-edit-shortcut button,
+.badoblog-css-post-content > ol .customize-partial-edit-shortcut button,
+.badoblog-css-page-content > ol .customize-partial-edit-shortcut button {
+  left: -50px;
+}
+
+/* Markers quotes */
+.badoblog-css-mod-pp-content > blockquote .customize-partial-edit-shortcut button,
+.badoblog-css-post-content > blockquote .customize-partial-edit-shortcut button,
+.badoblog-css-page-content > blockquote .customize-partial-edit-shortcut button {
+  left: -55px;
+}
+
+/* Markers headlines */
+.badoblog-css-mod-pp-content > h2 .customize-partial-edit-shortcut button,
+.badoblog-css-post-content > h2 .customize-partial-edit-shortcut button,
+.badoblog-css-page-content > h2 .customize-partial-edit-shortcut button,
+.badoblog-css-mod-pp-content > h3 .customize-partial-edit-shortcut button,
+.badoblog-css-post-content > h3 .customize-partial-edit-shortcut button,
+.badoblog-css-page-content > h3 .customize-partial-edit-shortcut button {
+  left: -40px;
+}
+
+/* Marker - Author's block */
+.badoblog-css-bio-post-box .customize-partial-edit-shortcut button {
+  left: -55px;
+}
+
+/* Marker - block - Next post */
+.badoblog-css-np-box .customize-partial-edit-shortcut button {
+  left: -20px;
+}
+
+/* Marker - WooCommerce - breadcrumbs */
+.woocommerce-breadcrumb .customize-partial-edit-shortcut button {
+  top: -20px;
+}
+
+/* Widget - basic */
+.widget.widget_recent_entries .customize-partial-edit-shortcut button,
+.widget.widget_categories .customize-partial-edit-shortcut button,
+.widget.widget_archive .customize-partial-edit-shortcut button {
+  margin-top: 50px;
+}
+
+/* Widget - basic menu */
+.widget.widget_nav_menu .customize-partial-edit-shortcut button {
+  margin-top: 40px;
+}
+.widget.widget_nav_menu > .customize-partial-edit-shortcut button {
+  margin-left: -25px;
+}

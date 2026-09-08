@@ -1,0 +1,5520 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bado Blog\n"
+"POT-Creation-Date: 2026-07-15 11:35+0700\n"
+"PO-Revision-Date: 2026-07-15 11:35+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:14
+msgid "Unfortunately! This page cannot be found."
+msgstr "很遗憾！找不到该页面。"
+
+#: 404.php:21
+msgid ""
+"Nothing was found at this location. Try one of the links below or use the "
+"search."
+msgstr "在此位置未发现任何内容。尝试以下链接之一或使用搜索。"
+
+#: 404.php:41 template-parts/content-none.php:54
+msgid "Most popular categories"
+msgstr "最受欢迎的类别"
+
+#: 404.php:62 template-parts/content-none.php:75
+#, php-format
+msgid "Try searching the monthly archives. %1$s"
+msgstr "尝试搜索每月档案。 %1$s"
+
+#: archive.php:90 inc/admin/customizer.php:3467
+#: inc/function-customizer.php:10228 template-parts/home/home-article.php:79
+msgid "Show more"
+msgstr "显示更多"
+
+#: archive.php:102 template-parts/home/home-article.php:91
+#: templates/template-new-posts.php:64
+msgid "Previous posts"
+msgstr "上一篇"
+
+#: archive.php:105 template-parts/home/home-article.php:94
+#: templates/template-new-posts.php:65
+msgid "Next posts"
+msgstr "下一篇"
+
+#: archive.php:120
+msgid "There are no posts in this category. Perhaps a search will help."
+msgstr "该类别中没有帖子。也许搜索会有所帮助。"
+
+#: comments.php:20
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "上有 1 个回复 &ldquo;%1$s&rdquo;"
+
+#: comments.php:25
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s 条评论在 &ldquo;%2$s&rdquo;"
+
+#: comments.php:39 comments.php:59
+msgid "Old comments"
+msgstr "旧评论"
+
+#: comments.php:40 comments.php:60
+msgid "Latest comments"
+msgstr "最新评论"
+
+#: comments.php:72
+msgid "Comments closed"
+msgstr "评论已关闭"
+
+#: functions.php:69
+msgid "Contact"
+msgstr "联系"
+
+#: functions.php:70
+msgid "Account"
+msgstr "帐户"
+
+#: functions.php:71
+msgid "Pricing"
+msgstr "价格"
+
+#: functions.php:72
+msgid "Upgrade"
+msgstr "升级"
+
+#: functions.php:73
+msgid "Add-Ons"
+msgstr "附加组件"
+
+#: functions.php:74
+msgid "Affiliate program"
+msgstr "联盟计划"
+
+#: functions.php:78
+msgid ""
+"Bado Blog is a cool, modern multipurpose WordPress theme with many free "
+"settings to create a responsive, fast, SEO optimized website that is easy to "
+"modify with a visual customizer. Bado Blog is well suited for magazines, "
+"personal blogs, article sites, news, and media. Translated into 20+ "
+"languages. Easy to use without coding knowledge. Good flexibility and "
+"functionality - multiple site width options (with full-width option), change "
+"sidebar orientation (left, right, or no sidebar), category grids with "
+"vertical and horizontal posts of various sizes, flexible header with logo, "
+"social link builder, ticker, 4 menu locations, main menu (mega menu), "
+"breadcrumbs, three pagination options, author block, related posts block, "
+"and styled widgets. Powerful Typography – change font size and line height, "
+"choose font designs, color typography for posts and pages. Clean code, no "
+"frameworks, minimum scripts. Good adaptability for any mobile devices. SEO-"
+"optimized with correct headings and markup. Adaptation for WooCommerce, "
+"Elementor, bbPress, Events Calendar, Jetpack, WPML, Contact Form 7, and "
+"Newsletter. Demo – web-zone.org/bado-blog"
+msgstr ""
+"Bado Blog 是一款炫酷的现代多功能 WordPress 主题，拥有许多免费设置，可用于创建"
+"响应迅速、SEO 优化的网站，并且可使用可视化定制器轻松修改。Bado Blog 非常适合"
+"杂志、个人博客、文章网站、新闻和媒体。已翻译成 20 多种语言。无需编码知识即可"
+"轻松使用。良好的灵活性和功能性 - 多个站点宽度选项（带全宽选项）、更改侧边栏方"
+"向（左、右或无侧边栏）、带有各种大小的垂直和水平帖子的类别网格、带有徽标的灵"
+"活标题、社交链接生成器、股票行情机、4 个菜单位置、主菜单（超级菜单）、面包"
+"屑、三个分页选项、作者区块、相关帖子区块和样式化小部件。强大的排版功能 - 更改"
+"字体大小和行高、选择字体设计、帖子和页面的彩色排版。干净的代码、无框架、最少"
+"的脚本。对任何移动设备的适应性良好。使用正确的标题和标记进行了 SEO 优化。适用"
+"于 WooCommerce、Elementor、bbPress、Events Calendar、Jetpack、WPML、Contact "
+"Form 7 和 Newsletter。演示 – web-zone.org/bado-blog"
+
+#: header.php:20
+msgid "Skip to main content"
+msgstr "跳转到主要内容"
+
+#: inc/adaptation/function-woo.php:717 inc/adaptation/function-woo.php:738
+msgid "View your shopping cart"
+msgstr "查看您的购物车"
+
+#: inc/adaptation/function-woo.php:734
+msgid "Your order"
+msgstr "您的订单"
+
+#: inc/adaptation/function-woo.php:827
+#: woocommerce/loop/no-products-found.php:25
+msgid "Popular products"
+msgstr "热门产品"
+
+#: inc/adaptation/function-woo.php:842
+msgid "Not available"
+msgstr "不可用"
+
+#: inc/adaptation/function-woo.php:897 inc/admin/customizer.php:7934
+#: inc/admin/customizer.php:7940
+msgid "Shop"
+msgstr "商店"
+
+#: inc/admin/customizer.php:15
+#, php-format
+msgid "Advanced settings (%s)"
+msgstr "高级设置 (%s)"
+
+#: inc/admin/customizer.php:16 inc/general.php:254
+msgid "default"
+msgstr "默认"
+
+#: inc/admin/customizer.php:17 inc/admin/function-panel-color.php:971
+msgid "Default"
+msgstr "默认"
+
+#: inc/admin/customizer.php:18
+msgid "on hover"
+msgstr "使用光标指向时"
+
+#: inc/admin/customizer.php:103 inc/option/set.php:238
+msgid "Template orientation"
+msgstr "模板方向"
+
+#: inc/admin/customizer.php:115
+msgid "Sidebar orientation on the entire site"
+msgstr "整个网站的侧边栏方向"
+
+#: inc/admin/customizer.php:119 inc/admin/customizer.php:139
+#: templates/page-right-sidebar-featured-1.php:11
+#: templates/page-right-sidebar-featured-2.php:11
+#: templates/page-right-sidebar.php:11
+#: templates/post-right-sidebar-featured-1.php:11
+#: templates/post-right-sidebar-featured-2.php:11
+#: templates/post-right-sidebar.php:11
+msgid "Right sidebar"
+msgstr "右侧边栏"
+
+#: inc/admin/customizer.php:120 inc/admin/customizer.php:140
+#: templates/page-left-sidebar-featured-1.php:11
+#: templates/page-left-sidebar-featured-2.php:11
+#: templates/page-left-sidebar.php:11
+#: templates/post-left-sidebar-featured-1.php:11
+#: templates/post-left-sidebar-featured-2.php:11
+#: templates/post-left-sidebar.php:11
+msgid "Left sidebar"
+msgstr "左侧边栏"
+
+#: inc/admin/customizer.php:121 inc/admin/customizer.php:141
+#: inc/admin/function-panel-reset.php:2484 templates/page-nosidebar-full.php:11
+#: templates/post-nosidebar-full.php:11
+msgid "No sidebar (full width)"
+msgstr "无侧边栏（全宽）"
+
+#: inc/admin/customizer.php:122 inc/admin/customizer.php:142
+#: inc/admin/function-panel-reset.php:2485
+#: templates/page-nosidebar-center.php:11
+#: templates/post-nosidebar-center.php:11
+msgid "No sidebar (center)"
+msgstr "无侧边栏（中心）"
+
+#: inc/admin/customizer.php:135
+msgid "Sidebar orientation on main page"
+msgstr "主页上的侧边栏方向"
+
+#: inc/admin/customizer.php:164
+msgid "Site width"
+msgstr "网站宽度"
+
+#: inc/admin/customizer.php:171 inc/admin/customizer.php:3506
+#: inc/admin/customizer.php:5932 inc/admin/customizer.php:6207
+msgid "Full width"
+msgstr "全宽"
+
+#: inc/admin/customizer.php:178
+msgid "Add margin at the top and bottom of the site (PC version only)"
+msgstr "在网站顶部和底部添加边距（仅限 PC 版）"
+
+#: inc/admin/customizer.php:193
+msgid "Top margin"
+msgstr "上边距"
+
+#: inc/admin/customizer.php:197 inc/admin/customizer.php:220
+#: inc/admin/customizer.php:696 inc/admin/customizer.php:958
+#: inc/admin/customizer.php:1788 inc/admin/customizer.php:3293
+#: inc/admin/customizer.php:3398 inc/admin/customizer.php:4068
+#: inc/admin/customizer.php:4203 inc/admin/function-panel-home.php:219
+#: inc/admin/function-panel-xlmega.php:350
+msgid "Off"
+msgstr "关闭"
+
+#: inc/admin/customizer.php:216
+msgid "Bottom margin"
+msgstr "底边距"
+
+#: inc/admin/customizer.php:240 inc/admin/function-panel-color.php:790
+#: inc/option/set.php:309
+msgid "Color schemes"
+msgstr "配色方案"
+
+#: inc/admin/customizer.php:250
+msgid "General colors"
+msgstr "主颜色设置"
+
+#: inc/admin/customizer.php:256
+msgid "Background color of the entire area"
+msgstr "整个区域的背景颜色"
+
+#: inc/admin/customizer.php:268
+msgid ""
+"This section contains general colors that affect the whole site. After that, "
+"you can make additional settings in other sections to specify individual "
+"colors for each module."
+msgstr ""
+"此部分包含影响整个网站的一般颜色。之后，您可以在其他部分进行其他设置，为每个"
+"模块指定单独的颜色。"
+
+#: inc/admin/customizer.php:297
+msgid "Background color of large elements"
+msgstr "大元素的背景颜色"
+
+#: inc/admin/customizer.php:298
+msgid "(Titles, breadcrumbs, footer and widget titles)"
+msgstr "（标题、面包屑、页脚和小部件标题）"
+
+#: inc/admin/customizer.php:312
+msgid "Secondary color for large elements"
+msgstr "大元素的辅助颜色"
+
+#: inc/admin/customizer.php:326
+msgid "Color of small elements"
+msgstr "小元素的颜色"
+
+#: inc/admin/customizer.php:327
+msgid "(Buttons, icons, lines and other design elements)"
+msgstr "（按钮、图标、线条和其他设计元素）"
+
+#: inc/admin/customizer.php:341
+msgid "Secondary color for small elements"
+msgstr "小元素的辅助颜色"
+
+#: inc/admin/customizer.php:357 inc/admin/customizer.php:372
+msgid "General color for links"
+msgstr "链接的通用颜色"
+
+#: inc/admin/customizer.php:386
+msgid "General text color"
+msgstr "一般文本颜色"
+
+#: inc/admin/customizer.php:400
+msgid "Titles text general color"
+msgstr "标题文字一般颜色"
+
+#: inc/admin/customizer.php:414
+msgid "Site header background color"
+msgstr "网站标题背景颜色"
+
+#: inc/admin/customizer.php:428
+msgid "Site body background color"
+msgstr "网站主体背景颜色"
+
+#: inc/admin/customizer.php:462
+msgid "Site fill color"
+msgstr "站点填充颜色"
+
+#: inc/admin/customizer.php:475 inc/option/set.php:244
+msgid "General typography"
+msgstr "一般字体"
+
+#: inc/admin/customizer.php:487
+msgid "General text font"
+msgstr "通用文本字体"
+
+#: inc/admin/customizer.php:501
+msgid "Overall text size"
+msgstr "整体文字大小"
+
+#: inc/admin/customizer.php:515
+msgid "Total line height of text"
+msgstr "文本的总行高"
+
+#: inc/admin/customizer.php:539
+msgid "General heading font"
+msgstr "通用标题字体"
+
+#: inc/admin/customizer.php:553 inc/admin/customizer.php:566
+#: inc/admin/customizer.php:579 inc/admin/customizer.php:592
+#: inc/admin/customizer.php:605 inc/admin/customizer.php:618
+msgid "Total heading size"
+msgstr "总标题大小"
+
+#: inc/admin/customizer.php:631
+msgid "Overall titles line height"
+msgstr "整体标题行高"
+
+#: inc/admin/customizer.php:664 inc/option/set.php:268
+msgid "Top part"
+msgstr "顶部部分"
+
+#: inc/admin/customizer.php:679
+msgid "Top bar"
+msgstr "顶部栏"
+
+#: inc/admin/customizer.php:692
+msgid "Display option (Ticker or Date)"
+msgstr "显示选项（股票行情或日期）"
+
+#: inc/admin/customizer.php:697
+msgid "Ticker"
+msgstr "滚动"
+
+#: inc/admin/customizer.php:698 inc/admin/customizer.php:905
+msgid "Date"
+msgstr "日期"
+
+#: inc/admin/customizer.php:710
+msgid "Proportion of width occupied by top menu"
+msgstr "顶部菜单所占宽度比例"
+
+#: inc/admin/customizer.php:729
+msgid "Ticker display variations"
+msgstr "股票行情显示变化"
+
+#: inc/admin/customizer.php:733 inc/admin/customizer.php:6670
+#: inc/admin/customizer.php:6677
+msgid "Category"
+msgstr "类别"
+
+#: inc/admin/customizer.php:734
+msgid "Custom"
+msgstr "自定义"
+
+#: inc/admin/customizer.php:747
+msgid "Ticker name"
+msgstr "股票代码名称"
+
+#: inc/admin/customizer.php:761
+msgid "Ticker link"
+msgstr "股票代码链接"
+
+#: inc/admin/customizer.php:768 inc/admin/customizer.php:2362
+#: inc/admin/function-panel-xlmega.php:341
+#: inc/admin/function-panel-xlmega.php:351
+msgid "All categories"
+msgstr "所有类别"
+
+#: inc/admin/customizer.php:778
+msgid "Category where the ticker comes from"
+msgstr "股票行情来源的类别"
+
+#: inc/admin/customizer.php:779
+msgid ""
+"Ticker is taken from the title of the last entry in the selected category"
+msgstr "代码取自所选类别中最后一个条目的标题"
+
+#: inc/admin/customizer.php:794 inc/admin/customizer.php:2387
+#: inc/admin/function-panel-home.php:100
+#: inc/admin/function-panel-xlmega.php:145
+msgid "Post sorting"
+msgstr "文章排序"
+
+#: inc/admin/customizer.php:798 inc/admin/customizer.php:2391
+#: inc/admin/function-panel-home.php:102
+#: inc/admin/function-panel-xlmega.php:147
+msgid "By publication date"
+msgstr "按出版日期"
+
+#: inc/admin/customizer.php:799 inc/admin/customizer.php:2392
+#: inc/admin/function-panel-home.php:103
+#: inc/admin/function-panel-xlmega.php:148
+msgid "By date modified"
+msgstr "按修改日期"
+
+#: inc/admin/customizer.php:800 inc/admin/customizer.php:2393
+#: inc/admin/function-panel-home.php:104
+#: inc/admin/function-panel-xlmega.php:149
+msgid "By title"
+msgstr "按标题"
+
+#: inc/admin/customizer.php:801 inc/admin/customizer.php:2394
+#: inc/admin/function-panel-home.php:105
+#: inc/admin/function-panel-xlmega.php:150
+msgid "By number of comments"
+msgstr "按评论数量分列"
+
+#: inc/admin/customizer.php:802 inc/admin/customizer.php:2395
+#: inc/admin/function-panel-home.php:106
+#: inc/admin/function-panel-xlmega.php:151
+msgid "In random order"
+msgstr "按随机顺序"
+
+#: inc/admin/customizer.php:813 inc/admin/customizer.php:2406
+#: inc/admin/function-panel-home.php:113
+msgid "Number of posts available"
+msgstr "可用职位数量"
+
+#: inc/admin/customizer.php:825
+msgid "Ticker speed"
+msgstr "Ticker 速度"
+
+#: inc/admin/customizer.php:826
+msgid "Total time to scroll through all messages in seconds"
+msgstr "滚动浏览所有消息的总时间（秒）"
+
+#: inc/admin/customizer.php:839
+msgid "Scroll ticker endlessly"
+msgstr "无限滚动"
+
+#: inc/admin/customizer.php:854 inc/admin/customizer.php:4421
+#: inc/admin/customizer.php:4584 inc/admin/customizer.php:5368
+msgid "Text color"
+msgstr "文本颜色"
+
+#: inc/admin/customizer.php:867 inc/admin/customizer.php:1124
+#: inc/admin/customizer.php:1138 inc/admin/customizer.php:2029
+#: inc/admin/customizer.php:2536 inc/admin/customizer.php:2642
+#: inc/admin/customizer.php:4613 inc/admin/customizer.php:4815
+#: inc/admin/customizer.php:5016 inc/admin/customizer.php:5030
+#: inc/admin/customizer.php:5044 inc/admin/customizer.php:5058
+#: inc/admin/customizer.php:5112 inc/admin/customizer.php:6522
+msgid "Text size"
+msgstr "字体大小"
+
+#: inc/admin/customizer.php:881 inc/admin/customizer.php:2044
+msgid "Uppercase text"
+msgstr "大写文本"
+
+#: inc/admin/customizer.php:894
+msgid "Where to get the date"
+msgstr "哪里可以得到日期"
+
+#: inc/admin/customizer.php:898
+msgid "Set settings here"
+msgstr "在这里设置设置"
+
+#: inc/admin/customizer.php:899
+#, php-format
+msgid "From %s settings"
+msgstr "来自 %s 设置"
+
+#: inc/admin/customizer.php:906
+msgid "Month"
+msgstr "月"
+
+#: inc/admin/customizer.php:907
+msgid "Year"
+msgstr "年"
+
+#: inc/admin/customizer.php:916
+msgid "Date format"
+msgstr "日期格式"
+
+#: inc/admin/customizer.php:934
+msgid "Separator between numbers"
+msgstr "数字之间的分隔符"
+
+#: inc/admin/customizer.php:938
+msgid "Spaces"
+msgstr "空间"
+
+#: inc/admin/customizer.php:939
+msgid "Dash"
+msgstr "虚线"
+
+#: inc/admin/customizer.php:940
+msgid "Dot"
+msgstr "点"
+
+#: inc/admin/customizer.php:941
+msgid "Slash"
+msgstr "斜线"
+
+#: inc/admin/customizer.php:942
+msgid "Vertical line"
+msgstr "垂直线"
+
+#: inc/admin/customizer.php:954
+msgid "Display weeks"
+msgstr "显示周数"
+
+#: inc/admin/customizer.php:959
+msgid "Before"
+msgstr "之前"
+
+#: inc/admin/customizer.php:960
+msgid "After"
+msgstr "之后"
+
+#: inc/admin/customizer.php:972
+msgid "Month in letters"
+msgstr "月份字母"
+
+#: inc/admin/customizer.php:985
+msgid "Display year"
+msgstr "显示年份"
+
+#: inc/admin/customizer.php:1006 inc/admin/function-panel-reset.php:2489
+#: inc/module/top-menu.php:75 inc/option/set.php:250
+msgid "Top menu"
+msgstr "顶部菜单"
+
+#: inc/admin/customizer.php:1021
+msgid "Disable top menu"
+msgstr "禁用顶级菜单"
+
+#: inc/admin/customizer.php:1036
+msgid "Links color (outside)"
+msgstr "链接颜色（外部）"
+
+#: inc/admin/customizer.php:1037
+msgid "Default - general color for links"
+msgstr "默认 - 链接的通用颜色"
+
+#: inc/admin/customizer.php:1051 inc/admin/customizer.php:1065
+msgid "Color of links in dropdown menu"
+msgstr "下拉菜单中链接的颜色"
+
+#: inc/admin/customizer.php:1079
+msgid "Dropdown menu background color"
+msgstr "下拉菜单背景颜色"
+
+#: inc/admin/customizer.php:1093
+msgid "Background color for dropdown menu links"
+msgstr "下拉菜单链接的背景颜色"
+
+#: inc/admin/customizer.php:1138
+msgid "small screens"
+msgstr "小屏幕"
+
+#: inc/admin/customizer.php:1170
+msgid "Move social links in the header over the image"
+msgstr "将标题中的社交链接移至图像上方"
+
+#: inc/admin/customizer.php:1171 inc/admin/customizer.php:1805
+msgid ""
+"(For this to work, you need to activate social links in the \"Social Links\" "
+"section)"
+msgstr "（为此，您需要在“社交链接”部分激活社交链接）"
+
+#: inc/admin/customizer.php:1186
+msgid "Enable effect (live picture)"
+msgstr "启用效果（实时图片）"
+
+#: inc/admin/customizer.php:1200
+msgid "Header image link"
+msgstr "标题图片链接"
+
+#: inc/admin/customizer.php:1201
+msgid "This works when you click on the image"
+msgstr "当您单击图像时，此功能有效"
+
+#: inc/admin/customizer.php:1228
+msgid "Fixed size logo"
+msgstr "固定尺寸标志"
+
+#: inc/admin/customizer.php:1229
+msgid "Site title and description text color"
+msgstr "网站标题和描述文字颜色"
+
+#: inc/admin/customizer.php:1232
+#, php-format
+msgid "The selected image will be compressed to the optimal size %s"
+msgstr "选定的图片将被压缩为最佳尺寸 %s"
+
+#: inc/admin/customizer.php:1233
+msgid ""
+"(If disabled, the title is hidden only visually. The entered text will "
+"continue to be present for the main page in h1 tags)"
+msgstr ""
+"（如果禁用，标题仅在视觉上隐藏。输入的文本将继续出现在 h1 标签的主页中）"
+
+#: inc/admin/customizer.php:1240 inc/option/set.php:247
+msgid "Title and logo"
+msgstr "标题和标志"
+
+#: inc/admin/customizer.php:1255
+msgid "Title and logo design option"
+msgstr "标题和徽标设计选项"
+
+#: inc/admin/customizer.php:1275
+msgid "Fill or border color"
+msgstr "填充或边框颜色"
+
+#: inc/admin/customizer.php:1289
+msgid "Add a dividing line between the title and description"
+msgstr "在标题和描述之间添加分隔线"
+
+#: inc/admin/customizer.php:1303
+msgid "Title area width with logo"
+msgstr "带徽标的标题区域宽度"
+
+#: inc/admin/customizer.php:1304
+#, no-php-format
+msgid "Specify 100% for center the title"
+msgstr "指定 100% f或将标题居中"
+
+#: inc/admin/customizer.php:1337
+msgid "Site title font"
+msgstr "网站标题字体"
+
+#: inc/admin/customizer.php:1351
+msgid "Site title size"
+msgstr "网站标题大小"
+
+#: inc/admin/customizer.php:1364
+msgid "Site title line height"
+msgstr "站点标题行高度"
+
+#: inc/admin/customizer.php:1387
+msgid "Site description font"
+msgstr "网站描述字体"
+
+#: inc/admin/customizer.php:1401
+msgid "Site description text size"
+msgstr "网站描述文字大小"
+
+#: inc/admin/customizer.php:1414
+msgid "Line height of the site description text"
+msgstr "站点描述文字的行高"
+
+#: inc/admin/customizer.php:1437
+msgid "Orientation of the logo and site name"
+msgstr "徽标和站点名称的方向"
+
+#: inc/admin/customizer.php:1441
+msgid "Horizontally"
+msgstr "水平"
+
+#: inc/admin/customizer.php:1442
+msgid "Vertical"
+msgstr "垂直"
+
+#: inc/admin/customizer.php:1455
+msgid "Logo variation"
+msgstr "标志变化"
+
+#: inc/admin/customizer.php:1459
+msgid "Size fixed"
+msgstr "尺寸固定"
+
+#: inc/admin/customizer.php:1460
+msgid "No limits"
+msgstr "没有限制"
+
+#: inc/admin/customizer.php:1472
+msgid "Logo without limits"
+msgstr "标志无极限"
+
+#: inc/admin/customizer.php:1491
+msgid "Top banner"
+msgstr "顶部横幅"
+
+#: inc/admin/customizer.php:1505
+msgid "Activate top banner"
+msgstr "激活顶部横幅"
+
+#: inc/admin/customizer.php:1519
+msgid "Link to advertising source"
+msgstr "链接至广告来源"
+
+#: inc/admin/customizer.php:1533 inc/admin/function-panel-soc.php:78
+msgid "Open link in new tab"
+msgstr "在新标签页中打开链接"
+
+#: inc/admin/customizer.php:1548
+msgid "Select image"
+msgstr "选择图像"
+
+#: inc/admin/customizer.php:1562
+msgid "ALT value for the image"
+msgstr "图片的 ALT 值"
+
+#: inc/admin/customizer.php:1576
+msgid "Frame thickness"
+msgstr "框架厚度"
+
+#: inc/admin/customizer.php:1593
+msgid "Frame color"
+msgstr "框架颜色"
+
+#: inc/admin/customizer.php:1594
+msgid "Default - main theme color"
+msgstr "默认 - 主主题颜色"
+
+#: inc/admin/customizer.php:1611 inc/admin/function-panel-soc.php:55
+#: inc/option/set.php:256
+msgid "Social links"
+msgstr "社交链接"
+
+#: inc/admin/customizer.php:1625
+msgid "Activate social links"
+msgstr "激活社交链接"
+
+#: inc/admin/customizer.php:1639
+msgid "Social link size"
+msgstr "社交链接大小"
+
+#: inc/admin/customizer.php:1643 inc/admin/customizer.php:1823
+#: inc/admin/customizer.php:1921 inc/admin/customizer.php:2541
+#: inc/admin/customizer.php:2612 inc/admin/customizer.php:2714
+#: inc/admin/customizer.php:3122 inc/admin/customizer.php:3260
+#: inc/admin/customizer.php:3365 inc/admin/customizer.php:3523
+#: inc/admin/customizer.php:3847 inc/admin/customizer.php:4022
+#: inc/admin/customizer.php:4157 inc/admin/customizer.php:5822
+#: inc/admin/customizer.php:6606 inc/admin/customizer.php:6837
+#: inc/admin/customizer.php:7677 inc/admin/function-panel-home.php:146
+#: inc/admin/function-panel-home.php:159
+#: inc/admin/function-panel-reset.php:2501
+#: inc/admin/function-panel-xlmega.php:173
+msgid "Small"
+msgstr "小"
+
+#: inc/admin/customizer.php:1644 inc/admin/customizer.php:1824
+#: inc/admin/customizer.php:1922 inc/admin/customizer.php:2542
+#: inc/admin/customizer.php:2613 inc/admin/customizer.php:3261
+#: inc/admin/customizer.php:3366 inc/admin/customizer.php:3524
+#: inc/admin/customizer.php:5823 inc/admin/customizer.php:6607
+#: inc/admin/customizer.php:7678 inc/admin/function-panel-home.php:147
+#: inc/admin/function-panel-home.php:160
+#: inc/admin/function-panel-xlmega.php:174
+msgid "Average"
+msgstr "平均"
+
+#: inc/admin/customizer.php:1645 inc/admin/customizer.php:1825
+#: inc/admin/customizer.php:1923 inc/admin/customizer.php:2543
+#: inc/admin/customizer.php:2614 inc/admin/customizer.php:2712
+#: inc/admin/customizer.php:3123 inc/admin/customizer.php:3262
+#: inc/admin/customizer.php:3367 inc/admin/customizer.php:3525
+#: inc/admin/customizer.php:3848 inc/admin/customizer.php:4023
+#: inc/admin/customizer.php:4158 inc/admin/customizer.php:5824
+#: inc/admin/customizer.php:6608 inc/admin/customizer.php:6836
+#: inc/admin/customizer.php:7679 inc/admin/function-panel-home.php:148
+#: inc/admin/function-panel-home.php:161
+#: inc/admin/function-panel-reset.php:2499
+#: inc/admin/function-panel-xlmega.php:175
+msgid "Big"
+msgstr "大"
+
+#: inc/admin/customizer.php:1658
+msgid "Social link form"
+msgstr "社交链接表格"
+
+#: inc/admin/customizer.php:1671 inc/function-customizer.php:11886
+msgid "Flat"
+msgstr "扁平"
+
+#: inc/admin/customizer.php:1672 inc/function-customizer.php:11887
+msgid "Volumetric"
+msgstr "体积"
+
+#: inc/admin/customizer.php:1685
+msgid "Social link design (for icons with background)"
+msgstr "社交链接设计（用于带背景的图标）"
+
+#: inc/admin/customizer.php:1697
+msgid "Black"
+msgstr "黑色"
+
+#: inc/admin/customizer.php:1698
+msgid "White"
+msgstr "白色"
+
+#: inc/admin/customizer.php:1711
+msgid "Social link design (for icons no background)"
+msgstr "社交链接设计（图标无背景）"
+
+#: inc/admin/customizer.php:1726
+msgid "Animation of social links"
+msgstr "社交链接的动画"
+
+#: inc/admin/customizer.php:1730 inc/admin/customizer.php:2756
+msgid "Without animation"
+msgstr "不带动画"
+
+#: inc/admin/customizer.php:1731
+msgid "Increase"
+msgstr "增加"
+
+#: inc/admin/customizer.php:1732
+msgid "Zoom (with background)"
+msgstr "缩放（带背景）"
+
+#: inc/admin/customizer.php:1733
+msgid "Reduction"
+msgstr "还原"
+
+#: inc/admin/customizer.php:1734
+msgid "Zoom out (with background)"
+msgstr "缩小（带背景）"
+
+#: inc/admin/customizer.php:1735
+msgid "Frame around the link"
+msgstr "链接周围的框架"
+
+#: inc/admin/customizer.php:1736
+msgid "Increasing contrast"
+msgstr "增加对比度"
+
+#: inc/admin/customizer.php:1737
+msgid "Hue change"
+msgstr "色调变化"
+
+#: inc/admin/customizer.php:1738
+msgid "Color inversion"
+msgstr "颜色反转"
+
+#: inc/admin/customizer.php:1739
+msgid "Dimming adjacent links"
+msgstr "调暗相邻链接"
+
+#: inc/admin/customizer.php:1740
+msgid "Slight slope"
+msgstr "轻微倾斜"
+
+#: inc/admin/customizer.php:1753
+msgid "Social links fill color"
+msgstr "社交链接填充颜色"
+
+#: inc/admin/customizer.php:1754 inc/admin/customizer.php:1940
+#: inc/admin/customizer.php:4308 inc/admin/customizer.php:4322
+#: inc/admin/customizer.php:4555 inc/admin/customizer.php:4750
+#: inc/admin/customizer.php:4951 inc/admin/customizer.php:6063
+msgid "Default - color of small elements"
+msgstr "默认 - 小元素的颜色"
+
+#: inc/admin/customizer.php:1771
+msgid "Top search"
+msgstr "热门搜索"
+
+#: inc/admin/customizer.php:1784
+msgid "Activate top Search"
+msgstr "激活顶部搜索"
+
+#: inc/admin/customizer.php:1789
+msgid "In a top bar"
+msgstr "在顶部栏中"
+
+#: inc/admin/customizer.php:1790
+msgid "In area of soc links (before)"
+msgstr "在 soc 链接领域（之前）"
+
+#: inc/admin/customizer.php:1791
+msgid "In area of soc links (after)"
+msgstr "在 soc 链接区域（之后）"
+
+#: inc/admin/customizer.php:1804
+msgid "Use social icon styles"
+msgstr "使用社交图标样式"
+
+#: inc/admin/customizer.php:1818
+msgid "Search button size"
+msgstr "搜索按钮大小"
+
+#: inc/admin/customizer.php:1822 inc/admin/customizer.php:2540
+#: inc/admin/customizer.php:2611 inc/admin/function-panel-home.php:145
+#: inc/admin/function-panel-home.php:158
+#: inc/admin/function-panel-xlmega.php:172
+msgid "Very small"
+msgstr "很小"
+
+#: inc/admin/customizer.php:1826 inc/admin/customizer.php:2544
+#: inc/admin/customizer.php:2615 inc/admin/function-panel-home.php:149
+#: inc/admin/function-panel-home.php:162
+#: inc/admin/function-panel-xlmega.php:176
+msgid "Very big"
+msgstr "很大"
+
+#: inc/admin/customizer.php:1846 inc/admin/function-panel-reset.php:2490
+#: inc/option/set.php:253
+msgid "Main menu"
+msgstr "主菜单"
+
+#: inc/admin/customizer.php:1866
+msgid "Disable main menu"
+msgstr "禁用主菜单"
+
+#: inc/admin/customizer.php:1868
+#, php-format
+msgid "This setting will completely disable the main menu, including the %s"
+msgstr "此设置将完全禁用主菜单，包括 %s"
+
+#: inc/admin/customizer.php:1883 inc/admin/customizer.php:5989
+msgid "Full-width background"
+msgstr "全宽背景"
+
+#: inc/admin/customizer.php:1897
+msgid "Buttons orientation"
+msgstr "按钮方向"
+
+#: inc/admin/customizer.php:1901 inc/admin/customizer.php:2891
+#: inc/admin/customizer.php:3503 inc/admin/customizer.php:4465
+#: inc/admin/customizer.php:6627 inc/admin/customizer.php:6819
+#: inc/admin/function-panel-reset.php:2482
+#: inc/admin/function-panel-xlmega.php:215
+msgid "Left"
+msgstr "左侧"
+
+#: inc/admin/customizer.php:1902 inc/admin/customizer.php:2893
+#: inc/admin/customizer.php:3504 inc/admin/customizer.php:6628
+#: inc/admin/customizer.php:6818 inc/admin/function-panel-reset.php:2483
+#: inc/admin/function-panel-xlmega.php:216
+msgid "Right"
+msgstr "右侧"
+
+#: inc/admin/customizer.php:1903 inc/admin/customizer.php:2892
+#: inc/admin/customizer.php:3505
+msgid "Center"
+msgstr "居中"
+
+#: inc/admin/customizer.php:1904
+msgid "Distributed"
+msgstr "分散式"
+
+#: inc/admin/customizer.php:1917 inc/admin/customizer.php:6832
+msgid "Button size"
+msgstr "按钮大小"
+
+#: inc/admin/customizer.php:1939 inc/admin/customizer.php:1969
+msgid "Button background color"
+msgstr "按钮背景颜色"
+
+#: inc/admin/customizer.php:1954 inc/admin/customizer.php:1983
+msgid "Button text color"
+msgstr "按钮文字颜色"
+
+#: inc/admin/customizer.php:1955 inc/admin/customizer.php:4336
+#: inc/admin/customizer.php:4513 inc/admin/customizer.php:4736
+#: inc/admin/customizer.php:4937
+msgid "Default - secondary color for small elements"
+msgstr "默认 - 小元素的次要颜色"
+
+#: inc/admin/customizer.php:2016 inc/admin/customizer.php:4599
+#: inc/admin/customizer.php:4801 inc/admin/customizer.php:5002
+#: inc/admin/function-panel-reset.php:2472
+msgid "Font"
+msgstr "字体"
+
+#: inc/admin/customizer.php:2058
+msgid "Make main menu sticky when scrolling (only for desktop versions of pc)"
+msgstr "滚动时使主菜单粘住（仅适用于 PC 的桌面版本）"
+
+#: inc/admin/customizer.php:2075
+msgid "lists"
+msgstr "列表"
+
+#: inc/admin/customizer.php:2087 inc/admin/customizer.php:2257
+msgid "Warning"
+msgstr "警告"
+
+#: inc/admin/customizer.php:2087 inc/admin/customizer.php:2258
+#, php-format
+msgid "The main menu must be enabled for the %s to be displayed"
+msgstr "必须启用主菜单才能显示 %s"
+
+#: inc/admin/customizer.php:2110 inc/general.php:757 inc/option/set.php:64
+msgid "Information"
+msgstr "信息"
+
+#: inc/admin/customizer.php:2110 inc/admin/customizer.php:6244
+#, php-format
+msgid ""
+"Items of this menu are customized in the - \"Panel %s\" - \"Appearance\" - "
+"\"Menus\" section."
+msgstr "此菜单的项在“面板 %s” - “外观” - “菜单”部分中进行自定义。"
+
+#: inc/admin/customizer.php:2128
+msgid "Links size (drop-down menu)"
+msgstr "链接大小（下拉菜单）"
+
+#: inc/admin/customizer.php:2141
+msgid "Links size"
+msgstr "链接大小"
+
+#: inc/admin/customizer.php:2149
+msgid "drop-down menu and mega menu"
+msgstr "下拉菜单和超级菜单"
+
+#: inc/admin/customizer.php:2160 inc/admin/customizer.php:2434
+#: inc/admin/customizer.php:4392 inc/admin/customizer.php:5354
+#: inc/admin/customizer.php:6449 inc/admin/function-panel-menucat.php:89
+msgid "Background color"
+msgstr "背景颜色"
+
+#: inc/admin/customizer.php:2174
+msgid "Links color"
+msgstr "链接颜色"
+
+#: inc/admin/customizer.php:2209
+#, php-format
+msgid "Number of columns in %s"
+msgstr "%s 中的列数"
+
+#: inc/admin/customizer.php:2213
+msgid "One"
+msgstr "一"
+
+#: inc/admin/customizer.php:2214
+msgid "Two"
+msgstr "二"
+
+#: inc/admin/customizer.php:2215
+msgid "Three"
+msgstr "三"
+
+#: inc/admin/customizer.php:2216
+msgid "Four"
+msgstr "四"
+
+#: inc/admin/customizer.php:2217
+msgid "Five"
+msgstr "五"
+
+#: inc/admin/customizer.php:2218
+msgid "Six"
+msgstr "六"
+
+#: inc/admin/customizer.php:2236
+msgid "graphic"
+msgstr "圖像"
+
+#: inc/admin/customizer.php:2256 inc/admin/customizer.php:2593
+#: vendor/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "启用"
+
+#: inc/admin/customizer.php:2273
+msgid "Priority partition"
+msgstr "优先级分区"
+
+#: inc/admin/customizer.php:2277
+msgid "First the graphical menu, then the lists"
+msgstr "首先是图形菜单，然后是列表"
+
+#: inc/admin/customizer.php:2278
+msgid "First the list menu, then the graphic"
+msgstr "首先是列表菜单，然后是图形"
+
+#: inc/admin/customizer.php:2291
+msgid "Sections background color"
+msgstr "版块背景颜色"
+
+#: inc/admin/customizer.php:2305
+msgid "Column titles color"
+msgstr "列标题颜色"
+
+#: inc/admin/customizer.php:2322 inc/admin/function-panel-reset.php:2491
+#: inc/option/set.php:308
+msgid "Wide slider"
+msgstr "宽滑块"
+
+#: inc/admin/customizer.php:2336
+msgid "Display wide slider"
+msgstr "显示宽滑块"
+
+#: inc/admin/customizer.php:2340
+msgid "Not display"
+msgstr "不显示"
+
+#: inc/admin/customizer.php:2341
+msgid "All site"
+msgstr "所有网站"
+
+#: inc/admin/customizer.php:2342
+msgid "Except main page"
+msgstr "除主页外"
+
+#: inc/admin/customizer.php:2343
+msgid "Only main page"
+msgstr "仅主页"
+
+#: inc/admin/customizer.php:2354
+msgid "Number of slides"
+msgstr "幻灯片数量"
+
+#: inc/admin/customizer.php:2372
+msgid "Category of posts"
+msgstr "帖子类别"
+
+#: inc/admin/customizer.php:2420
+msgid "Show slider full screen width"
+msgstr "显示滑块全屏宽度"
+
+#: inc/admin/customizer.php:2448
+msgid "Enable auto start"
+msgstr "启用自动启动"
+
+#: inc/admin/customizer.php:2460
+msgid "Time between slides"
+msgstr "滑动时间间隔"
+
+#: inc/admin/customizer.php:2473
+msgid "Slider move time"
+msgstr "滑块移动时间"
+
+#: inc/admin/customizer.php:2488
+msgid "Enable navigation buttons"
+msgstr "启用导航按钮"
+
+#: inc/admin/customizer.php:2502
+msgid "Headers fill variation"
+msgstr "标题填充变体"
+
+#: inc/admin/customizer.php:2506 inc/admin/function-panel-home.php:127
+msgid "Not display titles"
+msgstr "不显示标题"
+
+#: inc/admin/customizer.php:2507 inc/admin/function-panel-home.php:128
+msgid "Smooth dimming"
+msgstr "平滑调光"
+
+#: inc/admin/customizer.php:2508 inc/admin/function-panel-home.php:129
+msgid "Blackout tape"
+msgstr "遮光胶带"
+
+#: inc/admin/customizer.php:2509 inc/admin/function-panel-home.php:130
+msgid "Animated blackout"
+msgstr "动画停电"
+
+#: inc/admin/customizer.php:2522 inc/admin/function-panel-menucat.php:77
+msgid "Title color"
+msgstr "标题颜色"
+
+#: inc/admin/customizer.php:2557
+msgid "Enable slider in mobile version"
+msgstr "在移动版本中启用滑块"
+
+#: inc/admin/customizer.php:2558
+msgid ""
+"Usually, the slider is not required on small screens, due to heavy load and "
+"little usefulness. Therefore, by default, the slider in the mobile version "
+"is disabled."
+msgstr ""
+"通常，小屏幕上不需要滑块，因为负载大且用处不大。因此，默认情况下，移动版本中"
+"的滑块是禁用的。"
+
+#: inc/admin/customizer.php:2574 inc/admin/function-panel-menucat.php:39
+#: inc/admin/function-panel-reset.php:2492
+msgid "Category menu"
+msgstr "分类菜单"
+
+#: inc/admin/customizer.php:2607
+msgid "Items size"
+msgstr "商品尺寸"
+
+#: inc/admin/customizer.php:2628 inc/admin/customizer.php:3136
+#: inc/admin/customizer.php:3275 inc/admin/customizer.php:3380
+msgid "Align to center"
+msgstr "居中对齐"
+
+#: inc/admin/customizer.php:2659
+msgid "Titles in uppercase"
+msgstr "大写标题"
+
+#: inc/admin/customizer.php:2672
+msgid "Categories settings"
+msgstr "类别设置"
+
+#: inc/admin/customizer.php:2674 inc/admin/customizer.php:5478
+#: inc/module/meta-tags.php:529 inc/option/set.php:262 inc/usability.php:39
+#: inc/usability.php:81 inc/usability.php:116
+#: templates/template-site-map.php:27
+msgid "Categories"
+msgstr "类别"
+
+#: inc/admin/customizer.php:2690
+msgid "Category style"
+msgstr "类别样式"
+
+#: inc/admin/customizer.php:2703
+msgid "Number (size) of columns"
+msgstr "列数（大小）"
+
+#: inc/admin/customizer.php:2707 inc/admin/function-panel-reset.php:2494
+msgid "Classic blog"
+msgstr "经典博客"
+
+#: inc/admin/customizer.php:2708 inc/admin/function-panel-reset.php:2495
+msgid "Two columns"
+msgstr "两列"
+
+#: inc/admin/customizer.php:2709 inc/admin/customizer.php:5445
+#: inc/admin/function-panel-reset.php:2496
+msgid "Three columns"
+msgstr "三列"
+
+#: inc/admin/customizer.php:2710 inc/admin/customizer.php:5446
+#: inc/admin/function-panel-reset.php:2497
+msgid "Four columns"
+msgstr "四列"
+
+#: inc/admin/customizer.php:2711 inc/admin/customizer.php:5447
+#: inc/admin/function-panel-reset.php:2498
+msgid "Five columns"
+msgstr "五列"
+
+#: inc/admin/customizer.php:2712 inc/admin/customizer.php:2713
+#: inc/admin/customizer.php:2714 inc/admin/function-panel-reset.php:2499
+#: inc/admin/function-panel-reset.php:2500
+#: inc/admin/function-panel-reset.php:2501
+msgid "Horizontal"
+msgstr "横向"
+
+#: inc/admin/customizer.php:2713 inc/admin/function-panel-reset.php:2500
+msgid "Medium"
+msgstr "中"
+
+#: inc/admin/customizer.php:2727
+msgid "Posts design"
+msgstr "帖子设计"
+
+#: inc/admin/customizer.php:2731
+msgid "Disable design"
+msgstr "禁用设计"
+
+#: inc/admin/customizer.php:2732 inc/admin/customizer.php:3099
+#: inc/admin/customizer.php:3893 inc/admin/function-panel-reset.php:2740
+msgid "Simple"
+msgstr "简单"
+
+#: inc/admin/customizer.php:2733 inc/admin/customizer.php:3101
+#: inc/admin/customizer.php:3102 inc/admin/customizer.php:3895
+#: inc/admin/customizer.php:3896
+msgid "Underlined"
+msgstr "下划线"
+
+#: inc/admin/customizer.php:2734 inc/admin/customizer.php:5206
+msgid "In frame"
+msgstr "框架内"
+
+#: inc/admin/customizer.php:2735
+msgid "Header background"
+msgstr "页眉背景"
+
+#: inc/admin/customizer.php:2736 inc/admin/customizer.php:3104
+#: inc/admin/customizer.php:3898 inc/admin/customizer.php:5203
+#: inc/admin/customizer.php:5750
+msgid "Deepening"
+msgstr "深化"
+
+#: inc/admin/customizer.php:2737 inc/admin/customizer.php:2738
+msgid "Light shadow"
+msgstr "亮色阴影"
+
+#: inc/admin/customizer.php:2738 inc/admin/customizer.php:5500
+msgid "Polaroid"
+msgstr "宝丽来"
+
+#: inc/admin/customizer.php:2739 inc/admin/customizer.php:3103
+#: inc/admin/customizer.php:3897 inc/admin/customizer.php:5202
+#: inc/admin/customizer.php:5749
+msgid "Soaring"
+msgstr "翱翔"
+
+#: inc/admin/customizer.php:2752
+msgid "Animation of posts"
+msgstr "帖子动画"
+
+#: inc/admin/customizer.php:2757
+msgid "Enlargement picture"
+msgstr "放大图片"
+
+#: inc/admin/customizer.php:2758
+msgid "Reducing picture"
+msgstr "缩小图片"
+
+#: inc/admin/customizer.php:2759
+msgid "Darkened image"
+msgstr "图像变暗"
+
+#: inc/admin/customizer.php:2760
+msgid "Curtain on picture"
+msgstr "图片上的窗帘"
+
+#: inc/admin/customizer.php:2761
+msgid "Picture frame"
+msgstr "镜框"
+
+#: inc/admin/customizer.php:2762
+msgid "Frame around"
+msgstr "框架周围"
+
+#: inc/admin/customizer.php:2763
+msgid "Backlight picture"
+msgstr "逆光图片"
+
+#: inc/admin/customizer.php:2764
+msgid "Picture contrast"
+msgstr "图片对比"
+
+#: inc/admin/customizer.php:2765
+msgid "Tint picture"
+msgstr "调色图片"
+
+#: inc/admin/customizer.php:2766
+msgid "Color inversion picture"
+msgstr "颜色反转图片"
+
+#: inc/admin/customizer.php:2767
+msgid "Remove color in neighboring blocks"
+msgstr "删除相邻块中的颜色"
+
+#: inc/admin/customizer.php:2768
+msgid "Toning neighboring blocks"
+msgstr "调整邻近块"
+
+#: inc/admin/customizer.php:2769
+msgid "Block slope"
+msgstr "块体坡度"
+
+#: inc/admin/customizer.php:2782 inc/admin/function-panel-home.php:181
+#: inc/admin/function-panel-xlmega.php:195
+msgid "Posts background color"
+msgstr "帖子背景颜色"
+
+#: inc/admin/customizer.php:2796
+msgid "Background color of sticky posts"
+msgstr "置顶帖的背景颜色"
+
+#: inc/admin/customizer.php:2809
+msgid "Post card title size"
+msgstr "明信片标题尺寸"
+
+#: inc/admin/customizer.php:2822
+msgid "Post card description size"
+msgstr "明信片描述尺寸"
+
+#: inc/admin/customizer.php:2835
+msgid "Number of symbols in description"
+msgstr "描述中的符号数量"
+
+#: inc/admin/customizer.php:2836
+msgid "150 symbols"
+msgstr "150 个符号"
+
+#: inc/admin/customizer.php:2859
+msgid "Add button"
+msgstr "添加按钮"
+
+#: inc/admin/customizer.php:2859 inc/admin/customizer.php:2899
+#: inc/mega/blocks/mega-button-mid.php:49
+#: inc/mega/blocks/mega-button-mid.php:92
+#: inc/mega/blocks/mega-button-mid.php:135
+#: inc/mega/blocks/mega-button-mid.php:178
+msgid "Read more"
+msgstr "阅读更多"
+
+#: inc/admin/customizer.php:2873
+msgid "Full width \"Read more\" button"
+msgstr "全宽“阅读更多”按钮"
+
+#: inc/admin/customizer.php:2887
+msgid "Button orientation"
+msgstr "按钮方向"
+
+#: inc/admin/customizer.php:2906
+msgid "Button text"
+msgstr "按钮文本"
+
+#: inc/admin/customizer.php:2929
+msgid "Remove the prefix \"Category\" on category pages"
+msgstr "删除类别页面上的前缀“类别”"
+
+#: inc/admin/customizer.php:2943
+msgid "Remove description from post cards"
+msgstr "删除明信片上的描述"
+
+#: inc/admin/customizer.php:2957
+msgid "Remove title from post cards"
+msgstr "从明信片上删除标题"
+
+#: inc/admin/customizer.php:2971
+msgid "Remove the plug"
+msgstr "拔掉插头"
+
+#: inc/admin/customizer.php:2971 inc/admin/customizer.php:6996
+msgid "No photo"
+msgstr "不许拍照"
+
+#: inc/admin/customizer.php:2989 inc/admin/customizer.php:3723
+msgid "Meta tags (meta boxs)"
+msgstr "元标签（元框）"
+
+#: inc/admin/customizer.php:3002 inc/admin/customizer.php:3736
+msgid "Activate meta boxs"
+msgstr "激活元框"
+
+#: inc/admin/customizer.php:3009 inc/admin/customizer.php:3743
+msgid "What meta boxs to display"
+msgstr "显示哪些元框"
+
+#: inc/admin/customizer.php:3025 inc/admin/customizer.php:3759
+#: inc/module/meta-tags.php:24 inc/module/meta-tags.php:289
+msgid "Post author"
+msgstr "文章作者"
+
+#: inc/admin/customizer.php:3039 inc/admin/customizer.php:3773
+#: inc/module/meta-tags.php:92 inc/module/meta-tags.php:317
+msgid "Post creation date"
+msgstr "创建后日期"
+
+#: inc/admin/customizer.php:3053 inc/admin/customizer.php:3787
+#: inc/module/meta-tags.php:132 inc/module/meta-tags.php:357
+msgid "Post update date"
+msgstr "发布更新日期"
+
+#: inc/admin/customizer.php:3067 inc/admin/customizer.php:3801
+msgid "Number of comments"
+msgstr "评论数量"
+
+#: inc/admin/customizer.php:3081 inc/admin/customizer.php:3829
+#: inc/module/meta-tags.php:73 inc/module/meta-tags.php:445
+msgid "Number of post views"
+msgstr "帖子浏览量"
+
+#: inc/admin/customizer.php:3095 inc/admin/customizer.php:3480
+#: inc/admin/customizer.php:4366 inc/admin/customizer.php:5492
+msgid "Design"
+msgstr "设计"
+
+#: inc/admin/customizer.php:3100 inc/admin/customizer.php:5748
+msgid "Frame"
+msgstr "框架"
+
+#: inc/admin/customizer.php:3102 inc/admin/customizer.php:3896
+msgid "circle"
+msgstr "圆圈"
+
+#: inc/admin/customizer.php:3105 inc/admin/customizer.php:3899
+msgid "Background"
+msgstr "背景"
+
+#: inc/admin/customizer.php:3118 inc/admin/customizer.php:3256
+#: inc/admin/customizer.php:3361 inc/admin/customizer.php:3519
+#: inc/admin/customizer.php:3843 inc/admin/customizer.php:4018
+#: inc/admin/customizer.php:4153
+msgid "Size"
+msgstr "大小"
+
+#: inc/admin/customizer.php:3150
+msgid "Add dynamic tooltips"
+msgstr "添加动态工具提示"
+
+#: inc/admin/customizer.php:3164
+msgid "Add decryption"
+msgstr "添加解密"
+
+#: inc/admin/customizer.php:3178 inc/admin/customizer.php:3912
+msgid "Remove icons"
+msgstr "删除图标"
+
+#: inc/admin/customizer.php:3196 inc/admin/customizer.php:3957
+msgid "Meta tags (categories)"
+msgstr "元标签（类别）"
+
+#: inc/admin/customizer.php:3209 inc/admin/customizer.php:3970
+msgid "Activate meta tags categories"
+msgstr "激活元标签类别"
+
+#: inc/admin/customizer.php:3223
+msgid "Where to display"
+msgstr "在哪里显示"
+
+#: inc/admin/customizer.php:3227 inc/admin/customizer.php:4002
+msgid "In the image (top)"
+msgstr "如图（上）所示"
+
+#: inc/admin/customizer.php:3228 inc/admin/customizer.php:4003
+msgid "In the image (bottom)"
+msgstr "如图（底部）所示"
+
+#: inc/admin/customizer.php:3229
+msgid "Outside the image"
+msgstr "图像之外"
+
+#: inc/admin/customizer.php:3241 inc/admin/customizer.php:3983
+msgid "Maximum number of category elements"
+msgstr "类别元素的最大数量"
+
+#: inc/admin/customizer.php:3289 inc/admin/customizer.php:3394
+#: inc/admin/customizer.php:4064 inc/admin/customizer.php:4199
+msgid "Icons"
+msgstr "图标"
+
+#: inc/admin/customizer.php:3294 inc/admin/customizer.php:3295
+#: inc/admin/customizer.php:3296 inc/admin/customizer.php:3297
+#: inc/admin/customizer.php:3298 inc/admin/customizer.php:3299
+#: inc/admin/customizer.php:3300 inc/admin/customizer.php:4069
+#: inc/admin/customizer.php:4070 inc/admin/customizer.php:4071
+#: inc/admin/customizer.php:4072 inc/admin/customizer.php:4073
+#: inc/admin/customizer.php:4074 inc/admin/customizer.php:4075
+#: inc/admin/customizer.php:7234 inc/admin/customizer.php:7235
+#: inc/admin/customizer.php:7236 inc/admin/customizer.php:7237
+#: inc/admin/customizer.php:7238 inc/admin/customizer.php:7239
+#: inc/admin/customizer.php:7240 inc/admin/customizer.php:7269
+msgid "Folder"
+msgstr "文件夹"
+
+#: inc/admin/customizer.php:3301 inc/admin/customizer.php:4076
+#: inc/admin/customizer.php:7241 inc/admin/customizer.php:7267
+msgid "Card catalog"
+msgstr "卡片目录"
+
+#: inc/admin/customizer.php:3302 inc/admin/customizer.php:4077
+#: inc/admin/customizer.php:7242 inc/admin/customizer.php:7268
+msgid "Box"
+msgstr "盒子"
+
+#: inc/admin/customizer.php:3320 inc/admin/customizer.php:4094
+msgid "Meta tags (tags)"
+msgstr "元标签（标签）"
+
+#: inc/admin/customizer.php:3333 inc/admin/customizer.php:4107
+msgid "Activate meta tags (taxonomy tags)"
+msgstr "激活元标签（分类标签）"
+
+#: inc/admin/customizer.php:3346 inc/admin/customizer.php:4120
+msgid "Maximum number of tag elements"
+msgstr "最大标签元素数"
+
+#: inc/admin/customizer.php:3399 inc/admin/customizer.php:3400
+#: inc/admin/customizer.php:4204 inc/admin/customizer.php:4205
+msgid "Hashtag"
+msgstr "井号"
+
+#: inc/admin/customizer.php:3400 inc/admin/customizer.php:4205
+msgid "bold"
+msgstr "粗体"
+
+#: inc/admin/customizer.php:3401 inc/admin/customizer.php:4206
+msgid "Sticker"
+msgstr "贴纸"
+
+#: inc/admin/customizer.php:3402 inc/admin/customizer.php:4207
+#: inc/admin/customizer.php:6872 inc/admin/customizer.php:7293
+msgid "Arrow"
+msgstr "箭头"
+
+#: inc/admin/customizer.php:3403 inc/admin/customizer.php:4208
+msgid "Lightning"
+msgstr "闪电"
+
+#: inc/admin/customizer.php:3420
+msgid "Pagination"
+msgstr "分页"
+
+#: inc/admin/customizer.php:3433
+msgid "Activate pagination in categories"
+msgstr "激活类别分页"
+
+#: inc/admin/customizer.php:3447
+msgid "Activate pagination on the homepage"
+msgstr "激活主页上的分页"
+
+#: inc/admin/customizer.php:3461
+msgid "Pagination variation"
+msgstr "分页变化"
+
+#: inc/admin/customizer.php:3465
+msgid "Classic (Back and forward)"
+msgstr "经典（后退和前进）"
+
+#: inc/admin/customizer.php:3466
+msgid "Numeric pagination"
+msgstr "数字页码分页"
+
+#: inc/admin/customizer.php:3467
+msgid "Button"
+msgstr "按钮"
+
+#: inc/admin/customizer.php:3484 inc/admin/customizer.php:4246
+#: inc/admin/customizer.php:4278 inc/admin/customizer.php:4370
+#: inc/admin/customizer.php:4662 inc/admin/customizer.php:4864
+#: inc/admin/customizer.php:7207 inc/admin/customizer.php:7233
+#: inc/admin/customizer.php:7265 inc/admin/customizer.php:7292
+msgid "Turn off styles"
+msgstr "关闭样式"
+
+#: inc/admin/customizer.php:3485
+msgid "Buttons"
+msgstr "按钮"
+
+#: inc/admin/customizer.php:3486 inc/admin/customizer.php:3894
+#: inc/admin/customizer.php:5497
+msgid "Frames"
+msgstr "框架"
+
+#: inc/admin/customizer.php:3499
+msgid "Location"
+msgstr "位置"
+
+#: inc/admin/customizer.php:3538
+msgid "Remove buttons (back and next) from numeric pagination"
+msgstr "从数字分页中删除按钮（后退和下一页）"
+
+#: inc/admin/customizer.php:3552
+msgid "Show all pagination items (for numeric)"
+msgstr "显示所有分页项目（对于数字）"
+
+#: inc/admin/customizer.php:3566
+msgid "Remove hidden H2 tag from pagination"
+msgstr "从分页中删除隐藏的 H2 标签"
+
+#: inc/admin/customizer.php:3567
+msgid ""
+"Removing H2 tag from pagination is good for SEO, but worse for special "
+"programs (for the visually impaired)"
+msgstr "从分页中删除 H2 标签有利于 SEO，但对于特殊程序（对于视障人士）来说更糟"
+
+#: inc/admin/customizer.php:3579 inc/admin/customizer.php:3615
+#: inc/option/set.php:265
+msgid "Posts and pages"
+msgstr "文章和页面"
+
+#: inc/admin/customizer.php:3595
+msgid "Basic settings"
+msgstr "基本设置"
+
+#: inc/admin/customizer.php:3608
+msgid "Where to display typography"
+msgstr "在哪里显示排版"
+
+#: inc/admin/customizer.php:3609
+msgid "Lists, Quotes, Headings"
+msgstr "列表、引文、标题"
+
+#: inc/admin/customizer.php:3613
+msgid "Only posts"
+msgstr "只有文章"
+
+#: inc/admin/customizer.php:3614
+msgid "Only pages"
+msgstr "仅页面"
+
+#: inc/admin/customizer.php:3631
+msgid "Top image"
+msgstr "顶部图片"
+
+#: inc/admin/customizer.php:3644
+msgid "Remove the main (top) image in posts"
+msgstr "删除帖子中的主（顶部）图片"
+
+#: inc/admin/customizer.php:3658
+msgid "Remove the main (top) image in pages"
+msgstr "删除页面中的主（顶部）图像"
+
+#: inc/admin/customizer.php:3663
+msgid "width"
+msgstr "宽度"
+
+#: inc/admin/customizer.php:3674
+msgid "Limit the size of the top image in posts"
+msgstr "限制帖子顶部图片的大小"
+
+#: inc/admin/customizer.php:3678 inc/admin/customizer.php:3701
+msgid "Maximum"
+msgstr "最大"
+
+#: inc/admin/customizer.php:3697
+msgid "Limit the size of the top image in pages"
+msgstr "限制页面顶部图片的大小"
+
+#: inc/admin/customizer.php:3815 inc/module/meta-tags.php:422
+msgid "Post reading time"
+msgstr "读后时间"
+
+#: inc/admin/customizer.php:3861
+msgid "Align meta boxs to the center"
+msgstr "将元框与中心对齐"
+
+#: inc/admin/customizer.php:3875
+msgid "Remove decryption in meta boxs"
+msgstr "删除元框中的解密"
+
+#: inc/admin/customizer.php:3889
+msgid "Meta box design"
+msgstr "元框设计"
+
+#: inc/admin/customizer.php:3926
+msgid "Add tooltips to meta boxs"
+msgstr "向元框添加工具提示"
+
+#: inc/admin/customizer.php:3940
+msgid "Add the date to the bottom of the post"
+msgstr "将日期添加到帖子底部"
+
+#: inc/admin/customizer.php:3998 inc/admin/customizer.php:4135
+msgid "Where to display meta tags"
+msgstr "在哪里显示元标记"
+
+#: inc/admin/customizer.php:4004 inc/admin/customizer.php:4139
+msgid "Top of content"
+msgstr "内容的顶部"
+
+#: inc/admin/customizer.php:4005 inc/admin/customizer.php:4140
+msgid "Bottom of content"
+msgstr "底层的内容"
+
+#: inc/admin/customizer.php:4036 inc/admin/customizer.php:4171
+msgid "Align center"
+msgstr "居中对齐"
+
+#: inc/admin/customizer.php:4050 inc/admin/customizer.php:4185
+msgid "Remove decryption"
+msgstr "删除解密"
+
+#: inc/admin/customizer.php:4229
+msgid "Lists"
+msgstr "列表"
+
+#: inc/admin/customizer.php:4242
+msgid "Bulleted lists variation"
+msgstr "项目符号列表变体"
+
+#: inc/admin/customizer.php:4247
+msgid "Small dot"
+msgstr "小点"
+
+#: inc/admin/customizer.php:4248
+msgid "Small square"
+msgstr "小广场"
+
+#: inc/admin/customizer.php:4249
+msgid "Small circle"
+msgstr "小圆圈"
+
+#: inc/admin/customizer.php:4250 inc/admin/customizer.php:4280
+msgid "Square frame"
+msgstr "方形框架"
+
+#: inc/admin/customizer.php:4251
+msgid "Small dash"
+msgstr "小破折号"
+
+#: inc/admin/customizer.php:4252
+msgid "Big dot"
+msgstr "大点"
+
+#: inc/admin/customizer.php:4253
+msgid "Big square"
+msgstr "大广场"
+
+#: inc/admin/customizer.php:4254
+msgid "Big circle"
+msgstr "大圈子"
+
+#: inc/admin/customizer.php:4255
+msgid "Rounded square frame"
+msgstr "圆角方形框架"
+
+#: inc/admin/customizer.php:4256
+msgid "Big dash"
+msgstr "大破折号"
+
+#: inc/admin/customizer.php:4257 inc/admin/customizer.php:4691
+#: inc/admin/customizer.php:4893
+msgid "Check mark"
+msgstr "复选标记"
+
+#: inc/admin/customizer.php:4258
+msgid "Rhombus"
+msgstr "菱形"
+
+#: inc/admin/customizer.php:4259 inc/admin/customizer.php:6542
+#: inc/admin/customizer.php:6874
+msgid "Triangle"
+msgstr "三角形"
+
+#: inc/admin/customizer.php:4260
+msgid "Star"
+msgstr "星"
+
+#: inc/admin/customizer.php:4261
+msgid "Snowflake"
+msgstr "雪花"
+
+#: inc/admin/customizer.php:4274
+msgid "Numeric lists variation"
+msgstr "数字列表变化"
+
+#: inc/admin/customizer.php:4279
+msgid "Colored square"
+msgstr "彩色方块"
+
+#: inc/admin/customizer.php:4281
+msgid "Colored circle"
+msgstr "彩色圆圈"
+
+#: inc/admin/customizer.php:4282
+msgid "Round frame"
+msgstr "圆框"
+
+#: inc/admin/customizer.php:4283
+msgid "Colored numbers"
+msgstr "彩色数字"
+
+#: inc/admin/customizer.php:4284
+msgid "Colored numbers (bold)"
+msgstr "彩色数字（粗体）"
+
+#: inc/admin/customizer.php:4285
+msgid "Latin numerals"
+msgstr "拉丁数字"
+
+#: inc/admin/customizer.php:4286
+msgid "Colored letters (EN)"
+msgstr "彩色字母（EN）"
+
+#: inc/admin/customizer.php:4307 inc/admin/customizer.php:4321
+msgid "Marker color"
+msgstr "标记颜色"
+
+#: inc/admin/customizer.php:4307
+msgid "bulleted lists"
+msgstr "项目符号列表"
+
+#: inc/admin/customizer.php:4321 inc/admin/customizer.php:4335
+msgid "numbered lists"
+msgstr "编号列表"
+
+#: inc/admin/customizer.php:4335
+msgid "Inner color for marker"
+msgstr "标记的内部颜色"
+
+#: inc/admin/customizer.php:4353
+msgid "Quote blocks"
+msgstr "报价块"
+
+#: inc/admin/customizer.php:4371
+msgid "Just a block"
+msgstr "只是一个街区"
+
+#: inc/admin/customizer.php:4372
+msgid "Gradient 1 (fill)"
+msgstr "渐变 1（填充）"
+
+#: inc/admin/customizer.php:4373
+msgid "Gradient 2 (fill)"
+msgstr "渐变 2（填充）"
+
+#: inc/admin/customizer.php:4374
+msgid "Grid (fill)"
+msgstr "网格（填充）"
+
+#: inc/admin/customizer.php:4375
+msgid "Folded corner"
+msgstr "折角"
+
+#: inc/admin/customizer.php:4376
+msgid "Solid frame"
+msgstr "实心框架"
+
+#: inc/admin/customizer.php:4377
+msgid "Dotted frame"
+msgstr "虚线框"
+
+#: inc/admin/customizer.php:4378 inc/admin/customizer.php:5933
+#: inc/admin/customizer.php:6208
+msgid "Border left"
+msgstr "左边框"
+
+#: inc/admin/customizer.php:4379
+msgid "Double border"
+msgstr "双实线边框"
+
+#: inc/admin/customizer.php:4393
+msgid "Some styles work well with the background"
+msgstr "有些样式与背景搭配得很好"
+
+#: inc/admin/customizer.php:4407
+msgid "Activate automatic background color selection"
+msgstr "激活自动背景颜色选择"
+
+#: inc/admin/customizer.php:4408
+msgid "(The color is selected based on the background of the content part)"
+msgstr "（颜色根据内容部分的背景来选择）"
+
+#: inc/admin/customizer.php:4422
+msgid "Default - general text color"
+msgstr "默认 - 一般文本颜色"
+
+#: inc/admin/customizer.php:4446
+msgid "Add icon"
+msgstr "添加图标"
+
+#: inc/admin/customizer.php:4460
+msgid "Icon location"
+msgstr "图标位置"
+
+#: inc/admin/customizer.php:4461
+msgid "Together with the icon, the text is also aligned"
+msgstr "与图标一起，文本也对齐"
+
+#: inc/admin/customizer.php:4466
+msgid "Centered"
+msgstr "居中"
+
+#: inc/admin/customizer.php:4479 inc/admin/customizer.php:4681
+#: inc/admin/customizer.php:4883
+msgid "Icon selection"
+msgstr "图标选择"
+
+#: inc/admin/customizer.php:4483
+msgid "Square quotes"
+msgstr "方形引号"
+
+#: inc/admin/customizer.php:4484
+msgid "Rectangular quotes"
+msgstr "矩形引号"
+
+#: inc/admin/customizer.php:4485
+msgid "Sharp quotes"
+msgstr "尖锐的报价"
+
+#: inc/admin/customizer.php:4486
+msgid "Round quotes"
+msgstr "圆形引号"
+
+#: inc/admin/customizer.php:4487
+msgid "Paper clip"
+msgstr "回形针"
+
+#: inc/admin/customizer.php:4488
+msgid "Paper clip (vertical)"
+msgstr "回形针（垂直）"
+
+#: inc/admin/customizer.php:4489
+msgid "Drawing pin"
+msgstr "图钉"
+
+#: inc/admin/customizer.php:4490
+msgid "Drawing pin (vertical)"
+msgstr "图钉（垂直）"
+
+#: inc/admin/customizer.php:4491
+msgid "Bulb"
+msgstr "电灯泡"
+
+#: inc/admin/customizer.php:4492
+msgid "Bell"
+msgstr "铃声"
+
+#: inc/admin/customizer.php:4493
+msgid "Attention triangle"
+msgstr "注意三角"
+
+#: inc/admin/customizer.php:4494
+msgid "Exclamation sheet"
+msgstr "感叹表"
+
+#: inc/admin/customizer.php:4495
+msgid "Exclamation mark"
+msgstr "惊叹号"
+
+#: inc/admin/customizer.php:4496
+msgid "Cloud conversation"
+msgstr "云对话"
+
+#: inc/admin/customizer.php:4497
+msgid "Speaker"
+msgstr "扬声器"
+
+#: inc/admin/customizer.php:4498
+msgid "Open book"
+msgstr "打开书"
+
+#: inc/admin/customizer.php:4499
+msgid "Embossed tick"
+msgstr "浮雕刻度线"
+
+#: inc/admin/customizer.php:4500
+msgid "Solid tick"
+msgstr "实心勾号"
+
+#: inc/admin/customizer.php:4512
+msgid "Icon color"
+msgstr "图标颜色"
+
+#: inc/admin/customizer.php:4526
+msgid "Icon size"
+msgstr "图标大小"
+
+#: inc/admin/customizer.php:4541
+msgid "Add background for icon"
+msgstr "为图标添加背景"
+
+#: inc/admin/customizer.php:4554
+msgid "Background color of icons and lines"
+msgstr "图标和线条的背景颜色"
+
+#: inc/admin/customizer.php:4572
+msgid "H1 headings"
+msgstr "H1标题"
+
+#: inc/admin/customizer.php:4585 inc/admin/customizer.php:4787
+#: inc/admin/customizer.php:4988
+msgid "Default - titles text general color"
+msgstr "默认 - 标题文本一般颜色"
+
+#: inc/admin/customizer.php:4627 inc/admin/customizer.php:4829
+#: inc/admin/customizer.php:5072
+msgid "Line height"
+msgstr "线高"
+
+#: inc/admin/customizer.php:4645
+msgid "Headings H2"
+msgstr "标题 H2"
+
+#: inc/admin/customizer.php:4658 inc/admin/customizer.php:4860
+msgid "Heading options"
+msgstr "标题选项"
+
+#: inc/admin/customizer.php:4663 inc/admin/customizer.php:4865
+msgid "Simple headers"
+msgstr "简单的标题"
+
+#: inc/admin/customizer.php:4664 inc/admin/customizer.php:4866
+msgid "Light underlining"
+msgstr "浅色下划线"
+
+#: inc/admin/customizer.php:4665 inc/admin/customizer.php:4867
+msgid "Side border"
+msgstr "侧边框"
+
+#: inc/admin/customizer.php:4666 inc/admin/customizer.php:4868
+msgid "With numbering"
+msgstr "带编号"
+
+#: inc/admin/customizer.php:4667 inc/admin/customizer.php:4869
+msgid "With icon selection"
+msgstr "带图标选择"
+
+#: inc/admin/customizer.php:4668 inc/admin/customizer.php:4870
+msgid "With arbitrary value"
+msgstr "具有任意值"
+
+#: inc/admin/customizer.php:4685 inc/admin/customizer.php:4887
+msgid "Turn off icons"
+msgstr "关闭图标"
+
+#: inc/admin/customizer.php:4686 inc/admin/customizer.php:4888
+msgid "Right arrow"
+msgstr "右箭头"
+
+#: inc/admin/customizer.php:4687 inc/admin/customizer.php:4889
+msgid "Arrow to down"
+msgstr "箭头向下"
+
+#: inc/admin/customizer.php:4688 inc/admin/customizer.php:4890
+msgid "Arrow right and down"
+msgstr "向右和向下箭头"
+
+#: inc/admin/customizer.php:4689 inc/admin/customizer.php:4891
+#: inc/admin/customizer.php:6545
+msgid "Volumetric arrow"
+msgstr "体积箭头"
+
+#: inc/admin/customizer.php:4690 inc/admin/customizer.php:4892
+msgid "Pencil"
+msgstr "铅笔"
+
+#: inc/admin/customizer.php:4692 inc/admin/customizer.php:4894
+msgid "Small flag"
+msgstr "小旗"
+
+#: inc/admin/customizer.php:4693 inc/admin/customizer.php:4895
+msgid "Blocks"
+msgstr "区块"
+
+#: inc/admin/customizer.php:4694 inc/admin/customizer.php:4896
+msgid "Block hierarchy"
+msgstr "块层次结构"
+
+#: inc/admin/customizer.php:4700 inc/admin/customizer.php:4902
+msgid "Par."
+msgstr "帕。"
+
+#: inc/admin/customizer.php:4707 inc/admin/customizer.php:4722
+#: inc/admin/customizer.php:4909 inc/admin/customizer.php:4923
+msgid "Add label"
+msgstr "添加标签"
+
+#: inc/admin/customizer.php:4735 inc/admin/customizer.php:4936
+msgid "Heading icons text color"
+msgstr "标题图标文字颜色"
+
+#: inc/admin/customizer.php:4749 inc/admin/customizer.php:4950
+msgid "Background color of icons and lines for heading"
+msgstr "标题图标和线条的背景颜色"
+
+#: inc/admin/customizer.php:4772 inc/admin/customizer.php:4973
+msgid "Headings background color"
+msgstr "标题背景颜色"
+
+#: inc/admin/customizer.php:4774 inc/admin/customizer.php:4974
+msgid "Default - site body background color"
+msgstr "默认 - 网站主体背景颜色"
+
+#: inc/admin/customizer.php:4786 inc/admin/customizer.php:4987
+msgid "Headings text color"
+msgstr "标题文字颜色"
+
+#: inc/admin/customizer.php:4847
+msgid "Headings H3 - H6"
+msgstr "标题 H3 - H6"
+
+#: inc/admin/customizer.php:5085
+msgid "Text"
+msgstr "文本"
+
+#: inc/admin/customizer.php:5098
+msgid "Text font"
+msgstr "文本字体"
+
+#: inc/admin/customizer.php:5126
+msgid "Text line height"
+msgstr "文本行高（px）"
+
+#: inc/admin/customizer.php:5139
+msgid "Links in content"
+msgstr "内容中的链接"
+
+#: inc/admin/customizer.php:5152
+msgid "Remove link underline"
+msgstr "删除链接下划线"
+
+#: inc/admin/customizer.php:5153
+msgid "This removes the underlining of links in the content text"
+msgstr "这会删除内容文本中链接的下划线"
+
+#: inc/admin/customizer.php:5170
+msgid "Author section"
+msgstr "作者部分"
+
+#: inc/admin/customizer.php:5183
+msgid "Activate author section"
+msgstr "激活作者部分"
+
+#: inc/admin/customizer.php:5197
+msgid "Separator variation"
+msgstr "分隔符变化"
+
+#: inc/admin/customizer.php:5201
+msgid "Turn off separators"
+msgstr "关闭分隔符"
+
+#: inc/admin/customizer.php:5204
+msgid "Dividers in width"
+msgstr "分隔线宽度"
+
+#: inc/admin/customizer.php:5205
+msgid "Dividers in center"
+msgstr "中间有分隔线"
+
+#: inc/admin/customizer.php:5219
+msgid "Separator style"
+msgstr "分隔符样式"
+
+#: inc/admin/customizer.php:5223
+msgid "Solid line"
+msgstr "实线"
+
+#: inc/admin/customizer.php:5224
+msgid "Dashed line"
+msgstr "单行大间隔虚线"
+
+#: inc/admin/customizer.php:5225
+msgid "Dotted line"
+msgstr "虚线"
+
+#: inc/admin/customizer.php:5226
+msgid "Double line"
+msgstr "双线"
+
+#: inc/admin/customizer.php:5238
+msgid "Separator thickness"
+msgstr "分离器厚度"
+
+#: inc/admin/customizer.php:5253
+msgid "Hide avatar"
+msgstr "选中激活框，将位置设置为"
+
+#: inc/admin/customizer.php:5267
+msgid "Hide description"
+msgstr "隐藏描述"
+
+#: inc/admin/customizer.php:5282
+msgid "Add author latest posts to author section"
+msgstr "将作者最新帖子添加到作者部分"
+
+#: inc/admin/customizer.php:5289
+msgid "Latest entries of author"
+msgstr "作者最新条目"
+
+#: inc/admin/customizer.php:5297
+msgid "Author posts title"
+msgstr "作者帖子标题"
+
+#: inc/admin/customizer.php:5311
+msgid "Number of posts"
+msgstr "文章数量"
+
+#: inc/admin/customizer.php:5328
+msgid "Section (next entry)"
+msgstr "部分（下一个条目）"
+
+#: inc/admin/customizer.php:5341
+msgid "Disable section (next entry)"
+msgstr "禁用部分（下一个条目）"
+
+#: inc/admin/customizer.php:5355 inc/admin/customizer.php:5839
+#: inc/admin/customizer.php:6005
+msgid "Default - color of large elements"
+msgstr "默认 - 大元素的颜色"
+
+#: inc/admin/customizer.php:5369 inc/admin/customizer.php:5854
+#: inc/admin/customizer.php:6020
+msgid "Default - secondary color for large elements"
+msgstr "默认 - 大元素的辅助颜色"
+
+#: inc/admin/customizer.php:5383
+msgid "Remove label"
+msgstr "移除标签"
+
+#: inc/admin/customizer.php:5400 inc/admin/customizer.php:5420
+#: template-parts/content-related.php:14
+msgid "Related posts"
+msgstr "相关文章"
+
+#: inc/admin/customizer.php:5413
+msgid "Activate related posts"
+msgstr "激活相关帖子"
+
+#: inc/admin/customizer.php:5427 inc/admin/customizer.php:6677
+#: inc/admin/customizer.php:6717 inc/admin/customizer.php:6757
+msgid "Section title"
+msgstr "章节标题"
+
+#: inc/admin/customizer.php:5441
+msgid "Number of columns"
+msgstr "列数"
+
+#: inc/admin/customizer.php:5459
+msgid "Number of related posts"
+msgstr "相关文章数量"
+
+#: inc/admin/customizer.php:5473
+msgid "Taxonomy for related posts"
+msgstr "相关帖子的分类"
+
+#: inc/admin/customizer.php:5474
+msgid "The criteria by which posts are selected"
+msgstr "选拔职位的标准"
+
+#: inc/admin/customizer.php:5479 inc/module/meta-tags.php:566
+msgid "Tags"
+msgstr "标签"
+
+#: inc/admin/customizer.php:5496
+msgid "Simple design"
+msgstr "简单的设计"
+
+#: inc/admin/customizer.php:5498
+msgid "Contrast blocks"
+msgstr "对比色块"
+
+#: inc/admin/customizer.php:5499
+msgid "Soaring blocks"
+msgstr "翱翔的方块"
+
+#: inc/admin/customizer.php:5513
+msgid "Remove stub (No photo) in related posts"
+msgstr "删除相关帖子中的存根（无照片）"
+
+#: inc/admin/customizer.php:5530
+msgid "Comment section"
+msgstr "评论区"
+
+#: inc/admin/customizer.php:5543
+msgid "Remove comment section (for posts)"
+msgstr "删除评论部分（针对帖子）"
+
+#: inc/admin/customizer.php:5557
+msgid "Remove comment section (for pages)"
+msgstr "删除评论部分（针对页面）"
+
+#: inc/admin/customizer.php:5571
+msgid "Remove URL field in comments (for posts and pages)"
+msgstr "删除评论中的 URL 字段（对于帖子和页面）"
+
+#: inc/admin/customizer.php:5583
+msgid "Main page"
+msgstr "首页"
+
+#: inc/admin/customizer.php:5604
+msgid "Activate sections with blocks on the main"
+msgstr "激活主区域上的块"
+
+#: inc/admin/customizer.php:5619
+msgid "Size of section headings"
+msgstr "章节标题的大小"
+
+#: inc/admin/customizer.php:5637
+msgid "Color of section headings"
+msgstr "章节标题的颜色"
+
+#: inc/admin/customizer.php:5638
+msgid "Default - content text color"
+msgstr "默认 - 内容文本颜色"
+
+#: inc/admin/customizer.php:5662
+msgid "Enable the section with the latest posts on the main page"
+msgstr "在主页上启用包含最新帖子的部分"
+
+#: inc/admin/customizer.php:5663
+msgid ""
+"(Post blocks, as well as pagination, are configured in the \"Categories\" "
+"section)"
+msgstr "（帖子块以及分页在“类别”部分中配置）"
+
+#: inc/admin/customizer.php:5670 template-parts/home/home-article.php:13
+msgid "Latest posts"
+msgstr "最新文章"
+
+#: inc/admin/customizer.php:5677
+msgid "Title for the latest posts section"
+msgstr "最新帖子部分的标题"
+
+#: inc/admin/customizer.php:5692
+msgid "Where to show the latest posts section"
+msgstr "在哪里显示最新帖子部分"
+
+#: inc/admin/customizer.php:5696
+msgid "At the beginning"
+msgstr "开始的时候"
+
+#: inc/admin/customizer.php:5697
+msgid "At the end"
+msgstr "最后"
+
+#: inc/admin/customizer.php:5730 inc/admin/function-panel-reset.php:2474
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: inc/admin/customizer.php:5743
+msgid "Design of sections for widgets"
+msgstr "小部件部分的设计"
+
+#: inc/admin/customizer.php:5747 inc/admin/customizer.php:5929
+#: inc/admin/customizer.php:6204 inc/option/set.php:563 inc/option/set.php:569
+#: inc/option/set.php:575 inc/option/set.php:581 inc/option/set.php:587
+msgid "Switch off"
+msgstr "关掉"
+
+#: inc/admin/customizer.php:5751
+msgid "Side shadow"
+msgstr "侧影"
+
+#: inc/admin/customizer.php:5752
+msgid "Gradient"
+msgstr "渐变"
+
+#: inc/admin/customizer.php:5766
+msgid "Section background color"
+msgstr "背景颜色"
+
+#: inc/admin/customizer.php:5783
+msgid "Widget headers"
+msgstr "小部件标题"
+
+#: inc/admin/customizer.php:5799
+msgid "Widget header option"
+msgstr "小部件标题选项"
+
+#: inc/admin/customizer.php:5818
+msgid "Widget headers background size"
+msgstr "小部件标题背景大小"
+
+#: inc/admin/customizer.php:5838 inc/admin/customizer.php:6115
+msgid "Widgets header fill color"
+msgstr "小部件标题填充颜色"
+
+#: inc/admin/customizer.php:5853
+msgid "Widgets title text color"
+msgstr "小部件标题文字颜色"
+
+#: inc/admin/customizer.php:5869 inc/admin/customizer.php:6144
+msgid "Widget title font"
+msgstr "小部件字体"
+
+#: inc/admin/customizer.php:5882 inc/admin/customizer.php:6157
+msgid "Widget title text size"
+msgstr "小部件标题文字大小"
+
+#: inc/admin/customizer.php:5897 inc/admin/customizer.php:6172
+msgid "Widget title in uppercase"
+msgstr "小部件标题大写"
+
+#: inc/admin/customizer.php:5911 inc/admin/customizer.php:6186
+msgid "Center align widget titles"
+msgstr "居中对齐小部件标题"
+
+#: inc/admin/customizer.php:5925 inc/admin/customizer.php:6200
+msgid "Underline widget titles"
+msgstr "为小部件标题添加下划线"
+
+#: inc/admin/customizer.php:5930 inc/admin/customizer.php:6205
+msgid "Left and down"
+msgstr "向左和向下"
+
+#: inc/admin/customizer.php:5931 inc/admin/customizer.php:6206
+msgid "Center and bottom"
+msgstr "中心和底部"
+
+#: inc/admin/customizer.php:5944 inc/admin/customizer.php:6219
+msgid "Line thickness"
+msgstr "线条厚度"
+
+#: inc/admin/customizer.php:5962 inc/option/set.php:271
+msgid "Bottom part"
+msgstr "底部部分"
+
+#: inc/admin/customizer.php:5975
+msgid "Activate footer"
+msgstr "激活页脚"
+
+#: inc/admin/customizer.php:6004
+msgid "Footer background color"
+msgstr "页脚背景颜色"
+
+#: inc/admin/customizer.php:6019
+msgid "Footer text color"
+msgstr "页脚文本颜色"
+
+#: inc/admin/customizer.php:6034 inc/admin/customizer.php:6048
+msgid "Footer link color"
+msgstr "页脚链接颜色"
+
+#: inc/admin/customizer.php:6062
+msgid "Footer elements color"
+msgstr "页脚元素颜色"
+
+#: inc/admin/customizer.php:6098
+msgid "Widgets"
+msgstr "小工具"
+
+#: inc/admin/customizer.php:6129
+msgid "Widgets titles text color"
+msgstr "小部件标题文字颜色"
+
+#: inc/admin/customizer.php:6243
+msgid "Activate bottom menu"
+msgstr "激活底部菜单"
+
+#: inc/admin/customizer.php:6257
+msgid "Bottom menu text size"
+msgstr "底部菜单文字大小"
+
+#: inc/admin/customizer.php:6281
+msgid "Add dividing line"
+msgstr "添加分割线"
+
+#: inc/admin/customizer.php:6293
+msgid "Text at the bottom of the footer"
+msgstr "页脚底部的文本"
+
+#: inc/admin/customizer.php:6307
+msgid "Different settings"
+msgstr "不同的设置"
+
+#: inc/admin/customizer.php:6330
+msgid "Breadcrumbs"
+msgstr "面包屑"
+
+#: inc/admin/customizer.php:6344
+msgid "Enable breadcrumbs in posts"
+msgstr "在帖子中启用面包屑"
+
+#: inc/admin/customizer.php:6358
+msgid "Enable breadcrumbs in categories"
+msgstr "启用类别中的面包屑"
+
+#: inc/admin/customizer.php:6372
+msgid "Show link to home page"
+msgstr "显示主页链接"
+
+#: inc/admin/customizer.php:6379 inc/module/breadcrumb.php:11
+msgid "Home"
+msgstr "首页"
+
+#: inc/admin/customizer.php:6386
+msgid "Specify the text for the first link"
+msgstr "指定第一个链接的文本"
+
+#: inc/admin/customizer.php:6400
+msgid "Show title in breadcrumb for posts"
+msgstr "在面包屑中显示帖子的标题"
+
+#: inc/admin/customizer.php:6414
+msgid "Show title for categories, archives and tags"
+msgstr "显示类别、档案和标签的标题"
+
+#: inc/admin/customizer.php:6428
+msgid "Breadcrumbs design option"
+msgstr "面包屑设计选项"
+
+#: inc/admin/customizer.php:6463 inc/admin/customizer.php:6477
+msgid "Link text color"
+msgstr "链接文字颜色"
+
+#: inc/admin/customizer.php:6491
+msgid "Separator and header color"
+msgstr "分隔符和标题颜色"
+
+#: inc/admin/customizer.php:6538
+msgid "Separator"
+msgstr "分隔符"
+
+#: inc/admin/customizer.php:6543
+msgid "Arrowhead"
+msgstr "箭头"
+
+#: inc/admin/customizer.php:6544 inc/admin/customizer.php:6873
+msgid "Brace"
+msgstr "支撑"
+
+#: inc/admin/customizer.php:6546
+msgid "Linear arrow"
+msgstr "线性箭头"
+
+#: inc/admin/customizer.php:6557
+msgid "Calm blocks"
+msgstr "平静的街区"
+
+#: inc/admin/customizer.php:6571
+msgid "Activate fluently movement for blocks"
+msgstr "激活积木的流畅运动"
+
+#: inc/admin/customizer.php:6572
+msgid "Applies for sections on the main page and category pages"
+msgstr "适用于主页和类别页面上的部分"
+
+#: inc/admin/customizer.php:6581
+msgid ""
+"Warning! After enabling this module, check that the post cards are displayed "
+"correctly."
+msgstr "警告！启用此模块后，请检查明信片是否正确显示。"
+
+#: inc/admin/customizer.php:6583
+msgid ""
+"This module often conflicts with various plugins that are responsible for "
+"\"Delayed post loading\", \"Infinite post loading\" and \"Caching\"."
+msgstr ""
+"该模块经常与负责“延迟帖子加载”、“无限帖子加载”和“缓存”的各种插件发生冲突。"
+
+#: inc/admin/customizer.php:6602
+msgid "Range for fluently movement"
+msgstr "流畅运动范围"
+
+#: inc/admin/customizer.php:6621
+msgid "Direction movement"
+msgstr "方向运动"
+
+#: inc/admin/customizer.php:6625
+msgid "Top"
+msgstr "顶部"
+
+#: inc/admin/customizer.php:6626
+msgid "Bottom"
+msgstr "底部"
+
+#: inc/admin/customizer.php:6639
+msgid "Site map"
+msgstr "站点地图"
+
+#: inc/admin/customizer.php:6646
+msgid ""
+"To display the sitemap, create a new page through the standard WordPress "
+"menu,\n"
+"\t\t\tgo to page edit mode and select the \"Site Map\" template on the right "
+"side, save the page."
+msgstr ""
+"要显示站点地图，请通过标准 WordPress 菜单创建一个新页面，\n"
+"进入页面编辑模式，选择右侧的“站点地图”模板，保存页面。"
+
+#: inc/admin/customizer.php:6663
+msgid "Display categories on the sitemap"
+msgstr "在站点地图上显示类别"
+
+#: inc/admin/customizer.php:6689
+msgid "Maximum number of categories"
+msgstr "最大类别数"
+
+#: inc/admin/customizer.php:6703
+msgid "Show posts on sitemap"
+msgstr "在站点地图上显示帖子"
+
+#: inc/admin/customizer.php:6710 inc/admin/customizer.php:6717
+#: templates/template-site-map.php:56
+msgid "Posts"
+msgstr "文章"
+
+#: inc/admin/customizer.php:6729
+msgid "Maximum number of posts"
+msgstr "员额的最大数目"
+
+#: inc/admin/customizer.php:6743
+msgid "Show pages on sitemap"
+msgstr "在站点地图上显示页面"
+
+#: inc/admin/customizer.php:6750 inc/admin/customizer.php:6757
+#: inc/usability.php:26 templates/template-site-map.php:110
+msgid "Pages"
+msgstr "页面"
+
+#: inc/admin/customizer.php:6769
+msgid "Maximum number of pages"
+msgstr "最大页数"
+
+#: inc/admin/customizer.php:6786
+msgid "Up button"
+msgstr "向上按钮"
+
+#: inc/admin/customizer.php:6800
+msgid "Disable button"
+msgstr "禁用按钮"
+
+#: inc/admin/customizer.php:6800
+msgid "Up"
+msgstr "向上"
+
+#: inc/admin/customizer.php:6814
+msgid "Button location"
+msgstr "按钮位置"
+
+#: inc/admin/customizer.php:6850
+msgid "Button shape"
+msgstr "按钮形状"
+
+#: inc/admin/customizer.php:6854 inc/function-customizer.php:11864
+msgid "Circle"
+msgstr "圆形"
+
+#: inc/admin/customizer.php:6855 inc/admin/customizer.php:7294
+msgid "Square"
+msgstr "方形"
+
+#: inc/admin/customizer.php:6868
+msgid "Button variation"
+msgstr "按钮变化"
+
+#: inc/admin/customizer.php:6887
+msgid "Button opacity"
+msgstr "按钮不透明度"
+
+#: inc/admin/customizer.php:6901
+msgid "SEO settings"
+msgstr "搜索引擎优化设置"
+
+#: inc/admin/customizer.php:6916
+msgid "Remove prefix (site name) after SEO Title"
+msgstr "删除 SEO 标题后的前缀（网站名称）"
+
+#: inc/admin/customizer.php:6930
+msgid ""
+"Remove the prefix (site description) after the SEO Title on the main page"
+msgstr "删除主页上 SEO 标题后的前缀（网站描述）"
+
+#: inc/admin/customizer.php:6944
+msgid "Set your separator for SEO Title prefix"
+msgstr "设置 SEO 标题前缀的分隔符"
+
+#: inc/admin/customizer.php:6958
+msgid "Set your SEO Title for the homepage"
+msgstr "设置主页的 SEO 标题"
+
+#: inc/admin/customizer.php:6972
+msgid "Set your SEO Description for the homepage"
+msgstr "设置主页的 SEO 描述"
+
+#: inc/admin/customizer.php:6986
+msgid "Automatic addition of ALT to images from the title of the post"
+msgstr "自动将 ALT 添加到帖子标题中的图像中"
+
+#: inc/admin/customizer.php:6987
+msgid ""
+"(The function automatically fills the ALT tag for the image when you upload "
+"a file while in a text editor. Based on the title in the current post or "
+"page.)"
+msgstr ""
+"（当您在文本编辑器中上传文件时，该功能会自动填充图像的 ALT 标记。基于当前帖子"
+"或页面的标题。）"
+
+#: inc/admin/customizer.php:7003
+msgid "Set ALT value for stub No photo"
+msgstr "设置存根的 ALT 值 无照片"
+
+#: inc/admin/customizer.php:7015
+msgid "Speed Settings"
+msgstr "速度设置"
+
+#: inc/admin/customizer.php:7027
+msgid ""
+"This section has been created for your convenience. All settings are safe "
+"and cannot disrupt the site. To further increase the speed of the site, go "
+"to the help page."
+msgstr ""
+"此部分是为了您的方便而创建的。所有设置都是安全的，不会破坏网站。要进一步提高"
+"网站速度，请转到帮助页面。"
+
+#: inc/admin/customizer.php:7056
+msgid "Relieve the Top menu (replace with lightweight)"
+msgstr "减轻顶部菜单负担（用轻量级替换）"
+
+#: inc/admin/customizer.php:7057
+msgid ""
+"\n"
+"\t\t\tThis will disable the heavy menu and enable the pure CSS menu.\n"
+"\t\t\tPros: Disables JS scripts, which can be important for speed since the "
+"menu is at the top of the site.\n"
+"\t\t\tCons: Support for keyboard control will be disabled. The arrows "
+"(icons) of the menu control are disabled."
+msgstr ""
+"\n"
+"这将禁用繁重的菜单并启用纯 CSS 菜单。\n"
+"优点：禁用 JS 脚本，这对于速度很重要，因为菜单位于网站顶部。\n"
+"缺点：将禁用对键盘控制的支持。菜单控件的箭头（图标）被禁用。"
+
+#: inc/admin/customizer.php:7064
+msgid "JS Menu"
+msgstr "JS菜单"
+
+#: inc/admin/customizer.php:7065
+msgid "Lightweight menu"
+msgstr "轻量级菜单"
+
+#: inc/admin/customizer.php:7078
+msgid "Disable improved dropdowns (select list)"
+msgstr "禁用改进的下拉菜单（选择列表）"
+
+#: inc/admin/customizer.php:7079
+msgid ""
+"\n"
+"\t\t\tThis will disable the script that improves the appearance and "
+"usability of drop-down lists.\n"
+"\t\t\tFor example, in the widget (Categories) it adds a live search filter "
+"if the list is long.\n"
+"\t\t\tThis will not affect the menu.\n"
+"\t\t\tDisable it if site loading speed is important to you and you do not "
+"use drop-down lists."
+msgstr ""
+"\n"
+"这将禁用改善下拉列表外观和可用性的脚本。\n"
+"例如，在小部件（类别）中，如果列表很长，它会添加实时搜索过滤器。\n"
+"这不会影响菜单。\n"
+"如果网站加载速度对您很重要并且您不使用下拉列表，请禁用它。"
+
+#: inc/admin/customizer.php:7097
+msgid "Disable enhanced usability in comments"
+msgstr "禁用评论中的增强可用性"
+
+#: inc/admin/customizer.php:7098
+msgid ""
+"\n"
+"\t\t\tThis will disable the script that moves the form for adding a comment "
+"under the comment, in which we clicked on the link (answer).\n"
+"\t\t\tThis happens without reloading the page and improves interaction with "
+"the comment form.\n"
+"\t\t\tDisable it if this is not important to you."
+msgstr ""
+"\n"
+"这将禁用将添加评论的表单移动到评论下方的脚本，我们点击了其中的链接（答"
+"案）。\n"
+"这无需重新加载页面即可实现，并改善了与评论表单的交互。\n"
+"如果这对您不重要，请禁用它。"
+
+#: inc/admin/customizer.php:7116
+msgid "Disable keyboard support in sliders"
+msgstr "禁用滑块中的键盘支持"
+
+#: inc/admin/customizer.php:7117
+msgid ""
+"This will disable the heavy script required to control the sliders with the "
+"keyboard"
+msgstr "这将禁用使用键盘控制滑块所需的繁重脚本"
+
+#: inc/admin/customizer.php:7132
+msgid "Disable enhanced block styles (Gutenberg)"
+msgstr "禁用增强块样式（Gutenberg）"
+
+#: inc/admin/customizer.php:7133
+msgid ""
+"The size of these styles is quite large, but the benefit is negligible. \n"
+"\t\t\tDisable if you do not see any difference in the design of block "
+"widgets or in the page editor using blocks (Gutenberg)"
+msgstr ""
+"这些样式的大小相当大，但好处却微不足道。\n"
+"如果您在块小部件的设计中或在使用块的页面编辑器中没有看到任何差异，请禁用"
+"（Gutenberg）"
+
+#: inc/admin/customizer.php:7151
+msgid "Widgets adaptation"
+msgstr "小部件适配"
+
+#: inc/admin/customizer.php:7165
+#, php-format
+msgid "Apply styles to %s"
+msgstr "将样式应用于 %s"
+
+#: inc/admin/customizer.php:7166
+#, php-format
+msgid ""
+"%1$s have their own flexible settings. Disabling this setting can be useful "
+"if you want to control the design of %1$s yourself"
+msgstr ""
+"%1$s 有自己的灵活设置。如果您想自己控制 %1$s 的设计，禁用此设置会很有用"
+
+#: inc/admin/customizer.php:7182
+msgid "Settings basic widgets (post, page, category, menu)"
+msgstr "设置基本小部件（帖子、页面、类别、菜单）"
+
+#: inc/admin/customizer.php:7203
+msgid "Design for lists of posts and pages in basic widgets"
+msgstr "在基本小部件中设计帖子和页面列表"
+
+#: inc/admin/customizer.php:7208
+msgid "File"
+msgstr "文件"
+
+#: inc/admin/customizer.php:7209
+msgid "Round dots"
+msgstr "圆点"
+
+#: inc/admin/customizer.php:7210
+msgid "Square dots"
+msgstr "方点"
+
+#: inc/admin/customizer.php:7211
+msgid "Thin border"
+msgstr "细边框"
+
+#: inc/admin/customizer.php:7229
+msgid "Design for category lists in basic widgets"
+msgstr "基本小部件中的类别列表设计"
+
+#: inc/admin/customizer.php:7243 inc/admin/customizer.php:7270
+msgid "Thick border"
+msgstr "粗边框"
+
+#: inc/admin/customizer.php:7261
+msgid "Design for archives in basic widgets"
+msgstr "基本小部件中的档案设计"
+
+#: inc/admin/customizer.php:7266
+msgid "Archive"
+msgstr "存档"
+
+#: inc/admin/customizer.php:7288
+msgid "Design for menu lists in basic widgets"
+msgstr "基本小部件中的菜单列表设计"
+
+#: inc/admin/customizer.php:7295
+msgid "Icon (sign)"
+msgstr "图标（标志）"
+
+#: inc/admin/customizer.php:7308 inc/admin/customizer.php:7323
+msgid "Text color of menu items of basic widgets"
+msgstr "基本小部件菜单项的文本颜色"
+
+#: inc/admin/customizer.php:7310 inc/admin/customizer.php:7325
+msgid "default - sets the overall color of the links"
+msgstr "默认 - 设置链接的整体颜色"
+
+#: inc/admin/customizer.php:7338 inc/admin/customizer.php:7353
+msgid "Background color of menu items of basic widgets"
+msgstr "基本小部件菜单项的背景颜色"
+
+#: inc/admin/customizer.php:7340
+msgid "Default - background not set"
+msgstr "默认 - 未设置背景"
+
+#: inc/admin/customizer.php:7369
+msgid "Disable demo widgets"
+msgstr "小工具"
+
+#: inc/admin/customizer.php:7403 inc/admin/customizer.php:7435
+#, php-format
+msgid "Enable styling support for %s"
+msgstr "启用对 %s 的样式支持"
+
+#: inc/admin/customizer.php:7405
+msgid ""
+"Customizes the Skeleton Styles stylesheet according to the template design. "
+"Turning it off can be useful if you want to control the stylesheet yourself "
+"(Skeleton Styles)"
+msgstr ""
+"根据模板设计自定义骨架样式样式表。如果您想自己控制样式表（骨架样式），将其关"
+"闭可能会很有用"
+
+#: inc/admin/customizer.php:7464
+msgid "Disable sidebar on bbPress pages"
+msgstr "禁用 bbPress 页面上的侧边栏"
+
+#: inc/admin/customizer.php:7479
+msgid "Disable breadcrumbs in bbPress"
+msgstr "在 bbPress 中禁用面包屑"
+
+#: inc/admin/customizer.php:7493
+msgid "Activate your names for user roles"
+msgstr "激活您的用户角色名称"
+
+#: inc/admin/customizer.php:7507 inc/admin/customizer.php:7521
+#: inc/admin/customizer.php:7535 inc/admin/customizer.php:7549
+#: inc/admin/customizer.php:7563
+msgid "Change role name"
+msgstr "修改角色名称"
+
+#: inc/admin/customizer.php:7578
+msgid "Disable style support for bbPress"
+msgstr "禁用 bbPress 的样式支持"
+
+#: inc/admin/customizer.php:7579
+msgid ""
+"Can be useful if you want to control the styles of the bbPress plugin "
+"yourself"
+msgstr "如果您想自己控制 bbPress 插件的样式，这会很有用"
+
+#: inc/admin/customizer.php:7608
+msgid "Disable sidebar on BuddyPress pages"
+msgstr "禁用 BuddyPress 页面上的侧边栏"
+
+#: inc/admin/customizer.php:7622
+msgid "Disable style support for BuddyPress"
+msgstr "禁用 BuddyPress 的样式支持"
+
+#: inc/admin/customizer.php:7623
+msgid ""
+"Can be useful if you want to control the styles of the BuddyPress plugin "
+"yourself"
+msgstr "如果你想自己控制 BuddyPress 插件的样式，这会很有用"
+
+#: inc/admin/customizer.php:7659
+msgid "Enable cart in top menu"
+msgstr "在顶部菜单中启用购物车"
+
+#: inc/admin/customizer.php:7673
+msgid "Cart size in the top menu"
+msgstr "顶部菜单中的购物车尺寸"
+
+#: inc/admin/customizer.php:7692
+msgid "Enable cart in main menu"
+msgstr "在主菜单中启用购物车"
+
+#: inc/admin/customizer.php:7693
+msgid "Activate the menu location for this to work"
+msgstr "激活菜单位置才能使其工作"
+
+#: inc/admin/customizer.php:7707
+msgid "Enable search on store page"
+msgstr "在商店页面上启用搜索"
+
+#: inc/admin/customizer.php:7721
+msgid "Enable search on product category pages"
+msgstr "在产品类别页面上启用搜索"
+
+#: inc/admin/customizer.php:7735
+msgid "Product price color"
+msgstr "产品价格颜色"
+
+#: inc/admin/customizer.php:7750
+msgid "Disable sticker - Sale"
+msgstr "禁用贴纸 - 销售"
+
+#: inc/admin/customizer.php:7765
+msgid "Sticker color - Sale"
+msgstr "贴纸颜色 - 促销"
+
+#: inc/admin/customizer.php:7779
+msgid "Disable zoom in the main product photo"
+msgstr "禁用主产品照片的缩放"
+
+#: inc/admin/customizer.php:7793
+msgid "Disable slider in product photos"
+msgstr "禁用产品照片中的滑块"
+
+#: inc/admin/customizer.php:7807
+msgid "Disable lightbox in product photos"
+msgstr "禁用产品照片中的灯箱"
+
+#: inc/admin/customizer.php:7821
+msgid "Disable related products on the products page"
+msgstr "在产品页面禁用相关产品"
+
+#: inc/admin/customizer.php:7834
+msgid "Specify the number of related products"
+msgstr "指定相关产品的数量"
+
+#: inc/admin/customizer.php:7847
+msgid "Specify the number of columns of related products"
+msgstr "指定相关产品的列数"
+
+#: inc/admin/customizer.php:7861
+msgid "Add popular products to products page"
+msgstr "将热门产品添加到产品页面"
+
+#: inc/admin/customizer.php:7874
+msgid "Specify the number of popular products"
+msgstr "指定热门产品的数量"
+
+#: inc/admin/customizer.php:7887
+msgid "Specify the number of columns of popular products"
+msgstr "指定热门产品的列数"
+
+#: inc/admin/customizer.php:7901
+msgid "Add breadcrumbs to product category pages"
+msgstr "将面包屑添加到产品类别页面"
+
+#: inc/admin/customizer.php:7915
+msgid "Add breadcrumbs to product pages"
+msgstr "将面包屑添加到产品页面"
+
+#: inc/admin/customizer.php:7929
+msgid "Where does the main link lead in breadcrumbs"
+msgstr "面包屑中的主链接指向哪里"
+
+#: inc/admin/customizer.php:7933
+msgid "Main"
+msgstr "主要"
+
+#: inc/admin/customizer.php:7947
+msgid "Text for the main link in breadcrumbs"
+msgstr "面包屑中主链接的文本"
+
+#: inc/admin/customizer.php:7961
+msgid ""
+"Add the inscription (Out of stock) to the product card in the product grid"
+msgstr "将铭文（缺货）添加到产品网格中的产品卡中"
+
+#: inc/admin/customizer.php:7975
+msgid "Add an inscription (Out of stock) on the product page"
+msgstr "在产品页面添加铭文（缺货）"
+
+#: inc/admin/customizer.php:7989
+msgid "Lettering color (Out of stock)"
+msgstr "刻字颜色（缺货）"
+
+#: inc/admin/customizer.php:8003
+msgid "Change label (Out of stock)"
+msgstr "更改标签（缺货）"
+
+#: inc/admin/customizer.php:8021
+msgid "Presets | Reset settings | Import"
+msgstr "预设 | 重置设置 | 导入"
+
+#: inc/admin/customizer.php:8040
+msgid ""
+"Open Features (by activating this, you confirm that you want to reset all "
+"settings for this theme and understand the risk of permanent data loss)"
+msgstr ""
+"打开功能（通过激活此功能，您确认要重置此主题的所有设置，并了解永久性数据丢失"
+"的风险）"
+
+#: inc/admin/customizer.php:8042
+msgid ""
+"Important! These options only affect this themes settings (visual customizer "
+"settings). If you have a lot of valuable settings, please back up your "
+"database before using this feature."
+msgstr ""
+"重要！这些选项仅影响此主题设置（可视化定制器设置）。如果您有很多有价值的设"
+"置，请在使用此功能之前备份您的数据库。"
+
+#: inc/admin/customizer.php:8053
+msgid "Reset settings"
+msgstr "重新设置"
+
+#: inc/admin/customizer.php:8073 inc/admin/customizer.php:8123
+#: inc/option/set.php:97
+msgid "Useful links"
+msgstr "有用的链接"
+
+#: inc/admin/customizer.php:8082 inc/option/set.php:99
+#, php-format
+msgid "Management and configuration instructions for the %s"
+msgstr "%s 的管理和配置说明"
+
+#: inc/admin/customizer.php:8086 inc/option/set.php:102
+#, php-format
+msgid "Information materials for the %s"
+msgstr "%s 的信息材料"
+
+#: inc/admin/customizer.php:8090 inc/option/set.php:104
+msgid "Watch live sites demos"
+msgstr "观看现场网站演示"
+
+#: inc/admin/customizer.php:8094
+msgid "Import ready-made demo versions of websites"
+msgstr "导入现成的网站演示版本"
+
+#: inc/admin/customizer.php:8098 inc/option/set.php:106
+#, php-format
+msgid "List of updates for the %s"
+msgstr "%s 的更新列表"
+
+#: inc/admin/customizer.php:8102
+msgid "Support technical"
+msgstr "支持技术"
+
+#: inc/admin/customizer.php:8106 inc/option/set.php:108
+msgid "Rate this theme"
+msgstr "评价这个主题"
+
+#: inc/admin/customizer.php:8137
+msgid "Widget Locations"
+msgstr "小部件位置"
+
+#: inc/admin/customizer.php:8142
+msgid "Menu Locations"
+msgstr "菜单位置"
+
+#: inc/admin/customizer.php:8147
+msgid "Define home page"
+msgstr "定义主页"
+
+#: inc/admin/function-panel-color.php:791
+msgid ""
+"This setting will apply the selected color scheme, all your colors will be "
+"reassigned"
+msgstr "此设置将应用所选的配色方案，所有颜色将被重新分配"
+
+#: inc/admin/function-panel-color.php:799
+msgid "Color scheme option"
+msgstr "配色方案选项"
+
+#: inc/admin/function-panel-color.php:955
+msgid "Light color scheme"
+msgstr "浅色配色方案"
+
+#: inc/admin/function-panel-color.php:956
+msgid "Dark color scheme"
+msgstr "深色配色方案"
+
+#: inc/admin/function-panel-color.php:973
+#: inc/admin/function-panel-color.php:979
+#: inc/admin/function-panel-color.php:985
+#: inc/admin/function-panel-color.php:991
+#: inc/admin/function-panel-color.php:997
+#: inc/admin/function-panel-color.php:1003
+#: inc/admin/function-panel-color.php:1009
+#: inc/admin/function-panel-color.php:1015
+#: inc/admin/function-panel-color.php:1021
+#: inc/admin/function-panel-color.php:1027
+#: inc/admin/function-panel-color.php:1033
+#: inc/admin/function-panel-color.php:1039
+#: inc/admin/function-panel-color.php:1045
+#: inc/admin/function-panel-color.php:1051
+#: inc/admin/function-panel-color.php:1057
+#: inc/admin/function-panel-reset.php:2517
+#: inc/admin/function-panel-reset.php:2535
+#: inc/admin/function-panel-reset.php:2553
+#: inc/admin/function-panel-reset.php:2571
+#: inc/admin/function-panel-reset.php:2589
+#: inc/admin/function-panel-reset.php:2607
+#: inc/admin/function-panel-reset.php:2625
+#: inc/admin/function-panel-reset.php:2643
+#: inc/admin/function-panel-reset.php:2661
+#: inc/admin/function-panel-reset.php:2679
+#: inc/admin/function-panel-reset.php:2697
+#: inc/admin/function-panel-reset.php:2715
+#: inc/admin/function-panel-reset.php:2733
+#: inc/admin/function-panel-reset.php:2751
+#: inc/admin/function-panel-reset.php:2769
+msgid "Apply"
+msgstr "应用"
+
+#: inc/admin/function-panel-color.php:977
+#: inc/admin/function-panel-reset.php:2525
+msgid "Dark grey and Red"
+msgstr "深灰色和红色"
+
+#: inc/admin/function-panel-color.php:983
+#: inc/admin/function-panel-reset.php:2543
+msgid "Dark blue and Light blue"
+msgstr "深蓝色和浅蓝色"
+
+#: inc/admin/function-panel-color.php:989
+#: inc/admin/function-panel-reset.php:2561
+msgid "Green and Light red"
+msgstr "绿色和浅红色"
+
+#: inc/admin/function-panel-color.php:995
+#: inc/admin/function-panel-reset.php:2579
+msgid "Violet and Pink"
+msgstr "紫色和粉色"
+
+#: inc/admin/function-panel-color.php:1001
+#: inc/admin/function-panel-reset.php:2597
+msgid "Red and Orange"
+msgstr "红色和橙色"
+
+#: inc/admin/function-panel-color.php:1007
+#: inc/admin/function-panel-reset.php:2615
+msgid "Green and Grey"
+msgstr "绿色和灰色"
+
+#: inc/admin/function-panel-color.php:1013
+#: inc/admin/function-panel-reset.php:2633
+msgid "Turquoise"
+msgstr "蓝绿色"
+
+#: inc/admin/function-panel-color.php:1019
+#: inc/admin/function-panel-reset.php:2651
+msgid "Green and Orange"
+msgstr "绿色和橙色"
+
+#: inc/admin/function-panel-color.php:1025
+#: inc/admin/function-panel-reset.php:2669
+msgid "Heavenly and Light blue"
+msgstr "天蓝色和浅蓝色"
+
+#: inc/admin/function-panel-color.php:1031
+#: inc/admin/function-panel-reset.php:2687
+msgid "Orange and Dark grey"
+msgstr "橙色和深灰色"
+
+#: inc/admin/function-panel-color.php:1037
+#: inc/admin/function-panel-reset.php:2705
+msgid "Blue and Dark blue"
+msgstr "蓝色和深蓝色"
+
+#: inc/admin/function-panel-color.php:1043
+#: inc/admin/function-panel-reset.php:2723
+msgid "Blue and Green"
+msgstr "蓝色和绿色"
+
+#: inc/admin/function-panel-color.php:1049
+#: inc/admin/function-panel-reset.php:2741
+msgid "Grey and Dark grey"
+msgstr "灰色和深灰色"
+
+#: inc/admin/function-panel-color.php:1055
+#: inc/admin/function-panel-reset.php:2759
+msgid "Blue and Blackberry"
+msgstr "蓝莓和黑莓"
+
+#: inc/admin/function-panel-home.php:50
+msgid "Sections with blocks on the main"
+msgstr "主块上有块的部分"
+
+#: inc/admin/function-panel-home.php:51 inc/admin/function-panel-xlmega.php:55
+msgid "Drag to reposition blocks"
+msgstr "拖动以重新定位块"
+
+#: inc/admin/function-panel-home.php:54 inc/admin/function-panel-menucat.php:43
+#: inc/admin/function-panel-soc.php:59 inc/admin/function-panel-xlmega.php:58
+msgid "Section with settings"
+msgstr "包含设置的部分"
+
+#: inc/admin/function-panel-home.php:55 inc/admin/function-panel-xlmega.php:59
+msgid "Add block"
+msgstr "添加块"
+
+#: inc/admin/function-panel-home.php:60
+msgid "Section option"
+msgstr "部分选项"
+
+#: inc/admin/function-panel-home.php:76
+msgid "Section heading"
+msgstr "章节标题"
+
+#: inc/admin/function-panel-home.php:82 inc/admin/function-panel-home.php:88
+#: inc/admin/function-panel-home.php:94 inc/admin/function-panel-menucat.php:51
+#: inc/admin/function-panel-menucat.php:59
+msgid "Select category"
+msgstr "选择类别"
+
+#: inc/admin/function-panel-home.php:119
+msgid "Number of posts displayed"
+msgstr "输入显示的文章数"
+
+#: inc/admin/function-panel-home.php:125
+msgid "Post title option"
+msgstr "帖子标题选项"
+
+#: inc/admin/function-panel-home.php:137
+#: inc/admin/function-panel-xlmega.php:164
+msgid "Remove post titles"
+msgstr "删除帖子标题"
+
+#: inc/admin/function-panel-home.php:143
+msgid "Title text size"
+msgstr "标题文本大小"
+
+#: inc/admin/function-panel-home.php:156
+msgid "Title text size for small cards"
+msgstr "小卡片的标题文字大小"
+
+#: inc/admin/function-panel-home.php:169
+#: inc/admin/function-panel-xlmega.php:183
+msgid "Posts titles text color"
+msgstr "帖子标题文字颜色"
+
+#: inc/admin/function-panel-home.php:175
+msgid "Posts titles color on hover"
+msgstr "悬停时帖子标题颜色"
+
+#: inc/admin/function-panel-home.php:187
+msgid "Background color for posts (on hover)"
+msgstr "帖子的背景颜色（悬停时）"
+
+#: inc/admin/function-panel-home.php:193
+msgid "Enable slider auto start"
+msgstr "启用滑块自动启动"
+
+#: inc/admin/function-panel-home.php:199
+msgid "Animation for auto slider"
+msgstr "自动滑块的动画"
+
+#: inc/admin/function-panel-home.php:201
+msgid "Standard flipping"
+msgstr "标准翻转"
+
+#: inc/admin/function-panel-home.php:202
+msgid "Dynamic zoom"
+msgstr "动态变焦"
+
+#: inc/admin/function-panel-home.php:203
+msgid "Upheaval"
+msgstr "动荡"
+
+#: inc/admin/function-panel-home.php:204
+msgid "Fading away"
+msgstr "渐渐消失"
+
+#: inc/admin/function-panel-home.php:211
+msgid "Enable slider navigation buttons"
+msgstr "启用滑块导航按钮"
+
+#: inc/admin/function-panel-home.php:217
+msgid "Post date"
+msgstr "发布日期"
+
+#: inc/admin/function-panel-home.php:220 inc/admin/function-panel-home.php:221
+#: inc/admin/function-panel-home.php:222 inc/admin/function-panel-home.php:223
+msgid "Option"
+msgstr "选项"
+
+#: inc/admin/function-panel-home.php:230
+msgid "Display date"
+msgstr "显示日期"
+
+#: inc/admin/function-panel-home.php:369
+#: inc/admin/function-panel-menucat.php:237
+#: inc/admin/function-panel-xlmega.php:389
+msgid "No image selected"
+msgstr "未选择图片"
+
+#: inc/admin/function-panel-home.php:375
+#: inc/admin/function-panel-menucat.php:243
+#: inc/admin/function-panel-xlmega.php:395
+msgid "Remove"
+msgstr "删除"
+
+#: inc/admin/function-panel-home.php:376
+#: inc/admin/function-panel-menucat.php:244
+#: inc/admin/function-panel-xlmega.php:396
+msgid "Select Image"
+msgstr "选择图像"
+
+#: inc/admin/function-panel-home.php:385
+msgid "Latest posts (default)"
+msgstr "最新帖子（默认）"
+
+#: inc/admin/function-panel-home.php:471
+msgid "Latest Posts"
+msgstr "最新文章"
+
+#: inc/admin/function-panel-home.php:495
+#: inc/admin/function-panel-menucat.php:263
+#: inc/admin/function-panel-soc.php:220 inc/admin/function-panel-xlmega.php:413
+msgid "Roll up block"
+msgstr "卷起块"
+
+#: inc/admin/function-panel-home.php:496
+#: inc/admin/function-panel-menucat.php:264
+#: inc/admin/function-panel-soc.php:221 inc/admin/function-panel-xlmega.php:414
+msgid "Delete block"
+msgstr "删除块"
+
+#: inc/admin/function-panel-import.php:101
+msgid "Importing settings"
+msgstr "导入设置"
+
+#: inc/admin/function-panel-import.php:150
+msgid ""
+"This imports the customizations (visual customizer) from the selected theme "
+"into the current theme."
+msgstr "这会将选定主题的自定义内容（可视化定制器）导入到当前主题中。"
+
+#: inc/admin/function-panel-import.php:151
+#: inc/admin/function-panel-import.php:189
+msgid ""
+"This can be useful, for example, if you applied a lot of customizations in "
+"the free version and then bought the premium version."
+msgstr ""
+"例如，如果您在免费版本中应用了很多自定义设置，然后购买了高级版本，那么这会很"
+"有用。"
+
+#: inc/admin/function-panel-import.php:152
+#: inc/admin/function-panel-import.php:190
+msgid "Or if you decide to use a child theme."
+msgstr "或者您决定使用子主题。"
+
+#: inc/admin/function-panel-import.php:153
+#: inc/admin/function-panel-import.php:191
+msgid "This allows you to transfer settings between themes in one click."
+msgstr "这使您只需单击一下即可在主题之间传输设置。"
+
+#: inc/admin/function-panel-import.php:154
+msgid ""
+"Important! All settings of the current theme will be deleted! They will be "
+"completely replaced by the settings of the selected theme!"
+msgstr "重要！当前主题的所有设置都将被删除！它们将完全被所选主题的设置所取代！"
+
+#: inc/admin/function-panel-import.php:161
+msgid "Select theme (where to get the settings)"
+msgstr "选择主题（从哪里获取设置）"
+
+#: inc/admin/function-panel-import.php:187
+msgid ""
+"The import section is available when there are suitable themes to import"
+msgstr "当有合适的主题可以导入时，导入部分可用"
+
+#: inc/admin/function-panel-import.php:293
+#: inc/admin/function-panel-import.php:303
+#: inc/admin/function-panel-import.php:313
+#, php-format
+msgid "From %1$s in %2$s"
+msgstr "从 %2$s 上 %1$s"
+
+#: inc/admin/function-panel-import.php:296
+#: inc/admin/function-panel-import.php:306
+#: inc/admin/function-panel-import.php:316
+msgid "Settings copy"
+msgstr "设置复制"
+
+#: inc/admin/function-panel-menucat.php:40
+msgid "Drag the block with the cursor to change the position of the items"
+msgstr "使用光标拖动方块来改变物品的位置"
+
+#: inc/admin/function-panel-menucat.php:44 inc/admin/function-panel-soc.php:60
+msgid "Add section"
+msgstr "添加部分"
+
+#: inc/admin/function-panel-menucat.php:49
+msgid "Variation"
+msgstr "变量"
+
+#: inc/admin/function-panel-menucat.php:52
+msgid "Specify a link"
+msgstr "指定链接"
+
+#: inc/admin/function-panel-menucat.php:65
+msgid "Custom link"
+msgstr "自定义链接"
+
+#: inc/admin/function-panel-menucat.php:71
+msgid "Custom title"
+msgstr "自定义标题"
+
+#: inc/admin/function-panel-menucat.php:83
+msgid "Title background"
+msgstr "标题背景"
+
+#: inc/admin/function-panel-menucat.php:90
+msgid ""
+"This color will work if there is no picture or the picture is transparent"
+msgstr "如果没有图片或者图片透明，则此颜色有效"
+
+#: inc/admin/function-panel-menucat.php:96
+msgid "Background image"
+msgstr "背景图像"
+
+#: inc/admin/function-panel-menucat.php:165
+msgid "Category element"
+msgstr "类别元素"
+
+#: inc/admin/function-panel-menucat.php:212
+msgid "Random category"
+msgstr "随机类别"
+
+#: inc/admin/function-panel-reset.php:2282
+msgid "Preset settings"
+msgstr "预设设置"
+
+#: inc/admin/function-panel-reset.php:2307
+msgid ""
+"This will reset all theme settings to default, apply the chosen color scheme "
+"and activate some settings for the example"
+msgstr "这会将所有主题设置重置为默认值，应用所选的配色方案并激活示例的一些设置"
+
+#: inc/admin/function-panel-reset.php:2314
+msgid "Preset options"
+msgstr "预设选项"
+
+#: inc/admin/function-panel-reset.php:2470
+msgid "Style"
+msgstr "样式"
+
+#: inc/admin/function-panel-reset.php:2471
+msgid "Color scheme"
+msgstr "配色方案"
+
+#: inc/admin/function-panel-reset.php:2473
+msgid "Width"
+msgstr "宽度"
+
+#: inc/admin/function-panel-reset.php:2475
+msgid "Navigation"
+msgstr "导航"
+
+#: inc/admin/function-panel-reset.php:2476
+msgid "Category grid"
+msgstr "产品类别网格"
+
+#: inc/admin/function-panel-reset.php:2477
+msgid "Features"
+msgstr "特征"
+
+#: inc/admin/function-panel-reset.php:2479
+msgid "Light"
+msgstr "浅色"
+
+#: inc/admin/function-panel-reset.php:2480
+msgid "Dark"
+msgstr "深色"
+
+#: inc/admin/function-panel-reset.php:2487
+msgid "Full site width"
+msgstr "整个站点宽度"
+
+#: inc/admin/function-panel-reset.php:2516
+msgid "Without settings (Defaults)"
+msgstr "没有设置（默认）"
+
+#: inc/admin/function-panel-reset.php:2524
+msgid "News time"
+msgstr "新闻时间"
+
+#: inc/admin/function-panel-reset.php:2542
+msgid "News book"
+msgstr "新闻书"
+
+#: inc/admin/function-panel-reset.php:2560
+msgid "Photo maximalism"
+msgstr "照片极简主义"
+
+#: inc/admin/function-panel-reset.php:2567
+msgid "Live picture"
+msgstr "现场图片"
+
+#: inc/admin/function-panel-reset.php:2578
+msgid "Womens blog"
+msgstr "女性博客"
+
+#: inc/admin/function-panel-reset.php:2596
+msgid "Night magazine"
+msgstr "夜间杂志"
+
+#: inc/admin/function-panel-reset.php:2614
+msgid "Intrusive frames"
+msgstr "侵入性框架"
+
+#: inc/admin/function-panel-reset.php:2632
+msgid "Fairy World"
+msgstr "童话世界"
+
+#: inc/admin/function-panel-reset.php:2650
+msgid "Confident oasis"
+msgstr "自信绿洲"
+
+#: inc/admin/function-panel-reset.php:2668
+msgid "Heavenly"
+msgstr "天上"
+
+#: inc/admin/function-panel-reset.php:2686
+msgid "Strict carrot"
+msgstr "严格的胡萝卜"
+
+#: inc/admin/function-panel-reset.php:2704
+msgid "Minimalism"
+msgstr "极简主义"
+
+#: inc/admin/function-panel-reset.php:2722
+msgid "Micro blog"
+msgstr "微博"
+
+#: inc/admin/function-panel-reset.php:2758
+msgid "Through limitations"
+msgstr "通过限制"
+
+#: inc/admin/function-panel-soc.php:56
+msgid "Drag the block with the cursor to change the position of the links"
+msgstr "用光标拖动块以更改链接的位置"
+
+#: inc/admin/function-panel-soc.php:65
+msgid "Picture variant"
+msgstr "图片变体"
+
+#: inc/admin/function-panel-soc.php:72
+msgid "Link to social network (URL)"
+msgstr "社交网络链接 (URL)"
+
+#: inc/admin/function-panel-xlmega.php:54
+msgid "Sections"
+msgstr "部分"
+
+#: inc/admin/function-panel-xlmega.php:64
+msgid "Menu variants"
+msgstr "菜单变体"
+
+#: inc/admin/function-panel-xlmega.php:79
+msgid "Menu item name"
+msgstr "菜单项名称"
+
+#: inc/admin/function-panel-xlmega.php:85
+#: inc/admin/function-panel-xlmega.php:97
+#: inc/admin/function-panel-xlmega.php:109
+#: inc/admin/function-panel-xlmega.php:121
+#: inc/admin/function-panel-xlmega.php:133
+msgid "Title for column"
+msgstr "列标题"
+
+#: inc/admin/function-panel-xlmega.php:91
+#: inc/admin/function-panel-xlmega.php:103
+#: inc/admin/function-panel-xlmega.php:115
+#: inc/admin/function-panel-xlmega.php:127
+#: inc/admin/function-panel-xlmega.php:139
+msgid "Select category for column"
+msgstr "选择列的类别"
+
+#: inc/admin/function-panel-xlmega.php:158
+msgid "Number of posts displayed (In each column)"
+msgstr "显示的帖子数（每列）"
+
+#: inc/admin/function-panel-xlmega.php:170
+msgid "Post titles size"
+msgstr "帖子标题大小"
+
+#: inc/admin/function-panel-xlmega.php:189
+msgid "Posts titles text color (on hover)"
+msgstr "帖子标题文字颜色（悬停时）"
+
+#: inc/admin/function-panel-xlmega.php:201
+msgid "Posts background color (on hover)"
+msgstr "帖子背景颜色（悬停时）"
+
+#: inc/admin/function-panel-xlmega.php:207
+msgid "Section image"
+msgstr "章节图像"
+
+#: inc/admin/function-panel-xlmega.php:213
+msgid "Image layout"
+msgstr "图片布局"
+
+#: inc/admin/function-panel-xlmega.php:282
+#: inc/admin/function-panel-xlmega.php:289
+msgid "small"
+msgstr "小"
+
+#: inc/admin/function-panel-xlmega.php:288
+msgid "Horizontal items without images"
+msgstr "没有图片的水平项目"
+
+#: inc/admin/function-panel-xlmega.php:289
+#: inc/admin/function-panel-xlmega.php:290
+#: inc/admin/function-panel-xlmega.php:291
+msgid "Horizontal items with image"
+msgstr "带图像的水平项目"
+
+#: inc/admin/function-panel-xlmega.php:290
+msgid "mid"
+msgstr "中"
+
+#: inc/admin/function-panel-xlmega.php:291
+msgid "big"
+msgstr "大"
+
+#: inc/admin/function-panel-xlmega.php:292
+msgid "Vertical items with image"
+msgstr "带图像的垂直项目"
+
+#: inc/admin/function-panel-xlmega.php:293
+msgid "Vertical items with button"
+msgstr "带按钮的垂直项目"
+
+#: inc/admin/function-panel-xlmega.php:294
+msgid "Items (string) with category image"
+msgstr "带有类别图像的项目（字符串）"
+
+#: inc/admin/help_usability.php:49
+msgid "Get more colors with the premium version"
+msgstr "高级版可获得更多颜色"
+
+#: inc/admin/help_usability.php:51 inc/admin/help_usability.php:58
+#: inc/admin/help_usability.php:65 inc/admin/help_usability.php:72
+#: inc/admin/help_usability.php:79 inc/admin/help_usability.php:86
+#: inc/admin/help_usability.php:93 inc/admin/help_usability.php:135
+msgid "Read More"
+msgstr "阅读更多"
+
+#: inc/admin/help_usability.php:56 inc/admin/help_usability.php:63
+#: inc/admin/help_usability.php:70
+#, php-format
+msgid "Get flexible color settings for %s in the premium version"
+msgstr "在高级版本中获取%s的灵活颜色设置"
+
+#: inc/admin/help_usability.php:77
+msgid "More fonts are available in the premium version"
+msgstr "高级版本提供更多字体"
+
+#: inc/admin/help_usability.php:84
+msgid ""
+"A graphical mega menu with its own customizer is available in the premium "
+"version"
+msgstr "高级版本提供带有自定义程序的图形超级菜单"
+
+#: inc/admin/help_usability.php:91
+msgid ""
+"In this section, there can be a flexible customizer that will allow you to "
+"quickly and easily customize a cool homepage"
+msgstr "在本节中，可以有一个灵活的定制器，可让您快速轻松地定制一个很酷的主页"
+
+#: inc/admin/help_usability.php:108 inc/admin/help_usability.php:219
+msgid "Home page customizer (choice of 8 blocks)"
+msgstr "主页定制器（8 个区块可选）"
+
+#: inc/admin/help_usability.php:109 inc/admin/help_usability.php:224
+#: inc/option/set.php:307
+msgid "Category menu customizer"
+msgstr "类别菜单定制器"
+
+#: inc/admin/help_usability.php:110 inc/admin/help_usability.php:229
+msgid "Megamenu (graphic) with customizer in the main menu"
+msgstr "主菜单中带有定制器的超级菜单（图形）"
+
+#: inc/admin/help_usability.php:111 inc/admin/help_usability.php:234
+msgid "Wide slider (below the main menu)"
+msgstr "宽滑块（主菜单下方）"
+
+#: inc/admin/help_usability.php:112 inc/admin/help_usability.php:239
+msgid "More fonts to choose from"
+msgstr "更多字体可供选择"
+
+#: inc/admin/help_usability.php:113 inc/admin/help_usability.php:244
+msgid "Powerful color settings"
+msgstr "强大的颜色设置"
+
+#: inc/admin/help_usability.php:114 inc/admin/help_usability.php:249
+msgid "Ready-made color schemes"
+msgstr "现成的配色方案"
+
+#: inc/admin/help_usability.php:115 inc/admin/help_usability.php:254
+msgid "Reset theme settings and activate presets"
+msgstr "重置主题设置并激活预设"
+
+#: inc/admin/help_usability.php:116 inc/admin/help_usability.php:259
+msgid ""
+"Full demo versions of sites (Import thematic demo versions in one click)"
+msgstr "网站的完整演示版本（一键导入主题演示版本）"
+
+#: inc/admin/help_usability.php:117 inc/admin/help_usability.php:264
+msgid "Import settings from theme to theme"
+msgstr "从一个主题导入另一个主题的设置"
+
+#: inc/admin/help_usability.php:118 inc/admin/help_usability.php:269
+msgid "Lots of hooks (windows for codes)"
+msgstr "大量钩子（代码窗口）"
+
+#: inc/admin/help_usability.php:119 inc/admin/help_usability.php:274
+msgid "Additional widgets"
+msgstr "额外的部件"
+
+#: inc/admin/help_usability.php:120 inc/admin/help_usability.php:279
+#, php-format
+msgid "Separate sidebars for %1$s and %2$s"
+msgstr "为 %1$s 和 %2$s 提供单独的侧边栏"
+
+#: inc/admin/help_usability.php:121 inc/admin/help_usability.php:284
+msgid "Expanded plugins adapting"
+msgstr "扩展插件适配"
+
+#: inc/admin/help_usability.php:122 inc/admin/help_usability.php:292
+msgid "Buy"
+msgstr "购买"
+
+#: inc/admin/help_usability.php:133
+msgid "Get even more windows to insert codes in the premium version"
+msgstr "在高级版本中获得更多窗口来插入代码"
+
+#: inc/admin/help_usability.php:146
+msgid "(Comparison of Versions)"
+msgstr "（版本比较）"
+
+#: inc/admin/help_usability.php:152
+msgid "Available features"
+msgstr "可用功能"
+
+#: inc/admin/help_usability.php:153
+msgid "Free"
+msgstr "免费"
+
+#: inc/admin/help_usability.php:159
+msgid "Powerful typography"
+msgstr "强大的排版功能"
+
+#: inc/admin/help_usability.php:164
+msgid "Modularity and flexibility"
+msgstr "模块化和灵活性"
+
+#: inc/admin/help_usability.php:169
+#, php-format
+msgid "Visual customizer support (%s)"
+msgstr "可视化定制器支持 (%s)"
+
+#: inc/admin/help_usability.php:174
+msgid "Flexible heading customization with logo"
+msgstr "带有徽标的灵活标题定制"
+
+#: inc/admin/help_usability.php:179
+msgid "Flexible sidebar orientation"
+msgstr "灵活的侧边栏方向"
+
+#: inc/admin/help_usability.php:184
+msgid "Ability to choose your own sidebar orientation for posts and pages"
+msgstr "能够为帖子和页面选择自己的侧边栏方向"
+
+#: inc/admin/help_usability.php:189
+msgid "Selecting the width of the site"
+msgstr "选择场地宽度"
+
+#: inc/admin/help_usability.php:194
+msgid "Three pagination options"
+msgstr "三种分页选项"
+
+#: inc/admin/help_usability.php:199
+msgid "Four menu locations"
+msgstr "四个菜单位置"
+
+#: inc/admin/help_usability.php:204
+msgid "Mega menu (mega lists, dropdown, single) in the main menu"
+msgstr "主菜单中的超级菜单（超级列表、下拉菜单、单个菜单）"
+
+#: inc/admin/help_usability.php:209
+msgid "Social link customizer in the site header"
+msgstr "网站标题中的社交链接定制器"
+
+#: inc/admin/help_usability.php:214
+msgid "Plugins adapting"
+msgstr "插件适配"
+
+#: inc/admin/help_usability.php:306
+msgid "Social Media Links"
+msgstr "社交媒体链接"
+
+#: inc/admin/help_usability.php:308
+msgid ""
+"Follow theme updates, suggest new features, participate in polls, discuss, "
+"and ask questions"
+msgstr "关注主题更新、建议新功能、参与投票、讨论和提问"
+
+#: inc/admin/help_usability.php:340
+msgid "Codes (Hooks theme)"
+msgstr "代码（Hooks 主题）"
+
+#: inc/demo/demo.php:13
+msgid "News"
+msgstr "新闻"
+
+#: inc/demo/demo.php:23
+msgid "Cars"
+msgstr "汽车"
+
+#: inc/demo/demo.php:32
+msgid "Food"
+msgstr "食物"
+
+#: inc/demo/demo.php:41
+msgid "Travel"
+msgstr "旅行"
+
+#: inc/demo/demo.php:50
+msgid "Interior"
+msgstr "室内设计"
+
+#: inc/function-customizer.php:10227
+msgid "Loading..."
+msgstr "加载中..."
+
+#: inc/function-customizer.php:11570 inc/function-customizer.php:11596
+msgid "Search"
+msgstr "搜索"
+
+#. translators: Hidden accessibility text.
+#: inc/function-customizer.php:11604
+msgid "Close search"
+msgstr "关闭搜索"
+
+#: inc/function-customizer.php:11862
+msgid "Without background"
+msgstr "无背景"
+
+#: inc/function-customizer.php:11863
+msgid "Rounded square"
+msgstr "圆角方形"
+
+#: inc/general.php:118
+msgid "Main Menu"
+msgstr "主菜单"
+
+#: inc/general.php:119
+msgid "Top Menu"
+msgstr "顶部菜单"
+
+#: inc/general.php:120
+msgid "Footer Menu"
+msgstr "页脚菜单"
+
+#: inc/general.php:121
+msgid "Widget Menu"
+msgstr "小部件菜单"
+
+#: inc/general.php:228 inc/general.php:229 inc/general.php:230
+msgid "Theme"
+msgstr "主题"
+
+#: inc/general.php:251
+msgid "Side column"
+msgstr "侧柱"
+
+#: inc/general.php:252
+msgid ""
+"These widgets are displayed when the corresponding template is selected in "
+"the record or page properties"
+msgstr "在记录或页面属性中选择相应的模板时，将显示这些小部件"
+
+#: inc/general.php:256
+msgid ""
+"These widgets are displayed in the right or left column, depending on the "
+"site settings"
+msgstr "这些小部件显示在右列或左列中，具体取决于站点设置"
+
+#: inc/general.php:263
+msgid "posts"
+msgstr "文章"
+
+#: inc/general.php:265 inc/general.php:274 inc/general.php:283
+#: inc/general.php:294 inc/general.php:305 inc/general.php:316
+#, php-format
+msgid ""
+"Widgets added to this sidebar will appear only on %1$s %2$s. If this sidebar "
+"is empty, the default sidebar widgets will be displayed on %1$s %2$s."
+msgstr ""
+"添加到此侧边栏的小工具将仅显示在 %1$s %2$s 上。如果此侧边栏为空，则默认侧边栏"
+"小工具将显示在 %1$s %2$s 上。"
+
+#: inc/general.php:272
+msgid "pages"
+msgstr "页面"
+
+#: inc/general.php:281
+msgid "home"
+msgstr "首页"
+
+#: inc/general.php:325 inc/general.php:334
+msgid "featured"
+msgstr "精选"
+
+#: inc/general.php:343 inc/general.php:352 inc/general.php:361
+#: inc/general.php:370
+msgid "Footer"
+msgstr "页脚"
+
+#: inc/general.php:345 inc/general.php:354 inc/general.php:363
+#: inc/general.php:372
+#, php-format
+msgid "These widgets are displayed in the %s column of the footer"
+msgstr "这些小部件显示在页脚的 %s 列中"
+
+#: inc/general.php:554
+msgid "Nothing found:"
+msgstr "什么都没找到："
+
+#: inc/general.php:555
+msgid "No sorting"
+msgstr "无排序"
+
+#: inc/general.php:585
+msgid "MENU"
+msgstr "菜单"
+
+#: inc/general.php:738
+msgid "Now you can follow the theme updates on the page"
+msgstr "现在您可以在页面上关注主题更新"
+
+#: inc/general.php:746
+#, php-format
+msgid "Congratulations! You have activated the theme %s"
+msgstr "恭喜！您已激活主题 %s"
+
+#: inc/general.php:747
+msgid "This is the most customizable theme out of the customizable themes"
+msgstr "这是可定制主题中最可定制的主题"
+
+#: inc/general.php:748
+msgid "Open settings"
+msgstr "打开设置"
+
+#: inc/general.php:753
+msgid "Hello!"
+msgstr "你好！"
+
+#: inc/general.php:754
+#, php-format
+msgid ""
+"This is theme developer %s. I improving and maintaining the theme on my own."
+msgstr "这是主题开发者%s。我独自改进和维护该主题。"
+
+#: inc/general.php:755
+msgid ""
+"I would be very grateful if you would report any errors or poor quality "
+"translations."
+msgstr "如果您能报告任何错误或质量较差的翻译，我将不胜感激。"
+
+#: inc/general.php:756
+msgid "Contacts can be found in the section - Appearance"
+msgstr "联系方式请参见“外观”部分"
+
+#: inc/general.php:758
+msgid ""
+"I also remind you that I have a premium version, which contains even more "
+"functionality"
+msgstr "我还提醒你，我有一个高级版本，它包含更多功能"
+
+#: inc/general.php:759
+msgid "Presentation page"
+msgstr "演示页面"
+
+#: inc/general.php:760
+msgid "View price"
+msgstr "查看价格"
+
+#: inc/general.php:813
+msgid ""
+"\n"
+" Important!\n"
+"\n"
+" You are deleting all settings for the current theme.\n"
+"\n"
+" This action is irreversible!"
+msgstr ""
+"\n"
+" 重要的！\n"
+"\n"
+" 您正在删除当前主题的所有设置。\n"
+"\n"
+" 此操作不可逆转！"
+
+#: inc/general.php:814
+msgid ""
+"\n"
+" Important!\n"
+"\n"
+" You change all colors of the current theme.\n"
+"\n"
+" This action is irreversible!"
+msgstr ""
+"\n"
+" 重要的！\n"
+"\n"
+" 您更改当前主题的所有颜色。\n"
+"\n"
+" 此操作不可逆转！"
+
+#: inc/mega/blocks/mega-cat-image.php:12
+msgid "Category image"
+msgstr "类别图像"
+
+#: inc/module/breadcrumb.php:177
+msgid "Posted by "
+msgstr "发布者"
+
+#: inc/module/breadcrumb.php:183
+msgid "Error"
+msgstr "错误"
+
+#: inc/module/breadcrumb.php:188
+msgid "Page"
+msgstr "页面"
+
+#: inc/module/meta-tags.php:29 inc/module/meta-tags.php:296
+#: template-parts/content-autor.php:42
+msgid "Author"
+msgstr "作者"
+
+#: inc/module/meta-tags.php:35 inc/module/meta-tags.php:304
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr "%s"
+
+#: inc/module/meta-tags.php:49 inc/module/meta-tags.php:398
+msgid "Number of comments on a post"
+msgstr "帖子的评论数"
+
+#: inc/module/meta-tags.php:56 inc/module/meta-tags.php:405
+msgid "Comments"
+msgstr "评论"
+
+#: inc/module/meta-tags.php:78 inc/module/meta-tags.php:452
+msgid "Views"
+msgstr "查看"
+
+#: inc/module/meta-tags.php:99 inc/module/meta-tags.php:324
+msgid "Created"
+msgstr "创建"
+
+#: inc/module/meta-tags.php:119 inc/module/meta-tags.php:155
+#: inc/module/meta-tags.php:344 inc/module/meta-tags.php:384
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr "%s"
+
+#: inc/module/meta-tags.php:137 inc/module/meta-tags.php:364
+msgid "Updated"
+msgstr "更新"
+
+#: inc/module/meta-tags.php:275
+msgid "Less 1 min"
+msgstr "不到 1 分钟"
+
+#: inc/module/meta-tags.php:277
+msgid "min"
+msgstr "分钟"
+
+#: inc/module/meta-tags.php:429
+msgid "Reading time"
+msgstr "阅读时间"
+
+#: inc/module/meta-tags.php:480
+msgid "Publication date"
+msgstr "发布日期"
+
+#: inc/module/top-menu.php:43
+msgid "Mobile"
+msgstr "手机"
+
+#: inc/option/hook.php:45
+msgid "Page for adding codes"
+msgstr "添加代码页面"
+
+#: inc/option/hook.php:61 inc/option/hook.php:68 inc/option/hook.php:76
+#, php-format
+msgid "Before the closing %s tag"
+msgstr "在结束 %s 标签之前"
+
+#: inc/option/hook.php:85
+msgid "Before top menu"
+msgstr "顶部菜单之前"
+
+#: inc/option/hook.php:91
+msgid "After top menu"
+msgstr "顶部菜单后"
+
+#: inc/option/hook.php:100
+msgid "Before the banner and social links"
+msgstr "在横幅和社交链接之前"
+
+#: inc/option/hook.php:106
+msgid "After the banner and social links"
+msgstr "横幅和社交链接之后"
+
+#: inc/option/hook.php:115
+msgid "Before main menu"
+msgstr "主菜单之前"
+
+#: inc/option/hook.php:121
+msgid "After main menu"
+msgstr "主菜单后"
+
+#: inc/option/hook.php:130
+msgid "After Wide slider"
+msgstr "宽滑块后"
+
+#: inc/option/hook.php:139
+msgid "After Category menu"
+msgstr "类别菜单之后"
+
+#: inc/option/hook.php:148
+msgid "Top of footer"
+msgstr "页脚顶部"
+
+#: inc/option/hook.php:154
+msgid "Before bottom menu"
+msgstr "底部菜单之前"
+
+#: inc/option/hook.php:163 inc/option/hook.php:169 inc/option/hook.php:175
+#: inc/option/hook.php:181 inc/option/hook.php:187 inc/option/hook.php:193
+#: inc/option/hook.php:199 inc/option/hook.php:205
+#, php-format
+msgid "Before the \"%s\" section on the main page"
+msgstr "主页上的“%s” 部分之前"
+
+#: inc/option/hook.php:211
+msgid "Before the \"Rrecent posts\" section on the main page"
+msgstr "在主页上的“最近的帖子”部分之前"
+
+#: inc/option/hook.php:217
+msgid "After the \"Rrecent posts\" section on the main page"
+msgstr "在主页上的“最近的帖子”部分之后"
+
+#: inc/option/hook.php:226
+msgid "Before breadcrumbs"
+msgstr "面包屑之前"
+
+#: inc/option/hook.php:235
+msgid "Before the list of posts on the category page"
+msgstr "在类别页面的帖子列表之前"
+
+#: inc/option/hook.php:241
+msgid "After the list of posts on the category page"
+msgstr "在类别页面的帖子列表之后"
+
+#: inc/option/hook.php:250
+msgid "Before the main image inside the post"
+msgstr "在帖子内的主图片之前"
+
+#: inc/option/hook.php:256
+msgid "Before the title inside the post"
+msgstr "帖子标题之前"
+
+#: inc/option/hook.php:262
+msgid "Before meta data inside a post"
+msgstr "在帖子内的元数据之前"
+
+#: inc/option/hook.php:268
+msgid "Before content within a post"
+msgstr "帖子内容之前"
+
+#: inc/option/hook.php:274
+msgid "Before the author section inside the post"
+msgstr "在帖子内的作者部分之前"
+
+#: inc/option/hook.php:280
+msgid "Before the \"Next post\" block inside the post"
+msgstr "在帖子内的“下一篇帖子”块之前"
+
+#: inc/option/hook.php:286
+msgid "Before the \"Related posts\" block inside the post"
+msgstr "在帖子内的“相关帖子”块之前"
+
+#: inc/option/hook.php:292
+msgid "Before the \"Comments\" block inside the post"
+msgstr "在帖子内的“评论”块之前"
+
+#: inc/option/hook.php:298
+msgid "At the end of the post"
+msgstr "在帖子末尾"
+
+#: inc/option/hook.php:307
+msgid "Before the main image inside the page"
+msgstr "页面内主图像之前"
+
+#: inc/option/hook.php:313
+msgid "Before the title inside the page"
+msgstr "页面内标题之前"
+
+#: inc/option/hook.php:319
+msgid "After the title inside the page"
+msgstr "页面内的标题之后"
+
+#: inc/option/hook.php:325 inc/option/hook.php:490 inc/option/hook.php:511
+msgid "At the end of the page"
+msgstr "在页面的最后"
+
+#: inc/option/hook.php:334
+msgid "Before searching for products"
+msgstr "在搜索产品之前"
+
+#: inc/option/hook.php:340
+msgid "Above the product grid"
+msgstr "产品网格上方"
+
+#: inc/option/hook.php:346
+msgid "After the product grid"
+msgstr "后产品网格"
+
+#: inc/option/hook.php:355
+msgid "At the top of the product page"
+msgstr "在产品页面顶部"
+
+#: inc/option/hook.php:361
+msgid "After the title on the product page"
+msgstr "产品页面标题后"
+
+#: inc/option/hook.php:367
+msgid "After the price on the product page"
+msgstr "产品页面上的价格后"
+
+#: inc/option/hook.php:373
+msgid "At the bottom of the product data on the product page"
+msgstr "在产品页面的产品数据底部"
+
+#: inc/option/hook.php:379
+msgid "Before related products on product page"
+msgstr "在产品页面上的相关产品之前"
+
+#: inc/option/hook.php:385
+msgid "At the end of the product page"
+msgstr "在产品页面的末尾"
+
+#: inc/option/hook.php:394
+msgid "Above the list of products on the shopping cart page"
+msgstr "购物车页面产品列表上方"
+
+#: inc/option/hook.php:400
+msgid "After the list of products on the cart page"
+msgstr "购物车页面上的产品列表之后"
+
+#: inc/option/hook.php:406
+msgid "After the cart totals on the cart page"
+msgstr "购物车页面上的购物车总计之后"
+
+#: inc/option/hook.php:415
+msgid "Under the heading on the order page"
+msgstr "在订单页面的标题下"
+
+#: inc/option/hook.php:421
+msgid "Near the order totals on the order page"
+msgstr "订单页面上的订单总额附近"
+
+#: inc/option/hook.php:427
+msgid "At the end of the order page"
+msgstr "在订单页面的末尾"
+
+#: inc/option/hook.php:436
+msgid "Above the order information on the page - Order accepted"
+msgstr "页面订单信息上方 - 订单已接受"
+
+#: inc/option/hook.php:442
+msgid "After the information about the order on the page - Order accepted"
+msgstr "在页面上显示订单信息后 - 订单已接受"
+
+#: inc/option/hook.php:448
+msgid "At the bottom of the page - Order accepted"
+msgstr "页面底部-订单已接受"
+
+#: inc/option/hook.php:457
+msgid "Top of personal account"
+msgstr "个人账户顶部"
+
+#: inc/option/hook.php:463
+msgid "At the bottom of the dashboard tab in personal account"
+msgstr "在个人账户仪表板选项卡底部"
+
+#: inc/option/hook.php:469
+msgid "At the bottom of personal account"
+msgstr "个人账户底部"
+
+#: inc/option/hook.php:478 inc/option/hook.php:499
+msgid "Above the heading on the page"
+msgstr "页面标题上方"
+
+#: inc/option/hook.php:484 inc/option/hook.php:505
+msgid "After the title on the page"
+msgstr "页面标题后"
+
+#: inc/option/hook.php:526
+msgid ""
+"On this page you can insert counters, banners, or any other content that "
+"will be displayed on the front of the site"
+msgstr "在此页面上，您可以插入计数器、横幅或任何其他将显示在网站首页的内容"
+
+#: inc/option/set.php:32
+msgid "All settings saved!"
+msgstr "所有设置已保存！"
+
+#: inc/option/set.php:52
+msgid "Pro page"
+msgstr "专业页面"
+
+#: inc/option/set.php:57
+msgid "General"
+msgstr "常规"
+
+#: inc/option/set.php:127
+#, php-format
+msgid "Additional functionality for the %s"
+msgstr "%s 的附加功能"
+
+#: inc/option/set.php:129
+#, php-format
+msgid "Some functionality is provided in a separate plugin (as required by %s)"
+msgstr "部分功能由单独的插件提供（根据 %s 的要求）"
+
+#: inc/option/set.php:130
+msgid "To extend the theme, install the free plugin"
+msgstr "要扩展主题，请安装免费插件"
+
+#: inc/option/set.php:132
+msgid "What does this give?"
+msgstr "这会带来什么？"
+
+#: inc/option/set.php:133
+msgid "Additional widgets for the front part"
+msgstr "前端的附加小部件"
+
+#: inc/option/set.php:135
+msgid "Two author widgets"
+msgstr "两个作者小部件"
+
+#: inc/option/set.php:136
+msgid "Two widgets for recent posts"
+msgstr "两个用于显示最新帖子的小工具"
+
+#: inc/option/set.php:137
+msgid "Widget with slider"
+msgstr "带滑块的小部件"
+
+#: inc/option/set.php:138
+msgid "Widget with banner"
+msgstr "带横幅的小部件"
+
+#: inc/option/set.php:139
+msgid "Widget with links"
+msgstr "带链接的小部件"
+
+#: inc/option/set.php:141
+msgid ""
+"After activating the plugin, the widgets will appear in the section - "
+"\"Appearance\" - \"Widgets\""
+msgstr "激活插件后，小部件将出现在“外观”-“小部件”部分"
+
+#: inc/option/set.php:142
+msgid "Additional useful functionality in the admin panel"
+msgstr "管理面板中的其他有用功能"
+
+#: inc/option/set.php:144
+msgid "Function (button) for clearing the counter of post and page views"
+msgstr "清除帖子和页面浏览计数器的功能（按钮）"
+
+#: inc/option/set.php:145
+msgid ""
+"Column \"Views\" (counter) in the list of posts and pages of the admin panel"
+msgstr "管理面板的帖子和页面列表中的“浏览量”列（计数器）（默认启用）"
+
+#: inc/option/set.php:146
+msgid "Column \"Thumbnails\" in the list of posts of the admin panel"
+msgstr "管理面板帖子列表中的“缩略图”列（默认启用）"
+
+#: inc/option/set.php:147
+msgid "Category filter in classic post editor"
+msgstr "经典帖子编辑器中的类别过滤器（默认启用）"
+
+#: inc/option/set.php:148
+#, php-format
+msgid "Option to disable block editor (%s) in text editor"
+msgstr "在文本编辑器中禁用块编辑器 (%s) 的选项"
+
+#: inc/option/set.php:149
+#, php-format
+msgid "Option to disable block editor (%s) in widgets"
+msgstr "在小部件中禁用块编辑器 (%s) 的选项"
+
+#: inc/option/set.php:150
+#, php-format
+msgid ""
+"Ability to change %s graphics engine (useful if large photos are not loading)"
+msgstr "能够更改 %s 图形引擎（当无法加载大照片时很有用）"
+
+#: inc/option/set.php:152
+#, php-format
+msgid ""
+"After activating the plugin, these options will appear in the section - "
+"\"Appearance\" - \"%s\" - in the new tab \"Extended\""
+msgstr "激活插件后，这些选项将显示在新选项卡“扩展”中的“外观” - “%s”部分中"
+
+#: inc/option/set.php:153
+msgid "View more information"
+msgstr "查看更多信息"
+
+#: inc/option/set.php:162
+msgid "Information materials"
+msgstr "信息材料"
+
+#: inc/option/set.php:165
+msgid "These are not bugs, these are features"
+msgstr "这些不是错误，而是功能"
+
+#: inc/option/set.php:167
+#, php-format
+msgid "How to increase website loading speed with %s"
+msgstr "如何使用 %s 提高网站加载速度"
+
+#: inc/option/set.php:169
+#, php-format
+msgid "How to customize the %s"
+msgstr "如何自定义 %s"
+
+#: inc/option/set.php:171
+msgid "How to change the sidebar orientation for a separate page or post"
+msgstr "如何更改单独页面或帖子的侧边栏方向"
+
+#: inc/option/set.php:173
+msgid "Import in one click full demo versions of sites"
+msgstr "一键导入网站完整演示版本"
+
+#: inc/option/set.php:175
+msgid "How to reset theme settings"
+msgstr "如何重置主题设置"
+
+#: inc/option/set.php:177
+msgid "Why do you need a child theme"
+msgstr "为什么需要子主题"
+
+#: inc/option/set.php:179
+msgid "Plugin for inserting your own functions"
+msgstr "用于插入您自己的功能的插件"
+
+#: inc/option/set.php:229
+msgid ""
+"All settings of the front part of the theme are located in the visual editor"
+msgstr "主题前部的所有设置都位于可视化编辑器中"
+
+#: inc/option/set.php:230
+msgid "Open"
+msgstr "打开"
+
+#: inc/option/set.php:233
+msgid "Visual Customizer Quick Links"
+msgstr "视觉定制器快速链接"
+
+#: inc/option/set.php:241
+msgid "Common colors"
+msgstr "常见颜色"
+
+#: inc/option/set.php:259
+msgid "Sidebar settings"
+msgstr "侧边栏设置"
+
+#: inc/option/set.php:280
+msgid "Expert settings of the administrative part of the theme"
+msgstr "主题管理部分的专家设置"
+
+#: inc/option/set.php:303
+msgid "Quick Links"
+msgstr "快速链接"
+
+#: inc/option/set.php:305
+msgid "Home page customizer"
+msgstr "主页定制器"
+
+#: inc/option/set.php:306
+msgid "Megamenu customizer"
+msgstr "超级菜单定制器"
+
+#: inc/option/set.php:310
+msgid "Reset settings and Apply presets"
+msgstr "重置设置并应用预设"
+
+#: inc/option/set.php:311
+msgid "Import full demo"
+msgstr "导入完整演示"
+
+#: inc/option/set.php:367
+msgid "Technical support"
+msgstr "技术支持"
+
+#: inc/option/set.php:380
+#, php-format
+msgid "Additional support for %s subscriptions"
+msgstr "对 %s 订阅的额外支持"
+
+#: inc/option/set.php:393
+msgid "Removing extra image sizes"
+msgstr "删除多余的图像尺寸"
+
+#: inc/option/set.php:401 inc/option/set.php:411 inc/option/set.php:421
+#: inc/option/set.php:431 inc/option/set.php:441
+#, php-format
+msgid "Remove image slicing for %s"
+msgstr "删除 %s 的图片切片"
+
+#: inc/option/set.php:411 inc/option/set.php:441
+#, php-format
+msgid "aka \"%s\""
+msgstr "又名“%s”"
+
+#: inc/option/set.php:458
+msgid "Images format"
+msgstr "图像格式"
+
+#: inc/option/set.php:466
+msgid "Choose which images to use for the entire site"
+msgstr "选择用于整个网站的图像"
+
+#: inc/option/set.php:482
+msgid "Avatar for users"
+msgstr "用户头像"
+
+#: inc/option/set.php:490
+msgid "Change avatar (default) for users without an avatar"
+msgstr "为没有头像的用户更改头像（默认）"
+
+#: inc/option/set.php:537
+msgid "Avatar URL (only external address), demo - "
+msgstr "头像 URL（仅限外部地址），演示 -"
+
+#: inc/option/set.php:553
+#, php-format
+msgid ""
+"When uploading an image to the media library, %s cuts many sizes from one "
+"image."
+msgstr "将图像上传至媒体库时，%s 会从一张图像中剪切出多种尺寸。"
+
+#: inc/option/set.php:554
+msgid ""
+"All these files take up a huge amount of space, while some of them are not "
+"used at all."
+msgstr "所有这些文件都占用了大量的空间，而其中一些文件根本没有被使用。"
+
+#: inc/option/set.php:555
+msgid ""
+"The presented settings allow you to remove from the slicing the largest "
+"sizes that are not used in this theme."
+msgstr "所提供的设置允许您从切片中删除此主题中未使用的最大尺寸。"
+
+#: inc/option/set.php:556 inc/option/set.php:605
+#, php-format
+msgid ""
+"It is important to know! These settings cannot delete or modify existing "
+"image files. Slicing of images occurs at the time of uploading a new image "
+"to the %s media library."
+msgstr ""
+"了解这一点很重要！这些设置无法删除或修改现有图片文件。图片切片发生在将新图片"
+"上传到 %s 媒体库时。"
+
+#: inc/option/set.php:562
+msgid ""
+"The size is registered by this theme. Used only when \"Full width website\" "
+"is set."
+msgstr "尺寸由该主题注册。仅在设置“全宽网站”时使用。"
+
+#: inc/option/set.php:568
+#, php-format
+msgid ""
+"The size is registered by %s itself. Can be used by this theme when 1920 x "
+"1080 is disabled and set to Full Screen."
+msgstr ""
+"尺寸由 %s 自身注册。当 1920 x 1080 被禁用并设置为全屏时，此主题可以使用该尺"
+"寸。"
+
+#: inc/option/set.php:574 inc/option/set.php:580 inc/option/set.php:586
+#, php-format
+msgid "The size is registered by %s itself. Not used in this theme."
+msgstr "尺寸由 %s 自身注册。本主题中未使用。"
+
+#: inc/option/set.php:599
+msgid ""
+"The theme creates multiple thumbnail sizes in a single 16x9 format and uses "
+"optimal sizes in the right places. This has a good effect on loading speed "
+"and proper display in a unified style."
+msgstr ""
+"该主题以单一 16x9 格式创建多种缩略图尺寸，并在正确的位置使用最佳尺寸。这对加"
+"载速度和以统一风格正确显示有很好的效果。"
+
+#: inc/option/set.php:600
+msgid "You can change this setting to control the size of the images yourself."
+msgstr "您可以更改此设置来自己控制图像的大小。"
+
+#: inc/option/set.php:602 inc/option/set.php:604
+#, php-format
+msgid "%s sizes"
+msgstr "%s 个尺寸"
+
+#: inc/option/set.php:606
+msgid "To change old pictures, use the thumbnail regeneration plugin."
+msgstr "要更改旧图片，请使用缩略图再生插件。"
+
+#: inc/usability.php:26 inc/usability.php:39 inc/usability.php:52
+#: inc/usability.php:64 inc/usability.php:99
+msgid "Widget example"
+msgstr "小部件示例"
+
+#: inc/usability.php:52 inc/usability.php:99
+msgid "Archives"
+msgstr "归档"
+
+#: inc/usability.php:64
+msgid "Tag cloud"
+msgstr "标签云"
+
+#: inc/usability.php:81 inc/usability.php:116 inc/usability.php:136
+msgid "Widget"
+msgstr "小工具"
+
+#: inc/usability.php:136
+msgid "Calendar"
+msgstr "日历"
+
+#: search.php:20
+#, php-format
+msgid "Search results for: %s"
+msgstr "搜索结果：%s"
+
+#: template-parts/content-autor.php:27
+msgid "Author photo"
+msgstr "作者照片"
+
+#: template-parts/content-autor.php:77
+msgid "Latest posts (Author)"
+msgstr "最新帖子（作者）"
+
+#: template-parts/content-next-post.php:22
+msgid "Previous post"
+msgstr "上一篇文章"
+
+#: template-parts/content-next-post.php:51
+msgid "Next post"
+msgstr "下一篇文章"
+
+#: template-parts/content-none.php:13
+msgid "Site not ready"
+msgstr "网站尚未准备好"
+
+#: template-parts/content-none.php:15
+msgid "Nothing found"
+msgstr "什么都没找到"
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Start here</a>."
+msgstr "准备好发布您的第一篇文章了吗？<a href=\"%1$s\">从这里开始</a>。"
+
+#: template-parts/content-none.php:36
+msgid "Nothing matched your search terms. Try other keywords."
+msgstr "没有任何内容符合您的搜索条件。尝试其他关键字。"
+
+#: template-parts/content-none.php:93
+msgid "We cannot find what you are looking for. Try using search."
+msgstr "我们找不到您要找的东西。尝试使用搜索。"
+
+#: template-parts/content-page.php:58
+msgid "Pages:"
+msgstr "页面："
+
+#: template-parts/content-page.php:69 template-parts/content-single.php:108
+#, php-format
+msgid "Edit %s"
+msgstr "编辑 %s"
+
+#: template-parts/content-single.php:83
+msgid "Posts:"
+msgstr "文章："
+
+#: templates/template-new-posts.php:10
+msgid "New Posts"
+msgstr "新的文稿"
+
+#: templates/template-site-map.php:10
+msgid "Site Map"
+msgstr "网站地图"
+
+#: vendor/freemius/assets/js/pricing/freemius-pricing.js:2
+msgid "display"
+msgstr "显示"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "安装所需的插件"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "安装插件"
+
+#. translators: %s: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "安装插件: %s"
+
+#. translators: %s: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "更新插件: %s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "插件API出错了。"
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "此主题必须安装以下插件: %1$s."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "此主题推荐安装以下插件: %1$s."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] "以下插件需要更新为最新版本，以确保与此主题的最大兼容性：%1$s。"
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "有更新可用于: %1$s."
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "以下所需的插件目前处于非活动状态：%1$s。"
+
+#. translators: 1: plugin name(s).
+#: vendor/tgm/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "以下推荐的插件目前处于非活动状态：%1$s。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "开始安装插件"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "开始更新插件"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "开始激活插件"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "返回所需的插件安装程序"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:386
+#: vendor/tgm/class-tgm-plugin-activation.php:827
+#: vendor/tgm/class-tgm-plugin-activation.php:2533
+#: vendor/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "返回仪表板"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:387
+#: vendor/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "插件激活成功。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully - "
+msgstr "以下插件已成功激活 -"
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "没有采取行动。插件 %1$s 已经激活。"
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr "插件未激活。此主题需要更高版本的%s。请更新插件。"
+
+#. translators: 1: dashboard link.
+#: vendor/tgm/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "所有插件已成功安装并激活。%1$s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "关闭此通知"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr "有一个或多个必需或推荐的插件来安装，更新或激活。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "请联系本网站的管理员寻求帮助。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "此插件需要更新才能与您的主题兼容。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "需要更新"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr "远程插件包不包含具有所需段落的文件夹，重命名无效。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:934
+#: vendor/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr "请联系插件提供商，并要求他们根据WordPress指南打包他们的插件。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr "远程插件包由多个文件组成，但文件不打包在一个文件夹中。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:1121
+#: vendor/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "和"
+
+#. translators: %s: version number
+#: vendor/tgm/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "必需"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "推荐"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress库"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "外部源"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "预包装"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "未安装"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "已安装但未激活"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "激活"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "所需更新不可用"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "需要更新"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "推荐更新"
+
+#. translators: 1: install status, 2: update status
+#: vendor/tgm/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "全部 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "安装 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "更新可用 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: vendor/tgm/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "激活 <span class=\"count\">(%s)</span>"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "未知"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "安装版本："
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "最低要求版本："
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "可用版本："
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "没有插件来安装，更新或激活。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "插件"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "来源"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "类型"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "版本"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "状态"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgm/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "安装 %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgm/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "更新 %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: vendor/tgm/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "激活 %2$s"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "从插件作者升级消息："
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "安装"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "更新"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "没有选择要安装的插件。没有采取行动。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "没有选择要更新的插件。没有采取行动。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "目前没有可以安装的插件。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "目前没有可以更新的插件。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "没有选择插件被激活。没有采取行动。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "目前没有插件可用于激活。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "以下插件已成功激活："
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "插件激活失败。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgm/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "更新插件 %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: vendor/tgm/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "安装时发生错误 %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "安装 %1$s 失败。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr "安装和激活过程开始。这个过程可能需要一段时间一些主机上,请耐心等待。"
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s 安装和激活成功。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3509
+#: vendor/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "显示详细信息"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3509
+#: vendor/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "隐藏细节"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "所有安装和激活都已完成。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgm/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "安装和激活插件 %1$s (%2$d/%3$d)"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr "安装过程开始。这个过程可能需要一段时间一些主机上,请耐心等待。"
+
+#. translators: 1: plugin name.
+#: vendor/tgm/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s 安装成功。"
+
+#: vendor/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "所有安装已完成。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: vendor/tgm/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "安装插件 %1$s (%2$d/%3$d)"
+
+#: woocommerce/loop/no-products-found.php:22
+msgid "No products were found matching your selection."
+msgstr "没有符合您所选择的商品。"
+
+#. Theme Name of the plugin/theme
+msgid "Bado Blog"
+msgstr "Bado Blog"
+
+#. Theme URI of the plugin/theme
+msgid "https://web-zone.org/bado-blog"
+msgstr "https://web-zone.org/bado-blog"
+
+#. Author of the plugin/theme
+msgid "DMCWebZone"
+msgstr "DMCWebZone"
+
+#. Author URI of the plugin/theme
+msgid "https://web-zone.org"
+msgstr "https://web-zone.org"
+
+#~ msgid "Social link"
+#~ msgstr "社交链接"
+
+#~ msgid "At the bottom of the cart page"
+#~ msgstr "在购物车页面底部"
+
+#~ msgid "After the order details on the order page"
+#~ msgstr "在订单页面的订单详情后"
+
+#~ msgid ""
+#~ "A graphical mega menu with its own builder is available in the premium "
+#~ "version"
+#~ msgstr "高级版本中还提供了一个自带生成器的图形化巨型菜单"
+
+#~ msgid ""
+#~ "In this section, there can be a flexible builder that will allow you to "
+#~ "quickly and easily customize a cool homepage"
+#~ msgstr "在本节中，可以有一个灵活的构建器，可让您快速轻松地自定义炫酷的主页"
+
+#~ msgid "Home page builder (choice of 8 blocks)"
+#~ msgstr "主页构建器（8 个区块可选）"
+
+#~ msgid "Category menu builder"
+#~ msgstr "类别菜单生成器"
+
+#~ msgid "Megamenu (graphic) with builder in the main menu"
+#~ msgstr "主菜单中带有构建器的超级菜单（图形）"
+
+#~ msgid "Social link builder in the site header"
+#~ msgstr "网站标题中的社交链接生成器"
+
+#~ msgid "Side column (WooCommerce)"
+#~ msgstr "侧栏 (WooCommerce)"
+
+#~ msgid "These widgets are displayed in the sidebar on WooCommerce pages"
+#~ msgstr "这些小部件显示在 WooCommerce 页面的侧边栏中"
+
+#~ msgid "Side column (bbPress)"
+#~ msgstr "侧栏（bbPress）"
+
+#~ msgid "These widgets are displayed in the sidebar on bbPress pages"
+#~ msgstr "这些小部件显示在 bbPress 页面的侧边栏中"
+
+#~ msgid "Side column (BuddyPress)"
+#~ msgstr "侧栏（BuddyPress）"
+
+#~ msgid "These widgets are displayed in the sidebar on BuddyPress pages"
+#~ msgstr "这些小部件显示在 BuddyPress 页面的侧栏中"
+
+#~ msgid "Home page builder"
+#~ msgstr "主页创建者"
+
+#~ msgid "Mega menu (graphic) with constructor"
+#~ msgstr "带构造函数的超级菜单（图形）"
+
+#~ msgid "Full demo versions of sites"
+#~ msgstr "网站的完整演示版本"
+
+#~ msgid "Mega menu (lists)"
+#~ msgstr "巨型菜单（列表）"
+
+#~ msgid "Full-width main menu background"
+#~ msgstr "全宽主菜单背景"
+
+#~ msgid "Orientation for main menu items"
+#~ msgstr "主菜单项的方向"
+
+#~ msgid "Size of main menu items"
+#~ msgstr "主菜单项的大小"
+
+#~ msgid "Background color of main menu items"
+#~ msgstr "主菜单项的背景颜色"
+
+#~ msgid "Text color main menu"
+#~ msgstr "文本颜色主菜单"
+
+#~ msgid "Main menu item font"
+#~ msgstr "主菜单项字体"
+
+#~ msgid "Main menu items text size"
+#~ msgstr "主菜单项文字大小"
+
+#~ msgid "Main menu items titles in uppercase"
+#~ msgstr "主菜单项标题大写"
+
+#~ msgid "Select category to display"
+#~ msgstr "选择要显示的类别"
+
+#~ msgid "Default - background color of the main menu"
+#~ msgstr "默认 - 主菜单的背景颜色"
+
+#~ msgid "Default - text color of the main menu"
+#~ msgstr "默认 - 主菜单的文本颜色"
+
+#~ msgid "Full-width footer background"
+#~ msgstr "全宽页脚背景"
+
+#~ msgid "Default - color of the main menu"
+#~ msgstr "默认 - 主菜单的颜色"
+
+#~ msgid "Light color scheme (Green and Orange)"
+#~ msgstr "浅色方案（绿色和橙色）"
+
+#~ msgid "Light color scheme (Light grey and Light red)"
+#~ msgstr "浅色方案（浅灰色和浅红色）"
+
+#~ msgid "Light color scheme (Dark blue and Light blue)"
+#~ msgstr "浅色方案（深蓝色和浅蓝色）"
+
+#~ msgid "Light color scheme (Blue)"
+#~ msgstr "浅色方案（蓝色）"
+
+#~ msgid "Dark color scheme (Red and Orange)"
+#~ msgstr "深色配色方案（红色和橙色）"
+
+#~ msgid "Dark color scheme (Green and Orange)"
+#~ msgstr "深色配色方案（绿色和橙色）"
+
+#~ msgid "Light color scheme (Dark grey and Red)"
+#~ msgstr "浅色方案（深灰色和红色）"
+
+#~ msgid "Light color scheme (Light grey and Green)"
+#~ msgstr "浅色方案（浅灰色和绿色）"
+
+#~ msgid "Light color scheme (Orange and Gray)"
+#~ msgstr "浅色方案（橙色和灰色）"
+
+#~ msgid "Light color scheme (Violet and Pink)"
+#~ msgstr "浅色方案（紫色和粉色）"
+
+#~ msgid "Light color scheme (Heavenly and Light blue)"
+#~ msgstr "浅色方案（天堂色和浅蓝色）"
+
+#~ msgid "Light color scheme (Turquoise)"
+#~ msgstr "浅色方案（绿松石色）"
+
+#~ msgid "Import settings"
+#~ msgstr "导入设置"
+
+#~ msgid ""
+#~ "The import section is not available! The import section is available when "
+#~ "there are suitable themes to import"
+#~ msgstr "导入部分不可用！当有合适的主题可导入时，导入部分可用"
+
+#~ msgid "Style: Confident oasis"
+#~ msgstr "风格: 自信绿洲"
+
+#~ msgid "Color scheme: Light (Green and Orange)"
+#~ msgstr "配色方案：浅色（绿色和橙色）"
+
+#~ msgid "Style: Photo maximalism"
+#~ msgstr "风格：照片极繁主义"
+
+#~ msgid "Color scheme: Light (Light grey and Light red)"
+#~ msgstr "配色方案：浅色（浅灰色和浅红色）"
+
+#~ msgid "Style: News book"
+#~ msgstr "风格: 新闻书"
+
+#~ msgid "Color scheme: Light (Dark blue and Light blue)"
+#~ msgstr "配色方案：浅色（深蓝色和浅蓝色）"
+
+#~ msgid "Style: Minimalism"
+#~ msgstr "风格：极简主义"
+
+#~ msgid "Color scheme: Light (Blue)"
+#~ msgstr "配色方案：浅色（蓝色）"
+
+#~ msgid "Style: Night magazine"
+#~ msgstr "风格: 夜间杂志"
+
+#~ msgid "Color scheme: Dark (Red and Orange)"
+#~ msgstr "配色方案：深色（红色和橙色）"
+
+#~ msgid "Style: Intrusive frames"
+#~ msgstr "风格：侵入式框架"
+
+#~ msgid "Color scheme: Dark (Green and Orange)"
+#~ msgstr "配色方案：深色（绿色和橙色）"
+
+#~ msgid "Style: News time"
+#~ msgstr "风格: 新闻时间"
+
+#~ msgid "Color scheme: Light (Dark grey and Red)"
+#~ msgstr "配色方案：浅色（深灰色和红色）"
+
+#~ msgid "Style: Hippopotamus"
+#~ msgstr "风格: 河马"
+
+#~ msgid "Color scheme: Light (Light grey and Green)"
+#~ msgstr "配色方案：浅色（浅灰色和绿色）"
+
+#~ msgid "Style: Strict carrot"
+#~ msgstr "风格: 严格胡萝卜"
+
+#~ msgid "Color scheme: Light (Orange and Gray)"
+#~ msgstr "配色方案：浅色（橙色和灰色）"
+
+#~ msgid "Style: Womens blog"
+#~ msgstr "风格： 女式博客"
+
+#~ msgid "Color scheme: Light (Violet and Pink)"
+#~ msgstr "配色方案：浅色（紫色和粉色）"
+
+#~ msgid "Style: Heavenly"
+#~ msgstr "风格: 天堂般的"
+
+#~ msgid "Color scheme: Light (Heavenly and Light blue)"
+#~ msgstr "配色方案：浅色（天堂色和浅蓝色）"
+
+#~ msgid "Style: Through limitations"
+#~ msgstr "风格：通过限制"
+
+#~ msgid "Color scheme: Light (Turquoise)"
+#~ msgstr "配色方案：浅色（绿松石色）"
+
+#~ msgid "Style: Mixing colors"
+#~ msgstr "风格: 混色"
+
+#~ msgid "Multicolor scheme: Demo location of color"
+#~ msgstr "多色方案：颜色演示位置"
+
+#~ msgid "Favorites"
+#~ msgstr "收藏"
+
+#~ msgid "Learn More"
+#~ msgstr "了解更多"

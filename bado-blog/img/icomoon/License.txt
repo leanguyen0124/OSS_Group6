@@ -1,0 +1,5 @@
+Source: https://icomoon.io/
+
+You can use this package under license: GPL.
+
+http://www.gnu.org/licenses/gpl.html

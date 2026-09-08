@@ -1,0 +1,15 @@
+/* ------------------------------------------------------------------------------
+* Author: web-zone.org
+* @package Bado Blog
+* Description: Styles for Events Calendar
+* ------------------------------------------------------------------------------ */
+
+/* General */
+.tribe-common-l-container,
+.tribe-events-view,
+.tribe-events-pg-template {
+    border-radius: 25px;
+}
+.tribe-events-single {
+    padding: 10px 30px;
+}

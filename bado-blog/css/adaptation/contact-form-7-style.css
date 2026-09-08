@@ -1,0 +1,24 @@
+/* ------------------------------------------------------------------------------
+* Author: web-zone.org
+* @package Bado Blog
+* Description: Styles for Contact Form 7
+* ------------------------------------------------------------------------------ */
+
+
+/* Info */
+.wpcf7-not-valid-tip {
+	background: #e3e3e3;
+	padding-left: 7px;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.wpcf7 form .wpcf7-response-output {
+    border-radius: 15px;
+}
+
+/* Button */
+.wpcf7 form input[type="submit"]:hover {
+	box-shadow: 0.01em 0.01em 0.3em rgba(0, 0, 0, 0.5);
+	transition: 0.2s;
+}

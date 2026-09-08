@@ -1,0 +1,37 @@
+# Operating system
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local wp-env overrides and environment secrets
+.wp-env.override.json
+.env
+.env.*
+**/.git.backup/
+
+# JavaScript and PHP dependencies
+node_modules/
+**/node_modules/
+bbPress/vendor/
+buddypress/vendor/
+
+# Generated build, test and documentation output
+build/
+dist/
+coverage/
+**/build/
+**/dist/
+buddypress/output/
+
+# WordPress and tooling logs/cache
+*.log
+.phpunit.result.cache
+.phpcscache/
+phpunit.xml
+phpcs.xml
+
+# Archives and local editor files
+*.zip
+*.tar.gz
+.idea/
+.vscode/

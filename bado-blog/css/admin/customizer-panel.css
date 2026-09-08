@@ -1,0 +1,578 @@
+/* ------------------------------------------------------------------------------
+* Author: web-zone.org
+* @package Bado Blog
+* Description: Styles for the customizer panel
+* ------------------------------------------------------------------------------ */
+
+
+/*
+Help ico
+*/
+.badoblog-css-panel-help-box {
+  display: flex;
+  align-items: center;
+}
+
+.badoblog-css-panel-help-ico {
+  border: solid 1px #3582C4;
+  border-radius: 50px;
+  margin: 0 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-style: normal;
+}
+
+/*
+Separation for WordPress system settings
+*/
+.control-panel-widgets {
+  margin-top: 15px;
+}
+  
+/*
+Divider bar in the customizer panel (solid)
+*/
+.badoblog-c-panel-line-s {
+    border-top: 2px solid #4c65ad;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*
+Divider bar in the customizer panel (dotted)
+*/
+.badoblog-c-panel-line-d {
+    border-top: 2px dashed #dda647;
+    background: #c1c1c1;
+    width: 100%;
+    margin: 5px 0;
+}
+
+/*
+Divider bar in the customizer panel (Text)
+*/
+.badoblog-c-panel-text {
+    font-size: 1.125em;
+    line-height: 1.6em;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+/*
+Divider bar in the customizer panel (Text)
+*/
+.badoblog-c-panel-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+/*
+Divider bar in the customizer panel (premium text)
+*/
+.badoblog-css-panel-premium {
+  margin: 15px 10px 15px 0;
+  padding: 15px;
+  border: solid 1px #4c65ad;
+  border-radius: 15px;
+}
+
+/*
+Confirmation function - Reset theme settings
+*/
+.badoblog-reset-css,
+#customize-control-badoblog_cus_reset_pre,
+#customize-control-badoblog_cus_reset_set_panel_text,
+#customize-control-badoblog_cus_reset_set_panel_border,
+#customize-control-badoblog_cus_import_set,
+#customize-control-badoblog_cus_import_set_panel_border,
+#customize-control-badoblog_cus_import_set_panel_text,
+#customize-control-badoblog_cus_import_setting_set_panel_text {
+  display: none;
+}
+
+.badoblog-reset-scheme {
+  margin-bottom: 10px;
+}
+
+
+/*
+Section Styles HOME
+*/
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.badoblog-info {
+  margin-top: 10px;
+}
+
+.badoblog-info a {
+  background: #0073aa;
+  padding: 5px 10px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  line-height: 1.2;
+  box-shadow: none;
+  font-style: normal;
+}
+
+.badoblog-info a:hover {
+  background: #000;
+}
+.multi-elastic-field-control-wrap {
+  margin-top: 20px;
+}
+
+@media (max-width: 960px) {
+  .wp-core-ui.wp-customizer .button.badoblog-add-control-field {
+    margin-left: 20px;
+  }
+  .multi-elastic-field-control-wrap {
+    margin: 20px 20px 0;
+  }
+}
+
+.multi-elastic-field-control {
+  background: #F5F5F5;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.multi-elastic-footer {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.multi-elastic-field-control:first-child .multi-elastic-footer {
+  display: none;
+}
+
+.multi-elastic-field-title {
+  padding: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  font-size: 1em;
+  cursor: move;
+  position: relative;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  min-height: 20px;
+}
+
+.multi-elastic-field-title:after {
+  content: "\f142";
+  font: 400 24px/1 dashicons;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1px 2px 1px 0;
+  margin: 15px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.multi-elastic-field-control.expanded .multi-elastic-field-title:after {
+  content: "\f140";
+}
+.multi-elastic-field-control.expanded .multi-elastic-field-title {
+  box-shadow: none;
+}
+.multi-elastic-field-control.expanded {
+  box-shadow: 0 0 5px #2271B1;
+  border-radius: 4px;
+}
+
+.multi-elastic-fields{
+  padding: 0 10px 10px;
+  display: none;
+}
+
+.multi-elastic-fields .customize-control-title {
+  margin-top: 10px;
+}
+
+.multi-elastic-field-control.expanded .multi-elastic-fields {
+  display: block;
+}
+
+.wp-core-ui.wp-customizer .button.multi-elastic-field-remove, .wp-core-ui.wp-customizer .button.multi-elastic-field-close {
+  margin-left: 7px;
+  margin-top: 7px;
+}
+
+.wp-core-ui.wp-customizer .button.multi-elastic-field-remove {
+  background: #ffe9e9;
+}
+
+.wp-core-ui.wp-customizer .button.badoblog-add-control-field {
+  margin-bottom: 15px;
+}
+
+.badoblog-add-control-field:before {
+  content: "\f132";
+  display: inline-block;
+  position: relative;
+  padding-right: 7px;
+  font: 400 18px/1 dashicons;
+  vertical-align: middle;
+}
+
+.badoblog-fields textarea {
+  width: 100%;
+  min-height: 100px;
+}
+
+.badoblog-fields select {
+  width: 100%;
+  min-width: none;
+}
+
+.badoblog-type-checkbox {
+  margin-top: 10px;
+}
+
+.badoblog-type-checkbox label {
+  line-height: 20px;
+  display: block;
+  margin-left: 24px;
+  padding-top: 6px;
+}
+
+.badoblog-type-checkbox input[type=checkbox] {
+  margin-right: 8px;
+  margin-left: -24px;
+}
+
+.badoblog-type-selector .selector-labels {
+  margin: 0 -5px;
+}
+
+.badoblog-type-selector .selector-labels label {
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+  max-width: 50%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.badoblog-type-selector .selector-labels label img {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.badoblog-type-selector .selector-labels label.selector-selected:after {
+  content: "";
+  height: 35px;
+  width: 35px;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.badoblog-type-selector .selector-labels label.selector-selected img {
+    box-shadow: 0 0 4px 2px #2271B1;
+    border-radius: 7px;
+}
+
+.badoblog-type-radio .radio-labels label {
+  display: block;
+  padding: 5px 0;
+}
+
+.onoffswitch {
+  position: relative;
+  width: 100px;
+  margin-right: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.onoffswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  -moz-transition: margin .3s ease-in 0s;
+  -webkit-transition: margin .3s ease-in 0s;
+  -o-transition: margin .3s ease-in 0s;
+  transition: margin .3s ease-in 0s;
+}
+
+.onoffswitch-inner > div {
+  float: left;
+  position: relative;
+  width: 50%;
+  height: 24px;
+  padding: 0;
+  line-height: 24px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 700;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.onoffswitch-inner .onoffswitch-active {
+  background-color: #d4d4d4;
+  color: #fff;
+}
+
+.onoffswitch-inner .onoffswitch-inactive {
+  background-color: #d4d4d4;
+  color: #fff;
+  text-align: right;
+}
+
+.onoffswitch-switch {
+  width: 50px;
+  margin: 0;
+  text-align: center;
+  border: 0 solid #999;
+  border-radius: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.onoffswitch-active .onoffswitch-switch {
+  background: #0073aa;
+  left: 0;
+}
+
+.onoffswitch-inactive .onoffswitch-switch {
+  background: #7D7D7D;
+  right: 0;
+}
+.switch-on .onoffswitch-inner {
+  margin-left: 0;
+}
+
+.pt-visual-selector {
+  margin-top: 10px;
+}
+
+.visual-selector a {
+  position: relative;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  outline: 0;
+  border: 1px solid #EEE;
+}
+
+.visual-selector a img {
+  vertical-align: middle;
+}
+
+.visual-selector a .selector-tick {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+
+.badoblog-range-slider .range-input {
+  height: 12px;
+  position: relative;
+  background: #EEE;
+  border-radius: 4px;
+  margin: 0 4px 18px;
+}
+
+.badoblog-range-slider .range-input-selector {
+  width: 80px;
+  margin-right: 10px;
+  border-radius: 12px;
+  text-align: center;
+  height: 32px;
+}
+
+.badoblog-range-slider .ui-slider .ui-slider-range {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  background: #0073aa;
+}
+
+.badoblog-range-slider .ui-slider-horizontal .ui-slider-range {
+  top: 0;
+  height: 100%;
+  left: 0;
+  border-radius: 4px;
+}
+
+.badoblog-range-slider .ui-slider .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  width: 18px;
+  height: 18px;
+  cursor: default;
+  -ms-touch-action: none;
+  touch-action: none;
+  background: #EEE;
+  border: 2px solid #0073aa;
+  border-radius: 50%;
+  margin-top: -3px;
+  margin-left: -9px;
+  cursor: pointer;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.badoblog-type-icon {
+  overflow: hidden;
+}
+
+.badoblog-selected-icon {
+  background: #F6F6F6;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border: 1px solid #EEE;
+  position: relative;
+  margin-right: 45px;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.badoblog-selected-icon span {
+  position: absolute;
+  background: #F6F6F6;
+  right: -45px;
+  top: -1px;
+  height: 45px;
+  width: 45px;
+  border: 1px solid #EEE;
+  font-size: 20px;
+}
+
+.badoblog-icon-list {
+  height: 215px;
+  overflow-y: scroll;
+  font-size: 18px;
+  border: 1px solid #EEE;
+  border-right: 0;
+  border-top: 0;
+  padding-bottom: 4%;
+  display: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.badoblog-icon-list li {
+  float: left;
+  margin: 4% 3% 0;
+  height: 40px;
+  width: 16%;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #EEE;
+}
+
+.badoblog-icon-list li:hover {
+  background: #333;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+.badoblog-icon-list li.icon-active {
+  background: #0073aa;
+  border: 1px solid #0073aa;
+  color: #fff;
+}
+
+.customize-control-description ul li {
+	padding-left: 20px;
+	position: relative;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+#sub-accordion-section-theme_info .customize-control-title {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+input[type=number] {
+  max-width: 150px;
+}
+
+.customize-control input[type=text] {
+  max-width: 92%;
+}
+
+.badoblog-type-selector .selector-labels-soc label.selector-soc-selected {
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid #2271b1;
+}
+
+.badoblog-type-selector .selector-labels-soc label {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Highlighting when selecting a general category */
+.badoblog-css-admin-panel-all-cat {
+  font-weight: 600;
+}
+
+/* 
+Prohibition on editing the headers of sortable fields (for some browsers, example Firefox)
+*/
+.multi-elastic-field-title,
+.multi-elastic-fields {
+  user-select: none;
+  -webkit-appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+/* 
+Image Loader
+*/
+.badoblog-fields-wrap {
+  border: solid 1px #c3c3c3;
+  padding: 15px;
+  margin-top: 15px;
+}
+.badoblog-css-image-in-thum {
+  display: flex;
+  justify-content: center;
+}
+.badoblog-css-image-in-thum img {
+  max-height: 200px;
+}
+
+/*
+Expanding the customizer panel on larger screens
+*/
+@media (min-width: 1667px) and (max-width: 2775px) {
+  .wp-full-overlay-sidebar {
+      width: 500px;
+  }
+  .wp-full-overlay.expanded {
+      margin-left: 500px;
+  }
+  .badoblog-type-selector .selector-labels label {
+    margin: 3px;
+  }  
+}

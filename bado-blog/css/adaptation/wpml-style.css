@@ -1,0 +1,62 @@
+/* ------------------------------------------------------------------------------
+* Author: web-zone.org
+* @package Bado Blog
+* Description: Styles for WPML
+* ------------------------------------------------------------------------------ */
+
+
+/* Padding for link icons in posts and pages (for older versions WPML) */
+.badoblog-css-post-content .wpml-ls-flag,
+.badoblog-css-page-content .wpml-ls-flag {
+	margin-left: 5px;
+}
+
+/* Padding for menu icons */
+.badoblog-css-mega-menu-box .wpml-ls-flag,
+.badoblog-css-top-menu .wpml-ls-flag,
+.badoblog-css-footer-menu .wpml-ls-flag,
+.widget .wpml-ls-flag {
+	margin-right: 5px;
+}
+
+/* Widget padding */
+.wpml-ls-legacy-dropdown,
+.wpml-ls-legacy-dropdown-click,
+.wpml-ls-legacy-list-vertical {
+	margin-top: 14px;
+}
+.wpml-ls-legacy-dropdown li a,
+.wpml-ls-legacy-dropdown-click li a {
+	padding: 15px;
+}
+.wpml-ls-legacy-dropdown a.wpml-ls-item-toggle,
+.wpml-ls-legacy-dropdown-click a.wpml-ls-item-toggle,
+.wpml-ls-legacy-dropdown .wpml-ls-sub-menu,
+.wpml-ls-legacy-dropdown-click .wpml-ls-sub-menu {
+    border-radius: 10px;
+}
+.wpml-ls-legacy-dropdown li.wpml-ls-first-item a,
+.wpml-ls-legacy-dropdown-click li.wpml-ls-first-item a {
+    border-radius: 10px 10px 0 0;
+}
+.wpml-ls-legacy-dropdown li.wpml-ls-last-item a,
+.wpml-ls-legacy-dropdown-click li.wpml-ls-last-item a {
+    border-radius: 0 0 10px 10px;
+}
+
+
+/* Settings for the block below the footer */
+.wpml-ls-statics-footer {
+	max-width: 1500px;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.2);
+  	box-shadow: 0.1em 0.1em 0.3em rgb(0 0 0 / 20%);
+	border-radius: 25px;
+}
+div.wpml-ls-statics-footer {
+	padding: 25px;
+}
+.wpml-ls-statics-footer a {
+	border-radius: 50px;
+	margin: 5px;
+}
