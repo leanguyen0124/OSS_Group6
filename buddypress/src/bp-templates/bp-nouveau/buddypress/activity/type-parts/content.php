@@ -1,0 +1,13 @@
+<?php
+/**
+ * BuddyPress - Activity content
+ *
+ * This template is used by `activity/entry.php` and showes any activity type content.
+ *
+ * @package BuddyPress
+ * @subpackage bp-nouveau
+ * @since 10.0.0
+ * @version 10.0.0
+ */
+
+bp_nouveau_activity_content();
