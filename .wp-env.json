@@ -4,8 +4,9 @@
 		"./bado-blog"
 	],
 	"plugins": [
-		"./bbPress"
-	],
+    "./bbPress",
+    "./custom-community"
+],
 	"mappings": {
 		"wp-content/plugins/buddyPress": "./buddypress"
 	},
