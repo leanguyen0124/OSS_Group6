@@ -2,6 +2,7 @@
 	"port": 8890,
 	"themes": [
 		"./bado-blog"
+		"./bado-blog-child"
 	],
 	"plugins": [
     "./bbPress",
@@ -21,4 +22,5 @@
 	},
 	"testsEnvironment": false
 }
- 
+
+
