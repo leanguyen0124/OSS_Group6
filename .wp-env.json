@@ -2,17 +2,18 @@
 	"port": 8890,
 	"themes": [
 		"./bado-blog"
-		"./bado-blog-child"
 	],
 	"plugins": [
-    "./bbPress",
-    "./custom-community"
-],
+		"./bbPress",
+		"./custom-content-report",
+		"./custom-png-upload",
+		"./custom-community"
+	],
 	"mappings": {
 		"wp-content/plugins/buddyPress": "./buddypress"
 	},
 	"lifecycleScripts": {
-		"afterStart": "wp-env run cli wp theme activate bado-blog && wp-env run cli wp plugin activate buddyPress/bp-loader.php"
+		"afterStart": "wp-env run cli wp theme activate bado-blog && wp-env run cli wp plugin activate buddyPress/bp-loader.php custom-content-report custom-png-upload"
 	},
 	"config": {
 		"WP_DEBUG": true,
@@ -22,5 +23,4 @@
 	},
 	"testsEnvironment": false
 }
-
-
+ 
