@@ -4,13 +4,15 @@
 		"./bado-blog"
 	],
 	"plugins": [
-		"./bbPress"
+		"./bbPress",
+		"./custom-content-report",
+		"./custom-png-upload"
 	],
 	"mappings": {
 		"wp-content/plugins/buddyPress": "./buddypress"
 	},
 	"lifecycleScripts": {
-		"afterStart": "wp-env run cli wp theme activate bado-blog && wp-env run cli wp plugin activate buddyPress/bp-loader.php"
+		"afterStart": "wp-env run cli wp theme activate bado-blog && wp-env run cli wp plugin activate buddyPress/bp-loader.php custom-content-report custom-png-upload"
 	},
 	"config": {
 		"WP_DEBUG": true,
