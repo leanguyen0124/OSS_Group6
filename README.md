@@ -50,11 +50,16 @@ http://localhost:8890
 
 Môi trường hiện tại tự động:
 
-- mount theme `bado-blog`;
+- mount theme `bado-blog` và `bado-blog-child`;
 - mount và kích hoạt BuddyPress;
 - cài và kích hoạt bbPress;
-- kích hoạt theme Bado Blog;
+- kích hoạt theme Bado Blog Child;
+- kích hoạt OSS Community Rewards;
 - bật debug nhưng ghi lỗi vào log thay vì hiển thị trên giao diện.
+
+Màu, khung trang và header theo giao diện cộng đồng nằm trong
+`bado-blog-child/assets/css/community-theme.css`. Theme con nạp tệp này sau CSS
+Customizer của Bado Blog để các chỉnh sửa vẫn có hiệu lực.
 
 Thông tin đăng nhập mặc định của `wp-env`:
 
@@ -167,6 +172,15 @@ Không xóa biến sau khỏi nội dung email:
 Đây là link kích hoạt tài khoản.
 
 ## 6. Các lệnh kiểm tra hữu ích
+
+Điểm, huy hiệu và bảng xếp hạng hiển thị trên các trang dùng shortcode
+`[oss_reward_profile]` và `[oss_leaderboard]`. Plugin không tự thêm các khối này
+vào trang chủ hoặc diễn đàn. Điểm chỉ phát sinh khi thành viên đăng chủ đề hoặc
+trả lời sau khi plugin hoạt động; nội dung cũ không được tính lại tự động.
+
+Giao diện, menu, bài viết, diễn đàn, widget, logo và thiết lập Customize nằm trong
+database WordPress. Chỉ chạy lại mã nguồn không khôi phục các mục này từ một site
+khác; cần nhập bản sao database và thư mục uploads của site đó.
 
 Xem trạng thái môi trường:
 
