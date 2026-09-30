@@ -1,0 +1,944 @@
+/* Community palette and layout. Loaded after Bado Blog's Customizer CSS. */
+body.wp-child-theme-bado-blog-child {
+    background: #fdfcfc;
+}
+
+body.wp-child-theme-bado-blog-child #page {
+    box-sizing: border-box;
+    width: calc(100% - clamp(48px, 10vw, 180px));
+    max-width: 1720px;
+    margin: 36px auto 44px;
+    padding: 30px 32px 42px;
+    border-radius: 32px;
+    background: #998eb5;
+    --oss-sticky-gap: 24px;
+    --oss-page-top-padding: 30px;
+    --oss-panel-gap: 18px;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-top-bar,
+body.wp-child-theme-bado-blog-child .badoblog-css-site-branding,
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu-container,
+body.wp-child-theme-bado-blog-child .badoblog-css-content-area,
+body.wp-child-theme-bado-blog-child #secondary {
+    background: #fffefa;
+    border-radius: 27px;
+    box-shadow: 0 3px 10px rgba(55, 41, 83, .12);
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-top-bar {
+    min-height: 68px;
+    padding: 16px 42px;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-top-bar::before,
+body.wp-child-theme-bado-blog-child .badoblog-css-top-bar::after {
+    display: none;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-top-menu {
+    width: auto;
+    gap: 12px;
+    overflow: visible;
+}
+
+body.wp-child-theme-bado-blog-child .oss-top-account,
+body.wp-child-theme-bado-blog-child .oss-top-navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body.wp-child-theme-bado-blog-child .oss-top-account a,
+body.wp-child-theme-bado-blog-child .oss-top-user summary {
+    color: #54487b;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+body.wp-child-theme-bado-blog-child .oss-top-notifications {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 8px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-top-notification-count {
+    min-width: 20px;
+    height: 20px;
+    padding: 0 5px;
+    border-radius: 999px;
+    background: #9674d6;
+    color: #fff;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: center;
+}
+
+body.wp-child-theme-bado-blog-child .oss-top-user {
+    position: relative;
+}
+
+body.wp-child-theme-bado-blog-child .oss-top-user summary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    list-style: none;
+}
+
+body.wp-child-theme-bado-blog-child .oss-top-user summary::-webkit-details-marker {
+    display: none;
+}
+
+body.wp-child-theme-bado-blog-child .oss-top-user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+body.wp-child-theme-bado-blog-child .oss-top-user-menu {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 0;
+    z-index: 100;
+    min-width: 170px;
+    padding: 8px;
+    border: 1px solid #e7dff0;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 8px 22px rgba(55, 41, 83, .16);
+}
+
+body.wp-child-theme-bado-blog-child .oss-top-user-menu a {
+    display: block;
+    padding: 8px 10px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-top-user-menu a:hover,
+body.wp-child-theme-bado-blog-child .oss-top-user-menu a:focus-visible {
+    background: #f5effb;
+}
+
+body.wp-child-theme-bado-blog-child .oss-top-account a:focus-visible,
+body.wp-child-theme-bado-blog-child .oss-top-user summary:focus-visible {
+    outline: 2px solid #9674d6;
+    outline-offset: 2px;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-site-branding {
+    padding: 42px;
+    margin-top: var(--oss-panel-gap);
+}
+
+body.wp-child-theme-bado-blog-child #content {
+    margin-top: var(--oss-panel-gap);
+}
+
+body.wp-child-theme-bado-blog-child.oss-inner-page .badoblog-css-site-branding,
+body.wp-child-theme-bado-blog-child .badoblog-css-site-brand-soc {
+    display: none;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-site-brand-bottom-1 {
+    width: 100%;
+}
+
+body.wp-child-theme-bado-blog-child #primary {
+    width: 100%;
+    float: none;
+}
+
+body.wp-child-theme-bado-blog-child #secondary {
+    display: none;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-site-brand-bottom {
+    gap: 36px;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-site-brand-bottom-box {
+    min-height: 230px;
+    margin-top: 0;
+    padding: 32px 55px;
+    align-items: center;
+    background: linear-gradient(100deg, #aa98aa, #eacde3) !important;
+    box-shadow: none;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-site-brand-soc,
+body.wp-child-theme-bado-blog-child .badoblog-css-site-brand-banner {
+    margin-top: 0;
+}
+
+body.wp-child-theme-bado-blog-child:not(.wp-custom-logo) .badoblog-css-site-title-box::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 126px;
+    height: 126px;
+    transform: translateY(-50%);
+    background: url("../images/cat-outline.svg") center / contain no-repeat;
+}
+
+body.wp-child-theme-bado-blog-child:not(.wp-custom-logo) .badoblog-css-site-title-box {
+    position: relative;
+    min-height: 126px;
+    padding-left: 154px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-site-title,
+body.wp-child-theme-bado-blog-child .badoblog-css-site-title a {
+    color: #fff !important;
+    font-weight: 400;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-site-description {
+    color: #fff !important;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu-container {
+    max-width: none;
+    padding: 44px 30px;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li {
+    background: #9674d6 !important;
+    border-radius: 999px;
+    transition: background .2s ease;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li:hover,
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li:focus-within {
+    background: #7857bd !important;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a {
+    color: #fff !important;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-page-title {
+    color: #494451;
+}
+
+body.wp-child-theme-bado-blog-child.oss-panel-page .badoblog-css-page-header,
+body.wp-child-theme-bado-blog-child.oss-panel-page .badoblog-css-page-header-default {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+body.wp-child-theme-bado-blog-child #secondary .widget-title,
+body.wp-child-theme-bado-blog-child #secondary .wp-block-heading {
+    background: linear-gradient(100deg, #aa98aa, #eacde3) !important;
+    color: #fff !important;
+    border-radius: 18px;
+}
+
+body.wp-child-theme-bado-blog-child #bbpress-forums a,
+body.wp-child-theme-bado-blog-child .badoblog-css-page-content a {
+    color: #8063be;
+}
+
+body.wp-child-theme-bado-blog-child .oss-community-feed {
+    padding: 0 15px 15px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-list {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+body.wp-child-theme-bado-blog-child .oss-community-feed > h2 {
+    max-width: 1040px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-item {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 22px;
+    border: 1px solid #e9e1ee;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 3px 12px rgba(55, 41, 83, .08);
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-meta,
+body.wp-child-theme-bado-blog-child .oss-feed-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: #6d6479;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-type {
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #f2eafa;
+    color: #7253a8;
+    font-weight: 600;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-item h3 {
+    margin: 14px 0 8px;
+    font-size: 21px;
+    line-height: 1.35;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-item h3 a,
+body.wp-child-theme-bado-blog-child .oss-feed-footer a {
+    color: #594478;
+    text-decoration: none;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-item h3 a:hover,
+body.wp-child-theme-bado-blog-child .oss-feed-footer a:hover {
+    text-decoration: underline;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-excerpt {
+    margin: 0 0 18px;
+    color: #55505b;
+    overflow-wrap: anywhere;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+    gap: 12px;
+    margin: 8px 0 18px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-gallery a {
+    display: block;
+    overflow: hidden;
+    border-radius: 16px;
+    background: #f5f1f7;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-gallery img {
+    display: block;
+    width: 100%;
+    max-height: 460px;
+    height: auto;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-footer {
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px solid #f0ebf2;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-footer img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-footer .oss-feed-read {
+    margin-left: auto;
+    color: #8063be;
+}
+
+@media (max-width: 900px) {
+    body.wp-child-theme-bado-blog-child #page {
+        width: calc(100% - 32px);
+        margin: 18px auto 24px;
+        padding: 18px;
+        border-radius: 20px;
+        --oss-sticky-gap: 16px;
+        --oss-page-top-padding: 18px;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-site-branding {
+        padding: 24px;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-top-bar {
+        padding: 14px 20px;
+        gap: 12px;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-site-brand-bottom-box {
+        min-height: 180px;
+        padding: 26px;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu-container {
+        padding: 20px 16px;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li {
+        float: none;
+        width: auto !important;
+        margin: 0;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    body.wp-child-theme-bado-blog-child .oss-feed-list {
+        grid-template-columns: 1fr;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-top-menu {
+        width: auto;
+    }
+
+    body.wp-child-theme-bado-blog-child .oss-top-user summary span {
+        max-width: 95px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media (max-width: 550px) {
+    body.wp-child-theme-bado-blog-child:not(.wp-custom-logo) .badoblog-css-site-title-box::before {
+        position: static;
+        width: 76px;
+        height: 76px;
+        margin: 0 auto 12px;
+        transform: none;
+    }
+
+    body.wp-child-theme-bado-blog-child:not(.wp-custom-logo) .badoblog-css-site-title-box {
+        min-height: 0;
+        padding-left: 0;
+        display: block;
+        text-align: center;
+    }
+}
+
+/* The two bars remain in view while the brand and page content scroll. */
+body.wp-child-theme-bado-blog-child .oss-sticky-topbar,
+body.wp-child-theme-bado-blog-child .oss-sticky-nav {
+    position: sticky;
+    z-index: 80;
+}
+
+body.wp-child-theme-bado-blog-child .oss-sticky-topbar {
+    top: calc(var(--oss-sticky-gap) + var(--oss-page-top-padding));
+    z-index: 90;
+    padding-bottom: 10px;
+    background: #998eb5;
+}
+
+body.wp-child-theme-bado-blog-child.oss-page-scrolled .oss-sticky-topbar::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: calc(var(--oss-sticky-gap) + var(--oss-page-top-padding));
+    background: #fdfcfc;
+    pointer-events: none;
+}
+
+body.wp-child-theme-bado-blog-child.oss-page-scrolled .oss-sticky-topbar::after {
+    content: "";
+    position: fixed;
+    top: var(--oss-sticky-gap);
+    left: 50%;
+    box-sizing: border-box;
+    width: calc(100% - clamp(48px, 10vw, 180px));
+    max-width: 1720px;
+    height: var(--oss-page-top-padding);
+    border-radius: 32px 32px 0 0;
+    background: #998eb5;
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+
+body.wp-child-theme-bado-blog-child .oss-brand-rounding {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    height: 27px;
+    background:
+        radial-gradient(circle at bottom right, transparent 27px, #998eb5 28px) top left / 27px 27px no-repeat,
+        radial-gradient(circle at bottom left, transparent 27px, #998eb5 28px) top right / 27px 27px no-repeat;
+    pointer-events: none;
+}
+
+body.wp-child-theme-bado-blog-child.oss-brand-behind-bar .oss-brand-rounding {
+    display: block;
+}
+
+body.wp-child-theme-bado-blog-child .oss-sticky-nav {
+    top: calc(var(--oss-sticky-gap) + var(--oss-page-top-padding) + var(--oss-topbar-height, 78px) + var(--oss-panel-gap));
+    margin-top: var(--oss-panel-gap);
+    padding: 0;
+    background: #998eb5;
+}
+
+body.wp-child-theme-bado-blog-child .oss-sticky-nav::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    left: 0;
+    height: var(--oss-panel-gap);
+    background: #998eb5;
+    pointer-events: none;
+}
+
+body.wp-child-theme-bado-blog-child .oss-sticky-nav::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    height: calc(var(--oss-panel-gap) + 27px);
+    background:
+        linear-gradient(#998eb5, #998eb5) top / 100% var(--oss-panel-gap) no-repeat,
+        radial-gradient(circle at bottom right, transparent 27px, #998eb5 28px) bottom left / 27px 27px no-repeat,
+        radial-gradient(circle at bottom left, transparent 27px, #998eb5 28px) bottom right / 27px 27px no-repeat;
+    pointer-events: none;
+}
+
+body.wp-child-theme-bado-blog-child .oss-sticky-topbar .badoblog-css-top-bar {
+    margin-top: 0;
+}
+
+body.wp-child-theme-bado-blog-child .oss-sticky-nav .badoblog-css-mega-menu-box {
+    margin-top: 0;
+    box-shadow: none;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu-container {
+    padding: 12px 0 !important;
+    background: transparent;
+    box-shadow: none;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li {
+    padding: 4px 8px;
+}
+
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a {
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+/* Reddit inspired split: a roomy feed and a compact independently scrolling list. */
+body.wp-child-theme-bado-blog-child .oss-home-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(270px, 330px);
+    align-items: start;
+    gap: 26px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-community-feed {
+    min-width: 0;
+    padding: 0;
+}
+
+body.wp-child-theme-bado-blog-child .oss-community-feed > h2,
+body.wp-child-theme-bado-blog-child .oss-recent-panel > h2 {
+    max-width: none;
+    min-height: 38px;
+    margin: 0 0 18px;
+    color: #494451;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-list {
+    display: block;
+    max-width: none;
+    max-height: none;
+    overflow: visible;
+    padding: 0 2px 2px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-item + .oss-feed-item {
+    margin-top: 15px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-list:focus-visible,
+body.wp-child-theme-bado-blog-child .oss-recent-list:focus-visible {
+    outline: 2px solid #8063be;
+    outline-offset: 3px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-recent-panel {
+    position: sticky;
+    top: calc(var(--oss-sticky-gap) + var(--oss-page-top-padding) + var(--oss-topbar-height, 78px) + var(--oss-nav-height, 80px) + var(--oss-panel-gap) + var(--oss-panel-gap) + 30px);
+    min-width: 0;
+    padding: 18px;
+    border: 1px solid #e9e1ee;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 3px 12px rgba(55, 41, 83, .08);
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-loader {
+    display: grid;
+    justify-items: center;
+    gap: 8px;
+    padding: 24px 0 10px;
+    color: #756b80;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-load-status {
+    margin: 0;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-load-status:empty {
+    display: none;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-more {
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 999px;
+    background: #9674d6;
+    color: #fff;
+    cursor: pointer;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-more:hover,
+body.wp-child-theme-bado-blog-child .oss-feed-more:focus-visible {
+    background: #7857bd;
+}
+
+body.wp-child-theme-bado-blog-child .oss-feed-more[hidden] {
+    display: none;
+}
+
+body.wp-child-theme-bado-blog-child .oss-recent-list {
+    max-height: min(calc(100dvh - var(--oss-topbar-height, 78px) - var(--oss-nav-height, 88px) - 140px), 850px);
+    margin: 0;
+    padding: 0 8px 0 0;
+    overflow-y: auto;
+    list-style: none;
+    scrollbar-width: thin;
+    scrollbar-color: #d8c9eb transparent;
+}
+
+body.wp-child-theme-bado-blog-child .oss-recent-list li {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 15px 3px;
+    border-top: 1px solid #eee8f2;
+}
+
+body.wp-child-theme-bado-blog-child .oss-recent-list li:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+
+body.wp-child-theme-bado-blog-child .oss-recent-meta {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    min-width: 0;
+    color: #756b80;
+    font-size: 12px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-recent-meta img {
+    width: 26px;
+    height: 26px;
+    margin-right: 3px;
+    border-radius: 50%;
+}
+
+body.wp-child-theme-bado-blog-child .oss-recent-meta span:first-of-type {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+body.wp-child-theme-bado-blog-child .oss-recent-list a {
+    color: #493c63;
+    font-weight: 600;
+    line-height: 1.4;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+body.wp-child-theme-bado-blog-child .oss-recent-list a:hover {
+    color: #8063be;
+    text-decoration: underline;
+}
+
+body.wp-child-theme-bado-blog-child .oss-recent-type {
+    color: #8a79a1;
+    font-size: 12px;
+}
+
+/* Footer uses the site's actual name, tagline and navigation. */
+body.wp-child-theme-bado-blog-child .oss-footer {
+    margin-top: 30px;
+    padding: 54px 56px 24px;
+    border-radius: 27px;
+    background: #fffefa;
+    box-shadow: 0 3px 10px rgba(55, 41, 83, .12);
+    color: #494451;
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) minmax(180px, .65fr) minmax(260px, 1fr);
+    gap: 48px;
+    padding-bottom: 42px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    color: #3d344f;
+    font-size: 29px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer-logo img {
+    width: 72px;
+    height: 72px;
+    padding: 10px;
+    border-radius: 18px;
+    background: linear-gradient(120deg, #aa98aa, #eacde3);
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer-brand p,
+body.wp-child-theme-bado-blog-child .oss-footer-updates p {
+    max-width: 390px;
+    margin: 12px 0 0;
+    color: #6c6474;
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer-brand .oss-footer-tagline {
+    color: #493c63;
+    font-weight: 600;
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer h2 {
+    margin: 13px 0 18px;
+    color: #3d344f;
+    font-size: 19px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer-navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer-navigation li + li {
+    margin-top: 10px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer-navigation a {
+    color: #5b4a78;
+    text-decoration: none;
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer-navigation a:hover {
+    text-decoration: underline;
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    margin-top: 20px;
+    border: 1px solid #756589;
+    border-radius: 999px;
+    color: #786e80;
+    overflow: hidden;
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer-placeholder span:first-child {
+    padding: 12px 20px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer-placeholder span:last-child {
+    padding: 10px 20px;
+    background: #55436d;
+    color: #fff;
+    font-size: 22px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #d8cfde;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+@media (max-width: 1000px) {
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul {
+        width: min(100%, 760px);
+    }
+
+    body.wp-child-theme-bado-blog-child .oss-home-layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    body.wp-child-theme-bado-blog-child .oss-footer-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    body.wp-child-theme-bado-blog-child .oss-feed-list,
+    body.wp-child-theme-bado-blog-child .oss-recent-list {
+        max-height: none;
+        overflow: visible;
+    }
+
+    body.wp-child-theme-bado-blog-child .oss-recent-panel {
+        position: static;
+    }
+}
+
+@media (max-width: 700px) {
+    body.wp-child-theme-bado-blog-child .oss-sticky-nav .badoblog-css-mega-menu-box {
+        margin-top: 0;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu-container {
+        padding: 9px;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 6px;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li {
+        flex: 0 0 auto;
+        padding: 3px 5px;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a {
+        padding: 4px 7px;
+        font-size: 11px;
+    }
+
+    body.wp-child-theme-bado-blog-child .oss-footer {
+        padding: 30px 26px 22px;
+    }
+
+    body.wp-child-theme-bado-blog-child .oss-footer-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+}
+
+@media (max-width: 859px) {
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu-mobile {
+        display: none !important;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu-container {
+        padding: 10px 12px !important;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+        gap: 7px;
+        padding: 0 !important;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li {
+        flex: 0 0 auto;
+        width: auto !important;
+        margin: 0;
+        padding: 3px 5px;
+    }
+
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a {
+        padding: 4px 7px;
+        font-size: 11px;
+    }
+}
+
+/* Keep the static banner logo. Show its small copy beside search after scroll. */
+body.wp-child-theme-bado-blog-child .oss-sticky-cat {
+    display: none;
+    flex: 0 0 38px;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    padding: 0 !important;
+}
+
+body.wp-child-theme-bado-blog-child.oss-brand-compact .oss-sticky-cat,
+body.wp-child-theme-bado-blog-child.oss-inner-page .oss-sticky-cat {
+    display: inline-flex;
+}
+
+body.wp-child-theme-bado-blog-child .oss-sticky-cat img {
+    display: block;
+    box-sizing: border-box;
+    flex: 0 0 34px;
+    width: 34px;
+    height: 34px;
+    padding: 3px;
+    border-radius: 10px;
+    background: linear-gradient(120deg, #aa98aa, #eacde3);
+}
+
+@media (max-width: 900px) {
+    body.wp-child-theme-bado-blog-child.oss-page-scrolled .oss-sticky-topbar::after {
+        width: calc(100% - 32px);
+        border-radius: 20px 20px 0 0;
+    }
+}
