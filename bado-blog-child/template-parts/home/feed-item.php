@@ -43,6 +43,39 @@ $author = oss_community_feed_author( $item['author_id'] );
         <?php else : ?>
             <span><?php echo esc_html( $author['name'] ); ?></span>
         <?php endif; ?>
+        <?php
+$oss_topic_id = absint( $item['topic_id'] ?? $item['post_id'] ?? $item['id'] ?? 0 );
+
+if ( 'topic' !== get_post_type( $oss_topic_id ) && ! empty( $item['url'] ) ) {
+	$oss_topic_id = url_to_postid( $item['url'] );
+}
+
+if ( 'topic' !== get_post_type( $oss_topic_id ) && ! empty( $item['url'] ) ) {
+	$oss_topic_path = wp_parse_url( $item['url'], PHP_URL_PATH );
+	$oss_topic_slug = basename( untrailingslashit( $oss_topic_path ) );
+	$oss_topic_post = get_page_by_path( $oss_topic_slug, OBJECT, 'topic' );
+	$oss_topic_id   = $oss_topic_post ? (int) $oss_topic_post->ID : 0;
+}
+
+if ( 'topic' === get_post_type( $oss_topic_id ) ) :
+	$oss_reply_count = function_exists( 'bbp_get_topic_reply_count' )
+		? (int) bbp_get_topic_reply_count( $oss_topic_id, true )
+		: 0;
+	?>
+	<div class="oss-feed-engagement">
+		<a class="oss-feed-comment"
+			href="<?php echo esc_url( get_permalink( $oss_topic_id ) . '#bbp-replies' ); ?>"
+			aria-label="<?php echo esc_attr( $oss_reply_count . ' bình luận' ); ?>">
+			<span aria-hidden="true">💬</span>
+			<span><?php echo esc_html( number_format_i18n( $oss_reply_count ) ); ?> bình luận</span>
+		</a>
+		<?php
+		if ( function_exists( 'oss_topic_like_button' ) ) {
+			echo oss_topic_like_button( $oss_topic_id ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		}
+		?>
+	</div>
+<?php endif; ?>
         <a class="oss-feed-read" href="<?php echo esc_url( $item['url'] ); ?>">Xem bài đăng</a>
     </div>
 </article>

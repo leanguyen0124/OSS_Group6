@@ -9,7 +9,8 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
+require_once __DIR__ . '/discussion-thread-ui.php';
+require_once __DIR__ . '/discussion-likes.php';
 function oss_rewards_tables() {
 	global $wpdb;
 	return array( $wpdb->prefix . 'oss_reward_transactions', $wpdb->prefix . 'oss_user_badges' );
@@ -371,3 +372,11 @@ add_action( 'admin_post_oss_rewards_save', function () {
 	wp_safe_redirect( admin_url( 'options-general.php?page=oss-rewards&saved=1' ) );
 	exit;
 } );
+function oss_include_bbpress_in_site_search( $query ) {
+	if ( is_admin() || ! $query->is_main_query() || ! $query->is_search() ) {
+		return;
+	}
+
+	$query->set( 'post_type', array( 'post', 'page', 'topic', 'reply' ) );
+}
+add_action( 'pre_get_posts', 'oss_include_bbpress_in_site_search' );
