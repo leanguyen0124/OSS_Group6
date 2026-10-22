@@ -7,9 +7,10 @@ $item = $args['item'] ?? null;
 if ( ! $item ) {
     return;
 }
+$report_type = 'status' === $item['type'] ? 'activity' : $item['type'];
 $author = oss_community_feed_author( $item['author_id'] );
 ?>
-<article class="oss-feed-item oss-feed-<?php echo esc_attr( $item['type'] ); ?>">
+<article data-ccr-content-type="<?php echo esc_attr( $report_type ); ?>" data-ccr-content-id="<?php echo absint( $item['id'] ?? 0 ); ?>" class="oss-feed-item oss-feed-<?php echo esc_attr( $item['type'] ); ?>">
     <div class="oss-feed-meta">
         <span class="oss-feed-type"><?php echo esc_html( $item['label'] ); ?></span>
         <time datetime="<?php echo esc_attr( gmdate( 'c', $item['time'] ) ); ?>"><?php echo esc_html( wp_date( 'd/m/Y · H:i', $item['time'] ) ); ?></time>
@@ -43,39 +44,17 @@ $author = oss_community_feed_author( $item['author_id'] );
         <?php else : ?>
             <span><?php echo esc_html( $author['name'] ); ?></span>
         <?php endif; ?>
+        <div class="oss-feed-engagement">
         <?php
-$oss_topic_id = absint( $item['topic_id'] ?? $item['post_id'] ?? $item['id'] ?? 0 );
-
-if ( 'topic' !== get_post_type( $oss_topic_id ) && ! empty( $item['url'] ) ) {
-	$oss_topic_id = url_to_postid( $item['url'] );
-}
-
-if ( 'topic' !== get_post_type( $oss_topic_id ) && ! empty( $item['url'] ) ) {
-	$oss_topic_path = wp_parse_url( $item['url'], PHP_URL_PATH );
-	$oss_topic_slug = basename( untrailingslashit( $oss_topic_path ) );
-	$oss_topic_post = get_page_by_path( $oss_topic_slug, OBJECT, 'topic' );
-	$oss_topic_id   = $oss_topic_post ? (int) $oss_topic_post->ID : 0;
-}
-
-if ( 'topic' === get_post_type( $oss_topic_id ) ) :
-	$oss_reply_count = function_exists( 'bbp_get_topic_reply_count' )
-		? (int) bbp_get_topic_reply_count( $oss_topic_id, true )
-		: 0;
-	?>
-	<div class="oss-feed-engagement">
-		<a class="oss-feed-comment"
-			href="<?php echo esc_url( get_permalink( $oss_topic_id ) . '#bbp-replies' ); ?>"
-			aria-label="<?php echo esc_attr( $oss_reply_count . ' bình luận' ); ?>">
-			<span aria-hidden="true">💬</span>
-			<span><?php echo esc_html( number_format_i18n( $oss_reply_count ) ); ?> bình luận</span>
-		</a>
-		<?php
-		if ( function_exists( 'oss_topic_like_button' ) ) {
-			echo oss_topic_like_button( $oss_topic_id ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-		}
-		?>
-	</div>
-<?php endif; ?>
+        $content_id = absint( $item['id'] ?? 0 );
+        $comments = 'topic' === $item['type'] && function_exists( 'bbp_get_topic_reply_count' )
+            ? (int) bbp_get_topic_reply_count( $content_id, true )
+            : ( 'status' === $item['type'] ? (int) ( $item['comment_count'] ?? 0 ) : (int) get_comments_number( $content_id ) );
+        ?>
+        <a class="oss-feed-comment" href="<?php echo esc_url( $item['url'] . ( 'topic' === $item['type'] ? '#bbp-replies' : ( 'post' === $item['type'] ? '#comments' : '' ) ) ); ?>"><?php echo esc_html( number_format_i18n( $comments ) ); ?> bình luận</a>
+        <?php if ( function_exists( 'oss_content_like_button' ) ) { echo oss_content_like_button( $content_id, 'status' === $item['type'] ? 'activity' : 'post' ); } ?>
+        <?php if ( class_exists( 'Custom_Content_Report' ) ) { echo Custom_Content_Report::instance()->get_report_button( $report_type, $content_id ); } ?>
+        </div>
         <a class="oss-feed-read" href="<?php echo esc_url( $item['url'] ); ?>">Xem bài đăng</a>
     </div>
 </article>

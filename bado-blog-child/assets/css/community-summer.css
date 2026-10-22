@@ -1,0 +1,86 @@
+/* Summer meadow identity: sky, fresh greens and cloud cream. */
+body.wp-child-theme-bado-blog-child {
+    --oss-shell: #a9bc94;
+    --oss-ink: #293e31;
+    background: #edf2df;
+    background-image: none;
+    color: #293e31;
+}
+body.wp-child-theme-bado-blog-child::before { display: none; }
+.oss-wordmark {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+    color: #759467;
+}
+.oss-wordmark span {
+    position: absolute;
+    font: 700 clamp(110px, 18vw, 320px)/1 Georgia, serif;
+    letter-spacing: -.09em;
+    opacity: .25;
+}
+.oss-wordmark .oss-word-gop { left: -2vw; top: 8vh; }
+.oss-wordmark .oss-word-chuyen { right: -3vw; top: 58vh; }
+body.wp-child-theme-bado-blog-child .badoblog-css-top-bar,
+body.wp-child-theme-bado-blog-child .badoblog-css-content-area,
+body.wp-child-theme-bado-blog-child #buddypress #cover-image-container { background: #fffdef; }
+body.wp-child-theme-bado-blog-child .badoblog-css-site-header { display: none; }
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a,
+body.wp-child-theme-bado-blog-child .oss-game-button { background: #315c3f; color: #fff9dc; border-color: #315c3f; }
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li.current-menu-item > a,
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a:hover { background: #234b32; color: #fff9dc; }
+body.wp-child-theme-bado-blog-child a,
+body.wp-child-theme-bado-blog-child .oss-top-user summary { color: #34573d; }
+body.wp-child-theme-bado-blog-child .oss-feed-item,
+body.wp-child-theme-bado-blog-child .oss-recent-panel { background: #fffef5; border-color: #dce4cd; }
+body.wp-child-theme-bado-blog-child .oss-feed-item h3 a,
+body.wp-child-theme-bado-blog-child .oss-recent-panel h2 { color: #304b34; }
+body.wp-child-theme-bado-blog-child .oss-dashboard { --game-purple: #315c3f; --game-ink: #293e31; --game-muted: #69795b; --game-line: #dce4cd; }
+body.wp-child-theme-bado-blog-child .oss-board-hero { background: #edf1d9; }
+body.wp-child-theme-bado-blog-child .oss-help-button { background: #f3f5e5; color: #34573d !important; border-color: #c9d5b8; }
+.oss-welcome { position: fixed; inset: 0; z-index: 100000; overflow: hidden; background: #399fc0 url('../images/welcome-meadow.png') center / cover no-repeat; transition: opacity 1s ease .25s, visibility 1s; }
+.oss-welcome[hidden] { display: none; }
+.oss-welcome-meta { position: absolute; top: 4vh; left: 3vw; right: 3vw; display: flex; justify-content: space-between; color: #fff5ce; font: 11px/1.5 Georgia,serif; letter-spacing: .25em; }
+.oss-welcome-title { margin: 0; position: absolute; top: 10vh; left: 9vw; right: 9vw; display: flex; justify-content: space-between; color: #fff1c2; }
+.oss-welcome-title span { display: block; font: 500 clamp(90px, 17vw, 280px)/1 Georgia,serif; letter-spacing: -.085em; transform: scaleX(.72) scaleY(1.7); transform-origin: top center; transition: transform 1.3s cubic-bezier(.22,.7,.2,1), opacity 1.2s; }
+.oss-welcome button { position: absolute; bottom: 4vh; left: 50%; transform: translateX(-50%); background: transparent; border: 0; border-bottom: 1px solid #fff1c280; color: #fff7d6; padding: 16px 8px; font: 14px Georgia,serif; letter-spacing: .15em; cursor: pointer; white-space: nowrap; }
+.oss-welcome button:focus-visible { outline: 2px solid #fff1c2; outline-offset: 5px; }
+.oss-welcome-pending #page { opacity: 0; }
+.oss-welcome-pending .oss-wordmark { opacity: 0; }
+#page { transition: opacity .9s ease .45s; }
+.oss-welcome-entered .oss-welcome { opacity: 0; pointer-events: none; }
+.oss-welcome-entered .oss-welcome-title span:first-child { transform: translate(-55vw, 0) scaleX(.72) scaleY(1.7); }
+.oss-welcome-entered .oss-welcome-title span:last-child { transform: translate(55vw, 32vh) scaleX(.72) scaleY(1.7); }
+.oss-welcome-entered .oss-wordmark { animation: oss-word-reveal 1.5s ease both; }
+@keyframes oss-word-reveal { from { opacity: 0; } to { opacity: 1; } }
+@media (max-width: 600px) {
+    .oss-welcome-title { left: 4vw; right: 4vw; top: 23vh; }
+    .oss-welcome-title span { font-size: 18vw; transform: scaleX(.76) scaleY(2); }
+    .oss-welcome-meta { font-size: 8px; letter-spacing: .12em; }
+    .oss-welcome-meta span { max-width: 44%; }
+    .oss-wordmark span { font-size: 32vw; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .oss-welcome, .oss-welcome-title span, #page { transition: none; }
+    .oss-welcome-entered .oss-wordmark { animation: none; }
+}
+/* Fine paper grain adds material without competing with post text. */
+body.wp-child-theme-bado-blog-child .badoblog-css-content-area,
+body.wp-child-theme-bado-blog-child .oss-feed-item,
+body.wp-child-theme-bado-blog-child .oss-recent-panel {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23697644' opacity='.035' filter='url(%23n)' d='M0 0h180v180H0z'/%3E%3C/svg%3E");
+}
+.oss-welcome button { border-radius: 0; box-shadow: none; }
+#page:focus { outline: none; }
+body.wp-child-theme-bado-blog-child .oss-feed-meta,
+body.wp-child-theme-bado-blog-child .oss-recent-meta,
+body.wp-child-theme-bado-blog-child .oss-recent-type,
+body.wp-child-theme-bado-blog-child .oss-feed-engagement { color: #647654; }
+body.wp-child-theme-bado-blog-child .oss-feed-label { background: #edf2df; color: #42633e; }
+body.wp-child-theme-bado-blog-child .oss-sticky-cat img { background: #4f7048; }
+/* Direct and back navigation to /home never opens the welcome overlay. */
+body.page-home #page { animation: oss-home-arrive .9s ease both; }
+@keyframes oss-home-arrive { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { body.page-home #page { animation: none; } }

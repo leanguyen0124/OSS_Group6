@@ -11,6 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 require_once __DIR__ . '/discussion-thread-ui.php';
 require_once __DIR__ . '/discussion-likes.php';
+require_once __DIR__ . '/discussion-forums.php';
 function oss_rewards_tables() {
 	global $wpdb;
 	return array( $wpdb->prefix . 'oss_reward_transactions', $wpdb->prefix . 'oss_user_badges' );
@@ -295,6 +296,11 @@ add_shortcode( 'oss_leaderboard', function () {
 	$total = (int) $wpdb->get_var( "SELECT COUNT(*) FROM (SELECT t.user_id FROM $transactions t INNER JOIN {$wpdb->users} u ON u.ID = t.user_id GROUP BY t.user_id HAVING SUM(t.points) > 0) ranked" );
 	$sum = (int) $wpdb->get_var( "SELECT COALESCE(SUM(t.points),0) FROM $transactions t INNER JOIN {$wpdb->users} u ON u.ID = t.user_id" );
 	$top = $entries ? (int) $entries[0]->score : 0;
+
+	$view = apply_filters( 'oss_rewards_leaderboard_html', null, compact( 'entries', 'total', 'sum', 'top' ) );
+	if ( is_string( $view ) ) {
+		return $view;
+	}
 	$html = oss_rewards_ui_styles() . '<section class="oss-ui" aria-label="Bảng xếp hạng cộng đồng"><header class="oss-hero"><p class="oss-eyebrow">Cộng đồng · Thành tích</p><h2>Cùng chia sẻ.<br>Cùng vươn lên.</h2><p>Tôn vinh những thành viên góp phần xây dựng cộng đồng mỗi ngày.</p></header><div class="oss-stats"><div class="oss-stat"><span>Thành viên có điểm</span><strong>' . esc_html( number_format_i18n( $total ) ) . '</strong></div><div class="oss-stat"><span>Điểm cộng đồng</span><strong>' . esc_html( number_format_i18n( $sum ) ) . '</strong></div><div class="oss-stat"><span>Điểm dẫn đầu</span><strong>' . esc_html( number_format_i18n( $top ) ) . '</strong></div></div><div class="oss-panel"><div class="oss-panel-head"><h3>Thành viên nổi bật</h3><span class="oss-tag">Xếp hạng toàn thời gian</span></div>';
 	if ( ! $entries ) {
 		$html .= '<div class="oss-empty"><span class="oss-empty-icon" aria-hidden="true">🏆</span><h3>Vị trí đầu tiên đang chờ bạn</h3><p>Đăng chủ đề hoặc chia sẻ câu trả lời hữu ích để ghi tên mình trên bảng xếp hạng.</p><a class="oss-button" href="' . esc_url( oss_rewards_forum_url() ) . '">Tham gia thảo luận</a></div>';
