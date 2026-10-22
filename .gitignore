@@ -36,6 +36,3 @@ phpcs.xml
 .idea/
 .vscode/
 
-# Private demo database, uploads, backups and login credentials
-/demo/**
-!/demo/.gitkeep
