@@ -10,7 +10,7 @@ body.wp-child-theme-bado-blog-child #page {
     margin: 36px auto 44px;
     padding: 30px 32px 42px;
     border-radius: 32px;
-    background: #998eb5;
+    background: var(--oss-shell, #cbe6ef);
     --oss-sticky-gap: 24px;
     --oss-page-top-padding: 30px;
     --oss-panel-gap: 18px;
@@ -21,7 +21,7 @@ body.wp-child-theme-bado-blog-child .badoblog-css-site-branding,
 body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu-container,
 body.wp-child-theme-bado-blog-child .badoblog-css-content-area,
 body.wp-child-theme-bado-blog-child #secondary {
-    background: #fffefa;
+    background: #ffffff;
     border-radius: 27px;
     box-shadow: 0 3px 10px rgba(55, 41, 83, .12);
 }
@@ -54,7 +54,7 @@ body.wp-child-theme-bado-blog-child .oss-top-navigation ul {
 
 body.wp-child-theme-bado-blog-child .oss-top-account a,
 body.wp-child-theme-bado-blog-child .oss-top-user summary {
-    color: #54487b;
+    color: #4e6975;
     text-decoration: none;
     white-space: nowrap;
 }
@@ -71,7 +71,7 @@ body.wp-child-theme-bado-blog-child .oss-top-notification-count {
     height: 20px;
     padding: 0 5px;
     border-radius: 999px;
-    background: #9674d6;
+    background: #425963;
     color: #fff;
     font-size: 11px;
     line-height: 20px;
@@ -107,7 +107,7 @@ body.wp-child-theme-bado-blog-child .oss-top-user-menu {
     z-index: 100;
     min-width: 170px;
     padding: 8px;
-    border: 1px solid #e7dff0;
+    border: 1px solid #e2eaed;
     border-radius: 12px;
     background: #fff;
     box-shadow: 0 8px 22px rgba(55, 41, 83, .16);
@@ -120,12 +120,12 @@ body.wp-child-theme-bado-blog-child .oss-top-user-menu a {
 
 body.wp-child-theme-bado-blog-child .oss-top-user-menu a:hover,
 body.wp-child-theme-bado-blog-child .oss-top-user-menu a:focus-visible {
-    background: #f5effb;
+    background: #f1f4f6;
 }
 
 body.wp-child-theme-bado-blog-child .oss-top-account a:focus-visible,
 body.wp-child-theme-bado-blog-child .oss-top-user summary:focus-visible {
-    outline: 2px solid #9674d6;
+    outline: 2px solid #425963;
     outline-offset: 2px;
 }
 
@@ -165,7 +165,7 @@ body.wp-child-theme-bado-blog-child .badoblog-css-site-brand-bottom-box {
     margin-top: 0;
     padding: 32px 55px;
     align-items: center;
-    background: linear-gradient(100deg, #aa98aa, #eacde3) !important;
+    background: linear-gradient(100deg, #4b6a77, #d3dfe4) !important;
     box-shadow: none;
 }
 
@@ -211,14 +211,14 @@ body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu-container {
 }
 
 body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li {
-    background: #9674d6 !important;
+    background: #425963 !important;
     border-radius: 999px;
     transition: background .2s ease;
 }
 
 body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li:hover,
 body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li:focus-within {
-    background: #7857bd !important;
+    background: #30454e !important;
 }
 
 body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a {
@@ -226,7 +226,7 @@ body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a {
 }
 
 body.wp-child-theme-bado-blog-child .badoblog-css-page-title {
-    color: #494451;
+    color: #3c5059;
 }
 
 body.wp-child-theme-bado-blog-child.oss-panel-page .badoblog-css-page-header,
@@ -244,14 +244,14 @@ body.wp-child-theme-bado-blog-child.oss-panel-page .badoblog-css-page-header-def
 
 body.wp-child-theme-bado-blog-child #secondary .widget-title,
 body.wp-child-theme-bado-blog-child #secondary .wp-block-heading {
-    background: linear-gradient(100deg, #aa98aa, #eacde3) !important;
+    background: linear-gradient(100deg, #4b6a77, #d3dfe4) !important;
     color: #fff !important;
     border-radius: 18px;
 }
 
 body.wp-child-theme-bado-blog-child #bbpress-forums a,
 body.wp-child-theme-bado-blog-child .badoblog-css-page-content a {
-    color: #8063be;
+    color: #3f5762;
 }
 
 body.wp-child-theme-bado-blog-child .oss-community-feed {
@@ -277,7 +277,7 @@ body.wp-child-theme-bado-blog-child .oss-feed-item {
     flex-direction: column;
     min-width: 0;
     padding: 22px;
-    border: 1px solid #e9e1ee;
+    border: 1px solid #e2eaed;
     border-radius: 20px;
     background: #fff;
     box-shadow: 0 3px 12px rgba(55, 41, 83, .08);
@@ -290,14 +290,14 @@ body.wp-child-theme-bado-blog-child .oss-feed-footer {
     gap: 10px;
     flex-wrap: wrap;
     font-size: 13px;
-    color: #6d6479;
+    color: #4b6a77;
 }
 
 body.wp-child-theme-bado-blog-child .oss-feed-type {
     padding: 4px 10px;
     border-radius: 999px;
-    background: #f2eafa;
-    color: #7253a8;
+    background: #f1f4f6;
+    color: #4b6a77;
     font-weight: 600;
 }
 
@@ -309,7 +309,7 @@ body.wp-child-theme-bado-blog-child .oss-feed-item h3 {
 
 body.wp-child-theme-bado-blog-child .oss-feed-item h3 a,
 body.wp-child-theme-bado-blog-child .oss-feed-footer a {
-    color: #594478;
+    color: #4b6671;
     text-decoration: none;
 }
 
@@ -320,7 +320,7 @@ body.wp-child-theme-bado-blog-child .oss-feed-footer a:hover {
 
 body.wp-child-theme-bado-blog-child .oss-feed-excerpt {
     margin: 0 0 18px;
-    color: #55505b;
+    color: #445c67;
     overflow-wrap: anywhere;
 }
 
@@ -335,7 +335,7 @@ body.wp-child-theme-bado-blog-child .oss-feed-gallery a {
     display: block;
     overflow: hidden;
     border-radius: 16px;
-    background: #f5f1f7;
+    background: #f1f4f6;
 }
 
 body.wp-child-theme-bado-blog-child .oss-feed-gallery img {
@@ -350,7 +350,7 @@ body.wp-child-theme-bado-blog-child .oss-feed-gallery img {
 body.wp-child-theme-bado-blog-child .oss-feed-footer {
     margin-top: auto;
     padding-top: 12px;
-    border-top: 1px solid #f0ebf2;
+    border-top: 1px solid #f1f4f6;
 }
 
 body.wp-child-theme-bado-blog-child .oss-feed-footer img {
@@ -361,7 +361,7 @@ body.wp-child-theme-bado-blog-child .oss-feed-footer img {
 
 body.wp-child-theme-bado-blog-child .oss-feed-footer .oss-feed-read {
     margin-left: auto;
-    color: #8063be;
+    color: #3f5762;
 }
 
 @media (max-width: 900px) {
@@ -452,7 +452,7 @@ body.wp-child-theme-bado-blog-child .oss-sticky-topbar {
     top: calc(var(--oss-sticky-gap) + var(--oss-page-top-padding));
     z-index: 90;
     padding-bottom: 10px;
-    background: #998eb5;
+    background: var(--oss-shell, #cbe6ef);
 }
 
 body.wp-child-theme-bado-blog-child.oss-page-scrolled .oss-sticky-topbar::before {
@@ -476,7 +476,7 @@ body.wp-child-theme-bado-blog-child.oss-page-scrolled .oss-sticky-topbar::after 
     max-width: 1720px;
     height: var(--oss-page-top-padding);
     border-radius: 32px 32px 0 0;
-    background: #998eb5;
+    background: var(--oss-shell, #cbe6ef);
     transform: translateX(-50%);
     pointer-events: none;
 }
@@ -489,8 +489,8 @@ body.wp-child-theme-bado-blog-child .oss-brand-rounding {
     left: 0;
     height: 27px;
     background:
-        radial-gradient(circle at bottom right, transparent 27px, #998eb5 28px) top left / 27px 27px no-repeat,
-        radial-gradient(circle at bottom left, transparent 27px, #998eb5 28px) top right / 27px 27px no-repeat;
+        radial-gradient(circle at bottom right, transparent 27px, var(--oss-shell, #cbe6ef) 28px) top left / 27px 27px no-repeat,
+        radial-gradient(circle at bottom left, transparent 27px, var(--oss-shell, #cbe6ef) 28px) top right / 27px 27px no-repeat;
     pointer-events: none;
 }
 
@@ -502,7 +502,7 @@ body.wp-child-theme-bado-blog-child .oss-sticky-nav {
     top: calc(var(--oss-sticky-gap) + var(--oss-page-top-padding) + var(--oss-topbar-height, 78px) + var(--oss-panel-gap));
     margin-top: var(--oss-panel-gap);
     padding: 0;
-    background: #998eb5;
+    background: var(--oss-shell, #cbe6ef);
 }
 
 body.wp-child-theme-bado-blog-child .oss-sticky-nav::before {
@@ -512,7 +512,7 @@ body.wp-child-theme-bado-blog-child .oss-sticky-nav::before {
     bottom: 100%;
     left: 0;
     height: var(--oss-panel-gap);
-    background: #998eb5;
+    background: var(--oss-shell, #cbe6ef);
     pointer-events: none;
 }
 
@@ -524,9 +524,9 @@ body.wp-child-theme-bado-blog-child .oss-sticky-nav::after {
     left: 0;
     height: calc(var(--oss-panel-gap) + 27px);
     background:
-        linear-gradient(#998eb5, #998eb5) top / 100% var(--oss-panel-gap) no-repeat,
-        radial-gradient(circle at bottom right, transparent 27px, #998eb5 28px) bottom left / 27px 27px no-repeat,
-        radial-gradient(circle at bottom left, transparent 27px, #998eb5 28px) bottom right / 27px 27px no-repeat;
+        linear-gradient(var(--oss-shell, #cbe6ef), var(--oss-shell, #cbe6ef)) top / 100% var(--oss-panel-gap) no-repeat,
+        radial-gradient(circle at bottom right, transparent 27px, var(--oss-shell, #cbe6ef) 28px) bottom left / 27px 27px no-repeat,
+        radial-gradient(circle at bottom left, transparent 27px, var(--oss-shell, #cbe6ef) 28px) bottom right / 27px 27px no-repeat;
     pointer-events: none;
 }
 
@@ -580,7 +580,7 @@ body.wp-child-theme-bado-blog-child .oss-recent-panel > h2 {
     max-width: none;
     min-height: 38px;
     margin: 0 0 18px;
-    color: #494451;
+    color: #3c5059;
     font-size: 20px;
     font-weight: 600;
 }
@@ -599,7 +599,7 @@ body.wp-child-theme-bado-blog-child .oss-feed-item + .oss-feed-item {
 
 body.wp-child-theme-bado-blog-child .oss-feed-list:focus-visible,
 body.wp-child-theme-bado-blog-child .oss-recent-list:focus-visible {
-    outline: 2px solid #8063be;
+    outline: 2px solid #3f5762;
     outline-offset: 3px;
 }
 
@@ -608,7 +608,7 @@ body.wp-child-theme-bado-blog-child .oss-recent-panel {
     top: calc(var(--oss-sticky-gap) + var(--oss-page-top-padding) + var(--oss-topbar-height, 78px) + var(--oss-nav-height, 80px) + var(--oss-panel-gap) + var(--oss-panel-gap) + 30px);
     min-width: 0;
     padding: 18px;
-    border: 1px solid #e9e1ee;
+    border: 1px solid #e2eaed;
     border-radius: 20px;
     background: #fff;
     box-shadow: 0 3px 12px rgba(55, 41, 83, .08);
@@ -619,7 +619,7 @@ body.wp-child-theme-bado-blog-child .oss-feed-loader {
     justify-items: center;
     gap: 8px;
     padding: 24px 0 10px;
-    color: #756b80;
+    color: #4b6a77;
 }
 
 body.wp-child-theme-bado-blog-child .oss-feed-load-status {
@@ -634,14 +634,14 @@ body.wp-child-theme-bado-blog-child .oss-feed-more {
     padding: 10px 20px;
     border: 0;
     border-radius: 999px;
-    background: #9674d6;
+    background: #425963;
     color: #fff;
     cursor: pointer;
 }
 
 body.wp-child-theme-bado-blog-child .oss-feed-more:hover,
 body.wp-child-theme-bado-blog-child .oss-feed-more:focus-visible {
-    background: #7857bd;
+    background: #30454e;
 }
 
 body.wp-child-theme-bado-blog-child .oss-feed-more[hidden] {
@@ -655,7 +655,7 @@ body.wp-child-theme-bado-blog-child .oss-recent-list {
     overflow-y: auto;
     list-style: none;
     scrollbar-width: thin;
-    scrollbar-color: #d8c9eb transparent;
+    scrollbar-color: #d1dee3 transparent;
 }
 
 body.wp-child-theme-bado-blog-child .oss-recent-list li {
@@ -663,7 +663,7 @@ body.wp-child-theme-bado-blog-child .oss-recent-list li {
     flex-direction: column;
     gap: 7px;
     padding: 15px 3px;
-    border-top: 1px solid #eee8f2;
+    border-top: 1px solid #f1f4f6;
 }
 
 body.wp-child-theme-bado-blog-child .oss-recent-list li:first-child {
@@ -676,7 +676,7 @@ body.wp-child-theme-bado-blog-child .oss-recent-meta {
     align-items: center;
     gap: 5px;
     min-width: 0;
-    color: #756b80;
+    color: #4b6a77;
     font-size: 12px;
 }
 
@@ -694,7 +694,7 @@ body.wp-child-theme-bado-blog-child .oss-recent-meta span:first-of-type {
 }
 
 body.wp-child-theme-bado-blog-child .oss-recent-list a {
-    color: #493c63;
+    color: #40565f;
     font-weight: 600;
     line-height: 1.4;
     text-decoration: none;
@@ -702,12 +702,12 @@ body.wp-child-theme-bado-blog-child .oss-recent-list a {
 }
 
 body.wp-child-theme-bado-blog-child .oss-recent-list a:hover {
-    color: #8063be;
+    color: #3f5762;
     text-decoration: underline;
 }
 
 body.wp-child-theme-bado-blog-child .oss-recent-type {
-    color: #8a79a1;
+    color: #4b6a77;
     font-size: 12px;
 }
 
@@ -716,9 +716,9 @@ body.wp-child-theme-bado-blog-child .oss-footer {
     margin-top: 30px;
     padding: 54px 56px 24px;
     border-radius: 27px;
-    background: #fffefa;
+    background: #ffffff;
     box-shadow: 0 3px 10px rgba(55, 41, 83, .12);
-    color: #494451;
+    color: #3c5059;
 }
 
 body.wp-child-theme-bado-blog-child .oss-footer-grid {
@@ -732,7 +732,7 @@ body.wp-child-theme-bado-blog-child .oss-footer-logo {
     display: inline-flex;
     align-items: center;
     gap: 15px;
-    color: #3d344f;
+    color: #34474f;
     font-size: 29px;
     font-weight: 700;
     text-decoration: none;
@@ -743,24 +743,24 @@ body.wp-child-theme-bado-blog-child .oss-footer-logo img {
     height: 72px;
     padding: 10px;
     border-radius: 18px;
-    background: linear-gradient(120deg, #aa98aa, #eacde3);
+    background: linear-gradient(120deg, #4b6a77, #d3dfe4);
 }
 
 body.wp-child-theme-bado-blog-child .oss-footer-brand p,
 body.wp-child-theme-bado-blog-child .oss-footer-updates p {
     max-width: 390px;
     margin: 12px 0 0;
-    color: #6c6474;
+    color: #4b6a77;
 }
 
 body.wp-child-theme-bado-blog-child .oss-footer-brand .oss-footer-tagline {
-    color: #493c63;
+    color: #40565f;
     font-weight: 600;
 }
 
 body.wp-child-theme-bado-blog-child .oss-footer h2 {
     margin: 13px 0 18px;
-    color: #3d344f;
+    color: #34474f;
     font-size: 19px;
 }
 
@@ -775,7 +775,7 @@ body.wp-child-theme-bado-blog-child .oss-footer-navigation li + li {
 }
 
 body.wp-child-theme-bado-blog-child .oss-footer-navigation a {
-    color: #5b4a78;
+    color: #4e6974;
     text-decoration: none;
 }
 
@@ -789,9 +789,9 @@ body.wp-child-theme-bado-blog-child .oss-footer-placeholder {
     justify-content: space-between;
     max-width: 400px;
     margin-top: 20px;
-    border: 1px solid #756589;
+    border: 1px solid #4b6a77;
     border-radius: 999px;
-    color: #786e80;
+    color: #4b6a77;
     overflow: hidden;
 }
 
@@ -801,7 +801,7 @@ body.wp-child-theme-bado-blog-child .oss-footer-placeholder span:first-child {
 
 body.wp-child-theme-bado-blog-child .oss-footer-placeholder span:last-child {
     padding: 10px 20px;
-    background: #55436d;
+    background: #465f6a;
     color: #fff;
     font-size: 22px;
 }
@@ -811,7 +811,7 @@ body.wp-child-theme-bado-blog-child .oss-footer-bottom {
     justify-content: space-between;
     gap: 20px;
     padding-top: 20px;
-    border-top: 1px solid #d8cfde;
+    border-top: 1px solid #cddae0;
     font-size: 13px;
     font-weight: 600;
 }
@@ -933,7 +933,7 @@ body.wp-child-theme-bado-blog-child .oss-sticky-cat img {
     height: 34px;
     padding: 3px;
     border-radius: 10px;
-    background: linear-gradient(120deg, #aa98aa, #eacde3);
+    background: linear-gradient(120deg, #4b6a77, #d3dfe4);
 }
 
 @media (max-width: 900px) {
@@ -941,4 +941,39 @@ body.wp-child-theme-bado-blog-child .oss-sticky-cat img {
         width: calc(100% - 32px);
         border-radius: 20px 20px 0 0;
     }
+}
+
+/* Home and leaderboard share the same content column and recent-post panel. */
+body.wp-child-theme-bado-blog-child .oss-community-main {
+    min-width: 0;
+}
+
+body.wp-child-theme-bado-blog-child .oss-leaderboard {
+    max-width: none;
+    margin: 0;
+    font-family: inherit;
+    --oss-ink: #3c5059;
+    --oss-line: #e2eaed;
+    --oss-purple: #3f5762;
+}
+
+body.wp-child-theme-bado-blog-child .oss-ranking-header h2 {
+    min-height: 38px;
+    margin: 0 0 18px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.4;
+}
+
+body.wp-child-theme-bado-blog-child .oss-ranking-header p {
+    color: var(--oss-muted);
+    font-size: 14px;
+}
+
+body.wp-child-theme-bado-blog-child .oss-leaderboard .oss-panel,
+body.wp-child-theme-bado-blog-child .oss-leaderboard .oss-stat {
+    border-color: #e2eaed;
+    border-radius: 20px;
+    box-shadow: 0 3px 12px rgba(55, 41, 83, .08);
 }

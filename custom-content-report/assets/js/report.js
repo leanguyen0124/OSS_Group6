@@ -77,6 +77,9 @@
 	} );
 
 	function removeReportedContent( contentType, contentId ) {
+        document.querySelectorAll('[data-ccr-content-type]').forEach(function (item) {
+            if (item.dataset.ccrContentType === contentType && item.dataset.ccrContentId === String(contentId)) item.remove();
+        });
 		if ( 'activity' === contentType ) {
 			const activity = document.getElementById( 'activity-' + contentId ) || trigger.closest( '.activity-item, li' );
 			if ( activity ) {

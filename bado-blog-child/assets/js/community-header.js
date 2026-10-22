@@ -1,4 +1,5 @@
 (function () {
+    const page = document.getElementById('page');
     const topbar = document.querySelector('.oss-sticky-topbar');
     const nav = document.querySelector('.oss-sticky-nav');
     const brand = document.querySelector('.badoblog-css-site-branding');
@@ -21,7 +22,7 @@
     const updateScroll = () => {
         const stickyGap = parseFloat(window.getComputedStyle(topbar).top) || 0;
         const topbarRect = topbar.getBoundingClientRect();
-        const topbarStuck = window.scrollY > 0 && topbarRect.top <= stickyGap + 1;
+        const topbarStuck = (page ? page.scrollTop : window.scrollY) > 0;
         document.body.classList.toggle('oss-page-scrolled', topbarStuck);
         const brandRect = brand ? brand.getBoundingClientRect() : null;
         document.body.classList.toggle('oss-brand-behind-bar', Boolean(brandRect && brandRect.top < topbarRect.bottom && brandRect.bottom > topbarRect.bottom));
@@ -38,5 +39,6 @@
 
     updateScroll();
     window.addEventListener('scroll', updateScroll, { passive: true });
+    if (page) page.addEventListener('scroll', updateScroll, { passive: true });
     window.addEventListener('resize', updateScroll, { passive: true });
 })();

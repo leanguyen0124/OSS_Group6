@@ -7,7 +7,6 @@ $site_name = get_bloginfo( 'name' );
 $tagline   = get_bloginfo( 'description' );
 ?>
     </div><!-- #content -->
-    <?php if ( function_exists( 'bp_is_user' ) && bp_is_user() ) : ?>
     <footer id="colophon" class="oss-footer" aria-label="Chân trang">
         <div class="oss-footer-grid">
             <div class="oss-footer-brand">
@@ -16,7 +15,7 @@ $tagline   = get_bloginfo( 'description' );
                     <span><?php echo esc_html( $site_name ); ?></span>
                 </a>
                 <?php if ( $tagline ) : ?><p class="oss-footer-tagline"><?php echo esc_html( $tagline ); ?></p><?php endif; ?>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Nơi những câu hỏi tìm được lời đáp, những trải nghiệm tìm được người lắng nghe.</p>
             </div>
             <nav class="oss-footer-navigation" aria-label="Điều hướng chân trang">
                 <h2>Điều hướng</h2>
@@ -27,20 +26,16 @@ $tagline   = get_bloginfo( 'description' );
                 </ul>
             </nav>
             <div class="oss-footer-updates">
-                <h2>Cập nhật cộng đồng</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <div class="oss-footer-placeholder" aria-label="Nội dung nhận tin đang chờ cập nhật">
-                    <span>Lorem ipsum</span>
-                    <span aria-hidden="true">↗</span>
-                </div>
+                <h2>Cùng góp một câu chuyện</h2>
+                <p>Một câu hỏi nhỏ cũng có thể mở ra một cuộc trò chuyện hay.</p>
+                <a class="oss-text-link" href="<?php echo esc_url( oss_community_nav_items()[1]['url'] ); ?>">Khám phá diễn đàn ↗</a>
             </div>
         </div>
         <div class="oss-footer-bottom">
             <span>© <?php echo esc_html( wp_date( 'Y' ) ); ?> <?php echo esc_html( $site_name ); ?></span>
-            <span>Theme Bado Blog</span>
+            <span>Chia sẻ điều bạn biết. Kết nối điều bạn cần.</span>
         </div>
     </footer>
-    <?php endif; ?>
 </div><!-- #page -->
 <a href="#" class="badoblog-css-scrollup"><span class="screen-reader-text">Lên đầu trang</span></a>
 <?php wp_footer(); ?>

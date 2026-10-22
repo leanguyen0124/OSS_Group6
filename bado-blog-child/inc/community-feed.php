@@ -1,5 +1,5 @@
 <?php
-/** Latest public WordPress posts, bbPress topics and BuddyPress status updates. */
+/** Latest public bbPress topics and BuddyPress status updates. */
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
@@ -25,27 +25,10 @@ function oss_community_latest_items( $limit = 12, $offset = 0 ) {
     $fetch_size = $limit + $offset;
     $items = array();
 
-    $posts = get_posts( array(
-        'post_type'      => 'post',
-        'post_status'    => 'publish',
-        'posts_per_page' => $fetch_size,
-        'no_found_rows'  => true,
-    ) );
-    foreach ( $posts as $post ) {
-        $items[] = array(
-            'type'       => 'post',
-            'label'      => 'Bài viết',
-            'title'      => get_the_title( $post ),
-            'excerpt'    => oss_community_feed_excerpt( $post->post_excerpt ?: $post->post_content ),
-            'url'        => get_permalink( $post ),
-            'author_id'  => (int) $post->post_author,
-            'time'       => (int) get_post_time( 'U', true, $post ),
-        );
-    }
-
     if ( function_exists( 'bbp_get_topic_permalink' ) ) {
         $topics = get_posts( array(
             'post_type'      => 'topic',
+            'post__not_in'   => class_exists( 'Custom_Content_Report' ) ? Custom_Content_Report::instance()->get_reported_content_ids( 'topic' ) : array(),
             'post_status'    => 'publish',
             'posts_per_page' => max( 30, $fetch_size ),
             'no_found_rows'  => true,
@@ -61,6 +44,7 @@ function oss_community_latest_items( $limit = 12, $offset = 0 ) {
             }
             $items[] = array(
                 'type'       => 'topic',
+                'id'         => (int) $topic->ID,
                 'label'      => 'Chủ đề diễn đàn',
                 'title'      => bbp_get_topic_title( $topic->ID ),
                 'excerpt'    => oss_community_feed_excerpt( $topic->post_content ),
@@ -74,7 +58,7 @@ function oss_community_latest_items( $limit = 12, $offset = 0 ) {
     if ( function_exists( 'bp_activity_get' ) && function_exists( 'bp_activity_get_permalink' ) ) {
         $result = bp_activity_get( array(
             'per_page'         => max( 30, $fetch_size ),
-            'display_comments' => false,
+            'display_comments' => 'threaded',
             'show_hidden'      => false,
             'filter'           => array( 'object' => 'activity', 'action' => 'activity_update' ),
         ) );
@@ -85,6 +69,9 @@ function oss_community_latest_items( $limit = 12, $offset = 0 ) {
                 : array();
             $items[] = array(
                 'type'       => 'status',
+                'id'         => (int) $activity->id,
+                'comment_count' => (int) bp_activity_recurse_comment_count( $activity ),
+                'favorite_count' => (int) bp_activity_get_meta( $activity->id, 'favorite_count', true ),
                 'label'      => 'Trạng thái',
                 'title'      => $status_text ? wp_trim_words( $status_text, 14, '…' ) : 'Bài đăng của thành viên',
                 'excerpt'    => '',

@@ -41,7 +41,7 @@ add_action( 'wp_enqueue_scripts', function () {
         filemtime( $motion_path ),
         true
     );
-    if ( is_front_page() ) {
+    if ( is_page( 'home' ) ) {
         $feed_path = get_stylesheet_directory() . '/assets/js/community-feed.js';
         wp_enqueue_script(
             'oss-community-feed',
@@ -74,7 +74,7 @@ function oss_community_nav_items() {
         : wp_login_url( home_url( '/' ) );
 
     return array(
-        array( 'label' => 'Trang chủ', 'url' => home_url( '/' ), 'active' => is_front_page() ),
+        array( 'label' => 'Trang chủ', 'url' => home_url( '/home/' ), 'active' => is_page( 'home' ) ),
         array( 'label' => 'Diễn đàn', 'url' => $forum_page ? get_permalink( $forum_page ) : ( function_exists( 'bbp_get_forums_url' ) ? bbp_get_forums_url() : home_url( '/' ) ), 'active' => is_page( 'dien-dan' ) || ( function_exists( 'bbp_is_forum_archive' ) && bbp_is_forum_archive() ) ),
         array( 'label' => 'Bảng xếp hạng', 'url' => $ranking_page ? get_permalink( $ranking_page ) : home_url( '/' ), 'active' => is_page( 'bang-xep-hang' ) ),
         array( 'label' => 'Trang cá nhân', 'url' => $profile_url, 'active' => function_exists( 'bp_is_user' ) && bp_is_user() ),
@@ -100,5 +100,38 @@ add_filter( 'body_class', function ( $classes ) {
     if ( is_page( array( 'dien-dan', 'bang-xep-hang', 'diem-cua-toi' ) ) || ( function_exists( 'bp_is_user' ) && bp_is_user() ) ) {
         $classes[] = 'oss-panel-page';
     }
+    return $classes;
+} );
+
+// Keep reward data in the plugin and render its leaderboard with the Home layout.
+add_filter( 'oss_rewards_leaderboard_html', function ( $html, $data ) {
+    global $wpdb;
+    list( $transactions ) = oss_rewards_tables();
+    $data['entries'] = $wpdb->get_results( "SELECT u.ID AS id, u.display_name AS name, COALESCE(SUM(t.points), 0) AS score FROM {$wpdb->users} u LEFT JOIN $transactions t ON t.user_id = u.ID GROUP BY u.ID, u.display_name ORDER BY score DESC, u.ID ASC" );
+    ob_start();
+    get_template_part( 'template-parts/home/leaderboard', null, $data );
+    return ob_get_clean();
+}, 10, 2 );
+
+require_once get_stylesheet_directory() . '/inc/community-ui.php';
+
+// Keep the welcome artwork separate from live, accessible page content.
+add_action( 'wp_enqueue_scripts', function () {
+    $dir = get_stylesheet_directory();
+    $uri = get_stylesheet_directory_uri();
+    wp_enqueue_style( 'oss-summer', $uri . '/assets/css/community-summer.css', array(), filemtime( $dir . '/assets/css/community-summer.css' ) );
+    wp_enqueue_script( 'oss-intro', $uri . '/assets/js/community-intro.js', array(), filemtime( $dir . '/assets/js/community-intro.js' ), true );
+}, 100 );
+add_action( 'wp_head', function () {
+    if ( ! is_front_page() ) { return; }
+    echo "<script>document.documentElement.classList.add('oss-welcome-pending')</script>";
+}, 1 );
+add_action( 'wp_body_open', function () {
+    echo '<div class="oss-wordmark" aria-hidden="true"><span class="oss-word-gop">GÓP</span><span class="oss-word-chuyen">CHUYỆN</span></div>';
+    if ( ! is_front_page() ) { return; }
+    echo '<section class="oss-welcome" data-home="' . esc_url( home_url( '/home/' ) ) . '" aria-label="Chào mừng đến Góp Chuyện"><div class="oss-welcome-meta"><span>GÓP MỘT CÂU CHUYỆN</span><span>THÊM MỘT KẾT NỐI</span></div><h1 class="oss-welcome-title"><span>GÓP</span><span>CHUYỆN</span></h1><button type="button">CHẠM ĐỂ BẮT ĐẦU <span aria-hidden="true">↗</span></button></section><noscript><style>.oss-welcome{display:none}</style></noscript>';
+} );
+add_filter( 'body_class', function ( $classes ) {
+    if ( is_page( 'home' ) ) { $classes[] = 'page-home'; }
     return $classes;
 } );

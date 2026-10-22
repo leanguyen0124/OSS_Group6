@@ -222,6 +222,20 @@ class Custom_Content_Report {
 		);
 	}
 
+    /** Public rendering entry point for custom feed and topic-card templates. */
+    public function get_report_button( $content_type, $content_id ) {
+        if ( ! $this->can_report_here() || ! in_array( $content_type, array( 'activity', 'topic', 'reply' ), true ) ) { return ''; }
+        $content_id = absint( $content_id );
+        $author_id = $this->validate_report_target( $content_type, $content_id, get_current_user_id() );
+        if ( is_wp_error( $author_id ) || get_current_user_id() === (int) $author_id ) { return ''; }
+        return sprintf( '<button type="button" class="ccr-report-button ccr-report-link oss-report-action" data-content-type="%s" data-content-id="%d" aria-haspopup="dialog">Báo cáo</button>', esc_attr( $content_type ), $content_id );
+    }
+
+    /** IDs hidden from the current member, for custom public-content queries. */
+    public function get_reported_content_ids( $content_type ) {
+        return $this->reported_content_ids( $content_type );
+    }
+
 	/**
 	 * Hide reported topics from this member's bbPress queries.
 	 *
@@ -345,7 +359,7 @@ class Custom_Content_Report {
 		}
 
 		wp_enqueue_style( 'custom-content-report', CCR_URL . 'assets/css/report.css', array(), CCR_VERSION );
-		wp_enqueue_script( 'custom-content-report', CCR_URL . 'assets/js/report.js', array(), CCR_VERSION, true );
+		wp_enqueue_script( 'custom-content-report', CCR_URL . 'assets/js/report.js', array(), filemtime( CCR_DIR . 'assets/js/report.js' ), true );
 		wp_localize_script(
 			'custom-content-report',
 			'CCR_REPORT',

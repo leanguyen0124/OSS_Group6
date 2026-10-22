@@ -2,6 +2,84 @@
 
 Tài liệu này hướng dẫn chạy Bado Blog, BuddyPress và bbPress trong môi trường local bằng Docker. Các lệnh bên dưới được viết cho macOS/Linux và chạy từ thư mục gốc của dự án.
 
+## Khôi phục bộ dữ liệu demo để kiểm thử
+
+Dùng phần này nếu bạn cần giao diện và dữ liệu giống bản mẫu, thay vì một website WordPress trống. Các lệnh chạy từ thư mục gốc dự án trên macOS/Linux; Windows dùng WSL2 có Docker integration. Cài Docker Desktop, Node.js và `wp-env` theo mục 1 trước.
+
+### Người chuẩn bị dữ liệu: export
+
+Khởi động môi trường hiện có rồi xuất bản chụp:
+
+```bash
+wp-env start
+bash scripts/export-demo.sh
+```
+
+Lệnh tạo thư mục `demo/current/`, gồm:
+
+| File | Nội dung |
+| --- | --- |
+| `database.sql` | Nội dung, tài khoản, thiết lập WordPress, tim, lịch sử điểm và huy hiệu |
+| `uploads.tar.gz` | Avatar, cover và ảnh tải lên |
+| `manifest.json` | URL nguồn, phiên bản WordPress/plugin, số lượng nội dung và điểm từng tài khoản |
+| `plugins-extra.tar.gz` | Plugin đang hoạt động nhưng được cài trong Docker, không có thư mục source trong repo; chỉ tạo khi cần |
+| `extra-plugins.txt` | Danh sách plugin bổ sung trong gói |
+| `checksums.json` | Mã SHA-256 để kiểm tra các file trước khi nhập |
+
+Script không tự xuất mật khẩu rõ. Gửi riêng file tài khoản kiểm thử nếu cần. Database vẫn chứa dữ liệu tài khoản, email và cấu hình plugin; chỉ chia sẻ gói với người kiểm thử được phép truy cập. Thư mục `demo/` được bỏ qua trong Git để tránh đẩy dữ liệu riêng tư lên repository.
+
+Export không ghi đè thư mục đã tồn tại. Để tạo bản mới, chọn đường dẫn khác:
+
+```bash
+bash scripts/export-demo.sh demo/round-2
+```
+
+Gửi người kiểm thử **cả source code hiện tại và thư mục snapshot**. Nếu gửi qua Git, phải gửi `demo/current/` riêng vì thư mục này không được commit. Mã nguồn cần khớp với thời điểm export; gói dữ liệu không thay thế theme và plugin trong repo.
+
+### Người kiểm thử: restore
+
+Đặt snapshot vào `demo/current/`, mở Docker Desktop, rồi chạy:
+
+```bash
+bash scripts/restore-demo.sh
+```
+
+Script yêu cầu gõ `RESTORE` vì thao tác thay database và toàn bộ uploads của môi trường local thuộc dự án này. Script tự khởi động `wp-env` và lưu bản sao trước khi thay dữ liệu vào `demo/backups/before-restore-.../`.
+
+Nếu đã chấp nhận ghi đè môi trường kiểm thử và muốn chạy không tương tác:
+
+```bash
+bash scripts/restore-demo.sh --yes
+```
+
+Dùng snapshot ở thư mục khác:
+
+```bash
+bash scripts/restore-demo.sh demo/round-2 --yes
+```
+
+Sau khi kiểm tra checksum, script nạp plugin bổ sung, đồng bộ phiên bản WordPress với manifest nếu cần, nhập database và uploads, điều chỉnh URL theo cổng Docker local, rồi làm mới cache và permalink. Lần cài đầu và khi cần tải lại WordPress phải có Internet. Script so sánh số lượng nội dung, tài khoản, điểm từng người, lịch sử điểm, lượt tim và phiên bản với manifest. Lỗi kiểm tra sẽ dừng script; bản sao trước restore được giữ lại, không tự hoàn tác.
+
+Mở:
+
+- Màn chào: [http://localhost:8890/](http://localhost:8890/).
+- Trang chủ: [http://localhost:8890/home/](http://localhost:8890/home/).
+- Đăng nhập: [http://localhost:8890/wp-login.php](http://localhost:8890/wp-login.php).
+
+Nếu đổi cổng bằng `WP_ENV_PORT`, dùng URL script in ra cuối lệnh. Tài khoản/mật khẩu sau restore là tài khoản trong snapshot, không nhất thiết là thông tin admin mặc định ở mục 2.
+
+Bản demo hiện tại có 10 thành viên mẫu và admin, 3 forum, 12 topic, 60 trả lời; tổng điểm là 420. Ba bài viết WordPress cũ nằm trong thùng rác và không hiển thị ở feed. Điểm lấy từ lịch sử giao dịch, không được script tính lại hoặc cộng thêm. Snapshot mới sẽ có số liệu theo thời điểm export, không bị ép về các con số này.
+
+### Lỗi export/restore
+
+- **Không tìm thấy môi trường:** chạy `wp-env start` từ đúng thư mục chứa `.wp-env.json`; Docker phải đang hoạt động.
+- **Thư mục export đã tồn tại:** dùng tên thư mục khác để giữ nguyên bản trước.
+- **Checksum mismatch:** nhận lại đầy đủ snapshot từ người chuẩn bị; không sửa trực tiếp SQL/archive sau export.
+- **Verification mismatch:** xem `restored-check.json` trong thư mục backup, so sánh với manifest và kiểm tra source/phiên bản WordPress. Dữ liệu đã được nhập; không báo hoàn tất cho đến khi khớp.
+- **Muốn quay lại bản trước:** chạy restore với đường dẫn backup mà script đã in ra, ví dụ `bash scripts/restore-demo.sh demo/backups/before-restore-... --yes`.
+
+Restore chỉ hỗ trợ môi trường Docker local của dự án, không dùng để triển khai lên hosting. Các cài đặt SMTP trong database được giữ nguyên; phần Mailpit bên dưới là tùy chọn nếu cần kiểm thử gửi email.
+
 ## 1. Cài phần mềm cần thiết
 
 Cài các phần mềm sau:
@@ -21,11 +99,11 @@ npm --version
 Cài `wp-env`:
 
 ```bash
-npm install --global @wordpress/env
+npm install --global @wordpress/env@11.16.0
 wp-env --version
 ```
 
-Nếu không muốn cài toàn cục, có thể thay `wp-env` trong tài liệu bằng `npx @wordpress/env`.
+Hai script demo yêu cầu lệnh `wp-env` có trong PATH; dùng cách cài toàn cục ở trên.
 
 ## 2. Khởi động website
 

@@ -1,0 +1,10 @@
+.oss-content-like{display:inline-flex;align-items:center;flex-wrap:wrap;gap:6px;font:400 14px/1.5 system-ui,sans-serif;color:#7c6c88;vertical-align:middle}
+.oss-content-like .oss-heart-button{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;flex-shrink:0;padding:6px;border:0;border-radius:50%;background:transparent;color:#8d789b;text-decoration:none;cursor:pointer;box-shadow:none}
+.oss-content-like .oss-heart-button svg{width:22px;height:22px;fill:transparent;stroke:currentColor;stroke-width:1.5;overflow:visible}
+.oss-content-like .oss-heart-button[aria-pressed="true"]{color:#d83b68}
+.oss-content-like .oss-heart-button[aria-pressed="true"] svg{fill:currentColor}
+.oss-content-like .oss-heart-button:hover{background:#fcecf2;color:#cc426d}
+.oss-content-like .oss-heart-button:focus-visible{outline:2px solid #ac77c8;outline-offset:2px}
+.oss-content-like .oss-heart-button:disabled{opacity:.5;cursor:wait}
+.oss-content-like .oss-like-stat{font:inherit;color:inherit;white-space:nowrap}
+.oss-content-like .oss-like-error:not(:empty){display:block;flex-basis:100%;font-size:12px;color:#a23050}

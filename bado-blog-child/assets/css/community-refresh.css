@@ -1,0 +1,572 @@
+/* Góp Chuyện: shared theme surfaces, typography and reward views. */
+body.wp-child-theme-bado-blog-child {
+    background: #e6edf0;
+    color: #29373d;
+    background-image: radial-gradient(ellipse at 12% 5%, #dee7eb 0, transparent 42%), radial-gradient(ellipse at 95% 70%, #dfe8ec 0, transparent 45%);
+}
+body.wp-child-theme-bado-blog-child::before {
+    content: "GÓP CHUYỆN";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    color: #d9e3e8;
+    font: 700 clamp(100px, 21vw, 360px)/1.05 Georgia, serif;
+    overflow-wrap: anywhere;
+    pointer-events: none;
+    opacity: .55;
+}
+body.wp-child-theme-bado-blog-child #page {
+    --oss-panel-gap: 12px;
+    max-width: 1480px;
+    margin-top: 24px;
+}
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul {
+    width: min(100%, 1100px);
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a {
+    font-size: 16px;
+    padding: 11px 22px;
+    line-height: 1.35;
+}
+body.wp-child-theme-bado-blog-child .oss-home-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 30%);
+    gap: 20px;
+}
+body.wp-child-theme-bado-blog-child .oss-feed-item {
+    border-radius: 14px;
+    box-shadow: none;
+    padding: 22px;
+    font-size: 16px;
+}
+body.wp-child-theme-bado-blog-child .oss-feed-item h3 { font-size: 21px; line-height: 1.4; }
+body.wp-child-theme-bado-blog-child .oss-feed-meta { font-size: 13px; }
+body.wp-child-theme-bado-blog-child .oss-feed-footer { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; font-size: 14px; }
+body.wp-child-theme-bado-blog-child .oss-feed-engagement { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-left: auto; color: #4b6a77; font-size: 13px; }
+body.wp-child-theme-bado-blog-child .oss-feed-engagement a { color: inherit; }
+body.wp-child-theme-bado-blog-child .oss-feed-footer .oss-feed-read { margin-left: 0; }
+body.wp-child-theme-bado-blog-child .oss-recent-panel { border-radius: 14px; box-shadow: none; }
+body.wp-child-theme-bado-blog-child .oss-recent-list a { font-size: 16px; }
+body.wp-child-theme-bado-blog-child .oss-footer { margin-top: 12px; }
+body.wp-child-theme-bado-blog-child .oss-footer .oss-footer-placeholder { display: none; }
+body.wp-child-theme-bado-blog-child .oss-footer p { font-size: 14px; }
+
+/* Forum directory: remove the two crossed-out controls, retain the global search. */
+body.wp-child-theme-bado-blog-child #bbpress-forums .bbp-breadcrumb,
+body.wp-child-theme-bado-blog-child #bbpress-forums .bbp-search-form { display: none; }
+body.wp-child-theme-bado-blog-child #bbpress-forums { font-size: 16px; line-height: 1.65; }
+body.wp-child-theme-bado-blog-child #bbpress-forums ul.bbp-forums,
+body.wp-child-theme-bado-blog-child #bbpress-forums ul.bbp-topics { border: 1px solid #e2eaed; border-radius: 14px; overflow: hidden; font-size: 16px; }
+body.wp-child-theme-bado-blog-child #bbpress-forums li.bbp-header,
+body.wp-child-theme-bado-blog-child #bbpress-forums li.bbp-footer { background: #f1f4f6; border: 0; padding: 16px 20px; color: #4f6b77; }
+body.wp-child-theme-bado-blog-child #bbpress-forums li.bbp-footer { display: none; }
+body.wp-child-theme-bado-blog-child #bbpress-forums ul.forum,
+body.wp-child-theme-bado-blog-child #bbpress-forums ul.topic { background: #fff; padding: 24px 20px; border-color: #f1f4f6; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .bbp-forum-title { font-size: 19px; font-weight: 600; color: #4b6a77; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .bbp-forum-info .bbp-forum-content { font-size: 14px; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .bbp-forum-freshness,
+body.wp-child-theme-bado-blog-child #bbpress-forums .bbp-topic-freshness { font-size: 14px; }
+
+
+body.wp-child-theme-bado-blog-child .oss-feed-footer .oss-feed-read,
+body.wp-child-theme-bado-blog-child .oss-feed-more { border-radius: 999px; }
+.oss-text-link { color: #4b6a77; text-decoration: none; font-weight: 600; font-size: 14px; }
+@media (max-width: 1000px) {
+    body.wp-child-theme-bado-blog-child .oss-home-layout { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 600px) {
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul { flex-wrap: wrap !important; justify-content: center !important; width: 100% !important; }
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a { font-size: 13px; padding: 9px 12px; }
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li { padding: 0; }
+    body.wp-child-theme-bado-blog-child .oss-feed-item { padding: 16px; }
+    body.wp-child-theme-bado-blog-child .oss-feed-engagement { width: 100%; margin-left: 0; }
+}
+
+/* Forum covers and topic cards share the home feed's spacing and rounded surfaces. */
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-forum-directory h2,
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-directory-heading h2 { margin: 0 0 18px; color: #3c5059; font-size: 21px; font-weight: 650; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-forum-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-forum-card { border: 1px solid #dce6ea; border-radius: 22px; padding: 12px 12px 18px; background: #fff; min-width: 0; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-forum-card > a { display: block; text-decoration: none; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-forum-cover { overflow: hidden; border-radius: 14px; aspect-ratio: 2 / 1; background: #f1f4f6; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-forum-cover img { display: block; width: 100%; height: 100%; object-fit: cover; margin: 0; border: 0; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-forum-card h3 { color: #4b6a77; font: 650 19px/1.4 system-ui, sans-serif; margin: 16px 6px 8px; overflow-wrap: anywhere; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-forum-card p { font-size: 14px; line-height: 1.6; color: #4b6a77; margin: 0 6px; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-forum-counts { display: flex; flex-wrap: wrap; gap: 12px; margin: 14px 6px 0; padding-top: 12px; border-top: 1px solid #f1f4f6; font-size: 12px; color: #4b6a77; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-directory { margin-top: 22px; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-directory-heading { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; align-items: baseline; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-directory-heading p { font-size: 13px; color: #4b6a77; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-cards { display: grid; gap: 18px; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-card { background: #fff; border: 1px solid #dce6ea; border-radius: 22px; padding: 24px; min-width: 0; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-card-meta { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; font-size: 12px; color: #4b6a77; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-card-meta .avatar { width: 30px; height: 30px; border-radius: 50%; margin: 0; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-card-meta time { margin-left: auto; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-card h3 { margin: 14px 0 10px; font: 650 21px/1.4 system-ui, sans-serif; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-card h3 a { color: #4b6a77; text-decoration: none; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-excerpt { color: #4e6974; font-size: 15px; line-height: 1.7; margin: 0 0 16px; overflow-wrap: anywhere; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-card-counts { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12px; color: #4b6a77; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-last-post { padding: 14px 16px; background: #f1f4f6; border-radius: 14px; margin-top: 18px; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-last-post > span { font-size: 11px; color: #4b6a77; font-weight: 650; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-last-post p { font-size: 14px; line-height: 1.6; color: #506b77; margin: 7px 0; overflow-wrap: anywhere; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-last-post a { font-size: 11px; color: #4b6a77; }
+@media (max-width: 1000px) {
+    body.wp-child-theme-bado-blog-child #bbpress-forums .oss-forum-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+    body.wp-child-theme-bado-blog-child #bbpress-forums .oss-forum-grid { grid-template-columns: minmax(0, 1fr); }
+    body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-card { padding: 18px; }
+}
+/* Pin the bars directly to the viewport edge; no painted masks or exposed gap above. */
+body.wp-child-theme-bado-blog-child .oss-sticky-topbar { top: 0; }
+body.wp-child-theme-bado-blog-child .oss-sticky-nav { top: calc(var(--oss-topbar-height, 78px) + var(--oss-panel-gap)); }
+body.wp-child-theme-bado-blog-child.oss-page-scrolled .oss-sticky-topbar::before,
+body.wp-child-theme-bado-blog-child.oss-page-scrolled .oss-sticky-topbar::after { display: none; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-directory { clear: both; display: flow-root; width: 100%; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-directory-heading { width: 100%; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-card h3 { margin-top: 0; margin-bottom: 12px; font-size: 23px; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-card-counts { font-size: 14px; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-last-post > span { font-size: 13px; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-last-post p { font-size: 16px; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-topic-last-post a { font-size: 13px; }
+body.wp-child-theme-bado-blog-child .oss-forum-directory-toolbar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; margin-bottom: 20px; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-forum-directory-toolbar h2 { margin: 0; }
+body.wp-child-theme-bado-blog-child .oss-forum-action { display: inline-flex; align-items: center; justify-content: center; padding: 11px 22px; border: 1px solid #4b6a77; border-radius: 999px; background: #4b6a77; color: #fff !important; font: 600 15px/1.4 system-ui,sans-serif; text-decoration: none; cursor: pointer; }
+body.wp-child-theme-bado-blog-child .oss-forum-action:hover { background: #4b6a77; text-decoration: none; }
+body.wp-child-theme-bado-blog-child .oss-forum-action:focus-visible { outline: 2px solid #4b6a77; outline-offset: 3px; }
+body.wp-child-theme-bado-blog-child .oss-forum-topic-toolbar { clear: both; display: flex; justify-content: flex-end; margin-bottom: 16px; }
+body.wp-child-theme-bado-blog-child #new-post,
+body.wp-child-theme-bado-blog-child #oss-create-forum { scroll-margin-top: calc(var(--oss-topbar-height, 78px) + var(--oss-nav-height, 80px) + 42px); }
+body.wp-child-theme-bado-blog-child .oss-create-forum { clear: both; margin-top: 28px; padding: 26px; border: 1px solid #d7e2e6; border-radius: 22px; background: #f1f4f6; }
+body.wp-child-theme-bado-blog-child #bbpress-forums .oss-create-forum h2 { margin: 0 0 8px; font-size: 23px; color: #4e6974; }
+body.wp-child-theme-bado-blog-child .oss-create-forum p { font-size: 14px; color: #4b6a77; }
+body.wp-child-theme-bado-blog-child .oss-create-forum label { display: block; margin: 20px 0 8px; font-size: 15px; font-weight: 600; color: #4e6974; }
+body.wp-child-theme-bado-blog-child .oss-create-forum input[type="text"],
+body.wp-child-theme-bado-blog-child .oss-create-forum textarea { box-sizing: border-box; display: block; width: 100%; padding: 13px 16px; border: 1px solid #c1d0d7; border-radius: 14px; background: #fff; color: #455d67; font: 400 16px/1.5 system-ui,sans-serif; }
+body.wp-child-theme-bado-blog-child .oss-create-forum .oss-forum-visibility-note { margin: 14px 0 20px; }
+body.wp-child-theme-bado-blog-child .oss-create-forum .oss-forum-error { padding: 12px; border: 1px solid #c789a5; border-radius: 12px; color: #943c66; background: #fff2f6; }
+/* Search keeps two compact cards per row, even when only one result exists. */
+body.wp-child-theme-bado-blog-child.search #badoblog-id-cat-box {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    align-items: start;
+    justify-content: stretch;
+}
+body.wp-child-theme-bado-blog-child.search #badoblog-id-cat-box > article { min-width: 0; width: 100%; margin: 0; }
+body.wp-child-theme-bado-blog-child.search .badoblog-css-cat-thumbnail-box { overflow: hidden; }
+body.wp-child-theme-bado-blog-child.search .badoblog-css-cat-thumbnail img { width: 100%; max-height: 260px; object-fit: cover; }
+body.wp-child-theme-bado-blog-child.search .badoblog-css-entry-title { font-size: 22px; line-height: 1.4; }
+@media (max-width: 700px) {
+    body.wp-child-theme-bado-blog-child.search #badoblog-id-cat-box { grid-template-columns: minmax(0, 1fr); }
+}
+body.wp-child-theme-bado-blog-child .oss-forum-cover-picker { border: 1px dashed #acc1ca; border-radius: 16px; padding: 18px; background: #fff; }
+body.wp-child-theme-bado-blog-child .oss-forum-cover-picker input[type="file"] { display: block; max-width: 100%; font: inherit; color: #4b6a77; }
+body.wp-child-theme-bado-blog-child .oss-forum-cover-picker input::file-selector-button { padding: 9px 18px; margin-right: 12px; border: 1px solid #bdcdd4; border-radius: 999px; color: #4b6a77; background: #f1f4f6; font: 600 14px/1.4 system-ui,sans-serif; cursor: pointer; }
+body.wp-child-theme-bado-blog-child .oss-cover-preview:not([hidden]) { display: flex; align-items: flex-start; flex-wrap: wrap; gap: 14px; margin-top: 12px; }
+body.wp-child-theme-bado-blog-child .oss-cover-preview img { display: block; width: min(100%, 360px); aspect-ratio: 2 / 1; object-fit: cover; border-radius: 14px; margin: 0; }
+body.wp-child-theme-bado-blog-child .oss-cover-remove { padding: 8px 14px; border: 1px solid #c9d8de; border-radius: 999px; background: #f1f4f6; color: #4b6a77; cursor: pointer; font: 500 13px/1.5 system-ui,sans-serif; }
+body.wp-child-theme-bado-blog-child .oss-report-action { display: inline-flex; padding: 6px 10px; border: 1px solid #d5e1e6; border-radius: 999px; background: #f1f4f6; color: #4b6a77; font: 500 13px/1.4 system-ui,sans-serif; cursor: pointer; }
+body.wp-child-theme-bado-blog-child .oss-report-action:hover { background: #f1f4f6; color: #4b6a77; }
+body.wp-child-theme-bado-blog-child .oss-report-action:focus-visible { outline: 2px solid #4b6a77; outline-offset: 3px; }
+
+/* Keep member avatars and identity in separate columns below the cover. */
+#buddypress #cover-image-container {
+    border-radius: 24px;
+    overflow: hidden;
+    background: #ffffff;
+}
+#buddypress #header-cover-image {
+    height: 225px;
+    background-position: center;
+    background-size: cover;
+}
+#buddypress #item-header-cover-image {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    align-items: center;
+    gap: 24px;
+    padding: 249px 28px 24px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+#buddypress #item-header-cover-image #item-header-avatar {
+    width: 120px;
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+#buddypress #item-header-cover-image #item-header-avatar img.avatar {
+    display: block;
+    width: 120px;
+    height: 120px;
+    max-width: 100%;
+    object-fit: cover;
+    border: 3px solid #dfe7eb;
+    border-radius: 50%;
+    margin: 0;
+    box-sizing: border-box;
+}
+#buddypress #item-header-cover-image #item-header-content {
+    width: auto;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+#buddypress #item-header-cover-image h2.user-nicename {
+    margin: 0 0 12px;
+    color: #3c5059;
+    text-shadow: none;
+    overflow-wrap: anywhere;
+}
+@media (max-width: 600px) {
+    #buddypress #header-cover-image { height: 170px; }
+    #buddypress #item-header-cover-image {
+        grid-template-columns: 80px minmax(0, 1fr);
+        gap: 16px;
+        padding: 190px 16px 20px;
+    }
+    #buddypress #item-header-cover-image #item-header-avatar { width: 80px; }
+    #buddypress #item-header-cover-image #item-header-avatar img.avatar { width: 80px; height: 80px; }
+    #buddypress #item-header-cover-image h2.user-nicename { font-size: 22px; }
+}
+/* Override BuddyPress's generated negative cover offset. */
+body #buddypress #cover-image-container #item-header-cover-image #item-header-content {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+/* Woodland palette: warm paper, moss actions, sky accents. */
+body.wp-child-theme-bado-blog-child {
+    --oss-forest: #425963;
+    --oss-forest-hover: #30454e;
+    --oss-paper: #ffffff;
+    --oss-ink: #29373d;
+    --oss-sky: #91b5bf;
+    color: var(--oss-ink);
+    background: #e6edf0;
+    background-image: radial-gradient(ellipse at 10% 0%, #dbe4e8 0, transparent 45%);
+}
+body.wp-child-theme-bado-blog-child::before { color: #bdced6; opacity: .35; }
+body.wp-child-theme-bado-blog-child a { color: #3f5762; }
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a {
+    background: #425963;
+    color: #ffffff;
+}
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a:hover,
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li.current-menu-item > a {
+    background: #30454e;
+    color: #ffffff;
+}
+body.wp-child-theme-bado-blog-child :focus-visible { outline: 3px solid #527e90; outline-offset: 3px; }
+.oss-board-hero { background: linear-gradient(180deg, #ebf1f3, #d1dee3 62%, #8eacb9); }
+.oss-dashboard .oss-leader-person > strong { color: #ffffff; }
+.oss-dashboard .oss-leader-person > span:last-child { color: #e8eef1; }
+
+/* Warm canvas gives the forest cover room without tinting the whole page green. */
+body.wp-child-theme-bado-blog-child {
+    --oss-forest: #35505c;
+    --oss-forest-hover: #273f4a;
+    --oss-paper: #ffffff;
+    --oss-ink: #29383e;
+    background: #f5f7f8;
+    background-image: none;
+    color: var(--oss-ink);
+}
+body.wp-child-theme-bado-blog-child::before { display: none; }
+body.wp-child-theme-bado-blog-child #page {
+    background: #e2eaee;
+    padding: 32px 36px 48px;
+    --oss-panel-gap: 24px;
+}
+body.wp-child-theme-bado-blog-child .badoblog-css-top-bar,
+body.wp-child-theme-bado-blog-child .badoblog-css-content-area,
+body.wp-child-theme-bado-blog-child #secondary { background: #ffffff; }
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul { gap: 16px; }
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a {
+    background: #35505c;
+    color: #ffffff;
+}
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a:hover,
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li.current-menu-item > a {
+    background: #273f4a;
+    color: #ffffff;
+}
+body.wp-child-theme-bado-blog-child a { color: #35505c; }
+body.wp-child-theme-bado-blog-child .oss-home-layout { gap: 32px; }
+body.wp-child-theme-bado-blog-child .oss-feed-item { padding: 28px; margin-bottom: 24px; }
+body.wp-child-theme-bado-blog-child #buddypress #cover-image-container { background: #ffffff; }
+body.wp-child-theme-bado-blog-child #buddypress #item-header-cover-image { padding: 257px 32px 36px; gap: 32px; }
+body.wp-child-theme-bado-blog-child #buddypress #item-header-cover-image h2.user-nicename { color: #29383e; }
+body.wp-child-theme-bado-blog-child .oss-dashboard {
+    --game-purple: #35505c;
+    --game-ink: #29383e;
+    --game-muted: #5a727c;
+    --game-line: #dce3e6;
+    color: #29383e;
+}
+body.wp-child-theme-bado-blog-child .oss-board-hero {
+    padding: 34px 28px 12px;
+    background: #eef2f4;
+    border-color: #dce3e6;
+}
+body.wp-child-theme-bado-blog-child .oss-board-grid { margin-top: 36px; gap: 32px; }
+body.wp-child-theme-bado-blog-child .oss-score-table tbody td,
+body.wp-child-theme-bado-blog-child .oss-score-table tbody th { background: #f4f7f8; border-color: #dce3e6; }
+body.wp-child-theme-bado-blog-child .oss-score-table tbody tr:first-child td,
+body.wp-child-theme-bado-blog-child .oss-score-table tbody tr:first-child th { background: #e3ebee; }
+body.wp-child-theme-bado-blog-child .oss-game-button { background: #35505c; border-color: #35505c; }
+body.wp-child-theme-bado-blog-child .oss-game-button-light,
+body.wp-child-theme-bado-blog-child .oss-help-button { background: #f3f6f7; color: #35505c !important; border-color: #c7d6dc; }
+@media (max-width: 600px) {
+    body.wp-child-theme-bado-blog-child #page { padding: 18px 14px 28px; }
+    body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul { gap: 10px; }
+    body.wp-child-theme-bado-blog-child .oss-feed-item { padding: 20px; }
+    body.wp-child-theme-bado-blog-child #buddypress #item-header-cover-image { padding: 194px 18px 28px; gap: 18px; }
+}
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li { background: transparent; }
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a { box-shadow: none; }
+
+/* Retain the oversized wordmark as the site's background signature. */
+body.wp-child-theme-bado-blog-child::before {
+    display: block;
+    color: #83aab5;
+    opacity: .55;
+}
+body.wp-child-theme-bado-blog-child #page {
+    padding: 26px 32px 38px;
+    --oss-panel-gap: 18px;
+}
+body.wp-child-theme-bado-blog-child .oss-home-layout { gap: 24px; }
+body.wp-child-theme-bado-blog-child .oss-feed-item { padding: 24px; margin-bottom: 18px; }
+body.wp-child-theme-bado-blog-child #buddypress #item-header-cover-image {
+    padding: 245px 28px 24px;
+    gap: 24px;
+}
+body.wp-child-theme-bado-blog-child .oss-board-hero { padding: 28px 24px 6px; }
+body.wp-child-theme-bado-blog-child .oss-board-grid { margin-top: 28px; gap: 24px; }
+@media (max-width: 600px) {
+    body.wp-child-theme-bado-blog-child #page { padding: 18px 14px 28px; }
+    body.wp-child-theme-bado-blog-child .oss-feed-item { padding: 20px; }
+    body.wp-child-theme-bado-blog-child #buddypress #item-header-cover-image {
+        padding: 188px 18px 22px;
+        gap: 18px;
+    }
+}
+
+/* Cool neutral shell; the oversized wordmark remains a separate blue accent. */
+body.wp-child-theme-bado-blog-child::before { color: #83aab5; opacity: .55; }
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li {
+    padding: 0;
+    border: 0;
+    background: transparent !important;
+    box-shadow: none;
+}
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a {
+    background: #35505c;
+    border: 0 !important;
+    box-shadow: none !important;
+    color: #fff;
+}
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a::before,
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a::after { display: none; }
+
+/* Echo the cover's sky and pine, with white surfaces carrying most of the page. */
+body.wp-child-theme-bado-blog-child::before { color: #83aab5; opacity: .55; }
+body.wp-child-theme-bado-blog-child #secondary .widget-title,
+body.wp-child-theme-bado-blog-child #secondary .wp-block-heading {
+    background: #35505c !important;
+}
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a { background: #35505c; }
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a:hover,
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li.current-menu-item > a { background: #273f4a; }
+
+/* Clear summer sky, inspired by the supplied cloud-and-meadow reference. */
+body.wp-child-theme-bado-blog-child {
+    background: #edf7fa;
+    color: #243e49;
+}
+body.wp-child-theme-bado-blog-child::before { color: #3e9fbc; opacity: .48; }
+body.wp-child-theme-bado-blog-child #page,
+body.wp-child-theme-bado-blog-child .oss-sticky-nav { background: #cbe6ef; }
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a {
+    background: #237d9b;
+    color: #fff;
+}
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a:hover,
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li.current-menu-item > a {
+    background: #18637e;
+    color: #fff;
+}
+body.wp-child-theme-bado-blog-child a { color: #216d88; }
+body.wp-child-theme-bado-blog-child .oss-dashboard {
+    --game-purple: #216d88;
+    --game-ink: #243e49;
+    --game-muted: #607985;
+    --game-line: #d6e7ee;
+}
+body.wp-child-theme-bado-blog-child .oss-board-hero {
+    background: #eaf5f9;
+    border-color: #cce4ee;
+}
+body.wp-child-theme-bado-blog-child .oss-game-button {
+    background: #237d9b;
+    border-color: #237d9b;
+}
+body.wp-child-theme-bado-blog-child .oss-game-button-light,
+body.wp-child-theme-bado-blog-child .oss-help-button {
+    background: #f1f9fc;
+    color: #216d88 !important;
+    border-color: #b8dce9;
+}
+
+/* All sticky masks use the same shell colour, including their rounded edges. */
+body.wp-child-theme-bado-blog-child { --oss-shell: #cbe6ef; }
+body.wp-child-theme-bado-blog-child #page,
+body.wp-child-theme-bado-blog-child .oss-sticky-topbar,
+body.wp-child-theme-bado-blog-child .oss-sticky-nav { background: var(--oss-shell); }
+
+/* One sky-blue family across the banner, navigation, links and labels. */
+body.wp-child-theme-bado-blog-child .badoblog-css-site-brand-bottom-box {
+    background: linear-gradient(105deg, #267f9c, #519bb3) !important;
+}
+body.wp-child-theme-bado-blog-child .oss-top-account a,
+body.wp-child-theme-bado-blog-child .oss-top-user summary { color: #345968; }
+body.wp-child-theme-bado-blog-child .oss-sticky-cat img,
+body.wp-child-theme-bado-blog-child .oss-footer-logo img {
+    background: #337f99;
+}
+
+/* Painted summer palette: saturated blue sky and warm cloud-white. */
+body.wp-child-theme-bado-blog-child {
+    --oss-shell: #a8ced6;
+    background: #f3f1df;
+    color: #293f45;
+}
+body.wp-child-theme-bado-blog-child::before { color: #477f90; opacity: .48; }
+body.wp-child-theme-bado-blog-child #page,
+body.wp-child-theme-bado-blog-child .oss-sticky-topbar,
+body.wp-child-theme-bado-blog-child .oss-sticky-nav { background: var(--oss-shell); }
+body.wp-child-theme-bado-blog-child .badoblog-css-top-bar,
+body.wp-child-theme-bado-blog-child .badoblog-css-site-branding,
+body.wp-child-theme-bado-blog-child .badoblog-css-content-area,
+body.wp-child-theme-bado-blog-child #secondary,
+body.wp-child-theme-bado-blog-child #buddypress #cover-image-container { background: #fffdef; }
+body.wp-child-theme-bado-blog-child .badoblog-css-site-brand-bottom-box {
+    background: #2d8da7 !important;
+}
+body.wp-child-theme-bado-blog-child .badoblog-css-site-brand-bottom-box h1,
+body.wp-child-theme-bado-blog-child .badoblog-css-site-brand-bottom-box p,
+body.wp-child-theme-bado-blog-child .badoblog-css-site-brand-bottom-box a { color: #fffbdc !important; }
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a {
+    background: #276b7e;
+    color: #fffbdc;
+}
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li > a:hover,
+body.wp-child-theme-bado-blog-child .badoblog-css-mega-menu > ul > li.current-menu-item > a { background: #1f5363; color: #fffbdc; }
+body.wp-child-theme-bado-blog-child .oss-feed-item,
+body.wp-child-theme-bado-blog-child .oss-recent-panel,
+body.wp-child-theme-bado-blog-child .oss-forum-card { background: #fffef7; border-color: #d8dfd5; }
+body.wp-child-theme-bado-blog-child .oss-board-hero { background: #e8eddb; border-color: #cdd9c7; }
+
+/* Keep the floating header clear of the viewport edge while scrolling. */
+body.wp-child-theme-bado-blog-child { --oss-floating-top: 18px; }
+body.wp-child-theme-bado-blog-child.admin-bar { --oss-floating-top: 50px; }
+body.wp-child-theme-bado-blog-child .oss-sticky-topbar {
+    top: var(--oss-floating-top);
+    border-radius: 27px;
+}
+body.wp-child-theme-bado-blog-child .oss-sticky-topbar .badoblog-css-top-bar { border-radius: 27px; }
+body.wp-child-theme-bado-blog-child .oss-sticky-nav {
+    top: calc(var(--oss-floating-top) + var(--oss-topbar-height, 78px) + var(--oss-panel-gap));
+}
+@media (max-width: 782px) {
+    body.wp-child-theme-bado-blog-child.admin-bar { --oss-floating-top: 64px; }
+}
+@media (max-width: 600px) {
+    body.wp-child-theme-bado-blog-child { --oss-floating-top: 12px; }
+}
+
+/* Hide scrolling content above the floating header without squaring its corners. */
+body.wp-child-theme-bado-blog-child.oss-page-scrolled .oss-sticky-topbar::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: auto;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    height: var(--oss-floating-top);
+    background: var(--oss-shell);
+    pointer-events: none;
+}
+body.wp-child-theme-bado-blog-child .oss-brand-rounding { display: none !important; }
+body.wp-child-theme-bado-blog-child .oss-sticky-topbar {
+    border-radius: 0;
+    padding-bottom: 10px;
+    background: var(--oss-shell);
+}
+
+/* A single rounded viewport owns scrolling and clips its own contents. */
+body.wp-child-theme-bado-blog-child {
+    overflow: hidden;
+    --oss-floating-top: 26px;
+}
+body.wp-child-theme-bado-blog-child #page {
+    height: calc(100dvh - 48px);
+    margin: 24px auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 32px;
+    background: var(--oss-shell);
+    scrollbar-width: thin;
+    scrollbar-color: #477f90 transparent;
+}
+body.wp-child-theme-bado-blog-child #page::before,
+body.wp-child-theme-bado-blog-child #page::after { display: none; }
+body.wp-child-theme-bado-blog-child.oss-page-scrolled .oss-sticky-topbar::before {
+    height: 26px;
+    border-radius: 0;
+}
+body.wp-child-theme-bado-blog-child.admin-bar #page { height: calc(100dvh - 80px); }
+@media (max-width: 782px) {
+    body.wp-child-theme-bado-blog-child.admin-bar #page { height: calc(100dvh - 94px); }
+}
+@media (max-width: 600px) {
+    body.wp-child-theme-bado-blog-child { --oss-floating-top: 18px; }
+    body.wp-child-theme-bado-blog-child #page { height: calc(100dvh - 24px); margin: 12px auto; }
+    body.wp-child-theme-bado-blog-child.oss-page-scrolled .oss-sticky-topbar::before { height: 18px; }
+}
+body.wp-child-theme-bado-blog-child .oss-sticky-topbar { top: 0; }
+body.wp-child-theme-bado-blog-child .oss-sticky-nav { top: calc(var(--oss-topbar-height, 78px) + var(--oss-panel-gap)); }
+
+/* Sidebar sticks below navigation in the page scrollport, not the window. */
+@media (min-width: 1001px) {
+    body.wp-child-theme-bado-blog-child .oss-recent-panel {
+        top: calc(var(--oss-topbar-height, 78px) + var(--oss-nav-height, 80px) + 2 * var(--oss-panel-gap) + 12px);
+        align-self: start;
+        margin-top: 0;
+    }
+    body.wp-child-theme-bado-blog-child .oss-recent-list {
+        max-height: min(850px, calc(100dvh - var(--oss-topbar-height, 78px) - var(--oss-nav-height, 80px) - 2 * var(--oss-panel-gap) - 160px));
+    }
+}
+
+/* Illustrated canopy surrounds the existing page without changing its layout. */
+body.wp-child-theme-bado-blog-child {
+    background-color: #96c8db;
+    background-image: url('../images/canopy-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body.wp-child-theme-bado-blog-child::before {
+    color: #fffbdc;
+    opacity: .38;
+    text-shadow: 0 1px 8px #173e4c22;
+}

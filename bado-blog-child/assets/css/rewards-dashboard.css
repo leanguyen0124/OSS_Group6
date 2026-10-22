@@ -1,0 +1,292 @@
+/* Reference layout: leaders above table, personal rank at right; compact achievement rows. */
+.oss-dashboard { --game-purple: #425963; --game-ink: #29373d; --game-muted: #59717b; --game-line: #c9d8de; color: var(--game-ink); font: 400 15px/1.5 system-ui, sans-serif; max-width: 1160px; margin: 0 auto; text-align: left; }
+.oss-dashboard *, .oss-help-dialog * { box-sizing: border-box; }
+.oss-dashboard h2, .oss-dashboard h3, .oss-dashboard h4, .oss-dashboard p { font-family: inherit; color: inherit; margin: 0; padding: 0; }
+.oss-dashboard a { color: var(--game-purple); text-decoration: none; }
+.oss-dashboard a:hover { text-decoration: underline; }
+.oss-dashboard .avatar { display: block; border-radius: 50%; margin: 0; object-fit: cover; }
+.oss-board-hero { text-align: center; padding: 26px 22px 0; border: 1px solid #d7e2e6; border-radius: 22px; background: linear-gradient(180deg, #f1f4f6 0%, #f1f4f6 62%, #b2c6ce 100%); overflow: hidden; }
+.oss-dashboard .oss-board-eyebrow { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: #4b6a77; margin-bottom: 6px; }
+.oss-dashboard .oss-board-hero h2 { font-size: 32px; font-weight: 700; letter-spacing: -.7px; line-height: 1.2; margin-bottom: 6px; }
+.oss-dashboard .oss-board-hero > p:not(.oss-board-eyebrow) { color: #4b6a77; font-size: 13px; }
+.oss-board-overview { display: flex; justify-content: center; align-items: stretch; gap: 0; margin: 20px auto 14px; }
+.oss-board-overview > div { display: flex; flex-direction: column-reverse; padding: 0 24px; border-right: 1px solid #d1dee3; }
+.oss-board-overview > div:last-child { border: 0; }
+.oss-board-overview dt { font-size: 11px; color: #4b6a77; font-weight: 400; }
+.oss-board-overview dd { margin: 0 0 3px; font-size: 20px; font-weight: 650; font-variant-numeric: tabular-nums; }
+.oss-board-overview > div:last-child dd { font-size: 14px; margin-top: 5px; }
+.oss-board-actions { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px; }
+.oss-game-button, .oss-help-button { display: inline-flex; align-items: center; justify-content: center; gap: 7px; padding: 9px 17px; border-radius: 999px; border: 1px solid #4b6a77; background: #4b6a77; color: #fff !important; font: 600 12px/1.4 system-ui, sans-serif; text-decoration: none; cursor: pointer; }
+.oss-game-button:hover { background: #4b6a77; text-decoration: none !important; }
+.oss-game-button-light, .oss-help-button { background: #f1f4f6; color: #4b6a77 !important; border-color: #c0d2d9; }
+.oss-help-button > span { display: grid; place-items: center; width: 17px; height: 17px; border: 1px solid currentColor; border-radius: 50%; font-weight: 650; }
+.oss-help-button:hover, .oss-game-button-light:hover { background: #f1f4f6; }
+.oss-leader-strip { display: flex; flex-wrap: wrap; justify-content: center; align-items: end; column-gap: 24px; row-gap: 18px; padding: 24px 0 20px; }
+.oss-leader-person { position: relative; display: flex; flex-direction: column; align-items: center; width: 130px; min-width: 0; padding: 0 8px 12px; text-align: center; isolation: isolate; }
+.oss-leader-person::before { content: ''; position: absolute; top: 36px; bottom: 0; left: 0; right: 0; background: #4b6a77; clip-path: polygon(8% 0, 92% 0, 100% 30%, 90% 100%, 10% 100%, 0 30%); z-index: -1; }
+.oss-leader-person:hover { text-decoration: none !important; }
+.oss-leader-avatar { position: relative; margin-bottom: 8px; }
+.oss-leader-avatar .avatar { width: 56px; height: 56px; border: 3px solid #f1f4f6; box-shadow: 0 0 0 2px #97b1bc; }
+.oss-leader-avatar > span { position: absolute; right: -9px; top: -3px; display: grid; place-items: center; width: 24px; height: 24px; background: #f1f4f6; border: 2px solid #fff; border-radius: 50%; color: #4b6a77; font-size: 11px; font-weight: 750; }
+.oss-leader-person > strong { display: block; width: 100%; color: #fff; font-size: 13px; font-weight: 600; overflow-wrap: anywhere; }
+.oss-leader-person > span:last-child { color: #e4ecef; font-size: 11px; margin-top: 3px; }
+.oss-dashboard .oss-board-empty { padding: 24px 0; }
+.oss-board-grid { display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: 22px; margin-top: 26px; align-items: start; }
+.oss-board-grid > *, .oss-profile-dashboard-grid > * { min-width: 0; }
+.oss-game-section-title { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+.oss-game-section-title h3 { font-size: 17px; font-weight: 700; line-height: 1.3; }
+.oss-game-section-title > span { color: #4b6a77; font-size: 11px; white-space: nowrap; }
+.oss-scoreboard-scroll { overflow-x: auto; }
+.oss-dashboard table.oss-score-table { border: 0; border-collapse: separate; border-spacing: 0 8px; margin: -8px 0 0; width: 100%; font-size: 13px; }
+.oss-score-table th, .oss-score-table td { padding: 12px 10px; border: 0; vertical-align: middle; text-align: left; }
+.oss-score-table thead th { color: #4b6a77; font-size: 11px; font-weight: 500; padding-top: 6px; padding-bottom: 2px; white-space: nowrap; }
+.oss-score-table tbody td, .oss-score-table tbody th { background: #f1f4f6; border-top: 1px solid #dfe7eb; border-bottom: 1px solid #dfe7eb; }
+.oss-score-table tbody tr:first-child td, .oss-score-table tbody tr:first-child th { background: #e1e9ec; border-color: #cddae0; }
+.oss-score-table tbody tr.is-self td, .oss-score-table tbody tr.is-self th { background: #f1f4f6; }
+.oss-score-table tbody td:first-child { border-left: 1px solid #dfe7eb; border-radius: 10px 0 0 10px; width: 45px; }
+.oss-score-table tbody td:last-child { border-right: 1px solid #dfe7eb; border-radius: 0 10px 10px 0; }
+.oss-score-table th:last-child, .oss-score-table td:last-child { text-align: right; }
+.oss-score-table td > strong { font-size: 22px; font-weight: 750; color: #4b6a77; font-variant-numeric: tabular-nums; }
+.oss-table-rank { font-size: 18px; font-weight: 700; color: #4b6a77; }
+.oss-table-member { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 650; }
+.oss-table-member .avatar { width: 36px; height: 36px; flex-shrink: 0; }
+.oss-table-member > span { overflow-wrap: anywhere; }
+.oss-table-member small { display: block; font-size: 10px; font-weight: 400; color: #4b6a77; }
+.oss-dashboard .oss-game-note { color: #4b6a77; font-size: 12px; line-height: 1.7; margin: 12px 0; }
+.oss-my-rank { background: #f1f4f6; border: 1px solid #dae4e8; border-radius: 14px; padding: 18px; }
+.oss-my-rank .oss-game-section-title h3 { font-size: 15px; }
+.oss-my-rank-main { display: flex; align-items: center; gap: 10px; background: #e0e8ec; margin: 0 -18px; padding: 16px 18px; }
+.oss-my-rank-main .avatar { width: 44px; height: 44px; border: 2px solid #fff; }
+.oss-my-rank-main > div { flex: 1; min-width: 0; }
+.oss-my-rank-main b { display: block; font-size: 13px; overflow-wrap: anywhere; }
+.oss-my-rank-main span { display: block; color: #4b6a77; font-size: 11px; }
+.oss-my-rank-main > strong { font-size: 30px; color: #4b6a77; }
+.oss-my-rank > .oss-game-button { display: flex; width: 100%; margin: 14px 0 0; }
+.oss-rank-next { margin-top: 24px; border-top: 1px solid #d8e2e7; padding-top: 16px; }
+.oss-rank-next h4 { font-size: 13px; font-weight: 650; margin-bottom: 14px; }
+.oss-rank-next > div { display: flex; gap: 10px; align-items: center; margin-top: 12px; }
+.oss-rank-next .oss-badge-art { width: 33px; height: 38px; }
+.oss-rank-next b { display: block; font-size: 12px; }
+.oss-rank-next small { display: block; font-size: 10px; color: #4b6a77; }
+.oss-earned-label { margin-left: auto; color: #4b6a77; font-size: 10px; }
+.oss-profile-bar { display: flex; align-items: center; justify-content: space-between; gap: 18px; border-bottom: 1px solid #e1e9ec; padding-bottom: 20px; margin-bottom: 24px; }
+.oss-profile-bar > div { display: flex; align-items: center; gap: 12px; }
+.oss-profile-bar .avatar { width: 44px; height: 44px; }
+.oss-profile-bar small { color: #4b6a77; font-size: 11px; }
+.oss-dashboard .oss-profile-bar h2 { font-size: 21px; line-height: 1.3; font-weight: 700; }
+.oss-profile-dashboard-grid { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 28px; align-items: start; }
+.oss-stat-tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 0; }
+.oss-stat-tiles > div { position: relative; display: flex; flex-direction: row-reverse; align-items: center; justify-content: space-between; gap: 12px; border: 1px solid #d8e2e7; background: #f1f4f6; border-radius: 10px; padding: 16px; }
+.oss-stat-tiles > div:first-child { background: #4b6a77; border-color: #4b6a77; color: #fff; }
+.oss-stat-tiles > div:nth-child(3) { background: #e3ebee; }
+.oss-stat-tiles dt { font-size: 12px; font-weight: 400; }
+.oss-stat-tiles dd { font-size: 25px; font-weight: 750; margin: 0; font-variant-numeric: tabular-nums; }
+.oss-member-section { margin: 26px 0; }
+.oss-member-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.oss-member-strip > a { display: flex; flex-direction: column; align-items: center; min-width: 0; gap: 8px; padding: 15px 8px 10px; background: #f1f4f6; border: 1px solid #dee6ea; border-radius: 11px; text-align: center; }
+.oss-member-strip .avatar { width: 44px; height: 44px; }
+.oss-member-strip b { display: block; font-size: 12px; width: 100%; overflow-wrap: anywhere; }
+.oss-member-strip span { display: block; padding: 5px 9px; border-radius: 999px; background: #e3ebee; color: #4b6a77; font-size: 10px; margin-top: auto; }
+.oss-achievement-list { display: grid; gap: 10px; }
+.oss-achievement-row { display: flex; align-items: center; gap: 16px; border: 1px solid #dae4e8; border-radius: 11px; padding: 12px; background: #f1f4f6; }
+.oss-achievement-row.is-earned { border-color: #bacbd3; background: #f1f4f6; }
+.oss-achievement-icon { flex-shrink: 0; display: grid; place-items: center; width: 64px; height: 74px; background: #e0e8ec; border-radius: 8px; }
+.oss-achievement-icon .oss-badge-art { width: 46px; height: 54px; }
+.oss-achievement-detail { flex: 1; min-width: 0; }
+.oss-achievement-detail h4 { font-size: 14px; font-weight: 700; }
+.oss-achievement-detail p { font-size: 11px; color: #4b6a77; margin: 4px 0 9px; }
+.oss-achievement-detail progress { display: block; appearance: none; border: 0; border-radius: 999px; height: 7px; width: 100%; overflow: hidden; background: #e3ebee; accent-color: #4b6a77; }
+.oss-achievement-detail progress::-webkit-progress-bar { background: #e3ebee; }
+.oss-achievement-detail progress::-webkit-progress-value { background: #4b6a77; border-radius: 999px; }
+.oss-achievement-detail progress::-moz-progress-bar { background: #4b6a77; }
+.oss-achievement-state { flex-shrink: 0; font-size: 11px; color: #4b6a77; border: 1px solid #cddae0; background: #f1f4f6; border-radius: 999px; padding: 5px 9px; }
+.oss-point-history { padding-left: 22px; border-left: 1px solid #dee6ea; }
+.oss-point-history ul { padding: 0; margin: 0; list-style: none; }
+.oss-point-history li { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 14px 0; border-bottom: 1px solid #e5ecef; margin: 0; }
+.oss-point-history b { display: block; font-size: 12px; font-weight: 500; }
+.oss-point-history time { font-size: 10px; color: #4b6a77; }
+.oss-point-history strong { color: #4b6a77; font-size: 17px; }
+.oss-point-history .is-negative { color: #4b6a77; }
+.oss-point-history .oss-game-button { display: flex; margin-top: 16px; }
+.oss-help-dialog { width: min(490px, calc(100% - 32px)); max-height: calc(100dvh - 48px); overflow: auto; padding: 32px; border: 1px solid #c5d4db; border-radius: 22px; background: #ffffff; color: #425963; font: 400 14px/1.7 system-ui, sans-serif; box-shadow: 0 24px 90px #38204744; }
+.oss-help-dialog::backdrop { background: #3d235d77; backdrop-filter: blur(3px); }
+.oss-help-dialog .oss-kicker { color: #4b6a77; font-size: 11px; letter-spacing: .7px; }
+.oss-help-dialog h2 { font: 700 25px/1.3 system-ui, sans-serif; margin: 12px 0 24px; }
+.oss-dialog-close { position: absolute; top: 12px; right: 12px; border: 0; border-radius: 50%; background: #f1f4f6; color: #4b6a77; width: 32px; height: 32px; font-size: 24px; line-height: 28px; padding: 0; cursor: pointer; }
+.oss-help-rules { padding: 0; margin: 20px 0; }
+.oss-help-rules > div { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid #e3ebee; padding: 12px 0; }
+.oss-help-rules dd { font-size: 16px; font-weight: 650; margin: 0; white-space: nowrap; color: #4b6a77; }
+.oss-dashboard :focus-visible, .oss-help-dialog :focus-visible { outline: 2px solid #4b6a77; outline-offset: 3px; }
+@media (max-width: 1000px) {
+    .oss-board-grid { grid-template-columns: minmax(0, 1fr) 240px; gap: 16px; }
+    .oss-profile-dashboard-grid { grid-template-columns: minmax(0, 1fr); }
+    .oss-point-history { border-left: 0; border-top: 1px solid #dee6ea; padding: 22px 0 0; }
+}
+@media (max-width: 700px) {
+    .oss-board-grid { grid-template-columns: minmax(0, 1fr); }
+    .oss-profile-bar { align-items: start; flex-wrap: wrap; }
+    .oss-board-hero { padding: 22px 12px 0; }
+    .oss-dashboard .oss-board-hero h2 { font-size: 27px; }
+    .oss-board-overview > div { padding: 0 12px; }
+    .oss-board-overview dt { font-size: 10px; }
+    .oss-board-overview dd { font-size: 18px; }
+    .oss-board-overview > div:last-child dd { font-size: 12px; }
+    .oss-leader-strip { column-gap: 10px; }
+    .oss-leader-person { width: 112px; }
+    .oss-score-table th, .oss-score-table td { padding: 10px 7px; }
+    .oss-table-member { gap: 7px; font-size: 12px; }
+    .oss-table-member .avatar { width: 30px; height: 30px; }
+    .oss-score-table td > strong { font-size: 19px; }
+    .oss-score-table td:nth-child(3) { font-size: 11px; }
+    .oss-member-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .oss-achievement-row { gap: 10px; }
+    .oss-achievement-icon { width: 48px; height: 62px; }
+    .oss-achievement-icon .oss-badge-art { width: 38px; height: 46px; }
+    .oss-achievement-state { font-size: 10px; padding: 4px 6px; }
+    .oss-stat-tiles > div { padding: 13px 12px; gap: 8px; }
+    .oss-stat-tiles dt { font-size: 11px; }
+    .oss-stat-tiles dd { font-size: 22px; }
+}
+
+/* Game tutorial overlay: illustrated steps follow a zigzag path over the dimmed page. */
+.oss-help-dialog.oss-help-tutorial { width: min(560px, calc(100% - 24px)); max-height: calc(100dvh - 24px); padding: 18px 24px 14px; border: 0; border-radius: 0; background: transparent; box-shadow: none; color: #f1f4f6; text-align: center; }
+.oss-help-tutorial::backdrop { background: #190d2de8; backdrop-filter: blur(2px); }
+.oss-help-tutorial h2 { font: 850 clamp(25px, 4vw, 34px)/1.2 system-ui, sans-serif; margin: 6px 36px 18px; color: #e1e9ed; text-shadow: 0 3px 0 #4b6a77, 0 0 22px #b277fa66; letter-spacing: -.5px; }
+.oss-help-tutorial .oss-dialog-close { position: fixed; top: 10px; right: 10px; width: 38px; height: 38px; border: 2px solid #dee7eb; border-radius: 50%; background: #4b6a77; color: #f1f4f6; font-size: 30px; font-weight: 750; box-shadow: 0 3px 0 #3c525b; }
+.oss-tutorial-path { position: relative; max-width: 460px; margin: 0 auto; }
+.oss-tutorial-steps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); list-style: none; padding: 0; margin: 0; row-gap: 0; }
+.oss-tutorial-step { min-width: 0; padding: 0; margin: 0; }
+.oss-tutorial-post { grid-area: 1 / 1; transform: rotate(-3deg); }
+.oss-tutorial-points { grid-area: 2 / 2; margin-top: -38px; }
+.oss-tutorial-badges { grid-area: 3 / 1; margin-top: -23px; transform: rotate(2deg); }
+.oss-help-tutorial .oss-tutorial-art { display: block; width: 150px; height: 104px; max-width: 100%; margin: 0 auto 2px; filter: drop-shadow(0 4px 7px #a46dd64d); }
+.oss-help-tutorial .oss-tutorial-step h3 { font: 800 19px/1.2 system-ui, sans-serif; color: #f1f4f6; margin: 4px 0 6px; padding: 0; text-shadow: 0 2px 0 #516d79; }
+.oss-help-tutorial .oss-tutorial-step p { font: 400 11px/1.5 system-ui, sans-serif; color: #d1dee3; margin: 0; }
+.oss-help-tutorial .oss-tutorial-point-values { display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; }
+.oss-tutorial-point-values > span { border: 1px solid #9cb5c0; border-radius: 999px; background: #506d79; padding: 4px 8px; }
+.oss-tutorial-point-values b { color: #f1f4f6; font-weight: 800; }
+.oss-tutorial-prizes { position: relative; }
+.oss-help-tutorial .oss-tutorial-prizes .oss-badge-art { position: absolute; width: 80px; height: 94px; left: 0; top: 7px; transform: rotate(-12deg); }
+.oss-tutorial-prizes > svg:not(.oss-badge-art) { position: absolute; width: 108px; height: 104px; right: 0; top: 0; transform: rotate(9deg); }
+.oss-tutorial-arrow { position: absolute; width: 76px; height: 76px; pointer-events: none; filter: drop-shadow(0 3px 0 #3f555e); }
+.oss-tutorial-arrow-one { top: 54px; left: 55%; transform: rotate(-12deg); }
+.oss-tutorial-arrow-two { top: 205px; left: 36%; transform: scaleX(-1) rotate(-8deg); }
+.oss-tutorial-continue { margin: 22px auto 10px; }
+.oss-tutorial-continue button { width: min(300px, 100%); padding: 12px 22px; border: 2px solid #e4ebee; border-radius: 999px; background: #93aeba; box-shadow: 0 4px 0 #465e69; color: #fff; font: 750 15px/1.3 system-ui, sans-serif; cursor: pointer; }
+.oss-tutorial-continue button:hover { background: #a1b9c3; }
+.oss-tutorial-fineprint { max-width: 390px; margin: 12px auto 0; color: #c6d5dc; font: 400 11px/1.6 system-ui, sans-serif; }
+.oss-tutorial-fineprint summary { cursor: pointer; padding: 5px; }
+.oss-tutorial-fineprint p { color: #dae4e8; text-align: left; padding: 8px 12px; border: 1px solid #4b6a77; border-radius: 12px; background: #29373d; }
+.oss-help-tutorial :focus-visible { outline-color: #f1f4f6; }
+@media (max-width: 400px) {
+    .oss-help-dialog.oss-help-tutorial { padding: 16px 10px 12px; }
+    .oss-help-tutorial h2 { font-size: 25px; margin-left: 24px; margin-right: 24px; }
+    .oss-help-tutorial .oss-tutorial-step h3 { font-size: 17px; }
+    .oss-help-tutorial .oss-tutorial-art { width: 126px; height: 94px; }
+    .oss-tutorial-arrow { width: 60px; height: 60px; }
+    .oss-tutorial-arrow-one { left: 57%; }
+    .oss-tutorial-arrow-two { top: 206px; left: 35%; }
+    .oss-tutorial-points { margin-top: -24px; }
+    .oss-tutorial-badges { margin-top: -12px; }
+}
+
+/* Each profile group has its own rounded panel, as in the supplied dashboard. */
+.oss-profile-dashboard-grid { gap: 20px; }
+.oss-profile-dashboard-grid > div > section,
+.oss-point-history {
+    padding: 22px;
+    border: 1px solid #d8e2e7;
+    border-radius: 22px;
+    background: #f1f4f6;
+}
+.oss-profile-dashboard-grid > div > section + section { margin-top: 18px; }
+.oss-profile-dashboard-grid .oss-member-section { margin-bottom: 18px; }
+.oss-profile-dashboard-grid .oss-stat-tiles > div { border-radius: 14px; }
+.oss-profile-dashboard-grid .oss-member-strip > a { border-radius: 16px; background: #fff; }
+.oss-profile-dashboard-grid .oss-achievement-row { border-radius: 16px; background: #fff; }
+.oss-profile-dashboard-grid .oss-achievement-row.is-earned { background: #f1f4f6; }
+.oss-board-hero { padding-top: 24px; }
+.oss-leader-strip { padding-top: 20px; }
+@media (max-width: 600px) {
+    .oss-profile-dashboard-grid > div > section, .oss-point-history { padding: 16px; border-radius: 18px; }
+}
+
+/* Readable labels at normal zoom, with clear rank-specific visual emphasis. */
+.oss-dashboard { font-size: 16px; }
+.oss-dashboard .oss-game-section-title h3 { font-size: 20px; }
+.oss-dashboard .oss-game-section-title > span { font-size: 13px; }
+.oss-dashboard .oss-game-note { font-size: 14px; }
+.oss-dashboard .oss-game-button, .oss-dashboard .oss-help-button { font-size: 14px; }
+.oss-dashboard .oss-profile-bar small { font-size: 13px; }
+.oss-dashboard .oss-profile-bar h2 { font-size: 25px; }
+.oss-dashboard .oss-stat-tiles dt { font-size: 15px; }
+.oss-dashboard .oss-stat-tiles dd { font-size: 30px; }
+.oss-dashboard .oss-member-strip b { font-size: 15px; }
+.oss-dashboard .oss-member-strip span { font-size: 13px; padding: 6px 12px; }
+.oss-dashboard .oss-member-strip > a { padding-top: 18px; gap: 12px; }
+.oss-dashboard .oss-achievement-detail h4 { font-size: 17px; }
+.oss-dashboard .oss-achievement-detail p { font-size: 14px; }
+.oss-dashboard .oss-achievement-state { font-size: 13px; }
+.oss-dashboard .oss-point-history b { font-size: 15px; }
+.oss-dashboard .oss-point-history time { font-size: 12px; }
+.oss-dashboard .oss-point-history strong { font-size: 21px; }
+.oss-dashboard .oss-score-table { font-size: 15px; }
+.oss-dashboard .oss-score-table thead th { font-size: 13px; }
+.oss-dashboard .oss-table-member { font-size: 16px; }
+.oss-dashboard .oss-table-member small { font-size: 12px; }
+.oss-dashboard .oss-my-rank .oss-game-section-title h3 { font-size: 18px; }
+.oss-dashboard .oss-my-rank-main b { font-size: 16px; }
+.oss-dashboard .oss-my-rank-main span { font-size: 14px; }
+.oss-dashboard .oss-rank-next h4 { font-size: 16px; }
+.oss-dashboard .oss-rank-next b { font-size: 15px; }
+.oss-dashboard .oss-rank-next small, .oss-dashboard .oss-earned-label { font-size: 12px; }
+.oss-leader-strip { gap: 22px; padding-top: 52px; }
+.oss-leader-person { width: 142px; padding-bottom: 15px; }
+.oss-leader-person > strong { font-size: 16px; }
+.oss-leader-person > span:last-child { font-size: 14px; }
+.oss-leader-avatar .avatar { width: 64px; height: 64px; }
+.oss-leader-avatar > span { width: 28px; height: 28px; font-size: 13px; }
+.oss-leader-rank-1 { width: 164px; padding-top: 0; padding-bottom: 20px; }
+.oss-leader-rank-1::before { background: linear-gradient(150deg, #93aeba, #4e6a76); }
+.oss-leader-rank-1 .oss-leader-avatar .avatar { width: 88px; height: 88px; border: 4px solid #fff1bd; box-shadow: 0 0 0 3px #c49a45, 0 0 24px #e8c46b66; }
+.oss-leader-rank-1 .oss-leader-avatar > span { background: #f3d687; border-color: #fff3c7; color: #6d4e21; }
+.oss-leader-rank-1 > strong { font-size: 18px; }
+.oss-leader-rank-1 > span:last-child { color: #fff1c4; font-weight: 650; font-size: 16px; }
+.oss-leader-crown { position: absolute; top: -38px; width: 58px; height: 39px; left: calc(50% - 29px); transform: rotate(-8deg); filter: drop-shadow(0 3px 2px #5f3a6b55); }
+.oss-leader-rank-2::before { background: #4b6a77; }
+.oss-leader-rank-2 .oss-leader-avatar .avatar { border-color: #f1f4f6; box-shadow: 0 0 0 2px #abc0c9; }
+.oss-leader-rank-2 .oss-leader-avatar > span { color: #4b6a77; background: #e6ecef; }
+.oss-leader-rank-3::before { background: #997688; }
+.oss-leader-rank-3 .oss-leader-avatar .avatar { border-color: #f5e0d2; box-shadow: 0 0 0 2px #c28e72; }
+.oss-leader-rank-3 .oss-leader-avatar > span { color: #875746; background: #f3d7c6; }
+@media (max-width: 700px) {
+    .oss-leader-strip { column-gap: 12px; row-gap: 26px; }
+    .oss-leader-person { width: 120px; }
+    .oss-leader-rank-1 { width: 140px; }
+    .oss-dashboard .oss-stat-tiles > div { flex-direction: column; align-items: start; gap: 4px; }
+    .oss-dashboard .oss-stat-tiles dt { font-size: 14px; }
+    .oss-dashboard .oss-score-table th, .oss-dashboard .oss-score-table td { padding-left: 6px; padding-right: 6px; }
+    .oss-dashboard .oss-table-member { font-size: 14px; }
+    .oss-dashboard .oss-achievement-state { font-size: 12px; }
+}
+.oss-profile-bar { align-items: flex-start; gap: 24px; }
+.oss-profile-bar .oss-profile-identity { align-items: flex-start; max-width: 780px; }
+.oss-profile-identity > div { min-width: 0; }
+.oss-profile-identity .avatar { flex-shrink: 0; width: 56px; height: 56px; }
+.oss-dashboard .oss-profile-identity h2 { margin-top: 5px; font-size: 26px; line-height: 1.35; }
+.oss-dashboard .oss-profile-story { max-width: 670px; margin-top: 10px; color: #4b6a77; font-size: 15px; line-height: 1.7; }
+.oss-profile-bar > .oss-help-button { flex-shrink: 0; }
+@media (max-width: 700px) {
+    .oss-dashboard .oss-profile-identity h2 { font-size: 23px; }
+    .oss-profile-bar { flex-wrap: wrap; }
+}
+
+/* Tutorial illustrations share the painted sky and cloud palette. */
+.oss-help-tutorial::backdrop { background: #102e3bed; }
+.oss-help-tutorial h2 { color: #fff0b7; text-shadow: 0 3px 0 #234d5d; }
+.oss-help-tutorial .oss-tutorial-step h3 { color: #fffbdc; text-shadow: 0 2px 0 #234d5d; }
+.oss-help-tutorial .oss-tutorial-step p { color: #e0edf0; }
+.oss-help-tutorial .oss-tutorial-art { filter: drop-shadow(0 4px 7px #102e3b55); }
+.oss-help-tutorial .oss-dialog-close,
+.oss-help-tutorial .oss-tutorial-continue button { background: #276b7e; color: #fffbdc; border-color: #b9dfeb; box-shadow: 0 3px 0 #173e4c; }
+.oss-help-tutorial .oss-tutorial-point-values span { background: #276b7e; color: #fffbdc; border-color: #84bfd1; }
